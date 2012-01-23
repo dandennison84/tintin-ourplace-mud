@@ -2,7 +2,14 @@
 #var necro denae;
 #var thief gubgub;
 #var warrior lenae;
+/*
+These are the global class characters that will be addressed by the aliases.  So, if you want someone to heal you, by setting the 'cleric' variable, you will address your request to that char.
+*/
 
+/*
+These are the various aliases used by all of your characters.  No matter which char you have loaded, they all have an 'armor' alias, for example.  The cleric class, on the other hand, 
+will change the alias to actually cast the spell.
+*/
 #nop cleric
 #alias armor {tell $cleric armor};
 #alias bless {tell $cleric bless};
@@ -72,6 +79,9 @@
 #alias lead {#nop};
 #alias strat {#nop};
 
+/*
+Use spellup to get your character ready for a fight.
+*/
 #alias spellup
 {
 	detali;
@@ -93,6 +103,11 @@
 	strat;	
 };
 
+/*
+The following are the various actions you want to take on common kinds of MUD output.  By default,
+we change the color of the text so you can see it.  If it is something you really care about, it goes to 
+group chat.
+*/
 #highlight {The piles of bones around your body fades.} {light cyan};
 #action {The piles of bones around your body fades.}
 {

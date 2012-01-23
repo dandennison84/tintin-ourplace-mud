@@ -1,17 +1,43 @@
-# Ourplace is load class for tintin four ourplace mud
 #class {ourplace} open
+/*
+The ourplace class is the entry point for ourplace MUD.  It is best to 
+have tintin load this class at startup.  To do that, invoke tt++ with this
+file as an argument 'tt++ <tintin-scripts-dir>/ourplace.tt'.  
+*/
+
+/*
+These are global configurations for ourplace.
+*/
 #config log html
 #var dir {tintin-ourplace-mud};
 #var char {};
 #var mud {ourplace.fractured.org};
 #var port {6543};
+#var logdir {logs};
 
+/*
+Contains variable values that pertain only to the local system, such as passwords.
+*/
+#read $dir/local.tt
+
+/*
+load-char is the alias to enable the various character support options.
+Loading the character loads various class-related skill aliases and actions.
+It also turns on logging to your logs directory.
+*/
 #alias {load-char %1} {
+	#unalias {.$char};
 	log off;
 	#class $char kill;
 	#var char %1;
 	log on;
 	#class $char read $dir/$char.tt;
+	#if {&{password-$char}} {#var pw ${password-$char}} {#var pw $password};
+	#alias {.$char} 
+	{
+		#ses .$char $mud $port; $char; $pw; who; who;
+		#send {prompt <%h/%Hhp (%P) %m/%Mm %v/%Vmv, opp: %O, leader: %L>};
+	};
 	#echo {$char loaded.};
 };
 
@@ -31,7 +57,7 @@
 	{
 		#if {"$logging-$char" != "on"}
 		{
-			#format {logfile} {logs/$mud-$char-%t.html} {%Y-%m-%d};
+			#format {logfile} {$logdir/$mud-$char-%t.html} {%Y-%m-%d};
 			#log append $logfile;
 			#var logging on
 		};
@@ -58,16 +84,11 @@
 	};
 };
 
-
-
-#nop This script is written for v1.99.7 and higher
-
 /*
 	Some terminals are capable of displaying colors, but have no colors initialized, or 
 	have the colors initialized to rather odd values. The following script will set them
 	to default values. This might not work for every terminal.
 */
-
 #alias {colorinit}
 {
      #showme \e]P0000000 <008>black;
@@ -85,19 +106,18 @@
      #showme \e]PC5555FF <148>light blue;
      #showme \e]PDFF55FF <158>light magenta;
      #showme \e]PE55FFFF <168>light cyan;
-     #showme \e]PFFFFFFF <178>light white
-}
+     #showme \e]PFFFFFFF <178>light white;
+};
 
 #alias {colorreset}
 {
      #showme \e]R Colors reset to default.
-}
+};
 
 /*
 	Terminals capable of xterm 256 colors will display a color pallet from which you
 	can copy the accompanying color codes.
 */
-
 #alias {colorpalette}
 {
 	#foreach {a;b;c;d;e;f} {cnt1}
@@ -110,9 +130,8 @@
 				#var result $result  <$cnt1$cnt2$cnt3> <<888>$cnt1$cnt2$cnt3><088>
 			};
 			#showme $result
-		}
-	}
-}
-
+		};
+	};
+};
 
 #class {ourplace} close

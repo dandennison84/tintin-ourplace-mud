@@ -1,8 +1,5 @@
-# Requires the startup class to be loaded to configure
-# the variables used here.
 #class {gubgub} open
 
-#alias {.$char} {#ses .$char $mud $port; $char; Dak0ta; who; who};
 #read $dir/thief.tt;
 
 #class {gubgub} close

@@ -1,4 +1,15 @@
 #var spellblock {{Someone}{1}};
+/*
+Spellblock bans people from using your services.
+*/
+
+
+/*
+This is the spellbook.  Note that class and character files can add to this list.
+'help' is a special command that lists all the commands your character provides.
+It is important to prefix attack spells with 'z-'.  So 'smite' becomes 'z-smite'.
+This ensures the correct target is hit.
+*/
 #var spells
 {
 	$spells
@@ -9,6 +20,9 @@
 	{help} {}
 };
 
+/*
+This piece of code populates the 'help' command.
+*/
 #var counter 1;
 #var resp {I respond to the following commands:};
 #foreach {$spells} {spell}
@@ -22,6 +36,19 @@
 #unvar counter;
 #unvar resp;
 #unvar spell;
+
+/*
+The spellbook can be invoked either by say or tell.  You could also implement other 
+ways for group chat and the like if you wanted.  There are a couple of patterns of usage.
+1.  Foobar tells you 'heal':  Without a target, you have an originator and a command.  In 
+this case, the originator becomes the target so that the cleric will use: 'c heal Foobar'.
+2.  Foobar tells you 'z-smite muppet':  In this case, you have an originator, a command and
+an explicit target.  Cleric will cast 'c smite muppet'.
+3.  Foobar tells you 'z-smite':  This case is the same as 1 above. The problem is that 
+using the logic of 1 above, we would get 'c smite Foobar' which is not what we want.  We are 
+using this version in combat and want it to target whatever we are fighting.  By prefixing 
+the command with 'z-', the code below will ensure we get 'c smite' with no explicit target.
+*/
 
 #act {%1 says '%2'}
 {
@@ -43,6 +70,11 @@
 	find-spell {%3} {%2};
 } {8};
 
+/*
+find-spell does all the work.  It understands 'help' explicitly.  The reason for this is that 
+we don't want to spam channels with the help text, we alays want it to be a tell.  It also 
+knows the difference with commands prefixed with 'z-'.
+*/
 #alias {find-spell}
 {
 	#if {"%2" == "help"}
