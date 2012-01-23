@@ -1,0 +1,118 @@
+# Ourplace is load class for tintin four ourplace mud
+#class {ourplace} open
+#config log html
+#var dir {tintin-ourplace-mud};
+#var char {};
+#var mud {ourplace.fractured.org};
+#var port {6543};
+
+#alias {load-char %1} {
+	log off;
+	#class $char kill;
+	#var char %1;
+	log on;
+	#class $char read $dir/$char.tt;
+	#echo {$char loaded.};
+};
+
+#alias {SESSION ACTIVATED}
+{
+	log on;
+};
+
+#alias {SESSION DEACTIVATED}
+{
+	log off;
+};
+
+#alias {log}
+{
+	#if {"%0" == "on"}
+	{
+		#if {"$logging-$char" != "on"}
+		{
+			#format {logfile} {logs/$mud-$char-%t.html} {%Y-%m-%d};
+			#log append $logfile;
+			#var logging on
+		};
+		#else
+		{
+			#showme You are already logging.
+		};
+	};
+	#elseif {"%0" == "off"}
+	{
+		#if {"$logging-$char" == "on"}
+		{
+			#log off;
+			#var logging off
+		};
+		#else
+		{
+			#showme You are not logging.
+		};
+	};
+	#else
+	{
+		#showme Turn logging on or off?
+	};
+};
+
+
+
+#nop This script is written for v1.99.7 and higher
+
+/*
+	Some terminals are capable of displaying colors, but have no colors initialized, or 
+	have the colors initialized to rather odd values. The following script will set them
+	to default values. This might not work for every terminal.
+*/
+
+#alias {colorinit}
+{
+     #showme \e]P0000000 <008>black;
+     #showme \e]P1AA0000 <018>red;
+     #showme \e]P200AA00 <028>green;
+     #showme \e]P3AAAA00 <038>yellow;
+     #showme \e]P40000AA <048>blue;
+     #showme \e]P5AA00AA <058>magenta;
+     #showme \e]P600AAAA <068>cyan;
+     #showme \e]P7AAAAAA <078>white;
+     #showme \e]P8555555 <108>light black;
+     #showme \e]P9FF5555 <118>light red;
+     #showme \e]PA55FF5A <128>light green;
+     #showme \e]PBFFFF55 <138>light yellow;
+     #showme \e]PC5555FF <148>light blue;
+     #showme \e]PDFF55FF <158>light magenta;
+     #showme \e]PE55FFFF <168>light cyan;
+     #showme \e]PFFFFFFF <178>light white
+}
+
+#alias {colorreset}
+{
+     #showme \e]R Colors reset to default.
+}
+
+/*
+	Terminals capable of xterm 256 colors will display a color pallet from which you
+	can copy the accompanying color codes.
+*/
+
+#alias {colorpalette}
+{
+	#foreach {a;b;c;d;e;f} {cnt1}
+	{
+		#foreach {a;b;c;d;e;f} {cnt2}
+		{
+			#var result <000>;
+			#foreach {a;b;c;d;e;f} {cnt3}
+			{
+				#var result $result  <$cnt1$cnt2$cnt3> <<888>$cnt1$cnt2$cnt3><088>
+			};
+			#showme $result
+		}
+	}
+}
+
+
+#class {ourplace} close

@@ -1,0 +1,167 @@
+#var cleric genae;
+#var necro denae;
+#var thief gubgub;
+#var warrior lenae;
+
+#nop cleric
+#alias armor {tell $cleric armor};
+#alias bless {tell $cleric bless};
+#alias blind {tell $cleric z-blind};
+#alias food {tell $cleric food};
+#alias fs {tell $cleric z-flamestrke};
+#alias heal {tell $cleric heal};
+#alias heal-self {tell $cleric heal $cleric};
+#alias hr {tell $cleric holy-rage};
+#alias mh {tell $cleric mass-heal};
+#alias refresh {tell $cleric refresh};
+#alias regen {tell $cleric regen};
+#alias restore {tell $cleric restore};
+#alias sanc {tell $cleric sanc};
+#alias smite {tell $cleric z-smite};
+#alias turn {tell $cleric z-turn-undead};
+#alias wwalk {tell $cleric 'water-walk'};
+#alias wor {tell $cleric 'word-of-recall'};
+
+#nop necro
+#alias agony {tell $necro z-agony};
+#alias bod {tell $necro z-bod};
+#alias ct {tell $necro z-ct};
+#alias dark {tell $necro dark};
+#alias ed {tell $necro z-ed};
+#alias rh {tell $necro z-rh};
+#alias sh {tell $necro z-sh};
+#alias vt {tell $necro z-vt};
+#alias warp {tell $necro z-warp};
+#alias weak {tell $necro z-weak};
+#alias web {tell $necro z-web};
+#alias wob {tell $necro wob};
+
+#nop warrior
+#alias ass {tell $warror z-ass};
+#alias feint {tell $warrior z-feint};
+#alias kick {tell $warrior z-kick};
+#alias rescue {tell $warrior rescue};
+#alias target {tell $warrior z-target};
+#alias brave {tell $warrior bravery};
+#alias bo {tell $warrior bo};
+
+#nop thief
+#alias circle {tell $thief z-circle};
+#alias dk {tell $thief z-dk};
+#alias hide {tell $thief hide};
+#alias sneak {tell $thief sneak};
+#alias bs {tell $thief z-bs};
+#alias pick {tell $thief pick};
+#alias disarm {tell $thief z-disarm};
+#alias remtrap {tell $thief remtrap};
+#alias taunt {tell $thief z-taunt};
+#alias snare {tell $thief z-snare};
+#alias untangle {tell $thief untangle};
+
+#nop spellups
+#alias ward {#nop};
+#alias dw {#nop};
+#alias wc {#nop};
+#alias detali {#nop};
+#alias dethid {#nop};
+#alias detinv {#nop};
+#alias detmag {#nop};
+#alias detund {#nop}
+#alias prot {#nop};
+#alias ward {#nop};
+#alias lead {#nop};
+#alias strat {#nop};
+
+#alias spellup
+{
+	detali;
+	dethid;
+	detinv;
+	detmag;
+	detund;
+	wwalk;
+	ward;
+	armor;
+	bless;
+	sanc;
+	prot;
+	ward;
+	dw;
+	wc;
+	wob;
+	lead;
+	strat;	
+};
+
+#highlight {The piles of bones around your body fades.} {light cyan};
+#action {The piles of bones around your body fades.}
+{
+	wob;
+} {7};
+
+#highlight {The shadows enshrouding you fade away.} {light cyan};
+#action {The shadows enshrouding you fade away.}
+{
+	wc;
+} {7};
+
+#highlight {The white aura around your body fades.} {light cyan};
+#action {The white aura around your body fades.}
+{
+	sanc;
+} {7};
+
+#highlight {You feel less bouyant.} {light cyan};
+#action {You feel less bouyant.}
+{
+	wwalk;
+} {7};
+
+#highlight {You feel less protected.} {light cyan};
+#action {You feel less protected.}
+{
+	armor;
+	prot;
+	dw;
+	ward;
+}
+
+#highlight {The protective aura around you fades.} {light cyan};
+#action {The protective aura around you fades.}
+{
+	ward;
+} {7};
+
+#highlight {%1 DISARMS you!} {<FAA><ffa>};
+#action {DISARMS you!}
+{
+	gt I was DISARMED!
+}
+
+#action {You are hungry.}
+{
+	get tail;
+	eat tail;
+} {7};
+
+#action {You are thirsty.}
+{
+	drink water;
+} {7};
+
+#highlight {%1 are hit and damaged.} {<FAA><ffa>};
+#action {%1 are hit and damaged.}
+{
+	gt %1 was damaged
+} {7};
+
+#highlight {You are bleeding.} {<FAA><ffa>};
+#action {You are bleeding.}
+{
+	gt I am bleeding
+} {7};
+
+#action {You hear the patter of little feet.}
+{
+	gt REPOP!
+} {7};

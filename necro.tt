@@ -1,0 +1,53 @@
+#read $dir/slist-aliases.tt
+
+#unalias agony;
+#unalias bod;
+#unalias ct;
+#unalias dark;
+#unalias detali;
+#unalias dethid;
+#unalias detinv;
+#unalias detmag;
+#unalias detund;
+#unalias ed;
+#unalias sh;
+#unalias rh;
+#unalias weak;
+#unalias web;
+
+#alias agony {c agony};
+#alias bod {c 'bolt of dark'}
+#alias blur {c blur};
+#alias ct {c 'chill touch'};
+#alias dark {c dark};
+#alias dw {c 'death ward'};
+#alias ed {c 'energy drain'};
+#alias sh {c spectral};
+#alias rh {c 'rams head'};
+#alias warp {c 'warp flesh'};
+#alias wob {c 'wall of bones'};
+#alias detali {c 'detect ali'};
+#alias detmag {c 'detect mag'};
+#alias detund {c 'detect und'}
+#alias turn {c 'turn undead'};
+#alias vt {c 'vampiric touch'};
+#alias ward {c 'ward undead'};
+#alias wc {c wraith};
+#alias weak {c weak};
+#alias web {c web};
+
+#var spells
+{
+	{z-agony} {agony}
+	{dark} {dark}
+	{z-bod} {bod}
+	{z-ct} {ct}
+	{z-ed} {ed}
+	{z-vt} {vt}
+	{z-warp} {warp}
+	{z-weak} {weak}
+	{z-web} {web}
+	{wob} {wob}
+};
+
+#read $dir/spellbook.tt

@@ -1,0 +1,13 @@
+# Requires the startup class to be loaded to configure
+# the variables used here.
+#class {denae} open
+
+#alias {.$char}
+{
+	#ses .$char $mud $port; $char; Dak0ta; who; who;
+	prompt <%h/%Hhp (%P) %m/%Mm %v/%Vmv, opp: %O, leader: %L>
+};
+
+#read $dir/necro.tt;
+
+#class {denae} close

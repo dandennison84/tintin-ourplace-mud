@@ -1,0 +1,34 @@
+#read $dir/slist-aliases.tt
+
+#unalias circle;
+#unalias dk;
+#unalias hide;
+#unalias bs;
+#unalias sneak;
+#unalias pick;
+#unalias disarm;
+#unalias remtrap;
+#unalias taunt;
+#unalias snare;
+#unalias untangle;
+
+#alias bs {backstab};
+#alias dk {dirtkick};
+#alias remtrap {remove trap};
+
+#var spells
+{
+	{z-circle} {circle}
+	{z-dk} {dk}
+	{hide} {hide}
+	{sneak} {sneak}
+	{z-bs} {bs}
+	{pick} {pick}
+	{z-disarm} {disarm}
+	{remtrap} {remtrap}
+	{z-taunt} {taunt}
+	{z-snare} {smare}
+	{untangle} {untangle}	
+};
+
+#read $dir/spellbook.tt

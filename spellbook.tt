@@ -1,0 +1,53 @@
+#var spellblock {{Someone}{1}};
+#var spells
+{
+	$spells
+	{flee} {flee}
+	{follow} {follow}
+	{k} {k}
+	{recall} {recall}
+	{help} {}
+};
+
+#var counter 1;
+#var resp {I respond to the following commands:};
+#foreach {$spells} {spell}
+{
+	#if {$counter % 2 == 1}	{#var resp {$resp $spell}} {#nop};
+	#math counter {$counter + 1};
+};
+
+#var spells[help] {$resp};
+
+#unvar counter;
+#unvar resp;
+#unvar spell;
+
+#act {%1 says '%2'}
+{
+	find-spell {%1} {%2};
+} {9};
+
+#act {%1 says '%2 %3'}
+{
+	find-spell {%3} {%2};
+} {8};
+
+#act {%1 tells you '%2'}
+{
+	find-spell {%1} {%2};
+} {9};
+
+#act {%1 tells you '%2 %3'}
+{
+	find-spell {%3} {%2};
+} {8};
+
+#alias {find-spell}
+{
+	#if {"%2" == "help"}
+		{tell %1 $spells[%2]}
+		{#regex {%2} {^z-}
+			{$spells[%2]}
+			{$spells[%2] %1}};
+};

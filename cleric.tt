@@ -1,0 +1,79 @@
+#read $dir/slist-aliases.tt
+
+#unalias armor;
+#unalias astral;
+#unalias bless;
+#unalias blind;
+#unalias detali;
+#unalias dethid;
+#unalias detinv;
+#unalias detmag;
+#unalias detund;
+#unalias food;
+#unalias fs;
+#unalias heal;
+#unalias hr;
+#unalias ident;
+#unalias locate;
+#unalias mh;
+#unalias prot;
+#unalias purify;
+#unalias refresh;
+#unalias regen;
+#unalias restore;
+#unalias sanc;
+#unalias smite;
+#unalias turn;
+#unalias ward;
+#unalias wwalk;
+#unalias wor;
+
+#alias armor {c armor};
+#alias astral {c astral};
+#alias bless {c bless};
+#alias blind {c blind};
+#alias detali {c 'detect ali'};
+#alias dethid {c 'detect hid'};
+#alias detinv {c 'detect inv'};
+#alias detmag {c 'detect mag'};
+#alias detund {c 'detect und'}
+#alias food {c 'create food'};
+#alias fs {c flame};
+#alias heal {c heal};
+#alias hr {c holy rage};
+#alias ident {c ident};
+#alias locate {c 'located obj'};
+#alias mh {c 'mass heal'};
+#alias prot {c prot};
+#alias purify {c purify};
+#alias refresh {c refresh};
+#alias regen {c regen};
+#alias restore {c restore};
+#alias sanc {c sanc};
+#alias smite {c smite};
+#alias turn {c 'turn undead'};
+#alias ward {c 'ward undead'};
+#alias wwalk {c 'water walk'};
+#alias wor {c 'word or recall'};
+
+#var spells
+{
+	{armor} {armor}
+	{bless} {bless}
+	{z-blind} {blind}
+	{food} {food}
+	{z-flamestrike} {fs}
+	{heal} {heal}
+	{holy-rage} {hr}
+	{mass-heal} {mh}
+	{refresh} {refresh}
+	{regen} {regen}
+	{restore} {restore}
+	{sanc} {sanc}
+	{z-smite} {smite}
+	{z-turn-undead} {turn}
+	{water-walk} {wwalk}
+	{word-of-recall} {wor}
+};
+
+#read $dir/spellbook.tt
