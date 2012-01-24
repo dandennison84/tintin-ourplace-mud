@@ -1,0 +1,221 @@
+#class {map} open
+
+/*
+Higher values of debug show more information.  Turn off debugging with 0.
+*/
+#var debug {4};
+
+/*
+autocheck will automatically perform train, pursue, list, and where.
+*/
+#var autocheck {off};
+#alias {^autocheck$}
+{
+	#if {"$autocheck" == "off"}
+		{#var autocheck on}
+		{#var autocheck off};
+	#echo {autocheck has been set to $autocheck.};
+};
+
+#alias {^check$}
+{
+	list;
+	pursue;
+	train;
+	where;
+};
+
+/*
+Initialize all variables to default states.
+*/
+#event {MAP ENTER ROOM}
+{	
+	#if {$debug > 4} {#echo {ROOM ENTERED}};
+	#var mob{};
+	#var actroomname {};
+	#var actroomdesc {};
+	#var actroomnote {};
+	#var actroomarea {};
+	#var actroomsymbol { };
+	#var actroomcolor {};
+	#map get roomname roomnane;
+	#map get roomdesc roomdesc;
+	#map get roomnote roomnote;
+	#map get roomsymbol roomsymbol;
+	#map get roomcolor roomcolor;
+	#map get roomarea roomarea;
+	#map get roomdata roomdata;
+	#format now {%t} {%Y-%m-%d %T};
+};
+
+/*
+Store the room name.
+*/
+#action {~\e[1m\e[37m%1\e[0m\e[0m}
+{
+	#if {$debug > 4} {#echo {ROON NAME: %1}};	
+	#var actroomname {%1};
+} {9};
+
+/*
+Capture the room description.  It is triggered by the exits line.
+There are 2 nested actions that serve to capture all the text after 
+the exits line and terminated by a newline.  If a room description 
+has paragraphs, only the first is captured.
+*/
+#action {~\e[1m\e[34m[Exits: %1]\e[0m}
+{
+	#if {$debug > 4} {#echo {ROON EXITS: %1}};	
+	#action {^%s$}
+	{
+		#if {$debug > 4} {#echo {ROOM DESC ENDED}};
+		#unaction {^%s$};
+		#unaction {%%%0};
+	} {7};
+	#action {%%0}
+	{
+		#if {$debug > 4} {#echo {ROOM DESC: %%0}};
+		#if {"$actroomdesc" == ""}
+			{#var actroomdesc {%%0}}
+			{#var actroomdesc {$actroomdesc\n%%0}};
+	} {8};
+	#if {"$autocheck" == "on"} {check};
+} {9};
+
+/*
+Capture the room area as a result of 'where'.
+*/
+#action {You are in: %1}
+{
+	#if {$debug > 4} {#echo {ROOM AREA: %1}};	
+	#var actroomarea {%1};
+} {9};
+
+/*
+Trainer.
+*/
+#action {You have %1 practice sessions.}
+{
+	#if {$debug > 4} {#echo {PRACTIONER}};
+	#if {"$actroomnote" == ""}
+		{#var actroomnote {PRACTIONER}}
+		{#var actroomnote {$actroomnote\nPRACTIONER}};
+} {9};
+
+/*
+Weapons.
+*/
+#action {You are not big enough to use a %1}
+{
+	#if {$debug > 4} {#echo {TRAINER}};
+	#if {"$actroomnote" == ""}
+		{#var actroomnote {TRAINER: %1}}
+		{#var actroomnote {$actroomnote\nTRAINER: %1}};
+} {9};
+
+#action {You already know how to use a %1}
+{
+	#if {$debug > 4} {#echo {TRAINER}};
+	#if {"$actroomnote" == ""}
+		{#var actroomnote {TRAINER: %1}}
+		{#var actroomnote {$actroomnote\nTRAINER: %1}};
+} {9};
+
+/*
+Capture quests.
+*/
+#action {I can offer you the following quests}
+{
+	#if {$debug > 4} {#echo {QUEST}};
+	#action {^%s$}
+	{
+		#if {$debug > 4} {#echo {ENDING QUEST}};	
+		#unaction {^%s$};
+		#unaction {%%%0};
+	} {7};
+	#action {%%0}
+	{
+		#if {$debug > 4} {#echo {QUEST: %%0}};	
+		#if {"$actroomnote" == ""}
+			{#var actroomnote {%%0}}
+			{#var actroomnote {$actroomnote\n%%0}};
+	} {8};
+} {9};
+
+/*
+Talk is complicated enough to require its own alias.
+check-talk mob will talk to mob and capture what mob says,
+but only until the first blank line.
+*/
+#alias {check-talk}
+{
+	#if {$debug > 4} {#echo {TALKING WITH: %1}};	
+	talk %1;
+	#action {^%s$}
+	{
+		#if {$debug > 4} {#echo {ENDING TALK}};	
+		#unaction {^%s$};
+		#unaction {%%%0};
+	} {7};
+	#action {They aren't here.}
+	{
+		#if {$debug > 4} {#echo {ENDING TALK}};	
+		#unaction {^%s$};
+		#unaction {%%%0};
+	} {7};
+	#action {%1 ignores you.}
+	{
+		#if {$debug > 4} {#echo {ENDING TALK}};	
+		#unaction {^%s$};
+		#unaction {%%%0};
+	} {7};
+	#action {%%0}
+	{
+		#if {$debug > 4} {#echo {TALK: %%0}};	
+		#if {"$actroomnote" == ""}
+			{#var actroomnote {%%0}}
+			{#var actroomnote {$actroomnote\n%%0}};
+	} {8};
+};
+
+#action {[Lv Price] Item}
+{
+	#if {"$actroomnote" == ""}
+		{#var actroomnote {[Lv Price] Item}}
+		{#var actroomnote {$actroomnote\n[Lv Price] Item}};
+	#action {^%s$}
+	{
+		#if {$debug > 4} {#echo {VENDOR DONE}};
+		#unaction {^%s$};
+		#unaction {%%%0};
+	} {7};
+	#action {%%0}
+	{
+		#if {$debug > 4} {#echo {ITEM: %%0}};
+		#if {"$actroomnote" == ""}
+			{#var actroomnote {%%0}}
+			{#var actroomnote {$actroomnote\n%%0}};
+	} {8};
+} {9};
+
+#alias {^rup$}
+{
+	#map set roomname $actroomname;
+	#map set roomdesc $actroomdesc;
+	#map set roomnote $actroomnote;
+	#map set roomarea $actroomnote;
+	#map set roomsymbol $actroomsymbol;
+	#map set roomcolor $actroomcolor;
+	#if {&maproomdata[createdon]>0} 
+   	{ 
+      		#variable maproomdata[updatedon] $now; 
+      		#variable maproomdata[updatedby] $character 
+   	}; 
+   	#else
+   	{ 
+      		#variable maproomdata[createdon] $now; 
+      		#variable maproomdata[createdby] $character 
+   	}; 
+};
+
+#class {map} close
