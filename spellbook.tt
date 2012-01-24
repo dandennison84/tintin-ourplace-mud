@@ -77,9 +77,10 @@ knows the difference with commands prefixed with 'z-'.
 */
 #alias {find-spell}
 {
-	#if {"%2" == "help"}
-		{tell %1 $spells[%2]}
-		{#regex {%2} {^z-}
-			{$spells[%2]}
-			{$spells[%2] %1}};
+	#if {&spells[%2]}
+		{#if {"%2" == "help"}
+			{tell %1 $spells[%2]}
+			{#regex {%2} {^z-}
+				{$spells[%2]}
+				{$spells[%2] %1}}};
 };

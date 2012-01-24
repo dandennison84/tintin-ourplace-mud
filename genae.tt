@@ -1,5 +1,7 @@
 #class {genae} open
 
 #read $dir/cleric.tt;
+#class items kill;
+#read $dir/items.tt;
 
 #class {genae} close

@@ -1,0 +1,15 @@
+#class {chat} open
+
+#action {~\e[0m\e[36m%1\e[0m\e[1m\e[34m [%2] %3}
+{
+	#line log $chatlog {%0};
+	#line gag;
+} {9};
+
+#action {%1 CHATS %2}
+{
+	#line log $chatlog {%0};
+	#line gag;
+} {9};
+
+#class {chat} close

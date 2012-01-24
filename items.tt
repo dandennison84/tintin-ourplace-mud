@@ -1,0 +1,19 @@
+#class {items} open
+
+#var itemlog {$logdir/items.html}
+
+#action {Object '%1' is type %2}
+{
+	#line log $itemlog {%0};
+	#action {^%s$}
+	{
+		#unaction {^%s$};
+		#unaction {%%%0};
+	} {5};	
+	#action {%%0}
+	{
+		#line log $itemlog {%%0};
+	} {6};
+} {7};
+
+#class {items} close

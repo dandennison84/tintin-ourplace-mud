@@ -30,7 +30,6 @@ It also turns on logging to your logs directory.
 	log off;
 	#class $char kill;
 	#var char %1;
-	log on;
 	#class $char read $dir/$char.tt;
 	#if {&{password-$char}} {#var pw ${password-$char}} {#var pw $password};
 	#alias {.$char} 
@@ -39,6 +38,7 @@ It also turns on logging to your logs directory.
 		#split 0 1
 		#send {prompt <%h/%Hhp (%P) %m/%Mm %v/%Vmv, opp: %O, leader: %L>};
 		#prompt {<%%%1hp (%%%2) %%%3m %%%4mv, opp: %%%5, leader: %%%6>} {<AAE><ffa>H: %%%1 {%%%2} M: %%%3 MV: %%%4 OPP: %%%5 LDR: %%%6<099>} {1};
+		log on;
 	};
 	#echo {$char loaded.};
 };
@@ -57,32 +57,37 @@ It also turns on logging to your logs directory.
 {
 	#if {"%0" == "on"}
 	{
-		#if {"$logging-$char" != "on"}
+		#echo {logging-char: ${logging-$char}};
+		#if {"${logging-$char}" != "on"}
 		{
+			#log off;
 			#format {logfile} {$logdir/$mud-$char-%t.html} {%Y-%m-%d};
+			#format {chatlog} {$logdir/$mud-$char-chat-%t.html} {%Y-%m-%d};
 			#log append $logfile;
-			#var logging on
+			#var logging-$char on;
+			#showme {now logging.};
 		};
 		#else
 		{
-			#showme You are already logging.
+			#showme {You are already logging.};
 		};
 	};
 	#elseif {"%0" == "off"}
 	{
-		#if {"$logging-$char" == "on"}
+		#if {"${logging-$char}" == "on"}
 		{
 			#log off;
-			#var logging off
+			#var logging-$char off
+			#showme {You have stopped logging.};
 		};
 		#else
 		{
-			#showme You are not logging.
+			#showme {You are not logging.};
 		};
 	};
 	#else
 	{
-		#showme Turn logging on or off?
+		#showme {Turn logging on or off?};
 	};
 };
 

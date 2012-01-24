@@ -1,5 +1,7 @@
 #class {lenae} open
 
 #read $dir/warrior.tt;
+#class items kill;
+#read $dir/items.tt;
 
 #class {lenae} close
