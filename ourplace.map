@@ -4,11 +4,11 @@ CE <078>
 CR <178>
 CP <138>
 
-F 10
+F 26
 
-I 30
+I 192
 
-L * # #  # |   #        x
+L * # # # | # x          
 
 
 R {    1} {0} {<FFC><faa>} {A Hall in Midgaard} {TRN} {You are in the southern end of the temple hall in the Temple of Midgaard.\nThe temple has been constructed from giant marble blocks, eternal in\nappearance, and most of the walls are covered by ancient wall paintings\npicturing Gods, Giants and peasants.  Large steps lead down through the\ngrand temple gate, descending the huge mound upon which the temple is built\nand ends on the temple square below.  Equally large steps lead UP\nthrough a small door into the ENTRANCE to MUD SCHOOL.  (type 'up'\nto go to MUD SCHOOL.)  A small plaque is on this wall.} {Midgaard in Central Region by DIKU for levels: 0-0} {TRAINER: 2-handed axe} {} {{createdby}{$character}{createdon}{2012-01-24 07:54:10}{updatedby}{$character}{updatedon}{2012-01-24 08:10:01}} {1.000}
@@ -334,3 +334,553 @@ E {   80} {s} {s} {4} {0} {}
 R {   80} {8} {} {} { } {} {} {} {} {} {1.000}
 E {   64} {s} {s} {4} {0} {}
 E {   79} {n} {n} {1} {0} {}
+
+R {   81} {0} {} {home} { } {This is the main hall of castle Seraphim. Here members come to rest from\nthe battles that are building the name and reputation of the clan through\nout the land. Healing springs take up part of the room and a huge fire pit\nis used to roast whole hogs for the gatherings of the clan that take place\nhere. Short on history but long on tradition you realize this is a clan of\nthe future as well as the present. } {Clan Rooms by Various for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:16:28}} {1.000}
+E {   82} {s} {s} {4} {0} {}
+E {   83} {n} {n} {1} {0} {}
+E {   84} {e} {e} {2} {0} {}
+E {   85} {w} {w} {8} {0} {}
+E {   86} {d} {d} {32} {0} {}
+E {   87} {u} {u} {16} {0} {}
+E {   99} {enter portal} {enter portal} {0} {0} {}
+
+R {   82} {0} {} {Drago's Cave} { } {} {Clan Rooms by Various for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}} {1.000}
+E {   81} {n} {n} {1} {0} {}
+E {   94} {u} {u} {16} {1} {}
+E {   95} {d} {d} {32} {1} {}
+E {   98} {s} {s} {4} {1} {}
+
+R {   83} {0} {} {Den of Thieves} { } {     A Shimmering Vortex pulls in all the matter around it.} {Clan Rooms by Various for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:16:38}} {1.000}
+E {   81} {s} {s} {4} {0} {}
+E {   88} {n} {n} {1} {0} {}
+E {   90} {enter vortex} {enter vortex} {0} {0} {}
+
+R {   84} {0} {} {} { } {} {Clan Rooms by Various for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:16:50}} {1.000}
+E {   81} {w} {w} {8} {0} {}
+E {   92} {e} {e} {2} {1} {}
+
+R {   85} {0} {} {The Temple Alter} { } {The temple Alter.} {Clan Rooms by Various for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:16:59}} {1.000}
+E {   81} {e} {e} {2} {0} {}
+E {   93} {w} {w} {8} {1} {}
+
+R {   86} {0} {<AFA><aaa>} {Seraphim Donation Room} {SMT} {You have stepped into the room of a clan that takes pride in its\naccomplishments.  This room is the Donation room and you may look at all\nthat is here and pickup anything you may need.  It is a large room with huge\naltars and a large bin in the center of the floor.  The bin is adorned with\ngold and has pictures etched in it of the hero's of the clan Seraphim. \nThere are fires to your left and right that light the room and there is a\ndrop doorway above you, this is the only exit from this room.  There are\nseats to sit on as you look at all there is to see.  You may leave anything\nyou may not wish to carry for the clan to use.  } {Clan Rooms by Various for levels: 0-0} {SMITH: Yeslick the Blacksmith} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:17:07}} {1.000}
+E {   81} {u} {u} {16} {0} {}
+
+R {   87} {0} {<AAF><fff>} {The Bank of the Seraphim} {BNK} {You have entered the bank of clan Seraphim. This is the most active place\non the mud. The feeling of money flowing in and out lets you know this\nis a clan on the way up.  Marble walls combine with plush carpets to\nmute the sounds and give an aura of wealth and power. Soft music plays\nin the background, Wagner's Ride of the Valkyries and you just have to leave\na deposit. To see the current wealth of the clan type cacc.\n                           A Jewelled KeyBox} {Clan Rooms by Various for levels: 0-0} {BANK} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:17:17}} {1.000}
+E {   81} {d} {d} {32} {0} {}
+
+R {   88} {0} {} {} { } {} {Clan Rooms by Various for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:17:57}} {1.000}
+E {   83} {s} {s} {4} {0} {}
+E {   89} {n} {n} {1} {1} {}
+
+R {   89} {0} {} {Olympian Headquarters of Seraphim} { } {} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:18:14}} {1.000}
+E {   88} {s} {s} {4} {1} {}
+
+R {   90} {0} {} {* Milarbor Healer *} { } {Soothing sounds calm the soul and let peace flow through mind and body.\nIt is safe here, a place to rest after adventuring.} {Milarbor in South Eastern Region by Rydia & Ryla for levels: 5-45} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:21:59}} {1.000}
+E {   91} {s} {s} {4} {0} {}
+
+R {   91} {0} {} {The Green Cathedral (*)} { } {   ||>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>||\n   ==|||||||||||||||||||||MILARBOR|||||||||||||||||||||==\n   ||/                       \\ /                       \\||\n   <<                        <<<                        <<\n   >>                        >>>                        >>\n   ||                        |||                        ||} {Milarbor in South Eastern Region by Rydia & Ryla for levels: 5-45} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:21:51}} {1.000}
+E {   90} {n} {n} {1} {0} {}
+
+R {   92} {0} {} {The Temple of Odin at Mydgaard (*)} { } {You stand in the largest longhouse in all of Mydgaard, built of massive\ncedar logs with river rushes on the ground. The cedar spices the air with\na heady scent, mixing with the healing incense coming from the Eirshov to\nthe east. A statue of Odin at the center of the room reminds you that this\ntemple was built as a place of worship, dedicated to the father of the gods.\nWest is the town square, and well. A set of stairs leads down into the\nimmortal statuary.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:23:05}} {1.000}
+
+R {   93} {0} {} {The Temple of Ofcol} { } {You are in the Temple of Ofcol.  Golden tiles cover the floor, and solid\ngold columns reach the twelve foot ceiling of this vast chamber.  Servants in\ngolden livery wander this place, making even the raggiest messenger boy look\nricher than you are.  Exits lead to the anterooms in the cardinal directions.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:24:01}} {1.000}
+
+R {   94} {0} {} {Main Road} { } {You stand on a paved road.  Ahead of you is an electric car, which seems\nto have stopped.  All around you is an annoying chirping sound, and the\nsudden screeching from some unknown creature.  } {Jurassic Park in South Western Region by Selex for levels: 150-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:24:43}} {1.000}
+
+R {   95} {0} {} {Clan Commons} { } {Soft lighting warms this room where all the clans can gather to meet on a\nneutral ground. A place to socialize with friends or size up an enemy.\nA friendly place for exchange of equipment or ideas. Acquaintances and\nstrangers wander in and out with a nod and a smile. A smaller room lies to\nthe north for those requiring a bit more privacy in their transactions.\nTotal solitude is to the east.} {Clan Rooms by Various for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:25:30}} {1.000}
+E {   96} {n} {n} {1} {0} {}
+E {   97} {e} {e} {2} {0} {}
+
+R {   96} {0} {} {A Private Spot} { } {A small, private room only offers enough room for two. A small torch burns \non the wall, allowing a bit of warmth to the room as well as a flickering \nof light. Moving shadows cast by the torch give the room an odd feeling, \nbut the figures cast are only those of the occupants. The general meeting\nroom is to the south.} {Clan Rooms by Various for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:25:44}} {1.000}
+E {   95} {s} {s} {4} {0} {}
+
+R {   97} {0} {} {Meditation} { } {No one can come in here with you. Peace.} {Clan Rooms by Various for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:25:52}} {1.000}
+E {   95} {w} {w} {8} {0} {}
+
+R {   98} {0} {} {Naeson Headquarters of Seraphim} { } {} {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:26:21}} {1.000}
+E {   82} {n} {n} {1} {1} {}
+E {  101} {w} {w} {8} {0} {}
+
+R {   99} {0} {} {Temple Of Axzure} { } {You are in an enormous coral cavern.  The roof is irridescent shell, in\nblue-green hues with a hint of pink.  You squint, and notice that into this\nbeautiful ceiling are inlaid carvings, in mother-of-pearl.  They depict\nmerfolk.  Gold tridents, armor and various pieces of dress accentuate the\ncarvings.  In the center is depicted [Coral] the founder of Axzure and the\nspiritual leader of the Axzureans.  At her right hand can be seen Beldarius,\nthe Sea King.  You turn to the wall, and see a [map].  } {AXZURE in Eastern Ocean Region by Genna for levels: 30-100} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:27:28}} {1.000}
+E {  100} {n} {n} {1} {0} {}
+
+R {  100} {0} {} {Healer Temple of Axzure} { } {]]]]]]]]]]]]]]]]]]]]]]]]]]AXZURE]]]]]]]]]]]]]]]]]]]]]]]]]]]]]\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\n=============================================================\n[[[                                                      [[[\n>>>                                                      >>>\n[[[                                                      [[[\n<<<                                                      <<<\n                  There is a sign here.\n(Translucent) The Mist\n(Translucent) The Wave} {AXZURE in Eastern Ocean Region by Genna for levels: 30-100} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:27:52}} {1.000}
+E {   99} {s} {s} {4} {0} {}
+
+R {  101} {0} {} {West Port Street} { } {The docks are to the east, and they still look unreachable from here. \nWest Port Street leads north and south, and there is an alley to the west.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:30:37}} {1.000}
+E {   98} {e} {open e; e} {2} {0} {}
+E {  102} {w} {w} {8} {0} {}
+E {  103} {s} {s} {4} {0} {}
+E {  110} {n} {n} {1} {0} {}
+
+R {  102} {0} {} {A dead-end alley} { } {This alley looks very dark and forbidding.  Neither daylight nor the\nformidable Naesonese artificial light penetrates the shadows here.  The exit\nlies to the east.  It looks very attractive right now.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:30:49}} {1.000}
+E {  101} {e} {e} {2} {0} {}
+
+R {  103} {0} {} {West Port Street at the Barnacle} { } {From here you can see where West Port meets up with the docks.  West of\nhere stands a somewhat seedy looking tavern called the Barnacle.  West Port\nstreet continues to the south.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:33:16}} {1.000}
+E {  101} {n} {n} {1} {0} {}
+E {  104} {s} {s} {4} {0} {}
+E {  107} {w} {open w; w} {8} {0} {}
+E {  108} {e} {e} {2} {0} {}
+
+R {  104} {0} {} {West Port Street} { } {You are on West Port Street.  East and west of here is where the street\nconnects with the docks, while the city proper lies to the north.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:31:13}} {1.000}
+E {  103} {n} {n} {1} {0} {}
+E {  105} {w} {w} {8} {0} {}
+E {  106} {e} {e} {2} {0} {}
+
+R {  105} {0} {} {The docks} { } {The stevedores barely notice you as they go about their business of\nloading and unloading the barges moored here.  A guard in uniform standing\nat the end of the dock, however, looks at you warily and motions you to come\nforward.  } {Eastern Waterways by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:31:27}} {1.000}
+E {  104} {e} {e} {2} {0} {}
+
+R {  106} {0} {} {The docks} { } {Teamsters rush to and fro hauling the cargo being unloaded from the\nbarges into the city where it can be sold at a very tidy profit to the\ncitizens of the large city that lies to the north.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:31:42}} {1.000}
+E {  104} {w} {w} {8} {0} {}
+
+R {  107} {0} {<AAF><fff>} {The Barnacle} {SHP} {This is a rather seedy tavern meant for the less savory types who come\nstaggering in from ships in the harbor.  A group of rather rough looking\ntypes sits in one corner playing some card game or another\; occasionally one\nof them takes a swing at another.  The bartender, Morgan, walks deftly from\ntable to table, serving drinks while somehow managing to avoid getting\nslugged by a wild punch or hit by a flying mug of ale.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {[Lv Price] Item\n[ 0      100] A bowl of fish stew.\n[ 0      200] A fish sandwich.\n[ 0      300] A bottle of cheap wine.\n[ 0      100] A mug of ale.} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:32:03}} {1.000}
+E {  103} {e} {e} {2} {0} {}
+
+R {  108} {0} {} {Naeson Residential Ave} { } {A cityguard of Naeson stands here keeping the peace.} {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:32:42}} {1.000}
+E {  103} {w} {w} {8} {0} {}
+E {  109} {e} {e} {2} {0} {}
+
+R {  109} {0} {} {Naeson Residential Ave} { } {} {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:32:53}} {1.000}
+E {  108} {w} {w} {8} {0} {}
+
+R {  110} {0} {} {West Port Street} { } {The docks still appear unreachable from here.  Perhaps you can reach the\ndocks further to the south.  West of here stands a Naesonese home.  West\nPort Street continues to the north and south.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:33:44}} {1.000}
+E {  101} {s} {s} {4} {0} {}
+E {  111} {e} {open e; e} {2} {0} {}
+E {  112} {w} {open w; w} {8} {0} {}
+E {  113} {n} {n} {1} {0} {}
+
+R {  111} {0} {} {clan room} { } {} {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:34:01}} {1.000}
+E {  110} {w} {w} {8} {0} {}
+
+R {  112} {0} {} {A Naesonese home} { } {This home is pretty much like every other Naesonese home you've ever\nseen.  There is a shrine to Naes at one end, while the rest of the home is\nfilled with conventional furniture.  The exit is to the east.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:34:29}} {1.000}
+E {  110} {e} {e} {2} {0} {}
+
+R {  113} {0} {} {West Port Street} { } {To the east of here you can see the hustle and bustle of the docks, but\nyou see little of interest there, and you doubt you could navigate your way\nto dockside from here anyway.  West Port continues to the south, while an\nalleyway lies to the west.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:35:02}} {1.000}
+E {  110} {s} {s} {4} {0} {}
+E {  114} {w} {w} {8} {0} {}
+E {  115} {n} {n} {1} {0} {}
+
+R {  114} {0} {} {A dead-end alley} { } {This alley is full of shadows\; neither sunlight nor the city's\nsubstantial artificial light penetrates here well.  However, you can see\nthat it comes to a dead end to the west.  The only exit is to the east. } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:35:11}} {1.000}
+E {  113} {e} {e} {2} {0} {}
+
+R {  115} {0} {} {The Port Overlook at West Port Street} { } {Here Market Street becomes West Port Street, which leads south to along\nthe docks.  A few houses and shops stand along the street to the south.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:35:25}} {1.000}
+E {  113} {s} {s} {4} {0} {}
+E {  116} {n} {n} {1} {0} {}
+E {  125} {e} {e} {2} {0} {}
+
+R {  116} {0} {} {Market Street at Market Square} { } {You are standing on Market Street, which leads north and south from here.\nWest of here is the city's market, while to the east is the Fountain of Naes\nand the Temple of Naes.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:35:37}} {1.000}
+E {  115} {s} {s} {4} {0} {}
+E {  135} {n} {n} {1} {0} {}
+E {  118} {w} {w} {8} {0} {}
+E {  126} {e} {e} {2} {0} {}
+
+R {  117} {0} {} {Gate Avenue and Market Street} { } {Gate Avenue continues to the east and west, while Market Street leads\nsouth to Market Square.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:35:48}} {1.000}
+E {  135} {s} {s} {4} {0} {}
+E {  130} {e} {e} {2} {0} {}
+
+R {  118} {0} {} {Market Square} { } {This is Naeson City's Market Square.  North of here is Mindra's Marvelous\nMagic.  South of here is Gafry's General Goods.  Market Square continues to\nthe west.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:36:11}} {1.000}
+E {  116} {e} {e} {2} {0} {}
+E {  119} {w} {w} {8} {0} {}
+E {  123} {s} {s} {4} {0} {}
+E {  124} {n} {n} {1} {0} {}
+
+R {  119} {0} {} {Market Square} { } {North of here is Chester's Container Crafts, where you can buy many fine\ncontainers to store your goods.  South of here is Sestra's Special\nSouvenirs, where you can buy things to remind you of your visit to the Port\ncity of Naeson.  West of here is Fel's Fruit Stand, where you can buy\ndelicious fruits and vegetables.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:36:18}} {1.000}
+E {  118} {e} {e} {2} {0} {}
+E {  120} {w} {w} {8} {0} {}
+E {  121} {s} {s} {4} {0} {}
+E {  122} {n} {n} {1} {0} {}
+
+R {  120} {0} {<AAF><fff>} {Fel's Fruit Stand} {SHP} {This little shop sells all kinds of fruits that come in from all over the\nworld through the port.  Fel collects the cream of the crop for sale here. \nFel himself stands behind the counter awaiting your order.  A sign sits on\nthe counter.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {[Lv Price] Item\n[10   200000] An apple.\n[ 0    20000] A banana.\n[ 0      300] A watermelon.\n[ 3     3000] A bunch of strawberries.} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:36:29}} {1.000}
+E {  119} {e} {e} {2} {0} {}
+
+R {  121} {0} {<AAF><fff>} {Sestra's Special Souvenirs} {SHP} {This is the souvenir shop, where visitors to Naeson can buy things to\nremind them of their visit to Naeson.  Sestra, who runs the shop, stands\nbehind the counter awaiting your order.  There is a note tacked to the wall.} {Naeson in South Eastern Region by Kystran for levels: 1-200} {[Lv Price] Item\n[ 9    15000] A statue of naes.\n[ 8      500] A shell necklace.\n[12      100] A shell earring.\n[12     5000] A protective rune.} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:36:44}} {1.000}
+E {  119} {n} {n} {1} {0} {}
+
+R {  122} {0} {<AAF><fff>} {Chester's Container Crafts} {SHP} {Containers, containers, containers.  That's what you can buy here, where\nChester has dedicated his life to making the best containers in this part of\nthe continent.  Chester is standing behind the counter waiting for your\norder.  There is a sign tacked on the wall next to the counter.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {[Lv Price] Item\n[ 7     4000] A basket.\n[ 6    15000] A magical box of storage.\n[14   600000] A coat full of pockets.\n[12     5000] A backpack.} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:36:59}} {1.000}
+E {  119} {s} {s} {4} {0} {}
+
+R {  123} {0} {<AAF><fff>} {Gafry's General Goods} {SHP} {The walls are lined with shelves of your basic adventuring needs.  Gafry\nstands behind the counter, patiently awaiting your order.  There is a note\ntacked on the wall.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {[Lv Price] Item\n[ 0      110] Some smoked fish.\n[ 0      200] A leather water skin.\n[ 0       50] A torch.\n[12      150] A leather pouch.} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:37:14}} {1.000}
+E {  118} {n} {n} {1} {0} {}
+
+R {  124} {0} {<AAF><fff>} {Mindra's Marvelous Magic} {SHP} {This little store is stuffed full of wands, scrolls, staves, potions,\ntomes of magic, and countless other things you couldn't possibly identify. \nIn the midst of it all sits Mindra, who cleans off her desk as soon as you\nwalk in.  On the desk is a small sign.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {[Lv Price] Item\n[10     4500] A potion of help me!!!!.\n[ 1    12000] A potion of acid trip.\n[ 5      500] A clear potion of see invisible.\n[11      666] An identify scroll.} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:37:24}} {1.000}
+E {  118} {s} {s} {4} {0} {}
+
+R {  125} {0} {} {The Port Overlook at Royal Way} { } {Here, Royal Way comes to an end, just before the dock reserved for the\nKing's flagship, which is apparently out at sea right now.  A few dock\nworkers mill about, occasionally moving a crate or tying a rope under the\ndirection of the dockmaster.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:38:39}} {1.000}
+E {  115} {w} {w} {8} {0} {}
+E {  126} {n} {n} {1} {0} {}
+E {  136} {e} {e} {2} {0} {}
+
+R {  126} {0} {} {Royal Way at the Fountain of Naes} { } {In the center of this plaza is a huge fountain topped by a great statue\nof Naes in his robes of court, wielding his legendary sword.  At the feet of\nthat statue is a statue of Naes' lifetime companion, the mountain lion\nAzrali.  Citizens of the city mill around, conversing and doing what city\ndwellers do.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:38:58}} {1.000}
+E {  116} {w} {w} {8} {0} {}
+E {  125} {s} {s} {4} {0} {}
+E {  128} {e} {e} {2} {1} {}
+E {  134} {n} {n} {1} {0} {}
+
+R {  127} {0} {} {The Port Overlook at East Port Street} { } {Here East Street becomes East Port Street, which leads south to a few\ndockside shops and inns.  To the west is the reserved dock for the King's\nflagship, while East Street leads to the north.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:39:11}} {1.000}
+E {  136} {w} {w} {8} {0} {}
+E {  132} {n} {n} {1} {0} {}
+E {  164} {s} {s} {4} {0} {}
+
+R {  128} {0} {} {The Temple of Naes} { } {This is the Great Temple of Naes, where followers of Naes come to pay\ntheir respects.  A huge, elaborate version of the kind of shrine to Naes\nthat you have been seeing all over this city stands at the eastern end.  It\nis set on a waist-high table.  On top of the table is a beautifully detailed\nstatue of Naes in his robes of state.  However, instead of the replica of\nthe Sword of Naes hanging above the shrine, it is in Naes' hand.  Also, in\naddition to the statue of Naes is a statue of his queen, Silema, who ruled\nthe kingdom until their son, Xander I, was of age to assume the throne,\nafter which she followed her husband into the Forest to hunt the necromancer\nKhaten.  Like her husband, she disappeared.  To the north is the healer,\neast of here lies a room for unwanted equipment, and south of here is the\ncity's bank.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:39:29}} {1.000}
+E {  126} {w} {w} {8} {1} {}
+E {  129} {e} {e} {2} {0} {}
+
+R {  129} {0} {} {The Naes Recycling Room} { } {Here you may leave items and equipment that you no longer need in the\nhopes that it will find its way into the hands of someone more needy than\nyou.  If you desire anything you see here, feel free to take it.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:41:25}} {1.000}
+E {  128} {w} {w} {8} {0} {}
+
+R {  130} {0} {} {Royal Way and Gate Avenue} { } {Royal Way continues to the north and south, while Gate Avenue leads east\nand west to the City Gates.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:42:04}} {1.000}
+E {  134} {s} {s} {4} {0} {}
+E {  117} {w} {w} {8} {0} {}
+E {  131} {e} {e} {2} {0} {}
+E {  177} {n} {n} {1} {0} {}
+
+R {  131} {0} {} {Gate Avenue} { } {Gate Avenue continues to the east and west, while Naesonese homes lie to\nthe north and south.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:42:27}} {1.000}
+E {  130} {w} {w} {8} {0} {}
+E {  133} {e} {e} {2} {0} {}
+E {  138} {s} {s} {4} {0} {}
+E {  139} {n} {n} {1} {0} {}
+
+R {  132} {0} {} {East Street at the City Green} { } {This large garden was created by Queen Kelle, wife of King Toruk III, as\na retreat for the citizens of Naeson City who did not wish to venture into\nthe dangerous forests surrounding the city.  Trees stand in perfect rows,\nflowers are arranged in beautiful patterns, and shrubs are sculpted into the\nforms of fantastic creatures.  A few gardeners wander about, maintaining the\ngrounds.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:42:54}} {1.000}
+E {  127} {s} {s} {4} {0} {}
+E {  137} {n} {n} {1} {0} {}
+
+R {  133} {0} {} {The Eastern Gate of Naeson} { } {This is one of the two great gates of the Port City of Naeson.  Capital\nof the Kingdom of Naeson, Naeson City stands on the largest port in the\ndomain of King Xander IV, ruler of Naeson.  The gate itself is a huge, heavy\naffair, but it seems to be balanced so well that it could be closed quite\nquickly in the event of an invasion.  Indeed, there are dents and marks in\nthe door, as though someone had tried to batter it down but failed.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:44:34}} {1.000}
+E {  131} {w} {w} {8} {0} {}
+E {  137} {s} {s} {4} {0} {}
+
+R {  134} {8} {} {} { } {} {} {} {} {} {1.000}
+E {  130} {n} {n} {1} {0} {}
+E {  126} {s} {s} {4} {0} {}
+
+R {  135} {8} {} {} { } {} {} {} {} {} {1.000}
+E {  117} {n} {n} {1} {0} {}
+E {  116} {s} {s} {4} {0} {}
+
+R {  136} {8} {} {} { } {} {} {} {} {} {1.000}
+E {  127} {e} {e} {2} {0} {}
+E {  125} {w} {w} {8} {0} {}
+
+R {  137} {0} {} {East Street and Ocean Avenue} { } {East Street leads north from here to the Eastern City Gate and south to\nthe town green, while Ocean Avenue leads into the city's residential\nsection.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:45:48}} {1.000}
+E {  132} {s} {s} {4} {0} {}
+E {  133} {n} {n} {1} {0} {}
+E {  141} {e} {e} {2} {0} {}
+
+R {  138} {0} {} {A Naesonese home} { } {This is an ordinary Naesonese home.  At one end of the house stands a\nshrine dedicated to Naes.  The remainder of the home is filled with\nconventional furniture.  The exit is to the north.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:46:12}} {1.000}
+E {  131} {n} {n} {1} {0} {}
+
+R {  139} {0} {} {A Naesonese home} { } {This is an ordinary Naesonese home.  A shrine stands at one end, while\nconventional furniture fills the rest of the room.  The exit lies to the\nsouth.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:46:24}} {1.000}
+E {  131} {s} {s} {4} {0} {}
+
+R {  140} {0} {} {Royal Way} { } {To the west stands the city's Guild Hall, where the people can learn new\nabilities and other things.  To the east is a residential house.  Royal Way\ncontinues to the south.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:46:46}} {1.000}
+E {  177} {s} {s} {4} {0} {}
+E {  178} {e} {e} {2} {0} {}
+E {  179} {w} {w} {8} {0} {}
+E {  181} {n} {n} {1} {0} {}
+
+R {  141} {0} {} {Ocean Avenue} { } {This avenue leads into a residential part of the city, where the ocean\nand cliffs provide natural protection from the dangers of the forest to the\nnorth of the city.  Houses line the streets, and occasionally a resident\nwanders by on his way the market or to work.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:47:25}} {1.000}
+E {  137} {w} {w} {8} {0} {}
+E {  142} {e} {e} {2} {0} {}
+
+R {  142} {0} {} {Ocean Avenue and Seashell Avenue} { } {You are in the residential section of Naeson City.  There doesn't seem to\nbe much here, only homes and the occasional restaurant.  Ocean Street\ncontinues to the east and west, while Seashell Avenue leads north and south.} {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:47:31}} {1.000}
+E {  141} {w} {w} {8} {0} {}
+E {  143} {e} {e} {2} {0} {}
+E {  152} {s} {s} {4} {0} {}
+E {  156} {n} {n} {1} {0} {}
+
+R {  143} {0} {} {Ocean Avenue and Fisherman's Way} { } {You are in the residential section of Naeson City.  There doesn't seem to\nbe much here, only homes and the occasional restaurant.  Ocean Street\ncontinues to the east and west, while Fisherman's Way leads north and south.} {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:47:50}} {1.000}
+E {  142} {w} {w} {8} {0} {}
+E {  144} {e} {e} {2} {0} {}
+E {  151} {s} {s} {4} {0} {}
+E {  155} {n} {n} {1} {0} {}
+
+R {  144} {0} {} {Ocean Avenue and Coastal Avenue} { } {You are in the residential section of Naeson City.  There doesn't seem to\nbe much here, only homes and the occasional restaurant.  Ocean Avenue comes\nto an end here.  East of here stands Tella's Teahouse, while Coastal Avenue\nleads north and south.  Ocean Avenue leads back west.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:47:58}} {1.000}
+E {  143} {w} {w} {8} {0} {}
+E {  145} {e} {e} {2} {0} {}
+E {  146} {s} {s} {4} {0} {}
+E {  154} {n} {n} {1} {0} {}
+
+R {  145} {0} {<AAF><fff>} {Tella's Teahouse} {SHP} {This calm, warm teahouse is where many of the residents come to relax and\nassociate.  Tella, the proprietor, imports teas from all over the world to\nserve to her customers.  Big, heavy oak tables rest in various places around\nthe room, with matching seats at all of them.  A few of the residents sit at\nthem, trading local gossip.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {[Lv Price] Item\n[ 0       50] A small cake.\n[ 0       50] Thalosian orange tea.\n[ 0       50] Dwarven mushroom tea.\n[ 0       50] Elven mint tea.} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:48:13}} {1.000}
+E {  144} {w} {w} {8} {0} {}
+
+R {  146} {0} {} {Coastal Avenue and Saltwater Street} { } {You are in the residential section of Naeson City.  There doesn't seem to\nbe much here, only homes and the occasional restaurant.  Saltwater Street\ncomes to an end to the east, while it leads back to the west.  Coastal\nAvenue leads north and south.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:53:46}} {1.000}
+E {  144} {n} {n} {1} {0} {}
+E {  147} {s} {s} {4} {0} {}
+E {  151} {w} {w} {8} {0} {}
+
+R {  147} {0} {} {Coastal Avenue and Lobster Street} { } {You are in the residential section of Naeson City.  There doesn't seem to\nbe much here, only homes and the occasional restaurant.  Coastal Avenue and\nLobster Street both end here.  You can follow Coastal Avenue north or\nLobster Street west from here.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:53:59}} {1.000}
+E {  146} {n} {n} {1} {0} {}
+E {  148} {w} {w} {8} {0} {}
+
+R {  148} {0} {} {Fisherman's Way and Lobster Street} { } {You are in the residential section of Naeson City.  There doesn't seem to\nbe much here, only homes and the occasional restaurant.  Fisherman's Way\ncomes to an end here.  You can take Fisherman's Way north, or follow Lobster\nStreet to the east or west.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:54:18}} {1.000}
+E {  147} {e} {e} {2} {0} {}
+E {  149} {w} {w} {8} {0} {}
+E {  151} {n} {n} {1} {0} {}
+
+R {  149} {0} {} {Seashell Avenue and Lobster Street} { } {You are in the residential section of Naeson City.  There doesn't seem to\nbe much here, only homes and the occasional restaurant.  Seashell Avenue\ncomes to an end here.  Seashell Avenue leads north, while Lobster Street\nleads east and west.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:54:36}} {1.000}
+E {  148} {e} {e} {2} {0} {}
+E {  150} {w} {w} {8} {0} {}
+E {  152} {n} {n} {1} {0} {}
+
+R {  150} {0} {} {Lobster Street} { } {A Naeson resident is here, going about her business.} {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:55:11}} {1.000}
+E {  149} {e} {e} {2} {0} {}
+
+R {  151} {0} {} {Fisherman's Way and Saltwater Street} { } {You are in the residential section of Naeson City.  There doesn't seem to\nbe much here, only homes and the occasional restaurant.  Fisherman's Way\ncontinues north and south, while Saltwater Street leads east and west.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:00:52}} {1.000}
+E {  146} {e} {e} {2} {0} {}
+E {  152} {w} {w} {8} {0} {}
+E {  143} {n} {n} {1} {0} {}
+E {  148} {s} {s} {4} {0} {}
+
+R {  152} {0} {} {Seashell Avenue and Saltwater Street} { } {You are in the residential section of Naeson City.  There doesn't seem to\nbe much here, only homes and the occasional restaurant.  Seashell Avenue\nleads north and south, while Saltwater Street leads east and west.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:01:07}} {1.000}
+E {  151} {e} {e} {2} {0} {}
+E {  142} {n} {n} {1} {0} {}
+E {  149} {s} {s} {4} {0} {}
+E {  153} {w} {w} {8} {0} {}
+
+R {  153} {0} {} {Saltwater Street} { } {A resident of the city of Naeson is here going about his business.} {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:01:45}} {1.000}
+E {  152} {e} {e} {2} {0} {}
+
+R {  154} {0} {} {Bluewater Road and Coastal Avenue} { } {You are in the residential section of Naeson City.  There doesn't seem to\nbe much here, only homes and the occasional restaurant.  Bluewater Road ends\nhere, while Coastal Avenue continues to the north and south.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:02:23}} {1.000}
+E {  144} {s} {s} {4} {0} {}
+E {  155} {w} {w} {8} {0} {}
+E {  159} {n} {n} {1} {0} {}
+
+R {  155} {0} {} {Fisherman's Way and Bluewater Road} { } {You are in the residential section of Naeson City.  There doesn't seem to\nbe much here, only homes and the occasional restaurant.  Fisherman's Way\ncontinues north and south, while Bluewater road leads east and west.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:02:33}} {1.000}
+E {  154} {e} {e} {2} {0} {}
+E {  143} {s} {s} {4} {0} {}
+E {  156} {w} {w} {8} {0} {}
+E {  160} {n} {n} {1} {0} {}
+
+R {  156} {0} {} {Seashell Avenue and Bluewater Road} { } {You are in the residential section of Naeson City.  There doesn't seem to\nbe much here, only homes and the occasional restaurant.  Seashell Avenue\nleads north and south, while Bluewater Road leads east and west.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:02:50}} {1.000}
+E {  155} {e} {e} {2} {0} {}
+E {  142} {s} {s} {4} {0} {}
+E {  157} {w} {w} {8} {0} {}
+E {  161} {n} {n} {1} {0} {}
+
+R {  157} {0} {} {Bluewater Road} { } {You are in the residential section of Naeson City.  There doesn't seem to\nbe much here, only homes and the occasional restaurant.  Bluewater Road ends\nhere.  North of here is Corina's Coffee Shop, while Bluewater Road leads\nback east.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:03:04}} {1.000}
+E {  156} {e} {e} {2} {0} {}
+E {  158} {n} {n} {1} {0} {}
+
+R {  158} {0} {<AAF><fff>} {Corina's Coffee Shop} {SHP} {Welcome to Corina's Coffee House.  This small cafe smells of fresh, rich\ncoffee, grown all over the world, and imported straight to Corina's for you\nto enjoy.  There are a few heavy oak tables sitting around the room, with\nchairs to match.  A few of the town's residents sit around and discuss local\ngossip over cups of fine coffee.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {[Lv Price] Item\n[ 0       60] A donut.\n[ 0       50] Ordinary coffee.\n[ 0       50] Ringriver mocha.\n[ 0       50] Cafe au chocolat.\n[ 0       50] Cafe au lait.} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:03:14}} {1.000}
+E {  157} {s} {s} {4} {0} {}
+
+R {  159} {0} {} {Coastal Avenue and Salmon Street} { } {You are in the residential section of Naeson City.  There doesn't seem to\nbe much here, only homes and the occasional restaurant.  Coastal Avenue and\nSalmon Street both end here.  You can take Coastal south, or you can take\nSalmon Street west.  Stetin's Seafood Restaurant stands to the east.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:03:46}} {1.000}
+E {  154} {s} {s} {4} {0} {}
+E {  160} {w} {w} {8} {0} {}
+E {  163} {e} {e} {2} {0} {}
+
+R {  160} {0} {} {Fisherman's Way and Salmon Street} { } {You are in the residential section of Naeson City.  There doesn't seem to\nbe much here, only homes and the occasional restaurant.  Fisherman's Way\nends here.  Salmon Street leads east and west, or you can take Fisherman's\nWay south.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:03:52}} {1.000}
+E {  159} {e} {e} {2} {0} {}
+E {  161} {w} {w} {8} {0} {}
+E {  155} {s} {s} {4} {0} {}
+
+R {  161} {0} {} {Seashell Avenue and Salmon Street} { } {You are in the residential section of Naeson City.  There doesn't seem to\nbe much here, only homes and the occasional restaurant.  Seashell Avenue\ncomes to an end here, while Salmon Street continues east and west.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:04:01}} {1.000}
+E {  160} {e} {e} {2} {0} {}
+E {  156} {s} {s} {4} {0} {}
+E {  162} {w} {w} {8} {1} {}
+
+R {  162} {0} {} {Salmon Street} { } {You are in the residential section of Naeson City.  There doesn't seem to\nbe much here, only homes and the occasional restaurant.  Salmon Street comes\nto an end here.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:04:41}} {1.000}
+E {  161} {e} {e} {2} {1} {}
+
+R {  163} {0} {<AAF><fff>} {Stetin's Seafood Restaurant} {SHP} {This is a warm, inviting restaurant, where the residents of Naeson come\noften to enjoy a meal fresh from the sea.  Stetin goes down to the docks\nevery day to get the best of the day's catch to serve for that day.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {[Lv Price] Item\n[ 0      100] A plate of clams.\n[ 0     2000] A fine lobster dinner.\n[ 0      110] Some smoked fish.\n[ 0      200] A fish sandwich.\n[ 0     5000] A bottle of wine.\n[ 0     1000] A mug of fine ale.} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:05:22}} {1.000}
+E {  159} {w} {w} {8} {0} {}
+
+R {  164} {0} {} {East Port Street} { } {You are on East Port Street.  East of here is an alley, while to the\nnorth and south East Port continues.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:06:11}} {1.000}
+E {  127} {n} {n} {1} {0} {}
+E {  165} {s} {s} {4} {0} {}
+E {  176} {e} {e} {2} {0} {}
+
+R {  165} {0} {} {East Port Street} { } {You are on East Port Street.  The street continues to the north and\nsouth, while to the east stands a Naesonese citizen's home.  West of here\nare the Naesonese docks, where you see much hustle and bustle, although you\ncan't reach the docks from here.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:06:18}} {1.000}
+E {  164} {n} {n} {1} {0} {}
+E {  166} {s} {s} {4} {0} {}
+E {  175} {e} {e} {2} {0} {}
+
+R {  166} {0} {} {East Port Street} { } {You are on East Port Street.  To the west you can see the busy docks of\nthe Port City of Naeson, while to the east is a forbidding-looking alley. \nEast Port Street continues top the north and south.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:06:28}} {1.000}
+E {  165} {n} {n} {1} {0} {}
+E {  167} {s} {s} {4} {0} {}
+E {  174} {e} {e} {2} {0} {}
+
+R {  167} {0} {} {East Port Street at the Gull's Haven} { } {You are on East Port Street.  To the east is the Gull's Haven, an inn for\nthe more wealthy merchants and nobility who visit Naeson City.  To the west\nyou can see the city's busy docks, although you cannot reach them from here.\nEast Port Street continues to the north and south.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:06:43}} {1.000}
+E {  166} {n} {n} {1} {0} {}
+E {  168} {e} {e} {2} {0} {}
+E {  169} {s} {s} {4} {0} {}
+
+R {  168} {0} {<AAF><fff>} {The Gull's Haven} {SHP} {This is a nicely furnished, well lit establishment.  Wealthy merchants\nsit around wheeling and dealing.  Tyralie, propietor of the Gull's Haven,\nawaits your order, while his barmaid, Syra, briskly and deftly carries the\norders to the customers.  A few nobles sit in the back, discussing politics\nand intrigue in a quiet voice.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {[Lv Price] Item\n[ 0     1500] Some caviar.\n[ 0     2000] A fine lobster dinner.\n[ 0     1000] A mug of fine ale.\n[ 0     5000] A bottle of wine.} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:06:54}} {1.000}
+E {  167} {w} {w} {8} {0} {}
+
+R {  169} {0} {} {East Port Street} { } {Here East Port Street comes to an end.  West of here you can reach the\ncity's docks, while the city proper lies to the north.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:07:16}} {1.000}
+E {  167} {n} {n} {1} {0} {}
+E {  170} {w} {w} {8} {0} {}
+
+R {  170} {0} {<AAF><fff>} {The docks} {SHP} {You are standing on the eastern docks.  Ships are pulling in, unloading,\nloading, leaving, and doing many other shiply things.  Dock workers help to\nload and unload the ships, and a few escort the wealthy merchants and\nnobility to the Gull's Haven, an inn that caters to the wealthy traveler.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {[Lv Price] Item\n[ 7      120] A ferry schedule.} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:08:11}} {1.000}
+E {  169} {e} {e} {2} {0} {}
+E {  171} {s} {s} {4} {1} {}
+
+R {  171} {0} {} {Port side entrance} { } {There seems to be a small section of the railing which can swing open. \nIf this small gate were ever open while the ferry is at sea, the results can\nbe disastrous.  So, you may want to watch your step.  } {Australian Ferry by You for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:08:20}} {1.000}
+E {  170} {n} {n} {1} {1} {}
+
+R {  172} {0} {} {A dead-end alley} { } {This is a dead-end alley\; the only exit is to the west.  Dark shadows,\nimpenetrable to your light or the lights of Naeson City, fill the alleyway,\nmaking you wonder what might be hiding here.  You have the urge to leave.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:09:26}} {1.000}
+E {  174} {w} {w} {8} {0} {}
+E {  173} {s} {s} {4} {0} {}
+
+R {  173} {0} {<EAF><fff>} {Den of Thieves} {QST} {You squint.  The only light is coming from a hole in the wall to the\nnorth.  You barely make out your surroundings, but feel the presence of\nsomeone here with you.  You hear a slight shuffling noise and turn to see\nthe dark face of a man close to yours.  Startled, you step back and bump\ninto something which you hear fall to the ground } {Masters Rooms by ispy for levels: 1-199} {The master thief tells you 'Ah, so it is Gubgub.. I have heard from others that\nyou are seeking the knowledge of the old thieves. I can only tell you of an odd\ncreature, a Behir who has a somewhat crocodilian head.'\n\nThe master thief tells you 'You must find this creature who dwells amongst the\nvile necromancers and obtain its talon. You must then find some moldy cheese, it\nis in a larder where the resident is not known for cleanliness.'\n\nThe master thief tells you 'For only with this composition will your formula of\nPrana work. If you wish to further your studies, there is a wise old master near\nthe deceased of a legendary aquatic. Good Luck...'} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:13:05}} {1.000}
+E {  172} {n} {n} {1} {0} {}
+
+R {  174} {8} {} {} { } {} {} {} {} {} {1.000}
+E {  172} {e} {e} {2} {0} {}
+E {  166} {w} {w} {8} {0} {}
+
+R {  175} {0} {} {A Naesonese home} { } {This home is much like every other Naesonese home you've seen.  A shrine\nto Naes stands at one end, and the remainder of the home is filled with\nordinary furniture.  The exit is to the west. } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:19:26}} {1.000}
+E {  165} {w} {w} {8} {0} {}
+
+R {  176} {0} {} {A dead-end alley} { } {This alley comes to an end to the east.  It is full of dark shadows that\nneither daylight nor the powerful artificial light of nighttime Naeson can\npenetrate.  You feel that you should be taking the west exit very quickly.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:19:41}} {1.000}
+E {  164} {w} {w} {8} {0} {}
+
+R {  177} {8} {} {} { } {} {} {} {} {} {1.000}
+E {  140} {n} {n} {1} {0} {}
+E {  130} {s} {s} {4} {0} {}
+
+R {  178} {0} {} {A Naesonese home} { } {This is an ordinary Naesonese home belonging to an ordinary Naesonese\ncitizen.  In one end of the room stands a small shrine dedicated to Naes,\nwhile run of the mill furniture fills the rest of the small home.  The exit\nis to the west.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:20:46}} {1.000}
+E {  140} {w} {w} {8} {0} {}
+
+R {  179} {0} {} {The Front Room of the Training Hall} { } {In this hall, you can study and improve your skills and abilities.  You\nare surrounded by the sound of huffing and grunting as people practice.  The\nwalls are lined with racks of weapons, hanging dummies, and other\nparaphernalia.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:20:57}} {1.000}
+E {  140} {e} {e} {2} {0} {}
+E {  180} {w} {w} {8} {0} {}
+
+R {  180} {0} {} {The training room} { } {Here is where you may train if you so wish.  The room is lined with\nparaphernilia associated with training and strenuous exercise.  The sounds\nof grunting and puffing surround you as other students train.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:21:10}} {1.000}
+E {  179} {e} {e} {2} {0} {}
+
+R {  181} {0} {} {Royal Way} { } {To the north you can see the great Palace of Naes, while to the south\nlies the city proper.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:21:33}} {1.000}
+E {  140} {s} {s} {4} {0} {}
+E {  182} {n} {n} {1} {0} {}
+
+R {  182} {0} {} {Before the Palace of Naes} { } {You are standing before the great Palace of Naes.  From here King Xander\nIV and his wife, Queen Zela II, rule the Kingdom of Naeson.  The palace is\nbuilt in solid marble, with beautiful, graceful spires all around. \nOverhanging the door is a statue of a gargoyle, and even that seems\nbeautiful.  Set in the wall of the palace before you is an open set of huge\ndouble doors, while Royal Way leads back to the south.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:21:40}} {1.000}
+E {  181} {s} {s} {4} {0} {}
+E {  183} {n} {open n; n} {1} {0} {}
+
+R {  183} {0} {} {The Palace Entrance Hall} { } {This is the entrance hall of the palace.  A set of huge double doors\nleads north into the palace proper, while another set of doors to the south\nlead back to Royal Way.  Paintings of the Royal Dynasty all the way back to\nNaes himself hang on the walls between great marble columns.  The current\nKing, Xander IV, and his Queen, Zela II, have their portraits to either side\nof the doors into the palace proper.  A thick rug covers the floor, and as\nyou walk on it, you wish your mattress at home was this comfortable.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:21:50}} {1.000}
+E {  182} {s} {open s; s} {4} {0} {}
+E {  184} {n} {open n; n} {1} {0} {}
+
+R {  184} {0} {} {The Great Hall, Southern End} { } {This is a HUGE hall where the great King Xander IV and great Queen Zela\nII hold balls, banquets, diplomatic functions and many other courtly things\nyou know nothing about.  The hall extends to the east, north, and west,\nwhile the entrance hall is to the south.  Huge marble columns stand at\nintervals along the wall, while velvet curtains hang between the curtains. \nA thick, plush carpet covers the floor, which is surely cold, hard stone\nunderneath.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:22:26}} {1.000}
+E {  183} {s} {open s; s} {4} {0} {}
+E {  185} {e} {e} {2} {0} {}
+E {  195} {w} {w} {8} {0} {}
+E {  196} {n} {n} {1} {0} {}
+
+R {  185} {0} {} {The Great Hall, Southeastern Corner} { } {This is the southeastern corner of the HUGE hall.  Other than the great\nmarble columns and heavy velvet curtains, and of course the thick, plush\ncarpet, there is nothing at all of interest here.  The hall continues to the\nnorth and west.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:22:57}} {1.000}
+E {  184} {w} {w} {8} {0} {}
+E {  186} {n} {n} {1} {0} {}
+
+R {  186} {0} {} {The Great Hall, Eastern End} { } {This is the eastern end of the HUGE hall.  Huge marble columns stand at\nintervals along the eastern wall, while thick heavy velvet curtains hang\nbetween them.  Barely visible behind one of the curtains is a small, dusty\ndoor\; it looks like it hasn't been opened in ages.  The hall continues to\nthe north, south, and west.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:23:03}} {1.000}
+E {  185} {s} {s} {4} {0} {}
+E {  187} {e} {open e; e} {2} {0} {}
+E {  188} {n} {n} {1} {0} {}
+E {  196} {w} {w} {8} {0} {}
+
+R {  187} {0} {} {An old, dusty storage room} { } {This is an old, dusty storage room.  It doesn't look like it's been\ntouched since the rule of Naes himself.  Walking around the room, you brush\nup against a couple of things\; they crumble instantly.  The exit is to the\nwest..  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:23:14}} {1.000}
+E {  186} {w} {w} {8} {0} {}
+
+R {  188} {0} {} {The Great Hall, Northeast Corner} { } {This is the northeastern corner of the HUGE hall.  Other than the great\nmarble columns, thick, heavy velvet curtains, and plush carpet, there is\nlittle of interest here.  The hall continues to the west and south.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:23:29}} {1.000}
+E {  186} {s} {s} {4} {0} {}
+E {  189} {w} {w} {8} {0} {}
+
+R {  189} {0} {} {The Great Hall, Northern End} { } {This is the northern end of the HUGE hall.  A pair of monstrous double\ndoors leads north to the audience chamber, while the hall continues to the\neast, west, and south.  The columns somehow seem even grander and statelier\nthan at the the southern end, and the fine thick velvet drapes and thick,\nheavy plush carpet seem even thicker and heavier than at the southern end. \nPerhaps it is the nearness of the King and Queen that makes it so.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:23:36}} {1.000}
+E {  188} {e} {e} {2} {0} {}
+E {  190} {n} {n} {1} {0} {}
+E {  192} {w} {w} {8} {0} {}
+E {  196} {s} {s} {4} {0} {}
+
+R {  190} {0} {} {Audience Chamber, Southern End} { } {This is the southern end of the Audience Chamber.  To the north you can\nsee the King and Queen holding audience.  Here, though, subjects mill about,\nawaiting their time with the king.  A guard stands near the exit of the\naudience chamber, apparently to keep people from causing trouble.  The decor\nhere is as rich as you would expect from royalty, with huge marble columns\nand thick, heavy velvet curtains.  The floor, which is undoubtedly cold,\nhard marble, is covered by a thick, heavy, fine plush carpet.  You feel like\nyou could lie down on it and take a nap.  To the south is the huge double\ndoor you came through.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:23:48}} {1.000}
+E {  189} {s} {s} {4} {0} {}
+E {  191} {n} {n} {1} {0} {}
+
+R {  191} {0} {} {The Throne room} { } {This is the throne room of King Xander IV and Queen Zela II themselves. \nHere they hold audience for their loyal subjects, and dispense justice with\nan even hand.  Huge marble columns stand at intervals along the walls and\nthick, heavy curtains hang between them.  On the floor lies a fine plush\ncarpet and all around the room braziers of seemingly solid gold provide\nlight.  At the north end on huge, incredibly finely crafted thrones sit King\nXander and Queen Zela.  Very large, experienced-looking guards stand on\neither side of the throne and in small alcoves around the room.  A strange,\nthin man with wild-looking hair stands behind the throne.  He occasionally\nwhispers things to the King.  Despite this apparent oddness, you feel that\nthis man is neither helpless or malevolent.  You are probably right.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:23:55}} {1.000}
+E {  190} {s} {s} {4} {0} {}
+
+R {  192} {0} {} {muppets} { } {This is the northwestern corner of the HUGE hall.  Other than the great\nmarble columns and the thick, heavy velvet curtains hanging between them,\nand of course that wonderful carpet, there is nothing of interest here.  The\nhall continues to the south and east.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:24:18}} {1.000}
+E {  189} {e} {e} {2} {0} {}
+E {  193} {s} {s} {4} {0} {}
+E {  197} {n} {n} {1} {1} {}
+
+R {  193} {0} {} {The Great Hall, Western End} { } {This is the western end of the HUGE hall.  The ubiquitous marble columns\nline the walls, while (surprise!)  Thick, heavy velvet curtains hang between\nthem.  The hall continues to the north, south, south, and east, while a\nsolid oak door is partially hidden by one of the curtains on the west wall. \nYou hear much hustle and bustle coming from behind it.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:24:26}} {1.000}
+E {  192} {n} {n} {1} {0} {}
+E {  194} {w} {open w; w} {8} {0} {}
+E {  195} {s} {s} {4} {0} {}
+E {  196} {e} {e} {2} {0} {}
+
+R {  194} {0} {} {The Kitchen} { } {This is the kitchen where all the food for all the denizens of the castle\nis made.  Cooks, dishwashers, waiters, and other assorted servants you\ncouldn't identify if you wanted to rush about, completely ignoring you.  A\ngigantic oven stands at one end, and several cooks move unnamable but\ndelicious- smelling concotions around on it.  In the center of the room\nstands a huge oak table where even more cooks chop, slice, julienne,\ndissect, and do even more unpronounceable things to meats, fruits,\nvegetables, and other things from lands that only the most well-traveled\nadventurer could possibly have heard of.  To the east is the door you came\nin through.  It's getting pretty hot\; maybe you should get out of the\nkitchen.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:24:34}} {1.000}
+E {  193} {e} {e} {2} {0} {}
+
+R {  195} {0} {} {The Great Hall, Southwest Corner} { } {This is the southwestern corner of the HUGE hall.  Other than the great\nmarble columns with thick, heavy curtains hanging between them, and the\ncarpet thicker than your mattress, there is nothing of interest here.  The\nhall continues to the north and east.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:25:12}} {1.000}
+E {  193} {n} {n} {1} {0} {}
+E {  184} {e} {e} {2} {0} {}
+
+R {  196} {0} {} {The center of the great hall} { } {This is the center of the HUGE hall.  The thick, plush carpeting shows no\nsign of seams that you can detect\; you marvel at the craftsmanship.  Exits\nlead in the cardinal directions.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:25:21}} {1.000}
+E {  184} {s} {s} {4} {0} {}
+E {  186} {e} {e} {2} {0} {}
+E {  193} {w} {w} {8} {0} {}
+E {  189} {n} {n} {1} {0} {}
+
+R {  197} {0} {} {The Muppet Show Entrance} { } {It's time to start the music\nIt's time to dress up right\nIt's time to meet the muppets\nOn the Muppet Show tonight.} {The Muppet Show by Sotty for levels: 130-150} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:26:16}} {1.000}
+E {  192} {s} {s} {4} {1} {}
+E {  198} {n} {n} {1} {0} {}
+
+R {  198} {0} {} {The audience} { } {} {The Muppet Show by Sotty for levels: 130-150} {} {} {{createdby}{$character}{createdon}{2012-01-24 12:39:06}{updatedby}{$character}{updatedon}{2012-01-24 12:45:50}} {1.000}
+E {  197} {s} {s} {4} {0} {}
+E {  199} {e} {e} {2} {0} {}
+E {  200} {w} {w} {8} {0} {}
+E {  202} {n} {n} {1} {0} {}
+
+R {  199} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  198} {w} {w} {8} {0} {}
+E {  203} {n} {n} {1} {0} {}
+
+R {  200} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  198} {e} {e} {2} {0} {}
+E {  201} {n} {n} {1} {0} {}
+
+R {  201} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  200} {s} {s} {4} {0} {}
+E {  202} {e} {e} {2} {0} {}
+E {  206} {n} {n} {1} {0} {}
+
+R {  202} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  198} {s} {s} {4} {0} {}
+E {  201} {w} {w} {8} {0} {}
+E {  203} {e} {e} {2} {0} {}
+E {  205} {n} {n} {1} {0} {}
+
+R {  203} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  199} {s} {s} {4} {0} {}
+E {  202} {w} {w} {8} {0} {}
+E {  204} {n} {n} {1} {0} {}
+
+R {  204} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  203} {s} {s} {4} {0} {}
+E {  205} {w} {w} {8} {0} {}
+E {  207} {n} {n} {1} {0} {}
+
+R {  205} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  204} {e} {e} {2} {0} {}
+E {  202} {s} {s} {4} {0} {}
+E {  206} {w} {w} {8} {0} {}
+E {  208} {n} {n} {1} {0} {}
+
+R {  206} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  201} {s} {s} {4} {0} {}
+E {  205} {e} {e} {2} {0} {}
+E {  209} {n} {n} {1} {0} {}
+
+R {  207} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  204} {s} {s} {4} {0} {}
+E {  208} {w} {w} {8} {0} {}
+
+R {  208} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  207} {e} {e} {2} {0} {}
+E {  209} {w} {w} {8} {0} {}
+E {  205} {s} {s} {4} {0} {}
+
+R {  209} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  208} {e} {e} {2} {0} {}
+E {  206} {s} {s} {4} {0} {}

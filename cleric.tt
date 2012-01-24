@@ -66,6 +66,7 @@
 	{food} {food}
 	{z-flamestrike} {fs}
 	{heal} {heal}
+	{z-heal-self} {heal}
 	{holy-rage} {hr}
 	{mass-heal} {mh}
 	{refresh} {refresh}

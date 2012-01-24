@@ -9,6 +9,7 @@ file as an argument 'tt++ <tintin-scripts-dir>/ourplace.tt'.
 These are global configurations for ourplace.
 */
 #config log html
+#var tmp {/tmp};
 #var dir {tintin-ourplace-mud};
 #var char {};
 #var mud {ourplace.fractured.org};

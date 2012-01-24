@@ -2,6 +2,8 @@
 #var necro denae;
 #var thief gubgub;
 #var warrior lenae;
+#var spellupcolor {<ffa>};
+
 /*
 These are the global class characters that will be addressed by the aliases.  So, if you want someone to heal you, by setting the 'cleric' variable, you will address your request to that char.
 */
@@ -15,9 +17,9 @@ will change the alias to actually cast the spell.
 #alias bless {tell $cleric bless};
 #alias blind {tell $cleric z-blind};
 #alias food {tell $cleric food};
-#alias fs {tell $cleric z-flamestrke};
+#alias fs {tell $cleric z-flamestrike};
 #alias heal {tell $cleric heal};
-#alias heal-self {tell $cleric heal $cleric};
+#alias heal-self {tell $cleric z-heal-self};
 #alias hr {tell $cleric holy-rage};
 #alias mh {tell $cleric mass-heal};
 #alias refresh {tell $cleric refresh};
@@ -109,31 +111,31 @@ The following are the various actions you want to take on common kinds of MUD ou
 we change the color of the text so you can see it.  If it is something you really care about, it goes to 
 group chat.
 */
-#highlight {The piles of bones around your body fades.} {light cyan};
+#highlight {The piles of bones around your body fades.} {$spellupcolor};
 #action {The piles of bones around your body fades.}
 {
 	wob;
 } {7};
 
-#highlight {The shadows enshrouding you fade away.} {light cyan};
+#highlight {The shadows enshrouding you fade away.} {$spellupcolor};
 #action {The shadows enshrouding you fade away.}
 {
 	wc;
 } {7};
 
-#highlight {The white aura around your body fades.} {light cyan};
+#highlight {The white aura around your body fades.} {$spellupcolor};
 #action {The white aura around your body fades.}
 {
 	sanc;
 } {7};
 
-#highlight {You feel less bouyant.} {light cyan};
+#highlight {You feel less bouyant.} {$spellupcolor};
 #action {You feel less bouyant.}
 {
 	wwalk;
 } {7};
 
-#highlight {You feel less protected.} {light cyan};
+#highlight {You feel less protected.} {$spellupcolor};
 #action {You feel less protected.}
 {
 	armor;
@@ -142,10 +144,15 @@ group chat.
 	ward;
 }
 
-#highlight {The protective aura around you fades.} {light cyan};
+#highlight {The protective aura around you fades.} {$spellupcolor};
 #action {The protective aura around you fades.}
 {
 	ward;
+} {7};
+
+#highlight {The protective aura around you fades.} {$spellupcolor};
+#action {You feel less righteous.}
+{
 } {7};
 
 #highlight {%1 DISARMS you!} {<FAA><ffa>};
@@ -165,10 +172,10 @@ group chat.
 	drink water;
 } {7};
 
-#highlight {%1 are hit and damaged.} {<FAA><ffa>};
-#action {%1 are hit and damaged.}
+#highlight {Your %1 are hit and damaged.} {<FAA><ffa>};
+#action {Your %1 are hit and damaged.}
 {
-	gt %1 was damaged
+	gt My %1 was damaged
 } {7};
 
 #highlight {You are bleeding.} {<FAA><ffa>};

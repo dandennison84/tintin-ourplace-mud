@@ -52,22 +52,22 @@ the command with 'z-', the code below will ensure we get 'c smite' with no expli
 
 #act {%1 says '%2'}
 {
-	find-spell {%1} {%2};
+	use-spell {%1} {%2} {};
 } {9};
 
 #act {%1 says '%2 %3'}
 {
-	find-spell {%3} {%2};
+	use-spell {%1} {%2} {%3};
 } {8};
 
 #act {%1 tells you '%2'}
 {
-	find-spell {%1} {%2};
+	use-spell {%1} {%2} {};
 } {9};
 
 #act {%1 tells you '%2 %3'}
 {
-	find-spell {%3} {%2};
+	use-spell {%1} {%2} {%3};
 } {8};
 
 /*
@@ -75,12 +75,14 @@ find-spell does all the work.  It understands 'help' explicitly.  The reason for
 we don't want to spam channels with the help text, we alays want it to be a tell.  It also 
 knows the difference with commands prefixed with 'z-'.
 */
-#alias {find-spell}
+#alias {use-spell}
 {
 	#if {&spells[%2]}
-		{#if {"%2" == "help"}
-			{tell %1 $spells[%2]}
-			{#regex {%2} {^z-}
-				{$spells[%2]}
-				{$spells[%2] %1}}};
+		{ #if {"%2" == "help"}
+				{ tell %1 $spells[%2]}
+				{ #if {"%3" == ""}
+						{ #regex {%2} {^z-}
+								{$spells[%2];}
+								{$spells[%2] %1}}
+						{$spells[%2] %3}}};
 };

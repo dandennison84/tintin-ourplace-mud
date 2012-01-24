@@ -1,5 +1,12 @@
 #class {map} open
 
+#event {SESSION DISCONNECTED}
+{
+	#format tmpfile {$mud-%T.map} {%T};
+	#echo {Saving map to $tmp/$tmpfile};
+	#map write $tmp/$tmpfile;
+};
+
 /*
 Higher values of debug show more information.  Turn off debugging with 0.
 */
@@ -8,7 +15,7 @@ Higher values of debug show more information.  Turn off debugging with 0.
 #var trainercolor {<FFC><faa>};
 #var guildcolor {<FFA>};
 #var smithcolor {<AFA><aaa>};
-#var questcolor {<EAF>};
+#var questcolor {<EAF><fff>};
 #var mixedcolor {<CFF><aaa>};
 #var banksymbol {BNK};
 #var shopsymbol {SHP};

@@ -5,8 +5,6 @@
 #unalias ct;
 #unalias dark;
 #unalias detali;
-#unalias dethid;
-#unalias detinv;
 #unalias detmag;
 #unalias detund;
 #unalias ed;
@@ -23,7 +21,7 @@
 #alias dw {c 'death ward'};
 #alias ed {c 'energy drain'};
 #alias sh {c spectral};
-#alias rh {c 'rams head'};
+#alias rh {c 'ram head'};
 #alias warp {c 'warp flesh'};
 #alias wob {c 'wall of bones'};
 #alias detali {c 'detect ali'};
