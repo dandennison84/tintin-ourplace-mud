@@ -4,6 +4,22 @@
 Higher values of debug show more information.  Turn off debugging with 0.
 */
 #var debug {4};
+#var shopcolor {<AAF><fff>};
+#var trainercolor {<FFC><faa>};
+#var guildcolor {<FFA>};
+#var smithcolor {<AFA><aaa>};
+#var questcolor {<EAF>};
+#var mixedcolor {<CFF><aaa>};
+#var banksymbol {BNK};
+#var shopsymbol {SHP};
+#var smithsymbol {SMT};
+#var guildsymbol {GLD};
+#var pracsymbol {PRC};
+#var petsymbol {PET};
+#var trainersymbol {TRN};
+#var questsymbol {QST};
+#var mixedsymbol {MIX};
+#var smithfound {no};
 
 /*
 autocheck will automatically perform train, pursue, list, and where.
@@ -14,7 +30,7 @@ autocheck will automatically perform train, pursue, list, and where.
 	#if {"$autocheck" == "off"}
 		{#var autocheck on}
 		{#var autocheck off};
-	#echo {autocheck has been set to $autocheck.};
+	#showme {autocheck has been set to $autocheck.} {1};
 };
 
 #alias {^check$}
@@ -22,6 +38,8 @@ autocheck will automatically perform train, pursue, list, and where.
 	list;
 	pursue;
 	train;
+	locker;
+	repair all;
 	where;
 };
 
@@ -31,6 +49,8 @@ Initialize all variables to default states.
 #event {MAP ENTER ROOM}
 {	
 	#if {$debug > 4} {#echo {ROOM ENTERED}};
+	#showme {} {1};
+	#format now {%t} {%Y-%m-%d %T};
 	#var mob{};
 	#var actroomname {};
 	#var actroomdesc {};
@@ -38,14 +58,8 @@ Initialize all variables to default states.
 	#var actroomarea {};
 	#var actroomsymbol { };
 	#var actroomcolor {};
-	#map get roomname roomnane;
-	#map get roomdesc roomdesc;
-	#map get roomnote roomnote;
-	#map get roomsymbol roomsymbol;
-	#map get roomcolor roomcolor;
-	#map get roomarea roomarea;
-	#map get roomdata roomdata;
-	#format now {%t} {%Y-%m-%d %T};
+	#var smithfound {no};
+	get-room;
 };
 
 /*
@@ -89,6 +103,50 @@ Capture the room area as a result of 'where'.
 {
 	#if {$debug > 4} {#echo {ROOM AREA: %1}};	
 	#var actroomarea {%1};
+	validate-room;
+} {9};
+
+/*
+Smith.
+*/
+#action {%1 does not have the tools needed to repair}
+{
+	handle-smith {%1};
+} {9};
+
+#action {%1 takes your %1 and fixes it up for you}
+{
+	handle-smith {%1};
+} {9};
+
+#alias {handle-smith}
+{
+	#if {$debug > 4} {#echo {SMITH: %1}};	
+	#if {"$smithfound" == "no"}
+		{
+		#var smithfound yes;
+		#if {"$actroomcolor" == ""}
+			{#var actroomcolor $smithcolor; #var actroomsymbol $smithsymbol}
+			{#var actroomcolor $mixedcolor; #var actroomsymbol $mixedsymbol};
+		#if {"$actroomnote" == ""}
+			{#var actroomnote {SMITH: %1}}
+			{#var actroomnote {$actroomnote\nSMITH: %1}};
+		};
+};
+
+/*
+Bank.
+*/
+#action {What do you want to do with your locker?}
+{
+	#if {$debug > 4} {#echo {BANK: %1}};	
+	#if {"$actroomcolor" == ""}
+		{#var actroomcolor $shopcolor; #var actroomsymbol $banksymbol}
+		{#var actroomcolor $mixedcolor; #var actroomsymbol $mixedsymbol};
+	#if {"$actroomnote" == ""}
+		{#var actroomnote {BANK}}
+		{#var actroomnote {$actroomnote\nBANK}};
+	
 } {9};
 
 /*
@@ -97,6 +155,9 @@ Trainer.
 #action {You have %1 practice sessions.}
 {
 	#if {$debug > 4} {#echo {PRACTIONER}};
+	#if {"$actroomcolor" == ""}
+		{#var actroomcolor $trainercolor; #var actroomsymbol $pracsymbol}
+		{#var actroomcolor $mixedcolor; #var actroomsymbol $mixedsymbol};
 	#if {"$actroomnote" == ""}
 		{#var actroomnote {PRACTIONER}}
 		{#var actroomnote {$actroomnote\nPRACTIONER}};
@@ -107,19 +168,24 @@ Weapons.
 */
 #action {You are not big enough to use a %1}
 {
-	#if {$debug > 4} {#echo {TRAINER}};
-	#if {"$actroomnote" == ""}
-		{#var actroomnote {TRAINER: %1}}
-		{#var actroomnote {$actroomnote\nTRAINER: %1}};
+	handle-trainer {%1};
 } {9};
 
 #action {You already know how to use a %1}
 {
+	handle-trainer {%1};
+} {9};
+
+#alias {handle-trainer}
+{
 	#if {$debug > 4} {#echo {TRAINER}};
+	#if {"$actroomcolor" == ""}
+		{#var actroomcolor $trainercolor; #var actroomsymbol $trainersymbol}
+		{#var actroomcolor $mixedcolor; #var actroomsymbol $mixedsymbol};
 	#if {"$actroomnote" == ""}
 		{#var actroomnote {TRAINER: %1}}
 		{#var actroomnote {$actroomnote\nTRAINER: %1}};
-} {9};
+};
 
 /*
 Capture quests.
@@ -127,6 +193,9 @@ Capture quests.
 #action {I can offer you the following quests}
 {
 	#if {$debug > 4} {#echo {QUEST}};
+	#if {"$actroomcolor" == ""}
+		{#var actroomcolor $questcolor; $var actroomsymbol $questsymbol}
+		{#var actroomcolor $mixedcolor; $var actroomsymbol $mixedsymbol};
 	#action {^%s$}
 	{
 		#if {$debug > 4} {#echo {ENDING QUEST}};	
@@ -136,6 +205,52 @@ Capture quests.
 	#action {%%0}
 	{
 		#if {$debug > 4} {#echo {QUEST: %%0}};	
+		#if {"$actroomnote" == ""}
+			{#var actroomnote {%%0}}
+			{#var actroomnote {$actroomnote\n%%0}};
+	} {8};
+} {9};
+
+#action {Pets for sale:}
+{
+	#if {"$actroomnote" == ""}
+		{#var actroomnote {Pets for sale:}}
+		{#var actroomnote {$actroomnote\nPets for sale:}};
+	#action {^%s$}
+	{
+		#if {$debug > 4} {#echo {VENDOR DONE}};
+		#if {"$actroomcolor" == ""}
+			{#var actroomcolor $shopcolor; #var actroomsymbol $petsymbol}
+			{#var actroomcolor $mixedcolor; #var actroomsymbol $mixedsymbol};
+		#unaction {^%s$};
+		#unaction {%%%0};
+	} {7};
+	#action {%%0}
+	{
+		#if {$debug > 4} {#echo {ITEM: %%0}};
+		#if {"$actroomnote" == ""}
+			{#var actroomnote {%%0}}
+			{#var actroomnote {$actroomnote\n%%0}};
+	} {8};
+} {9};
+
+#action {[Lv Price] Item}
+{
+	#if {"$actroomnote" == ""}
+		{#var actroomnote {[Lv Price] Item}}
+		{#var actroomnote {$actroomnote\n[Lv Price] Item}};
+	#action {^%s$}
+	{
+		#if {$debug > 4} {#echo {VENDOR DONE}};
+		#if {"$actroomcolor" == ""}
+			{#var actroomcolor $shopcolor; #var actroomsymbol $shopsymbol}
+			{#var actroomcolor $mixedcolor; #var actroomsymbol $mixedsymbol};
+		#unaction {^%s$};
+		#unaction {%%%0};
+	} {7};
+	#action {%%0}
+	{
+		#if {$debug > 4} {#echo {ITEM: %%0}};
 		#if {"$actroomnote" == ""}
 			{#var actroomnote {%%0}}
 			{#var actroomnote {$actroomnote\n%%0}};
@@ -154,6 +269,9 @@ but only until the first blank line.
 	#action {^%s$}
 	{
 		#if {$debug > 4} {#echo {ENDING TALK}};	
+		#if {"$actroomcolor" == ""}
+			{#var actroomcolor $questcolor; #var actroomsymbol $questsymbol}
+			{#var actroomcolor $mixedcolor; #var actroomsymbol $mixedsymbol};
 		#unaction {^%s$};
 		#unaction {%%%0};
 	} {7};
@@ -178,32 +296,64 @@ but only until the first blank line.
 	} {8};
 };
 
-#action {[Lv Price] Item}
+#alias {get-room}
 {
-	#if {"$actroomnote" == ""}
-		{#var actroomnote {[Lv Price] Item}}
-		{#var actroomnote {$actroomnote\n[Lv Price] Item}};
-	#action {^%s$}
+	#map get roomname roomname;
+	#map get roomdesc roomdesc;
+	#map get roomnote roomnote;
+	#map get roomsymbol roomsymbol;
+	#map get roomcolor roomcolor;
+	#map get roomarea roomarea;
+	#map get roomdata roomdata;
+};
+
+#alias {validate-room}
+{	#var msg {};
+
+	#var d1 {$actroomdesc};
+	#var d2 {$roomdesc};
+	#replace {d1} {\\} {};
+	#replace {d1} {\\x7B} {};
+	#replace {d1} {\\x7D} {};
+	#replace {d2} {\\} {};
+	#replace {d2} {\\x7B} {};
+	#replace {d2} {\\x7D} {};
+
+	#if {"$d1" != "$d2"} {#var msg[desc] {desc}};
+
+	#var d1 {$actroomnote};
+	#var d2 {$roomnote};
+	#replace {d1} {\\} {};
+	#replace {d1} {\\x7B} {};
+	#replace {d1} {\\x7D} {};
+	#replace {d2} {\\} {};
+	#replace {d2} {\\x7B} {};
+	#replace {d2} {\\x7D} {};
+
+	#if {"$d1" != "$d2"} {#var msg[note] {note}};
+
+	#if {"$actroomname" != "$roomname"} {#var msg[name] {name}};
+	#if {"$actroomarea" != "$roomarea"} {#var msg[area] {area}};
+	#if {"$actroomsymbol" != "$roomsymbol"} {#var msg[symbol] {symbol}};
+	#if {"$actroomcolor" != "$roomcolor"} {#var msg[color] {color}};
+	#if {"$msg" != ""}
 	{
-		#if {$debug > 4} {#echo {VENDOR DONE}};
-		#unaction {^%s$};
-		#unaction {%%%0};
-	} {7};
-	#action {%%0}
+		#var l {Match errors: };
+		#foreach {$msg} {m} {#var l {$l $m}};
+		#showme {<FAA><ffa>$l<099>} {1};
+	};
+	#else
 	{
-		#if {$debug > 4} {#echo {ITEM: %%0}};
-		#if {"$actroomnote" == ""}
-			{#var actroomnote {%%0}}
-			{#var actroomnote {$actroomnote\n%%0}};
-	} {8};
-} {9};
+		#showme {Room is OK.} {1};
+	};
+};
 
 #alias {^rup$}
 {
 	#map set roomname $actroomname;
 	#map set roomdesc $actroomdesc;
 	#map set roomnote $actroomnote;
-	#map set roomarea $actroomnote;
+	#map set roomarea $actroomarea;
 	#map set roomsymbol $actroomsymbol;
 	#map set roomcolor $actroomcolor;
 	#if {&maproomdata[createdon]>0} 
@@ -216,6 +366,10 @@ but only until the first blank line.
       		#variable maproomdata[createdon] $now; 
       		#variable maproomdata[createdby] $character 
    	}; 
+	#map set roomdata $maproomdata;
+	#showme {Room Updated.} {1};
+	get-room;
+	validate-room;
 };
 
 #class {map} close
