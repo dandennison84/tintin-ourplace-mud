@@ -23,6 +23,7 @@
 #unalias restore;
 #unalias sanc;
 #unalias smite;
+#unalias summon;
 #unalias turn;
 #unalias ward;
 #unalias wwalk;
@@ -51,6 +52,7 @@
 #alias restore {c restore};
 #alias sanc {c sanc};
 #alias smite {c smite};
+#alias summon {c summon};
 #alias turn {c 'turn undead'};
 #alias ward {c 'ward undead'};
 #alias wwalk {c 'water walk'};
@@ -70,6 +72,7 @@
 	{regen} {regen}
 	{restore} {restore}
 	{sanc} {sanc}
+	{summon} {summon}
 	{z-smite} {smite}
 	{z-turn-undead} {turn}
 	{water-walk} {wwalk}

@@ -25,6 +25,7 @@ will change the alias to actually cast the spell.
 #alias restore {tell $cleric restore};
 #alias sanc {tell $cleric sanc};
 #alias smite {tell $cleric z-smite};
+#alias summon {tell $cleric summon};
 #alias turn {tell $cleric z-turn-undead};
 #alias wwalk {tell $cleric 'water-walk'};
 #alias wor {tell $cleric 'word-of-recall'};
