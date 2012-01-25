@@ -200,27 +200,30 @@ Capture quests.
 #action {I can offer you the following quests}
 {
 	#if {$debug > 4} {#echo {QUEST}};
-	#if {"$actroomcolor" == ""}
-		{#var actroomcolor $questcolor; $var actroomsymbol $questsymbol}
-		{#var actroomcolor $mixedcolor; $var actroomsymbol $mixedsymbol};
+	#if {"$actroomnote" == ""}
+		{#var actroomnote {I can offer you the following quests}}
+		{#var actroomnote {$actroomnote\nI can offer you the following quests}};
 	#action {^%s$}
 	{
-		#if {$debug > 4} {#echo {ENDING QUEST}};	
+		#if {$debug > 4} {#echo {QUEST DONE}};
+		#if {"$actroomcolor" == ""}
+			{#var actroomcolor $questcolor; #var actroomsymbol $questsymbol}
+			{#var actroomcolor $mixedcolor; #var actroomsymbol $mixedsymbol};
 		#unaction {^%s$};
 		#unaction {%%%0};
 	} {7};
 	#action {%%0}
 	{
-		#if {$debug > 4} {#echo {QUEST: %%0}};	
+		#if {$debug > 4} {#echo {QUEST: %%0}};
 		#if {"$actroomnote" == ""}
 			{#var actroomnote {%%0}}
 			{#var actroomnote {$actroomnote\n%%0}};
 	} {8};
-	#nop
 } {9};
 
 #action {Pets for sale:}
 {
+	#if {$debug > 4} {#echo {VENDOR}};
 	#if {"$actroomnote" == ""}
 		{#var actroomnote {Pets for sale:}}
 		{#var actroomnote {$actroomnote\nPets for sale:}};
@@ -324,9 +327,11 @@ but only until the first blank line.
 	#replace {d1} {\\} {};
 	#replace {d1} {\\x7B} {};
 	#replace {d1} {\\x7D} {};
+	#replace {d1} {\$} {};
 	#replace {d2} {\\} {};
 	#replace {d2} {\\x7B} {};
 	#replace {d2} {\\x7D} {};
+	#replace {d2} {\$} {};
 
 	#if {"$d1" != "$d2"} {#var msg[desc] {desc}};
 
@@ -335,9 +340,11 @@ but only until the first blank line.
 	#replace {d1} {\\} {};
 	#replace {d1} {\\x7B} {};
 	#replace {d1} {\\x7D} {};
+	#replace {d1} {\$} {};
 	#replace {d2} {\\} {};
 	#replace {d2} {\\x7B} {};
 	#replace {d2} {\\x7D} {};
+	#replace {d2} {\$} {};
 
 	#if {"$d1" != "$d2"} {#var msg[note] {note}};
 
