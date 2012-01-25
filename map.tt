@@ -216,6 +216,7 @@ Capture quests.
 			{#var actroomnote {%%0}}
 			{#var actroomnote {$actroomnote\n%%0}};
 	} {8};
+	#nop
 } {9};
 
 #action {Pets for sale:}
@@ -315,7 +316,8 @@ but only until the first blank line.
 };
 
 #alias {validate-room}
-{	#var msg {};
+{	
+	#var msg {};
 
 	#var d1 {$actroomdesc};
 	#var d2 {$roomdesc};
@@ -346,7 +348,7 @@ but only until the first blank line.
 	#if {"$msg" != ""}
 	{
 		#var l {Match errors: };
-		#foreach {$msg} {m} {#var l {$l $m}};
+		#foreach {$msg[%*]} {m} {#var l {$l $m}};
 		#showme {<FAA><ffa>$l<099>} {1};
 	};
 	#else
@@ -366,12 +368,12 @@ but only until the first blank line.
 	#if {&maproomdata[createdon]>0} 
    	{ 
       		#variable maproomdata[updatedon] $now; 
-      		#variable maproomdata[updatedby] $character 
+      		#variable maproomdata[updatedby] $char
    	}; 
    	#else
    	{ 
       		#variable maproomdata[createdon] $now; 
-      		#variable maproomdata[createdby] $character 
+      		#variable maproomdata[createdby] $char
    	}; 
 	#map set roomdata $maproomdata;
 	#showme {Room Updated.} {1};

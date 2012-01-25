@@ -4,9 +4,9 @@ CE <078>
 CR <178>
 CP <138>
 
-F 26
+F 10
 
-I 192
+I 81
 
 L * # # # | # x          
 
@@ -375,6 +375,7 @@ E {   89} {n} {n} {1} {1} {}
 
 R {   89} {0} {} {Olympian Headquarters of Seraphim} { } {} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:18:14}} {1.000}
 E {   88} {s} {s} {4} {1} {}
+E {  210} {n} {n} {1} {0} {}
 
 R {   90} {0} {} {* Milarbor Healer *} { } {Soothing sounds calm the soul and let peace flow through mind and body.\nIt is safe here, a place to rest after adventuring.} {Milarbor in South Eastern Region by Rydia & Ryla for levels: 5-45} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:21:59}} {1.000}
 E {   91} {s} {s} {4} {0} {}
@@ -383,8 +384,16 @@ R {   91} {0} {} {The Green Cathedral (*)} { } {   ||>>>>>>>>>>>>>>>>>>>>>>>>>>>
 E {   90} {n} {n} {1} {0} {}
 
 R {   92} {0} {} {The Temple of Odin at Mydgaard (*)} { } {You stand in the largest longhouse in all of Mydgaard, built of massive\ncedar logs with river rushes on the ground. The cedar spices the air with\na heady scent, mixing with the healing incense coming from the Eirshov to\nthe east. A statue of Odin at the center of the room reminds you that this\ntemple was built as a place of worship, dedicated to the father of the gods.\nWest is the town square, and well. A set of stairs leads down into the\nimmortal statuary.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:23:05}} {1.000}
+E {  361} {u} {u} {16} {1} {}
+E {  362} {d} {d} {32} {0} {}
+E {  363} {w} {w} {8} {0} {}
+E {  364} {e} {e} {2} {0} {}
+E {  398} {s} {s} {4} {0} {}
 
 R {   93} {0} {} {The Temple of Ofcol} { } {You are in the Temple of Ofcol.  Golden tiles cover the floor, and solid\ngold columns reach the twelve foot ceiling of this vast chamber.  Servants in\ngolden livery wander this place, making even the raggiest messenger boy look\nricher than you are.  Exits lead to the anterooms in the cardinal directions.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:24:01}} {1.000}
+E {  448} {u} {u} {16} {1} {}
+E {  449} {n} {n} {1} {0} {}
+E {  450} {s} {s} {4} {0} {}
 
 R {   94} {0} {} {Main Road} { } {You stand on a paved road.  Ahead of you is an electric car, which seems\nto have stopped.  All around you is an annoying chirping sound, and the\nsudden screeching from some unknown creature.  } {Jurassic Park in South Western Region by Selex for levels: 150-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:24:43}} {1.000}
 
@@ -884,3 +893,1218 @@ E {  205} {s} {s} {4} {0} {}
 R {  209} {0} {} {} { } {} {} {} {} {} {1.000}
 E {  208} {e} {e} {2} {0} {}
 E {  206} {s} {s} {4} {0} {}
+
+R {  210} {0} {} {Olympus Residential} { } {You are on a quiet residential street.  As you look east and west, you \nsee several large temples which obviously belong to gods of great  \nimportance. They are built of irridescent white marble and are so tall as\nto appear to disappear into the clouds.  The road here is paved in white \nagate rock which has been polished to a high sheen and which reflects your\nimage as you walk. } {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}} {1.000}
+E {   89} {s} {s} {4} {0} {}
+E {  211} {e} {e} {2} {0} {}
+E {  212} {w} {w} {8} {0} {}
+
+R {  211} {0} {} {Olympus Residential} { } {You are on a quiet residential street.  As you look east and west, you\nsee several large temples which obviously belong to gods of great\nimportance.  They are built of irridescent white marble and are so tall as\nto appear to disappear into the clouds.  The road here is paved in white\nagate rock which has been polished to a high sheen and which reflects your\nimage as you walk.  To the south, you see the Olympian Headquarters of\n===LEGEND=== } {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{$character}{updatedon}{2012-01-24 20:37:48}} {1.000}
+E {  210} {w} {w} {8} {0} {}
+
+R {  212} {0} {} {Zeus Street} { } {You are on a quiet residential street.  As you look east and west, you\nsee several large temples which obviously belong to gods of great\nimportance.  They are built of irridescent white marble and are so tall as\nto appear to disappear into the clouds.  The road here is paved in white\nagate rock which has been polished to a high sheen and which reflects your\nimage as you walk.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{$character}{updatedon}{2012-01-24 20:38:11}} {1.000}
+E {  210} {e} {e} {2} {0} {}
+E {  213} {w} {w} {8} {0} {}
+
+R {  213} {0} {} {Zeus Street} { } {You are on a quiet residential street.  As you look east and west, you\nsee several large temples which obviously belong to gods of great\nimportance.  They are built of irridescent white marble and are so tall as\nto appear to disappear into the clouds.  The road here is paved in white\nagate rock which has been polished to a high sheen and which reflects your\nimage as you walk.  } {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{$character}{updatedon}{2012-01-24 20:38:37}} {1.000}
+E {  212} {e} {e} {2} {0} {}
+E {  214} {w} {w} {8} {0} {}
+
+R {  214} {0} {} {Zeus Street} { } {You are on a quiet residential street.  As you look east and west, you\nsee several large temples which obviously belong to gods of great\nimportance.  They are built of irridescent white marble and are so tall as\nto appear to disappear into the clouds.  The road here is paved in white\nagate rock which has been polished to a high sheen and which reflects your\nimage as you walk.  } {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{$character}{updatedon}{2012-01-24 20:38:47}} {1.000}
+E {  213} {e} {e} {2} {0} {}
+E {  215} {w} {w} {8} {0} {}
+
+R {  215} {0} {} {Zeus Street} { } {You are on a quiet residential street.  As you look east and west, you\nsee several large temples which obviously belong to gods of great\nimportance.  They are built of irridescent white marble and are so tall as\nto appear to disappear into the clouds.  The road here is paved in white\nagate rock which has been polished to a high sheen and which reflects your\nimage as you walk.  } {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{$character}{updatedon}{2012-01-24 20:38:55}} {1.000}
+E {  214} {e} {e} {2} {0} {}
+E {  216} {w} {w} {8} {0} {}
+
+R {  216} {0} {} {Zeus Street} { } {You are on a quiet residential street.  As you look west, you see several\nlarge temples which obviously belong to gods of great importance.  They are\nbuilt of irridescent white marble and are so tall as to appear to disappear\ninto the clouds.  The road here is paved in white agate rock which has been\npolished to a high sheen and which reflects your image as you walk.  } {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{$character}{updatedon}{2012-01-24 20:39:02}} {1.000}
+E {  215} {e} {e} {2} {0} {}
+E {  217} {w} {w} {8} {0} {}
+
+R {  217} {0} {} {Zeus Street} { } {You are walking down a huge street.  You notice that there are not many\npeople in this town.  On a corner, you see a sign marked 'Zeus Street'.\nTo the west, you see a small store.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{$character}{updatedon}{2012-01-24 20:39:15}} {1.000}
+E {  216} {e} {e} {2} {0} {}
+E {  218} {w} {w} {8} {0} {}
+E {  219} {n} {n} {1} {0} {}
+E {  277} {s} {s} {4} {0} {}
+
+R {  218} {0} {<AAF><fff>} {Bakery} {SHP} {You are in the small store which supplies the residents of this town with\ntheir food.  It smells wonderful in here!} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {[Lv Price] Item\n[10     1200] A kiwi.\n[ 1     1200] A orange.\n[ 2     1200] A pear.\n[ 1     1200] An apple.\n[ 0       60] A bunch of grapes.\n[ 0       60] A pumpkin pie.} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{$character}{updatedon}{2012-01-24 20:39:26}} {1.000}
+E {  217} {e} {e} {2} {0} {}
+
+R {  219} {0} {} {Zeus Street} { } {You are walking down what appears to be the main street of this city.\nYou see large residences to the east and west, while the street continues\nto the north and south.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{$character}{updatedon}{2012-01-24 20:39:56}} {1.000}
+E {  217} {s} {s} {4} {0} {}
+E {  220} {w} {w} {8} {0} {}
+E {  221} {e} {e} {2} {0} {}
+E {  222} {n} {n} {1} {0} {}
+
+R {  220} {0} {<FFC><faa>} {Residence} {TRN} {You are in the residence of one of the inhabitants of this town.  He looks\nvaguely familiar, but you can't place his name ...} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {TRAINER: short bow} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{$character}{updatedon}{2012-01-24 20:40:06}} {1.000}
+E {  219} {e} {e} {2} {0} {}
+
+R {  221} {0} {} {Residence} { } {You are in the residence of one of the inhabitants of this town.  She\nlooks vaguely familiar, but you can't place her name ...} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{$character}{updatedon}{2012-01-24 20:40:32}} {1.000}
+E {  219} {w} {w} {8} {0} {}
+
+R {  222} {0} {} {Zeus Street} { } {You are on the main street of this town, called Zeus street.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{$character}{updatedon}{2012-01-24 20:40:52}} {1.000}
+E {  219} {s} {s} {4} {0} {}
+E {  223} {w} {w} {8} {0} {}
+E {  224} {n} {n} {1} {0} {}
+
+R {  223} {0} {<AAF><fff>} {Mystic Shop} {SHP} {You are in the store which provides the citizens here with whichever\narcane objects they may need.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {[Lv Price] Item\n[ 0     7500] A help! potion.\n[ 7    22500] A silver potion of fly..\n[ 0      750] A blue potion of cure poison.\n[ 8     3000] A purple potion of cure blindness.\n[ 7      900] A revelation potion.\n[10    15000] An advanced book of armor.} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{$character}{updatedon}{2012-01-24 20:41:02}} {1.000}
+E {  222} {e} {e} {2} {0} {}
+
+R {  224} {0} {} {Zeus Street} { } {You are still on the main thoroughfare of this town.  To the north,\nyousee a large castle.  To the east there is a smaller road, while a temple\nis to your west } {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{$character}{updatedon}{2012-01-24 20:41:39}} {1.000}
+E {  222} {s} {s} {4} {0} {}
+E {  225} {u} {u} {16} {0} {}
+E {  226} {w} {w} {8} {0} {}
+E {  228} {e} {e} {2} {0} {}
+E {  237} {n} {n} {1} {0} {}
+
+R {  225} {0} {<AAF><fff>} {Bank of Olympus} {BNK} {A place to store belongings or deposit money.  It will be safe here.  } {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {BANK} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{$character}{updatedon}{2012-01-24 20:41:52}} {1.000}
+E {  224} {d} {d} {32} {0} {}
+
+R {  226} {0} {} {* The Temple of Olympus *} { } {This room is formed from enormous, fluted white marble monoliths' forming\nheavy pillars.  Doorways topped with elaborately carved cornices depicting\nthe Gods give a sense of power and permanence.  } {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{$character}{updatedon}{2012-01-24 20:42:05}} {1.000}
+E {  224} {e} {e} {2} {0} {}
+E {  227} {u} {u} {16} {0} {}
+
+R {  227} {0} {} {Healer Temple of Olympus} { } {You stand in a cavern, quartz crystals and ice glisten from the walls.  A\nwarm glow emanates from the altar, sending golden light through the crystals\nin an unusual pattern } {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{$character}{updatedon}{2012-01-24 20:42:17}} {1.000}
+E {  226} {d} {d} {32} {0} {}
+
+R {  228} {0} {} {Ares Street} { } {You are on a smaller road which branches off from the main street.  On a\nsign, you notice that the name of this road is Ares Street.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{$character}{updatedon}{2012-01-24 20:42:44}} {1.000}
+E {  224} {w} {w} {8} {0} {}
+E {  229} {e} {e} {2} {0} {}
+
+R {  229} {0} {} {Ares Street} { } {You have reached the end of Ares Street.  To the south you see an armoury,\nwhile there is a weapons shop to the east.  To the north, you hear the sounds\nof a blacksmith.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{$character}{updatedon}{2012-01-24 20:42:51}} {1.000}
+E {  228} {w} {w} {8} {0} {}
+E {  230} {n} {n} {1} {0} {}
+E {  233} {s} {s} {4} {0} {}
+E {  234} {e} {e} {2} {0} {}
+
+R {  230} {0} {<AFA><aaa>} {Smithy} {SMT} {This large room is so noisy, you can barely hear yourself think.  All the\noccupants are hard at work, crafting high quality weapons and armor.  Something\nis strange about the west wall, although you can't quite tell what it is.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {SMITH: Hephaestus} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{$character}{updatedon}{2012-01-24 20:45:37}} {1.000}
+E {  229} {s} {s} {4} {0} {}
+E {  231} {w} {open w; w} {8} {0} {}
+
+R {  231} {0} {<FFC><faa>} {The Planning Room} {TRN} {You have entered a large room dominated by a huge table with a large map\non it.  Several men are gathered around the table, studying the map carefully.\nYou hear the barking of dogs to the north.\nYou have entered a large room dominated by a huge table with a large map\non it.  Several men are gathered around the table, studying the map carefully.\nYou hear the barking of dogs to the north.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {TRAINER: spear} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{$character}{updatedon}{2012-01-24 20:43:32}} {1.000}
+E {  230} {e} {open e; e} {2} {0} {}
+E {  232} {n} {n} {1} {0} {}
+
+R {  232} {0} {} {The Believer} { } {A voice whispers, 'before the time has passed, enjoy your life.'} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 20:50:47}} {1.000}
+E {  231} {s} {s} {4} {0} {}
+
+R {  233} {0} {<AAF><fff>} {Armoury} {SHP} {This small store is almost empty.  It seems as if there is not much here,\nbut the shopkeeper doesn't want to do business with you anyways.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {[Lv Price] Item\n[11    90000] Flaming gauntlets.\n[14   150000] A pair of winged sandals.\n[ 6   450000] Triple word score.} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 20:52:12}} {1.000}
+E {  229} {n} {n} {1} {0} {}
+
+R {  234} {0} {<AAF><fff>} {Weapon Shop} {SHP} {You have entered a small store with a modest selection of weapons.  You\nget the feeling that there is not a very wide selection here, but the\nshopkeeper doesn't want to do business with you anyways.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {[Lv Price] Item\n[13    15000] A notched axe.\n[ 7    60000] A silver bow.} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 20:52:39}} {1.000}
+E {  229} {w} {w} {8} {0} {}
+
+R {  235} {0} {} {Castle Entryway} { } {You are in the entryway of a large castle.  It is very beautiful, with\nlarge paintings and a lovely carpet.  You hear jovial laughter to the north,\nwhile smaller corridors branch off to the east and west.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 20:53:03}} {1.000}
+E {  236} {s} {s} {4} {0} {}
+E {  238} {n} {n} {1} {0} {}
+E {  239} {e} {e} {2} {0} {}
+E {  245} {w} {w} {8} {0} {}
+
+R {  236} {8} {} {} { } {} {} {} {} {} {1.000}
+E {  235} {n} {n} {1} {0} {}
+E {  237} {s} {s} {4} {0} {}
+
+R {  237} {8} {} {} { } {} {} {} {} {} {1.000}
+E {  236} {n} {n} {1} {0} {}
+E {  224} {s} {s} {4} {0} {}
+
+R {  238} {0} {<FFC><faa>} {Throne Room} {TRN} {You stop dead in your tracks as you enter this room.  Before you is Zeus,\nin all his glory, sitting on a huge golden throne.  You had thought him to be \njust a myth, but here he is ... you wonder who else lives in this castle.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {TRAINER: hammer} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 20:53:27}} {1.000}
+E {  235} {s} {s} {4} {0} {}
+E {  252} {d} {open d; d} {32} {0} {}
+E {  257} {n} {n} {1} {0} {}
+
+R {  239} {0} {} {Eastern Wing} { } {You are in the eastern wing of the castle.  The hall continues to the\neast, while the entrance is back to the west.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 20:54:18}} {1.000}
+E {  235} {w} {w} {8} {0} {}
+E {  240} {e} {e} {2} {0} {}
+
+R {  240} {0} {} {Eastern Wing} { } {You are in the eastern wing of the castle.  The hall turns to the north\nhere, while there are private rooms to the east and the south.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 20:54:26}} {1.000}
+E {  239} {w} {w} {8} {0} {}
+E {  241} {s} {s} {4} {0} {}
+E {  242} {e} {e} {2} {0} {}
+E {  243} {n} {n} {1} {0} {}
+
+R {  241} {0} {} {Storage Room} { } {You are in a storage room of the castle.  There isn't much here, just a lot\nof dust.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 20:54:38}} {1.000}
+E {  240} {n} {n} {1} {0} {}
+
+R {  242} {0} {<FFC><faa>} {Guest Quarters} {TRN} {You have entered a room reserved for visitors to this castle.  You are\namazed as you recognize the occupant - Ra, the Egyptian Sun God.  He must be\nvisiting Zeus.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {TRAINER: sword} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 20:54:53}} {1.000}
+E {  240} {w} {w} {8} {0} {}
+
+R {  243} {0} {} {Eastern Wing} { } {You are in the eastern wing of the castle.  You hear animals to the north,\nwhile the hallway continues to the south.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 20:55:18}} {1.000}
+E {  240} {s} {s} {4} {0} {}
+E {  244} {n} {n} {1} {0} {}
+
+R {  244} {0} {} {Stable} { } {You are in the stable of the castle.  Rather than the horses which you\nexpected to find, it is filled with a wide variety of creatures which you\nthought were mythical.  Obviously, you were wrong.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 20:55:26}} {1.000}
+E {  243} {s} {s} {4} {0} {}
+
+R {  245} {0} {} {Western Wing} { } {You are in the western wing of the castle.  You see the entrance to the\neast, while this hallway continues to the west.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 20:56:17}} {1.000}
+E {  235} {e} {e} {2} {0} {}
+E {  246} {w} {w} {8} {0} {}
+E {  251} {d} {d} {32} {0} {}
+
+R {  246} {0} {} {Western Wing} { } {You are in the western wing of the castle.  The hallway continues to the\nnorth, while there are private rooms to the west and south.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 20:56:35}} {1.000}
+E {  245} {e} {e} {2} {0} {}
+E {  247} {w} {w} {8} {0} {}
+E {  248} {s} {s} {4} {0} {}
+E {  249} {n} {n} {1} {0} {}
+
+R {  247} {0} {} {Guest Quarters} { } {You have entered private quarters which are reserved for visitors to the\ncastle.  You nearly faint as you recognize the occupant of this chamber as Odin\nhimself, patron God of Midgaard.  He must be visiting Zeus.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 20:56:42}} {1.000}
+E {  246} {e} {e} {2} {0} {}
+
+R {  248} {0} {} {Storage Room} { } {You are in a storage room of the castle.  There isn't much here, just a\nfew boxes filled with old junk.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 20:56:56}} {1.000}
+E {  246} {n} {n} {1} {0} {}
+
+R {  249} {0} {} {Western Wing} { } {You are in the western wing of the castle.  This hallway continues to the\nsouth, and you hear pots and pans rattling to the north.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 20:57:08}} {1.000}
+E {  246} {s} {s} {4} {0} {}
+E {  250} {n} {n} {1} {0} {}
+
+R {  250} {0} {} {Kitchen} { } {You have entered the kitchen of this castle, and it is a hotbed of\nactivity.  Servants are bustling about, preparing food for the Gods themselves.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 20:57:14}} {1.000}
+E {  249} {s} {s} {4} {0} {}
+
+R {  251} {0} {} {The bend in the Muddy sewer} { } {This is not your idea of a holiday. You stand in mud up to your knees.\nIt's absolutely inconceivable how all this mud could have been placed\nhere. The pipe leads to the west and south.} {Sewer by DIKU for levels: 5-30} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 20:57:33}} {1.000}
+
+R {  252} {0} {} {Dungeon} { } {You are in Zeus's Dungeon.  You wonder what creatures are so terrible that\neven mighty Zeus fears them enough to imprison them.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 20:58:42}} {1.000}
+E {  238} {u} {u} {16} {0} {}
+E {  253} {n} {n} {1} {0} {}
+
+R {  253} {0} {} {Dungeon} { } {You are in Zeus's Dungeon.  There are cells to the north, west, and east. \nFrom the east and west, you hear guttural noises.  From the north, nothing ...} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 20:58:55}} {1.000}
+E {  252} {s} {s} {4} {0} {}
+E {  254} {w} {w} {8} {0} {}
+E {  255} {e} {e} {2} {0} {}
+E {  256} {n} {n} {1} {0} {}
+
+R {  254} {0} {} {Cell} { } {You are in a small, cramped, dirty cell.  It is a horrid place.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 20:59:48}} {1.000}
+E {  253} {e} {e} {2} {0} {}
+
+R {  255} {0} {} {Cell} { } {You are in Zeus's Dungeon.  There are cells to the north, west, and east. \nFrom the east and west, you hear guttural noises.  From the north, nothing ...\nYou are in a small, cramped, dirty cell.  It is a horrid place.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:00:09}} {1.000}
+E {  253} {w} {w} {8} {0} {}
+
+R {  256} {0} {} {Cell} { } {You are in a small, cramped, dirty cell.  It is a horrid place.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:00:20}} {1.000}
+E {  253} {s} {s} {4} {0} {}
+
+R {  257} {0} {} {Stairway} { } {You have come to a large stairway leading up.  To the south, you see the\nthrone room of Zeus.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:01:14}} {1.000}
+E {  238} {s} {s} {4} {0} {}
+E {  258} {u} {u} {16} {0} {}
+
+R {  258} {0} {} {Second Floor} { } {You are on the second floor of this castle.  You are numb from your\ndiscoveries on the first floor, and wonder what secrets the upper floor of this\ncastle holds.  Hallways extend in all directions, and you see a small, closed \nhatch above you.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:01:22}} {1.000}
+E {  257} {d} {d} {32} {0} {}
+E {  259} {u} {open u; u} {16} {0} {}
+E {  269} {n} {n} {1} {0} {}
+E {  271} {s} {s} {4} {0} {}
+E {  273} {w} {w} {8} {0} {}
+E {  275} {e} {e} {2} {0} {}
+
+R {  259} {0} {} {Hall of Gods} { } {You have entered the most sacred of places, the hall of true Gods.  If you\nare a mortal, it would probably be a good idea to leave NOW!  Exits leave in\nall directions.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:01:44}} {1.000}
+E {  258} {d} {open d; d} {32} {0} {}
+E {  260} {n} {n} {1} {0} {}
+
+R {  260} {0} {} {The Portal} { } {A sign reads: Beware of the unexpected and don't expect too much.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:02:01}} {1.000}
+E {  259} {s} {s} {4} {0} {}
+E {  261} {w} {w} {8} {1} {}
+E {  262} {u} {u} {16} {1} {}
+
+R {  261} {0} {} {Inside a Tavern} { } {You are inside a dimly-lit room.  The atmosphere makes you feel uncomfortable.\nIn front of you stands a mysterious gypsy.  She whispers 'Your fate and\ndestiny lie beyond this world.'  You are still wondering what she means when\nyou suddenly notice the crystal ball ... it glows fiercely and displays the\nUniverse!} {Galaxy in Far Northern Region by Doctor for levels: 20-45} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:02:16}} {1.000}
+E {  260} {e} {e} {2} {1} {}
+
+R {  262} {0} {} {The Bottom of the Rainbow} { } {You are standing before a shimmering rainbow arching high up into the\nsky.  You feel somehow separated from the natural world, even though the\ntemple spire is only a few meters below you.} {The Astral Plane in Far Northern Region by Andi for levels: 15-35} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:02:50}} {1.000}
+E {  260} {d} {d} {32} {1} {}
+E {  263} {u} {u} {16} {0} {}
+
+R {  263} {0} {} {On the Rainbow} { } {You are standing on the rainbow, surrounded by many beams of multicoloured\nlight.  Through the bottom of the rainbow you can barely make out the Temple\nof Midgaard, which is now quite far away.} {The Astral Plane in Far Northern Region by Andi for levels: 15-35} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:03:27}} {1.000}
+E {  262} {d} {d} {32} {0} {}
+E {  264} {u} {u} {16} {0} {}
+
+R {  264} {0} {} {On the Rainbow} { } {You are standing on the rainbow, surrounded by many beams of multicoloured\nlight.  Through the bottom of the rainbow you see the City of Midgaard and the \nland surrounding it.  It seems to be miles below you.} {The Astral Plane in Far Northern Region by Andi for levels: 15-35} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:03:38}} {1.000}
+E {  263} {d} {d} {32} {0} {}
+E {  265} {u} {u} {16} {0} {}
+
+R {  265} {0} {} {On the Rainbow} { } {You are standing on the rainbow, surrounded by many beams of multicoloured\nlight.  The rainbow extends above and below you as far as you can see.} {The Astral Plane in Far Northern Region by Andi for levels: 15-35} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:04:01}} {1.000}
+E {  264} {d} {d} {32} {0} {}
+E {  266} {u} {u} {16} {0} {}
+
+R {  266} {0} {} {On the Rainbow} { } {You are nearing the end of the rainbow.  The beams of multicoloured\nlight have begun to merge and solidify.  All around you you see glowing\nstarlike motes of dust.  Ahead of you is a bridge.} {The Astral Plane in Far Northern Region by Andi for levels: 15-35} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:04:08}} {1.000}
+E {  265} {d} {d} {32} {0} {}
+E {  267} {u} {u} {16} {0} {}
+
+R {  267} {0} {} {The Glowing Bridge at the Rainbow's End} { } {After a long climb you have reached the end of the rainbow.  The brilliant\ncolours have twisted and merged into a beautiful glowing bridge that leads\ntoward a massive white gate to the north.  All around you is a soft, peaceful \nglow interrupted only by the passing of starlike dust motes before your eyes.} {The Astral Plane in Far Northern Region by Andi for levels: 15-35} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:04:24}} {1.000}
+E {  266} {d} {d} {32} {0} {}
+E {  268} {n} {n} {1} {0} {}
+
+R {  268} {0} {<FFC><faa>} {The Astral Gate} {TRN} {Here the bridge ends before a massive, pearly-coloured gate beyond\nwhich you can see a field of blackness filled with silvery snake-like\ntendrils, stars, and occasional flashes of of light.  A small, golden\nplaque is fastened to the gate.  } {The Astral Plane in Far Northern Region by Andi for levels: 15-35} {TRAINER: warhammer} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:04:33}} {1.000}
+E {  267} {s} {s} {4} {0} {}
+
+R {  269} {0} {} {Northern Hall} { } {You are in the northern hallway.  There is a private room to the north,\nand the stairs leading down are to the south.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:06:17}} {1.000}
+E {  258} {s} {s} {4} {0} {}
+E {  270} {n} {n} {1} {0} {}
+
+R {  270} {0} {} {Bed Room} { } {You are in the bed room of a God!} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:06:32}} {1.000}
+E {  269} {s} {s} {4} {0} {}
+
+R {  271} {0} {} {Southern Hall} { } {You are in the southern hallway.  There is a private room to the south,\nand the stairs leading down are to the north.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:06:43}} {1.000}
+E {  258} {n} {n} {1} {0} {}
+E {  272} {s} {s} {4} {0} {}
+
+R {  272} {0} {} {Bed Room} { } {You are in the bed room of a God!  This one seems to be empty.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:06:53}} {1.000}
+E {  271} {n} {n} {1} {0} {}
+
+R {  273} {0} {} {Western Hall} { } {You are in the western hallway.  There is a private room to the west, and\nthe stairs leading down are to the east.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:07:17}} {1.000}
+E {  258} {e} {e} {2} {0} {}
+E {  274} {w} {w} {8} {0} {}
+
+R {  274} {0} {} {Bed Room} { } {You are in the bed room of a God!} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:07:23}} {1.000}
+E {  273} {e} {e} {2} {0} {}
+
+R {  275} {0} {} {Eastern Hall} { } {You are in the eastern hallway.  There is a private room to the east, and\nthe stairs leading down are to the west.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:07:41}} {1.000}
+E {  258} {w} {w} {8} {0} {}
+E {  276} {e} {e} {2} {0} {}
+
+R {  276} {0} {<FFC><faa>} {Bed Room} {TRN} {You are in the bed room of a God!} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {TRAINER: trident} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:07:47}} {1.000}
+E {  275} {w} {w} {8} {0} {}
+
+R {  277} {0} {} {Gates of Olympus} { } {You are at the entrance to a huge city.  As you look around, you realize\nthat the inhabitants of this city must be very wealthy indeed - you have\nnever seen a city with such beautiful buildings.  } {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:42:34}} {1.000}
+E {  279} {u} {u} {16} {0} {}
+E {  282} {e} {e} {2} {1} {}
+E {  217} {n} {n} {1} {0} {}
+E {  278} {s} {s} {4} {0} {}
+
+R {  278} {0} {} {Mountain} { } {You have finally reached the top of the mountain.  The air here is so thin\nthat you must gasp for breath.  To the north, you see what seems to be the\nentrance to a city.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:47:08}} {1.000}
+E {  277} {n} {n} {1} {0} {}
+E {  283} {d} {d} {32} {0} {}
+
+R {  279} {0} {} {Above the gates} { } {You are flying above the gates of Olympus.  You can see for miles and\nmiles through the crisp clear air.  } {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:43:51}} {1.000}
+E {  277} {d} {d} {32} {0} {}
+E {  280} {w} {w} {8} {0} {}
+E {  281} {e} {e} {2} {0} {}
+
+R {  280} {0} {} {Donation Cloud} { } {Wow, you can see all of olympus from here.  Only a bunch of gods would\nput their donation pit up on a cloud.  } {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:44:02}} {1.000}
+E {  279} {e} {e} {2} {0} {}
+
+R {  281} {0} {} {Quiet cloud} { } {You have found a quiet cloud, tucked safely away from the hustle and\nbustle of the city.  } {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:44:10}} {1.000}
+E {  279} {w} {w} {8} {0} {}
+
+R {  282} {0} {} {Great Olympian Wall} { } {You are beside a wall formed from massive blocks, the view down from the\nmountain looks treacherous, Steep icy cliffs swathed in clouds remind you of\nthe great altitude of this path.  The air is thin and your breath is weak,\nbut somehow the glory of this place makes up for it completely.  Now and\nthen a sudden, icy wind whips past, startled, you recheck your footing.  } {More Roads by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:44:29}} {1.000}
+E {  277} {w} {w} {8} {1} {}
+E {  288} {e} {e} {2} {0} {}
+
+R {  283} {0} {} {Mountain} { } {You are making your way up the mountain.  The rigorous climb has left you\ntired, and you are ready to take a break.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:47:17}} {1.000}
+E {  278} {u} {u} {16} {0} {}
+E {  284} {s} {s} {4} {1} {}
+E {  285} {d} {d} {32} {0} {}
+
+R {  284} {0} {} {Old Sparta Road} { } {The air is crisp and invigorating, the deciduous vegetation thinner than\nto the south and the dominance of evergreen is apparent.  You see a\nbreathtaking white mountain range far in the distance to the north.  } {Old Sparta Road in Far Northern Region by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:47:25}} {1.000}
+E {  283} {n} {n} {1} {1} {}
+E {  302} {s} {s} {4} {0} {}
+
+R {  285} {0} {} {Mountain} { } {You are climbing a large mountain which towers higher than all the\nothers.  The path continues up the mountain, but part of it is gone.  To the\nwest you see a fissure in the rocks.  } {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:47:49}} {1.000}
+E {  283} {u} {u} {16} {0} {}
+E {  286} {w} {w} {8} {1} {}
+E {  287} {e} {e} {2} {1} {}
+
+R {  286} {0} {} {A fissure in the rocks} { } {The fissure in the rocks is bounded on both sides by high precipitous\nwalls.  The walls are smooth and appear not to provide any handholds which\nwould allow you to climb up.  The floor of the fissure is strewn with huge\nboulders that have either fallen or been thrown from the top and which make\nthe footing very treacherous.  } {Eastern Waterways by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:47:59}} {1.000}
+E {  285} {e} {e} {2} {1} {}
+E {  311} {w} {w} {8} {0} {}
+
+R {  287} {0} {} {Great White Heights} { } {The air is cold and thin.  You feel slightly lightheaded, but\nexhilaration at the spectacular view.  Laid out before you to the south are\ngreat plains of white, gradually fading to green, then the immense blue of\nthe distant oceans beyond.  You feel you see the entire world from this\nspot.} {Eastern Waterways by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:48:16}} {1.000}
+E {  285} {w} {w} {8} {1} {}
+E {  314} {e} {e} {2} {0} {}
+
+R {  288} {0} {} {Great Olympian Wall} { } {You are beside a wall formed from massive blocks, the view down from the\nmountain looks treacherous, Steep icy cliffs swathed in clouds remind you of\nthe great altitude of this path.  The air is thin and your breath is weak,\nbut somehow the glory of this place makes up for it completely.  Now and\nthen a sudden, icy wind whips past, startled, you recheck your footing.  } {More Roads by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:49:00}} {1.000}
+E {  282} {w} {w} {8} {0} {}
+E {  289} {e} {e} {2} {0} {}
+
+R {  289} {0} {} {Great Olympian Wall} { } {You are beside a wall formed from massive blocks, the view down from the\nmountain looks treacherous, Steep icy cliffs swathed in clouds remind you of\nthe great altitude of this path.  The air is thin and your breath is weak,\nbut somehow the glory of this place makes up for it completely.  Now and\nthen a sudden, icy wind whips past, startled, you recheck your footing.  } {More Roads by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:49:07}} {1.000}
+E {  288} {w} {w} {8} {0} {}
+E {  290} {e} {e} {2} {0} {}
+
+R {  290} {0} {} {Turn in the Wall} { } {You have to be very careful here, for the path to the east ends abrubtly,\na poorly fired lamp, a too-small torch in the night would send a strange\ntraveler hurtling to their death.  All that can be seen are a few peaks over\nthe tops of the clouds, beyond the slick mirror-like surface of the cliffs. \nA safe path is to the north, along the wall.  } {More Roads by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:49:31}} {1.000}
+E {  289} {w} {w} {8} {0} {}
+E {  291} {n} {n} {1} {0} {}
+
+R {  291} {0} {} {East Wall} { } {You have to be very careful here, for the path to the east ends abrubtly,\na poorly fired lamp, a too-small torch in the night would send a strange\ntraveler hurtling to their death.  All that can be seen are a few peaks over\nthe tops of the clouds, beyond the slick mirror-like surface of the cliffs. \nA safe path is to the north, along the wall.  You see a small bridge to the\neast.  } {More Roads by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:49:41}} {1.000}
+E {  290} {s} {s} {4} {0} {}
+E {  292} {e} {e} {2} {0} {}
+
+R {  292} {0} {} {Icy Footbridge} { } {With each frigid gust, the bridge wobbles threateningly beneath your\nfeet.  Held in place mainly with thick hemp and anchored wood, it is a\nwonder a builder could even traverse the enormous crevasse below to put it\nin it's place.  Safety is to the north.  } {More Roads by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:49:52}} {1.000}
+E {  291} {w} {w} {8} {0} {}
+E {  293} {n} {n} {1} {0} {}
+
+R {  293} {0} {} {Entrance to Graecia} { } {You have arrived in a strange place indeed.  You are standing on the\ncrest of of a huge hill.  The meadow at your feet is peaceful and calm,\nunlike the savage world that you are accustomed.  The meadow extends\nnorthward to a paved road which extends beyond the range of your vision. \nThe view from this hill is awesome.  You have an excellent aerial view of\nthis strange place.  To the northeast is gigantic mountain, extending above\nthe clouds, that towers above the lands below.  To the northwest is vast\nocean stretching out of sight.  You can also make out a city at the end of\nthe great paved road to the north.  There is also an old wooden sign which\nseems to mystically entice you to read it.  Monsters in this area are levels\n60 - 90, be forewarned.  } {Graecia by Anonymous for levels: 70-100} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:50:01}} {1.000}
+E {  292} {s} {s} {4} {0} {}
+E {  294} {n} {n} {1} {0} {}
+
+R {  294} {0} {} {The Great Brick Road} { } {It is strange indeed to travel on such a straight and smoothly paved\nroad.  You notice several deeply worn grooves that seem to run parallel\nto the direction of the road.  These ruts almost seem to be part of the\nroad design, but you know better.  To the north the road extends northward to\nthe great city on the horizon.  To your east you see the beginning of a\ngreat forest that makes Miden  seem feeble in comparison.} {Graecia by Anonymous for levels: 70-100} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:50:23}} {1.000}
+E {  293} {s} {s} {4} {0} {}
+E {  295} {n} {n} {1} {0} {}
+
+R {  295} {0} {} {On the Road to Graecia} { } {The road continues to the north and the city is slowly getting closer.\nThe forest to the east seems even more ominous.  You get the feeling\nthat someone is monitoring your progress.  To the west is a large\nbuilding.  As you peer at the building the architecture seems quite foreign\nto you.  There are large columns with bas reliefs of great battles supporting\nthe roof.  You hear the sound of laughter and cheering from inside the\nbuilding.  There is also a large insignia of the arched entrance of a\nhuge sword.  You are overwhelmed by the feeling of safety which issues\nforth from the building.} {Graecia by Anonymous for levels: 70-100} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:50:33}} {1.000}
+E {  294} {s} {s} {4} {0} {}
+E {  296} {w} {w} {8} {0} {}
+E {  297} {n} {n} {1} {0} {}
+
+R {  296} {0} {} {Hall of Mercenaries} { } {Inside the building you notice a large hole in the ceiling which\nilluminates the entire room.  There is a small reflecting pool beneath\nthe hole which serves as a basin for the rainwater.  Inside the building\nare several armored men and women talking to each other, they all stare\nat you as you enter, then quickly return to the business.  Along the\nwalls of this building are larger pictures of fabled monsters and\nfearless men fighting to the death.  You also can make out a smaller\nexit to the north that seems hidden.  To the north you can hear the\nthe sounds of water splashing against great rocks.} {Graecia by Anonymous for levels: 70-100} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:50:41}} {1.000}
+E {  295} {e} {e} {2} {0} {}
+E {  301} {n} {n} {1} {0} {}
+
+R {  297} {0} {} {Intersection of the Great Road} { } {You are standing at the intersection of a paved road and a dusty trail.\nThe paved road goes north and south.  To the north is the city of\nGraecia, and to the south the road leads into the hills.  The dusty path\ngoes to the east and west.  To the west, the path leads to the vast\nocean and to the east the path twists into a mysterious forest.} {Graecia by Anonymous for levels: 70-100} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:51:01}} {1.000}
+E {  295} {s} {s} {4} {0} {}
+E {  298} {e} {e} {2} {0} {}
+E {  299} {n} {n} {1} {0} {}
+E {  301} {w} {w} {8} {0} {}
+
+R {  298} {0} {} {Path into the Great Forest} { } {You are on a small and spooky path that leads into the Great Forest.\nThe trees seem to reach towards you with their twisted and gnarled\nbranches.  With closer inspection, you see some very strange tracks\nleading into the forest, reinforcing the rumors that the forest is\nhaunted by strange creatures.  To the west a familiar path leads to\nthe Great Paved Road and to the east the path winds into the\ndense forest.} {Graecia by Anonymous for levels: 70-100} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:51:29}} {1.000}
+E {  297} {w} {w} {8} {0} {}
+
+R {  299} {0} {} {Gateway to Graecia} { } {Unlike the city of Midgaard, this city does not need any walls to\nprotect it.  The reputation of the Graecian soldiers is such that no\narmy would consider an invasion upon this fabulous city.  Beyond the\ncity entrance is the Main Plaza, which serves as the center of activity\nfor Graecia.} {Graecia by Anonymous for levels: 70-100} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:54:24}} {1.000}
+E {  297} {s} {s} {4} {0} {}
+E {  300} {n} {n} {1} {0} {}
+
+R {  300} {0} {} {Main Plaza} { } {This is the center of activity for the town of Graecia.  You can see\nartisans showing their fine works and crafts, entertainers playing their\ninstruments, and in a corner is a group engaged in a heated debate.\nChariots are passing through at a such rapid pace, you almost have to\nactively dodge them.  To the north is the Palace and Grand Hall of the\nruler of Graecia.  To the east and west, paved roads extend throughout\nthe town.  As you look to the east you can see buildings built of\nfine materials such as marble and obsidian, while to the west the\nshadows make the road look a bit threatening.  A paved road also extends\nto the south gate of town.} {Graecia by Anonymous for levels: 70-100} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:55:17}} {1.000}
+E {  299} {s} {s} {4} {0} {}
+
+R {  301} {0} {} {The Eastern Edge of the Great Ocean} { } {You have arrived at the eastern edge of the Great Ocean.  There are huge\nboulders scattered along the rocky coast.  As the ocean collides with\nboulders you feel uneasy.  It reminds you that the strange lands in which\nyou have entered are filled with great mystery.  Looking out to sea you\ncan make out several rocky islands.  Only great legends speak of what\nlies on those unexplored lands.  There are men here building sea faring\nvessels, and you can see a large man directing them.  These ships are\nunlike any you have seen before and they seem able to withstand the\nmighty ocean unlike the rafts and canoes in which you are so familiar.} {Graecia by Anonymous for levels: 70-100} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:55:30}} {1.000}
+E {  297} {e} {e} {2} {0} {}
+E {  296} {s} {s} {4} {0} {}
+
+R {  302} {0} {} {Old Sparta Road} { } {The air is crisp and invigorating, the deciduous vegetation thinner than\nto the south and the dominance of evergreen is apparent.  You see a\nbreathtaking white mountain range far in the distance to the north.  } {Old Sparta Road in Far Northern Region by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:57:28}} {1.000}
+E {  284} {n} {n} {1} {0} {}
+E {  303} {s} {s} {4} {0} {}
+
+R {  303} {0} {} {Old Sparta Road} { } {The air is crisp and invigorating, the deciduous vegetation thinner than\nto the south and the dominance of evergreen is apparent.  You see a\nbreathtaking white mountain range far in the distance to the north.  } {Old Sparta Road in Far Northern Region by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:57:35}} {1.000}
+E {  302} {n} {n} {1} {0} {}
+E {  304} {u} {open u; u} {16} {0} {}
+E {  305} {d} {d} {32} {0} {}
+
+R {  304} {0} {} {The Candyland Gate} { } {You are standing before a gate formed by two arching\ncandycanes.  You can enter this tasty land to the\nnorth.  There is a sign sticking out of a delicious looking cupcake.  } {Candyland in Far Northern Region by Aztech for levels: 60-90} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:57:52}} {1.000}
+E {  303} {d} {d} {32} {0} {}
+
+R {  305} {0} {} {Old Sparta Road} { } {The air is crisp and invigorating, the deciduous vegetation thinner than\nto the south and the dominance of evergreen is apparent.  You see a\nbreathtaking white mountain range far in the distance to the north.  } {Old Sparta Road in Far Northern Region by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:58:14}} {1.000}
+E {  303} {u} {u} {16} {0} {}
+E {  306} {d} {d} {32} {0} {}
+
+R {  306} {0} {} {Old Sparta Road} { } {The air is crisp and invigorating, the deciduous vegetation thinner than\nto the south and the dominance of evergreen is apparent.  You see a\nbreathtaking white mountain range far in the distance to the north.  } {Old Sparta Road in Far Northern Region by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:58:19}} {1.000}
+E {  305} {u} {u} {16} {0} {}
+E {  307} {d} {d} {32} {0} {}
+
+R {  307} {0} {} {Old Sparta Road} { } {The air is crisp and invigorating, the deciduous vegetation thinner than\nto the south and the dominance of evergreen is apparent.  You see a\nbreathtaking white mountain range far in the distance to the north.  } {Old Sparta Road in Far Northern Region by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:58:27}} {1.000}
+E {  306} {u} {u} {16} {0} {}
+E {  308} {d} {d} {32} {0} {}
+
+R {  308} {0} {} {Old Sparta Road} { } {The air is crisp and invigorating, the deciduous vegetation thinner than\nto the south and the dominance of evergreen is apparent.  You see a\nbreathtaking white mountain range far in the distance to the north.  } {Old Sparta Road in Far Northern Region by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:58:35}} {1.000}
+E {  307} {u} {u} {16} {0} {}
+E {  309} {w} {w} {8} {0} {}
+
+R {  309} {0} {} {Old Sparta Road} { } {The air is crisp and invigorating, the deciduous vegetation thinner than\nto the south and the dominance of evergreen is apparent.  You see a\nbreathtaking white mountain range far in the distance to the north.  } {Old Sparta Road in Far Northern Region by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:58:42}} {1.000}
+E {  308} {e} {e} {2} {0} {}
+E {  310} {w} {w} {8} {0} {}
+
+R {  310} {0} {} {Old Sparta Road} { } {The air is crisp and invigorating, the deciduous vegetation thinner than\nto the south and the dominance of evergreen is apparent.  You see a\nbreathtaking white mountain range far in the distance to the north.  } {Old Sparta Road in Far Northern Region by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:58:46}} {1.000}
+E {  309} {e} {e} {2} {0} {}
+
+R {  311} {0} {} {A fissure in the rocks} { } {The fissure in the rocks is bounded on both sides by high precipitous\nwalls.  The walls are smooth and appear not to provide any handholds which\nwould allow you to climb up.  The floor of the fissure is strewn with huge\nboulders that have either fallen or been thrown from the top and which make\nthe footing very treacherous.  } {Eastern Waterways by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:59:35}} {1.000}
+E {  286} {e} {e} {2} {0} {}
+E {  312} {w} {w} {8} {0} {}
+
+R {  312} {0} {} {A fissure in the rocks} { } {The fissure in the rocks is bounded on both sides by high precipitous\nwalls.  The walls are smooth and appear not to provide any handholds which\nwould allow you to climb up.  The floor of the fissure is strewn with huge\nboulders that have either fallen or been thrown from the top and which make\nthe footing very treacherous.  } {Eastern Waterways by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:59:39}} {1.000}
+E {  311} {e} {e} {2} {0} {}
+E {  313} {w} {w} {8} {0} {}
+
+R {  313} {0} {} {A fissure in the rocks} { } {The fissure in the rocks is bounded on both sides by high precipitous\nwalls.  The walls are smooth and appear not to provide any handholds which\nwould allow you to climb up.  The floor of the fissure is strewn with huge\nboulders that have either fallen or been thrown from the top and which make\nthe footing very treacherous.  } {More Roads by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:59:44}} {1.000}
+E {  312} {e} {e} {2} {0} {}
+
+R {  314} {0} {} {Great White Heights} { } {The air is cold and thin.  You feel slightly lightheaded, but\nexhilaration at the spectacular view.  Laid out before you to the south are\ngreat plains of white, gradually fading to green, then the immense blue of\nthe distant oceans beyond.  You feel you see the entire world from this\nspot.} {Eastern Waterways by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:00:05}} {1.000}
+E {  287} {w} {w} {8} {0} {}
+E {  315} {e} {e} {2} {0} {}
+
+R {  315} {0} {} {Great White Heights} { } {The air is cold and thin.  You feel slightly lightheaded, but\nexhilaration at the spectacular view.  Laid out before you to the south are\ngreat plains of white, gradually fading to green, then the immense blue of\nthe distant oceans beyond.  You feel you see the entire world from this\nspot.} {Eastern Waterways by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:00:09}} {1.000}
+E {  314} {w} {w} {8} {0} {}
+E {  316} {e} {e} {2} {0} {}
+
+R {  316} {0} {} {Great White Heights} { } {The air is cold and thin.  You feel slightly lightheaded, but\nexhilaration at the spectacular view.  Laid out before you to the south are\ngreat plains of white, gradually fading to green, then the immense blue of\nthe distant oceans beyond.  You feel you see the entire world from this\nspot.} {Eastern Waterways by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:00:13}} {1.000}
+E {  315} {w} {w} {8} {0} {}
+E {  317} {e} {e} {2} {0} {}
+
+R {  317} {0} {} {Great White Heights} { } {The air is cold and thin.  You feel slightly lightheaded, but\nexhilaration at the spectacular view.  Laid out before you to the south are\ngreat plains of white, gradually fading to green, then the immense blue of\nthe distant oceans beyond.  You feel you see the entire world from this\nspot.} {Eastern Waterways by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:00:17}} {1.000}
+E {  316} {w} {w} {8} {0} {}
+E {  318} {n} {n} {1} {0} {}
+
+R {  318} {0} {} {Great White Heights} { } {The air is cold and thin.  You feel slightly lightheaded, but\nexhilaration at the spectacular view.  Laid out before you to the south are\ngreat plains of white, gradually fading to green, then the immense blue of\nthe distant oceans beyond.  You feel you see the entire world from this\nspot.} {Eastern Waterways by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:00:26}} {1.000}
+E {  317} {s} {s} {4} {0} {}
+E {  319} {n} {n} {1} {0} {}
+
+R {  319} {0} {} {Great White Heights} { } {The air is cold and thin.  You feel slightly lightheaded, but\nexhilaration at the spectacular view.  Laid out before you to the south are\ngreat plains of white, gradually fading to green, then the immense blue of\nthe distant oceans beyond.  You feel you see the entire world from this\nspot.} {Eastern Waterways by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:00:34}} {1.000}
+E {  318} {s} {s} {4} {0} {}
+E {  320} {n} {n} {1} {0} {}
+
+R {  320} {0} {} {Great White Heights} { } {The air is cold and thin.  You feel slightly lightheaded, but\nexhilaration at the spectacular view.  Laid out before you to the south are\ngreat plains of white, gradually fading to green, then the immense blue of\nthe distant oceans beyond.  You feel you see the entire world from this\nspot.} {Eastern Waterways by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:00:38}} {1.000}
+E {  319} {s} {s} {4} {0} {}
+E {  321} {e} {e} {2} {0} {}
+
+R {  321} {0} {} {Great White Heights} { } {The air is cold and thin.  You feel slightly lightheaded, but\nexhilaration at the spectacular view.  Laid out before you to the south are\ngreat plains of white, gradually fading to green, then the immense blue of\nthe distant oceans beyond.  You feel you see the entire world from this\nspot.} {Eastern Waterways by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:00:44}} {1.000}
+E {  320} {w} {w} {8} {0} {}
+E {  322} {e} {e} {2} {0} {}
+
+R {  322} {0} {} {Great White Heights} { } {The air is cold and thin.  You feel slightly lightheaded, but\nexhilaration at the spectacular view.  Laid out before you to the south are\ngreat plains of white, gradually fading to green, then the immense blue of\nthe distant oceans beyond.  You feel you see the entire world from this\nspot.  } {Eastern Waterways by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:00:49}} {1.000}
+E {  321} {w} {w} {8} {0} {}
+E {  323} {n} {n} {1} {0} {}
+
+R {  323} {0} {} {Great White Heights} { } {The air is cold and thin.  You feel slightly lightheaded, but\nexhilaration at the spectacular view.  Laid out before you to the south are\ngreat plains of white, gradually fading to green, then the immense blue of\nthe distant oceans beyond.  You feel you see the entire world from this\nspot.} {Eastern Waterways by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:00:55}} {1.000}
+E {  322} {s} {s} {4} {0} {}
+E {  324} {e} {e} {2} {0} {}
+
+R {  324} {0} {} {Great White Heights} { } {The air is cold and thin.  You feel slightly lightheaded, but\nexhilaration at the spectacular view.  Laid out before you to the south are\ngreat plains of white, gradually fading to green, then the immense blue of\nthe distant oceans beyond.  You feel you see the entire world from this\nspot.} {Eastern Waterways by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:01:02}} {1.000}
+E {  323} {w} {w} {8} {0} {}
+E {  325} {e} {e} {2} {0} {}
+
+R {  325} {0} {} {Great White Heights} { } {The air is cold and thin.  You feel slightly lightheaded, but\nexhilaration at the spectacular view.  Laid out before you to the south are\ngreat plains of white, gradually fading to green, then the immense blue of\nthe distant oceans beyond.  You feel you see the entire world from this\nspot.} {Eastern Waterways by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:01:06}} {1.000}
+E {  324} {w} {w} {8} {0} {}
+E {  326} {e} {e} {2} {0} {}
+
+R {  326} {0} {} {Great White Heights} { } {The air is cold and thin.  You feel slightly lightheaded, but\nexhilaration at the spectacular view.  Laid out before you to the south are\ngreat plains of white, gradually fading to green, then the immense blue of\nthe distant oceans beyond.  You feel you see the entire world from this\nspot.} {Eastern Waterways by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:01:12}} {1.000}
+E {  325} {w} {w} {8} {0} {}
+E {  327} {e} {e} {2} {0} {}
+
+R {  327} {0} {} {Great White Heights} { } {The air is cold and thin.  You feel slightly lightheaded, but\nexhilaration at the spectacular view.  Laid out before you to the south are\ngreat plains of white, gradually fading to green, then the immense blue of\nthe distant oceans beyond.  You feel you see the entire world from this\nspot.} {Eastern Waterways by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:01:22}} {1.000}
+E {  326} {w} {w} {8} {0} {}
+E {  328} {s} {s} {4} {0} {}
+E {  329} {n} {n} {1} {0} {}
+
+R {  328} {0} {} {Snowcovered path} { } {All around you is a vast expance of fields and snow, at the moment you\nare walking down a snowcovered, ice covered path.  The path was probably\nused many years ago, but now its all covered over.  } {Winter Wasteland in Far Northern Region by Pandora for levels: 50-70} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:01:35}} {1.000}
+E {  327} {n} {n} {1} {0} {}
+
+R {  329} {0} {} {Greater White Heights} { } {The air is cold and thin.  You feel slightly lightheaded, but\nexhilaration at the spectacular view.  Laid out before you to the south are\ngreat plains of white, gradually fading to green, then the immense blue of\nthe distant oceans beyond.  You feel you see the entire world from this\nspot.} {Eastern Waterways by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:01:48}} {1.000}
+E {  327} {s} {s} {4} {0} {}
+E {  330} {n} {n} {1} {0} {}
+
+R {  330} {0} {} {Greater White Heights} { } {The air is cold and thin.  You feel slightly lightheaded, but\nexhilaration at the spectacular view.  Laid out before you to the south are\ngreat plains of white, gradually fading to green, then the immense blue of\nthe distant oceans beyond.  You feel you see the entire world from this\nspot.} {Eastern Waterways by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:01:56}} {1.000}
+E {  329} {s} {s} {4} {0} {}
+E {  331} {n} {n} {1} {0} {}
+
+R {  331} {0} {} {Greater White Heights} { } {The air is cold and thin.  You feel slightly lightheaded, but\nexhilaration at the spectacular view.  Laid out before you to the south are\ngreat plains of white, gradually fading to green, then the immense blue of\nthe distant oceans beyond.  You feel you see the entire world from this\nspot.} {Eastern Waterways by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:02:02}} {1.000}
+E {  330} {s} {s} {4} {0} {}
+E {  332} {e} {e} {2} {0} {}
+
+R {  332} {0} {} {Greater White Heights} { } {The air is cold and thin.  You feel slightly lightheaded, but\nexhilaration at the spectacular view.  Laid out before you to the south are\ngreat plains of white, gradually fading to green, then the immense blue of\nthe distant oceans beyond.  You feel you see the entire world from this\nspot.} {Eastern Waterways by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:02:07}} {1.000}
+E {  331} {w} {w} {8} {0} {}
+E {  333} {n} {n} {1} {0} {}
+
+R {  333} {0} {} {Greater White Heights} { } {The air is cold and thin.  You feel slightly lightheaded, but\nexhilaration at the spectacular view.  Laid out before you to the south are\ngreat plains of white, gradually fading to green, then the immense blue of\nthe distant oceans beyond.  You feel you see the entire world from this\nspot.} {Eastern Waterways by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:02:15}} {1.000}
+E {  332} {s} {s} {4} {0} {}
+E {  334} {e} {e} {2} {0} {}
+
+R {  334} {0} {} {Greater White Heights} { } {The air is cold and thin.  You feel slightly lightheaded, but\nexhilaration at the spectacular view.  Laid out before you to the south are\ngreat plains of white, gradually fading to green, then the immense blue of\nthe distant oceans beyond.  You feel you see the entire world from this\nspot.} {Eastern Waterways by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:02:21}} {1.000}
+E {  333} {w} {w} {8} {0} {}
+E {  335} {e} {e} {2} {0} {}
+
+R {  335} {0} {} {Greater White Heights} { } {The air is cold and thin.  You feel slightly lightheaded, but\nexhilaration at the spectacular view.  Laid out before you to the south are\ngreat plains of white, gradually fading to green, then the immense blue of\nthe distant oceans beyond.  You feel you see the entire world from this\nspot.} {Eastern Waterways by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:02:27}} {1.000}
+E {  334} {w} {w} {8} {0} {}
+E {  336} {n} {n} {1} {0} {}
+
+R {  336} {0} {} {Greater White Heights} { } {The air is cold and thin.  You feel slightly lightheaded, but\nexhilaration at the spectacular view.  Laid out before you to the south are\ngreat plains of white, gradually fading to green, then the immense blue of\nthe distant oceans beyond.  You feel you see the entire world from this\nspot.} {Eastern Waterways by Genna for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:02:32}} {1.000}
+E {  335} {s} {s} {4} {0} {}
+E {  337} {w} {w} {8} {0} {}
+
+R {  337} {0} {<AAF><fff>} {The Start of the Airbridge} {SHP} {Before you you see an airbridge, or rather, you hardly see anything. In\nthe distance you see two strange vague spots. One of them is an undefined\nkind of color, the other spot is darker, and bigger, or, better said, longer.\nLooks like you'll have to fly there.} {Airy Castle in Far Northern Region by Schrael for levels: 30-50} {[Lv Price] Item\n[11  1500000] .:*-*:.astral dust.\n[ 8    15000] An airy potion.} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:02:39}} {1.000}
+E {  336} {e} {e} {2} {0} {}
+E {  338} {n} {n} {1} {0} {}
+
+R {  338} {0} {} {The Airbridge} { } {You find yourself in the middle of the air, going up, and up. Far ahead you\ncan make out a castle of some sort, looking solid and grey, built upon a\ntall-looking pilar of rock.} {Airy Castle in Far Northern Region by Schrael for levels: 30-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:03:03}} {1.000}
+E {  337} {s} {s} {4} {0} {}
+E {  339} {w} {w} {8} {0} {}
+
+R {  339} {0} {} {The Airbridge} { } {You find yourself in the middle of the air, going up, and up. Far ahead you\ncan make out a castle of some sort, looking solid and grey, built upon a\ntall-looking pilar of rock.} {Airy Castle in Far Northern Region by Schrael for levels: 30-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:03:13}} {1.000}
+E {  338} {e} {e} {2} {0} {}
+E {  340} {w} {w} {8} {0} {}
+
+R {  340} {0} {} {The Airbridge} { } {You find yourself in the middle of the air, going up, and up. Far ahead you\ncan make out a castle of some sort, looking solid and grey, built upon a\ntall-looking pilar of rock.} {Airy Castle in Far Northern Region by Schrael for levels: 30-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:03:19}} {1.000}
+E {  339} {e} {e} {2} {0} {}
+E {  341} {w} {w} {8} {0} {}
+
+R {  341} {0} {} {The Airbridge} { } {You find yourself in the middle of the air, going up, and up. Far ahead you\ncan make out a castle of some sort, looking solid and grey, built upon a\ntall-looking pilar of rock.} {Airy Castle in Far Northern Region by Schrael for levels: 30-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:03:25}} {1.000}
+E {  340} {e} {e} {2} {0} {}
+E {  342} {n} {n} {1} {0} {}
+
+R {  342} {0} {} {The Airbridge} { } {You find yourself in the middle of the air, going up, and up. Far ahead you\ncan make out a castle of some sort, looking solid and grey, built upon a\ntall-looking pilar of rock.} {Airy Castle in Far Northern Region by Schrael for levels: 30-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:03:31}} {1.000}
+E {  341} {s} {s} {4} {0} {}
+E {  343} {e} {e} {2} {0} {}
+
+R {  343} {0} {} {The Airbridge} { } {You find yourself in the middle of the air, going up, and up. Far ahead you\ncan make out a castle of some sort, looking solid and grey, built upon a\ntall-looking pilar of rock.} {Airy Castle in Far Northern Region by Schrael for levels: 30-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:03:36}} {1.000}
+E {  342} {w} {w} {8} {0} {}
+E {  344} {n} {n} {1} {0} {}
+
+R {  344} {0} {} {The Airbridge} { } {You find yourself in the middle of the air, going up, and up. Far ahead you\ncan make out a castle of some sort, looking solid and grey, built upon a\ntall-looking pilar of rock.} {Airy Castle in Far Northern Region by Schrael for levels: 30-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:03:41}} {1.000}
+E {  343} {s} {s} {4} {0} {}
+E {  345} {n} {n} {1} {0} {}
+
+R {  345} {0} {} {The Airbridge} { } {You find yourself in the middle of the air, going up, and up. Far ahead you\ncan make out a castle of some sort, looking solid and grey, built upon a\ntall-looking pilar of rock.} {Airy Castle in Far Northern Region by Schrael for levels: 30-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:03:46}} {1.000}
+E {  344} {s} {s} {4} {0} {}
+E {  346} {w} {w} {8} {0} {}
+E {  347} {e} {e} {2} {1} {}
+
+R {  346} {0} {} {The Airbridge} { } {You find yourself in the middle of the air, going up, and up. Far ahead you\ncan make out a castle of some sort, looking solid and grey, built upon a\ntall-looking pilar of rock.} {Airy Castle in Far Northern Region by Schrael for levels: 30-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:03:53}} {1.000}
+E {  345} {e} {e} {2} {0} {}
+E {  348} {n} {n} {1} {0} {}
+
+R {  347} {0} {} {rubik} { } {This is the logic door, leading into a logic kingdom. Before you lies\nnothing less than the land of Rubiks cube. Don't get lost in the jungle of\nlogic, and try not to go insane if you can't find the solution...\nThere is a sign here.} {Rubik's Cube in Far Northern Region by Schrael for levels: 120-150} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:04:08}} {1.000}
+E {  345} {w} {w} {8} {1} {}
+
+R {  348} {0} {} {The Airbridge} { } {You find yourself in the middle of the air, going up, and up. Far ahead you\ncan make out a castle of some sort, looking solid and grey, built upon a\ntall-looking pilar of rock.} {Airy Castle in Far Northern Region by Schrael for levels: 30-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:04:34}} {1.000}
+E {  346} {s} {s} {4} {0} {}
+E {  349} {n} {n} {1} {0} {}
+
+R {  349} {0} {} {The Airbridge} { } {You find yourself in the middle of the air, going up, and up. Far ahead you\ncan make out a castle of some sort, looking solid and grey, built upon a\ntall-looking pilar of rock.} {Airy Castle in Far Northern Region by Schrael for levels: 30-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:04:39}} {1.000}
+E {  348} {s} {s} {4} {0} {}
+E {  350} {e} {e} {2} {0} {}
+
+R {  350} {0} {} {The Airbridge} { } {You find yourself in the middle of the air, going up, and up. Far ahead you\ncan make out a castle of some sort, looking solid and grey, built upon a\ntall-looking pilar of rock.} {Airy Castle in Far Northern Region by Schrael for levels: 30-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:04:44}} {1.000}
+E {  349} {w} {w} {8} {0} {}
+E {  351} {e} {e} {2} {0} {}
+
+R {  351} {0} {} {The Airbridge} { } {You find yourself in the middle of the air, going up, and up. Far ahead you\ncan make out a castle of some sort, looking solid and grey, built upon a\ntall-looking pilar of rock.} {Airy Castle in Far Northern Region by Schrael for levels: 30-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:04:49}} {1.000}
+E {  350} {w} {w} {8} {0} {}
+E {  352} {s} {s} {4} {0} {}
+
+R {  352} {0} {} {The End of the Airbridge} { } {You have reached the end of the airbridge. Before you lies the entrance\nto the castle, now seeming large and abominable. There are two sort of\nmemorial stones here, with encarvings.} {Airy Castle in Far Northern Region by Schrael for levels: 30-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:04:54}} {1.000}
+E {  351} {n} {n} {1} {0} {}
+E {  353} {s} {s} {4} {0} {}
+
+R {  353} {0} {} {Entrance to the Airy Castle} { } {This is the entrance to the castle. It doesn't look like much, with only\ngrey walls on all sides... just a minute, there is a small opening upwards,\ncut out of the hard stone, it looks big enough to fit through.} {Airy Castle in Far Northern Region by Schrael for levels: 30-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:05:27}} {1.000}
+E {  352} {n} {n} {1} {0} {}
+E {  354} {u} {u} {16} {0} {}
+
+R {  354} {0} {} {The Hallway} { } {This is the hallway of the castle. You can go almost everywhere from here.\nIt's a room with a very high ceiling, and you bend your head as far back as\nit can go to get a good look at the paintings on it.} {Airy Castle in Far Northern Region by Schrael for levels: 30-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:05:37}} {1.000}
+E {  353} {d} {d} {32} {0} {}
+E {  355} {s} {s} {4} {0} {}
+
+R {  355} {0} {} {The Living Room} { } {This is the center of activity of the castle. You can almost see the people\nthat used to live here relaxing in this room. However, to modern standards\nthe chairs hardly look comfortable.} {Airy Castle in Far Northern Region by Schrael for levels: 30-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:05:48}} {1.000}
+E {  354} {n} {n} {1} {0} {}
+E {  356} {s} {s} {4} {0} {}
+
+R {  356} {0} {} {The Dining Room} { } {This is where the people of this castle used to eat. The table is large\nenough to carry an entire roasted cow. That's probably what they ate too.} {Airy Castle in Far Northern Region by Schrael for levels: 30-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:05:55}} {1.000}
+E {  355} {n} {n} {1} {0} {}
+E {  357} {w} {w} {8} {0} {}
+
+R {  357} {0} {} {The Entrance to the Southwest Tower} { } {This is the entrance to one of the towers of the Airy Castle. Just follow\nthe spiral staircase to get to the tower chamber. You see the start of the\nspiral staircase west of you.} {Airy Castle in Far Northern Region by Schrael for levels: 30-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:06:03}} {1.000}
+E {  356} {e} {e} {2} {0} {}
+E {  358} {w} {w} {8} {0} {}
+
+R {  358} {0} {} {The Spiral Staircase} { } {This spiral staircase goes on and on! You feel yourself getting dizzy, as\nyou try to walk up the swiftly winding steps in a normal tempo. Better slow\ndown, or you'll fall.} {Airy Castle in Far Northern Region by Schrael for levels: 30-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:06:10}} {1.000}
+E {  357} {e} {e} {2} {0} {}
+E {  359} {s} {s} {4} {0} {}
+
+R {  359} {0} {} {The Spiral Staircase} { } {This spiral staircase goes on and on! You feel yourself getting dizzy, as\nyou try to walk up the swiftly winding steps in a normal tempo. Better slow\ndown, or you'll fall.} {Airy Castle in Far Northern Region by Schrael for levels: 30-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:06:16}} {1.000}
+E {  358} {n} {n} {1} {0} {}
+E {  360} {e} {e} {2} {0} {}
+
+R {  360} {0} {} {The Spiral Staircase} { } {This spiral staircase goes on and on! You feel yourself getting dizzy, as\nyou try to walk up the swiftly winding steps in a normal tempo. Better slow\ndown, or you'll fall.} {Airy Castle in Far Northern Region by Schrael for levels: 30-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:06:24}} {1.000}
+E {  359} {w} {w} {8} {0} {}
+
+R {  361} {0} {} {Entrance to Mud School} { } {This is the entrance to the Envy Mud School.  Go north\nthrough mud school.  If you have been here before and would like to go\ndirectly to the arena, please go south.} {Giant School by Hatchet for levels: 1-5} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:08:43}} {1.000}
+E {   92} {d} {d} {32} {1} {}
+
+R {  362} {0} {} {The Statuary of the Immortals} { } {To the west, you can see a strange and ornate door. There appears to\nbe no handle or lock, only a small square slot to one side, as if it\nis missing a piece. The Temple of Odin is above.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:09:08}} {1.000}
+E {   92} {u} {u} {16} {0} {}
+E {  366} {w} {w} {8} {0} {}
+
+R {  363} {0} {} {The town square} { } {You are standing in the simple square that marks the center of Mydgaard.\nTo the east you can see the Eirhov, and the Temple of Odin. West is the\nmeeting hall, and the communal firepit. North of here is the merchant's\nsquare as well as the specialty shops and guilds of Mydgaard. To the\nsouth is the town commons, with craftsmen and food vendors at every door.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:09:58}} {1.000}
+E {   92} {e} {e} {2} {0} {}
+E {  375} {n} {n} {1} {0} {}
+E {  397} {s} {s} {4} {0} {}
+
+R {  364} {0} {} {Eirshov} { } {Odin does not seem to mind this inner sanctuary devoted to Eir, the\ngoddess of healing. Here, in the dim recesses of the longhouse, curling\nwisps of incense swirl about a low, central fire. The chanting melody\nof Eir's healing songs reverberate within the small enclosure. You see\nForseti guarding over Odin's statue to the west. Up from here is a\nbalcony.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:10:19}} {1.000}
+E {   92} {w} {w} {8} {0} {}
+E {  365} {u} {u} {16} {0} {}
+
+R {  365} {0} {} {Eirshov Balcony} { } {You are on a small balcony, overlooking an empty field and the east\nof Mydgaard. Ferns and ivy surround the balcony in a lush green\ncarpet. Wild irises, lilies, and sweetpeas grow in pots hanging from\nthe rafters.  You notice a small note on one wall, inscribed in Norse\nrunes. Down from here is the Eirshov.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:10:25}} {1.000}
+E {  364} {d} {d} {32} {0} {}
+
+R {  366} {0} {<CFF><aaa>} {Hafgrim's Treasure Trove} {MIX} {The small closet of a room is piled floor to ceiling with every\nimaginable type of bauble. There are crystal glasses, colorful gems,\ncasks of gold, and elegant figurines. In the middle of all this\nglittering mess is heavy cedar chair and trestle table for Hafrgrim\nto count his wealth. Through the ornate door east is the Immortal\nStatuary.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {TRAINER: long saber\nSMITH: Merchant Hafgrim\nMerchant Hafgrim says 'So, what fine baubles have you chanced upon, traveller? I cannot pay'\nMerchant Hafgrim says 'much, but I will pay something for your trouble.'} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:11:00}} {1.000}
+E {  362} {e} {e} {2} {0} {}
+
+R {  367} {0} {} {Merchant's Crossing} { } {The square is neatly cobbled, and bordered on all corners by small\nbuildings of log and stone. The morning shower has washed the cobbles\nclean of dust, leaving them shining like gems in the afternoon sun.\nGuilder's road continues east and west, while to the south is the town\nsquare. North you see the sparkling of the sunlight on the river Urd.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:14:06}} {1.000}
+E {  375} {s} {s} {4} {0} {}
+E {  368} {n} {n} {1} {0} {}
+E {  374} {e} {e} {2} {0} {}
+E {  439} {w} {w} {8} {0} {}
+
+R {  368} {0} {} {Inside the Northern Wall} { } {An enormous set of wooden gears and levers sits to one side of the\nopening in the northern wall, used to raise the bridge. North you see\nthe sophisticated draw bridge contracted by the Jarl in the early days\nof Mydgaard. Now, the bridge remains open as threats from the north are\ninfrequent. South is the merchant's crossing, and the town of Mydgaard.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:14:17}} {1.000}
+E {  367} {s} {s} {4} {0} {}
+E {  369} {n} {n} {1} {0} {}
+
+R {  369} {0} {} {On the Bridge} { } {Heavy wooden planks ring out beneath your boots, and you can hear the\nsound of rushing water far below. The draw bridge is built out from\nthe northern city wall and was once well guarded. In times of emergency,\nhuskarla can still raise it against marauders, but it usually remains down\nat the bequest of Jarl Terje who lives in the forest. North, you see a\nlarge forest clearing with paths leading off in several directions. South\nleads into the town of Mydgaard. directions. To the south, you can hear\nthe sounds of the town.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:14:24}} {1.000}
+E {  368} {s} {s} {4} {0} {}
+E {  370} {d} {d} {32} {0} {}
+E {  447} {n} {n} {1} {0} {}
+
+R {  370} {0} {} {Falling Toward the River} { } {You flail your arms madly as you plummet toward the dark water. Jumping\nfrom the bridge wasn't a good idea. You have no idea how cold the water\nwill be, or what lurks beneath its current. Perhaps you should hold your\nbreath.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:14:35}} {1.000}
+E {  371} {d} {d} {32} {0} {}
+
+R {  371} {0} {} {Under the Bridge} { } {Maybe, just maybe if you had a grappling hook, you could snag the\nbridge overhead and pull out of this frigid water. But, you don't.\nIt would be best to find somewhere else shallow enough to climb out.\nYou are frustrated, wet, and cold from this infernal river. The city\nis so close, and yet there's no way to get to it! The River Urd flows\nfrom west to east past the grey stone walls of Mydgaard.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:14:56}} {1.000}
+E {  372} {w} {w} {8} {0} {}
+E {  373} {e} {e} {2} {0} {}
+
+R {  372} {0} {} {Floating Past Mydgaard} { } {The River Urd gently pulls you east, past the grey stone walls of\nMydgaard, to the south. Tall stands of birch shelter raspberry bushes\nand mountain ash growing on the north bank. The current is slow, but\nstrong. There is no chance to pull out on the bank. The city draw bridge\nlooms up ahead, to the east. It is high above the water, and you don't\nworry about passing beneath. The river continues upstream farther west.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:15:19}} {1.000}
+E {  371} {e} {e} {2} {0} {}
+
+R {  373} {0} {} {Floating Past Mydgaard} { } {The River Urd gently pulls you east, past the grey stone walls of\nMydgaard, to the south. Tall stands of birch shelter raspberry bushes\nand mountain ash growing on the north bank. The current is slow, but\nstrong. There is no chance to pull out on the bank. The city draw bridge\nlooms behind you, to the west, high above the water. The river continues\nflowing east.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:15:29}} {1.000}
+E {  371} {w} {w} {8} {0} {}
+
+R {  374} {0} {} {Guilder's Way East} { } {The street is neatly cobbled, and bordered on either side by small\nbuildings of log and stone. The morning shower has washed the cobbles\nclean of dust, leaving them sparkling like gems in the afternoon sun.\nTo the north is Far North Traders, owned by Alfrigg the Merchant. He\nhas decorated the front of the shop with colorful banners all the\ntrade routes, hoping to entice the passerby. South is Master Healer\nMusami's Akaikiku Healing Den. The cobbled road continues east and west.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:15:52}} {1.000}
+E {  367} {w} {w} {8} {0} {}
+E {  376} {s} {s} {4} {0} {}
+E {  377} {n} {n} {1} {0} {}
+E {  379} {e} {e} {2} {0} {}
+
+R {  375} {8} {} {} { } {} {} {} {} {} {1.000}
+E {  367} {n} {n} {1} {0} {}
+E {  363} {s} {s} {4} {0} {}
+
+R {  376} {0} {} {Akaikiku Healing Den} { } {Strange smells fill the air, and you stare in amazement at the row upon\nrow of tiny drawers set into one wall. The room is larger than you had\nanticipated from the street. Silken curtains hang from the ceiling,\nhiding the rough nature of the logs and stone beneath. A beautiful woolen\nrug lies underfoot, unlike anything you have ever seen, with bold colored\nstrands woven into intricate landscapes. Candles burn in various places\nthroughout the room, casting flickering shadows even in the light of day.\nA large plaque hangs against the back wall. North is the cobbled street.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:16:18}} {1.000}
+E {  374} {n} {n} {1} {0} {}
+
+R {  377} {0} {<AAF><fff>} {Far North Traders} {SHP} {Far North Traders provides Mydgaard with everything from the common to\nthe exotic. Alfrigg and sons have traveled to the ends of the world to\nprovide Mydgaard's citizens with only the best goods. A polished zebra\nwood counter sits at the back of the shop, in front of a closed door. A\nstrange metal contraption sets on top of the counter, covered with many\nbuttons and knobs. Alfrigg seems to play with the buttons every time he\nsells something. Shelves adorn the side walls, stacked with baubles and\ntrinkets from faraway places. A sign hangs above the counter. South is\nthe cobbled street.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {[Lv Price] Item\n[ 0       30] A leather water skin.\n[10      100] A burlap bag.\n[ 0       60] A tallow lantern.\n[ 0       10] A rush candle.} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:16:45}} {1.000}
+E {  374} {s} {s} {4} {0} {}
+E {  378} {n} {n} {1} {0} {}
+
+R {  378} {0} {} {Alfrigg's Back Room} { } {And you thought you had seen it all in the front of the store! Huge\nshelves are lined with exotic perfumes, and large jars of spices.\nAlong one wall are bolts of silk, and delicate lace. Large barrels\nof wine, and beer from the south are stacked at the very back of the\nroom. Candles light the room, since there are no windows. The door\nleads south into the main shop.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:17:03}} {1.000}
+E {  377} {s} {s} {4} {0} {}
+
+R {  379} {0} {} {Guilder's Way East} { } {The street is neatly cobbled, and bordered on either side by small\nbuildings of log and stone. The morning shower has washed the cobbles\nclean of dust, leaving them sparkling like gems in the afternoon sun.\nTo the north is the Warlock's Guild, and the residence of Guildmaster\nHogni. From the south, you can hear the neighing of the Jarl's horses\nand other animals that are kept by Odan the Hostler. The cobbled road\ncontinues east and west.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:18:05}} {1.000}
+E {  374} {w} {w} {8} {0} {}
+E {  380} {s} {s} {4} {0} {}
+E {  381} {n} {n} {1} {0} {}
+E {  384} {e} {e} {2} {0} {}
+
+R {  380} {0} {<AAF><fff>} {Odan's Hostlery} {PET} {The front part of this barn has been converted into a small shop front.\nA wide sign declares, 'Sorry, the Jarl cannot sell any horses this week.'\nStill, there must be horses around as you can hear them neighing in the\nback. A plaque details Odan's rules of business. He has tried to keep this\nplace neat, but tack has piled up in one corner, and straw litters the\nfloor. It really does smell like a barn in here. North is the cobbled\nstreet.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {Pets for sale:\n[10     1000] the porcupine.\n[15     2250] the wolverine.\n[ 7      490] the ferret.\n[ 2       40] the vole.\n[ 4      160] the squirrel.} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:18:11}} {1.000}
+E {  379} {n} {n} {1} {0} {}
+
+R {  381} {0} {} {Hogni's Guildhall} { } {A few comfortable, fur-covered benches are pushed haphazardly against\nthe walls, and the apprentices have left piles of gear scattered about\neverywhere. It looks like this must be a warrior's guild, especially\nwith all the weapons displayed on the walls. Then you notice the long\nwall of shelves hidden in the shadows to the west, filled with books\nand scrolls. Warriors definitely wouldn't be reading this much. Sounds\nof sparring and clashing blades ring from an open yard to the north.\nThe guild taproom is off an alcove to the east. South will take you back\nout to the cobbled streets of Guilder's Way.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:18:28}} {1.000}
+E {  379} {s} {s} {4} {0} {}
+E {  382} {e} {e} {2} {0} {}
+E {  383} {n} {n} {1} {0} {}
+
+R {  382} {0} {<CFF><aaa>} {Thor's Tap} {MIX} {Many a glass is raised in honor of Thor in this cordial warlock's taproom.\nIt's more a livingroom than anything, with a large fireplace and comfortable\nbenches strewn about. The bar is merely a plank fronting some barrels and\ncasks. It serves its purpose, though. A small sign is pinned to one of the\ncasks. The guildhouse proper is back west.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {[Lv Price] Item\n[ 0       19] A cup of honey mead.\n[ 0        1] A cup of water.\nApprentice Froedis says 'Yes? Can you wait just a second? I'm almost finished with chapter three,'\nApprentice Froedis says ''How to Tell Illusion from Reality'. Master Hogni says it's one of the'\nApprentice Froedis says 'most important apprentice skills. <grumble>'} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 22:18:43}} {1.000}
+E {  381} {w} {w} {8} {0} {}
+
+R {  383} {0} {<EAF><fff>} {The Combat Yard} { } {The enchanters spend most of their early apprenticeships studying\nswordplay.  They have to develop their skills in combat before they can\nlearn magic.  Hogni puts them through their paces for hours on end.  This\nyard rings with the sound of clashing blades and falling bodies.  It is a\nsmall dirt courtyard tucked in against the city walls.  You can hear the\nfaint sounds of the River Urd to the north.  South takes you back into the\nguildhall.  \nHogni's assistant is dutifully polishing his master's armor.\n[GUILDMASTER] Master Hogni is here practicing fencing.\nHogni's only ambatt is tidying up around the guild.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {[Lv Dif] Quest name     Quest item\n[99   1] remort to Enchanter     An old $yleatherbound$x spellbook.\n[99   1] remort from Enchanter     Permission to remort from enchanter.} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:45:05}} {1.000}
+E {  381} {s} {s} {4} {0} {}
+
+R {  384} {0} {} {Inside the East Gate} { } {Twin towers of grey river stones anchor massive wooden gates set into\nthe eastern wall of Mydgaard. Watchmen patrol a narrow walkway stretching\noverhead between the tops of the towers. The main watch headquarters are\nhoused in the base of the northern tower, through a heavy cedar door.\nGuilder's Way continues west, and Mjollnir Road hugs the inside of the\nwall to the south.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}} {1.000}
+E {  379} {w} {w} {8} {0} {}
+E {  391} {s} {s} {4} {0} {}
+E {  386} {e} {e} {2} {0} {}
+
+R {  385} {0} {} {Mjollnir Road North} { } {The street is a narrow dirt track, bordered on the east by Slagfin's Bow\nShop and on the west by a field of ferns and wildflowers. You can make out\nthe balcony atop Odin's Temple, through the lush alders and greenery. The\nroad continues to the north and south.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:37:33}} {1.000}
+E {  391} {n} {n} {1} {0} {}
+E {  392} {e} {e} {2} {0} {}
+E {  393} {s} {s} {4} {0} {}
+
+R {  386} {0} {} {Outside the East Gate} { } {You are standing outside the east gate of Mydgaard. Town watchmen\npatrol the footbridge above you, protecting the city from marauders.\nTwin towers on either side anchor the large wooden gate. Snow capped\nmountains rise above the land to the north, past the flowing waters\nof the River Urd. A small footpath leads through the woods in that\ndirection. To the east lies a well traveled road away from the town.\nThere is a terrible stench coming from a grate set into the tower\nsouth of you.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:37:44}} {1.000}
+E {  384} {w} {w} {8} {0} {}
+E {  387} {s} {s} {4} {0} {}
+E {  388} {n} {n} {1} {0} {}
+E {  390} {e} {e} {2} {0} {}
+
+R {  387} {0} {} {A Nauseating Stench} { } {The smell overwhelms you, making you stumble and fall to the ground. You\nrealize you're standing beneath the jail cell, in what might as well be\ncalled the outhouse pit. A small hole, much too small for you to squeeze\nthrough, leads up to the jail cell. Another, larger hole leads down into\nthe town sewers. Are you desperate enough to enter? Fresh air seeps in\nfrom the north through a grate in the wall.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:37:56}} {1.000}
+E {  386} {n} {n} {1} {0} {}
+
+R {  388} {0} {} {A Winding Forest Path} { } {The woods here are so close to the town of Mydgaard, that they have\nbeen picked clean of underbrush and deadwood. The sounds of the River\nUrd filter through the trees to the north. South you can still make\nout the towers of the east gate of Mydgaard.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:38:21}} {1.000}
+E {  386} {s} {s} {4} {0} {}
+E {  389} {e} {e} {2} {0} {}
+
+R {  389} {0} {} {Entrance to Mirkwood} { } {You have entered the quasi-magical Elven forest of Mirkwood, populated by\nSylvan Elves and their mysterious allies. Strangers are frowned upon here,\nso be on your guard. It is rumored that many different races of Elves\nactually inhabit this forest, in various parts and sometimes they are\ncarefully hidden, away from the prying eyes of strangers.} {Mirkwood in South Western Region by Yaegar for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:38:33}} {1.000}
+E {  388} {w} {w} {8} {0} {}
+E {  390} {s} {s} {4} {0} {}
+
+R {  390} {0} {} {Approaching Mirkwood} { } {The forest begins to surround you as you step into its depths. The path\nabruptly turns to the north and you continue.} {Mirkwood in South Western Region by Yaegar for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:38:47}} {1.000}
+E {  386} {w} {w} {8} {0} {}
+E {  389} {n} {n} {1} {0} {}
+
+R {  391} {8} {} {} { } {} {} {} {} {} {1.000}
+E {  385} {s} {s} {4} {0} {}
+E {  384} {n} {n} {1} {0} {}
+
+R {  392} {0} {<AAF><fff>} {Slagfin's Bows and Fletchery} {SHP} {Piles of hard, and soft woods neatly line the walls in this small shop.\nHanging from the rafters are drying strands of sheep gut, and caribou\nsinew. The bowyer has a small bench at the back of the shop, and his\napprentice is working on a stool next to him. Sunlight pours in from a\nwindow on the southern wall of the shop, creating a cheery glow about\nthe place. A rack of finished bows and arrows is proudly displayed near\nthe front door. A note is pinned to the bottom of the rack. West is the\nroad.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {[Lv Price] Item\n[10     2000] An oak and brass crossbow.\n[ 5      300] An arrow.\n[ 8     2000] A crude willow bow.} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:39:56}} {1.000}
+E {  385} {w} {w} {8} {0} {}
+
+R {  393} {0} {} {Mjollnir Road East} { } {The street is a narrow dirt track, at the corner of the city of Mydgaard.\nThe city walls loom to the east and south of you. The road continues to\nthe north and west.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:40:27}} {1.000}
+E {  385} {n} {n} {1} {0} {}
+E {  395} {w} {w} {8} {0} {}
+
+R {  394} {0} {} {Mjollnir Commons} { } {All about you is the hustle and bustle of the commons, where all the\ncraftsmen and vendors sell their wares. From the east, you can smell the\nmingled aroma of delicious, fresh baked bread and newly caught fish. What\nan unlikely combination. From the west, you hear the rhythmic ringing of\na blacksmith's hammer, and smell the tangy scent of curing leather. South\nof you is the city gate, and farther is the river wharf where all trade\ngoods come into town from faraway cities. North is the town square.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:41:07}} {1.000}
+E {  397} {n} {n} {1} {0} {}
+E {  396} {e} {e} {2} {0} {}
+E {  401} {s} {s} {4} {0} {}
+E {  410} {w} {w} {8} {0} {}
+
+R {  395} {0} {} {Mjollnir Road East} { } {The street is a narrow dirt track, bordered on either side by tall\nbirch trees, swaying gently in the afternoon breeze. The sounds of\nthe marketplace are loud to the west, with the aroma of fresh caught\nfish and baked goods wafting in on the breeze. The road continues east\nand west.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:41:31}} {1.000}
+E {  393} {e} {e} {2} {0} {}
+E {  396} {w} {w} {8} {0} {}
+
+R {  396} {0} {} {Mjollnir Road East} { } {The street is a narrow dirt track, bordered on either side by small shops\nof logs and planks. Deep ruts in the road are filled with the morning's\nshower, and droplets of rain sparkle on a spider's web between two bushes\non the side of one shack. To the north is the Fishmonger's Stand, and to\nthe south is Glaumvor's House of Bread. What strange fate made these two\nshopkeepers neighbors? The smell of bread and fish is heavy in the air.\nMjollnir road continues east and west.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:41:39}} {1.000}
+E {  395} {e} {e} {2} {0} {}
+E {  394} {w} {w} {8} {0} {}
+E {  398} {n} {n} {1} {0} {}
+E {  399} {s} {s} {4} {0} {}
+
+R {  397} {8} {} {} { } {} {} {} {} {} {1.000}
+E {  394} {s} {s} {4} {0} {}
+E {  363} {n} {n} {1} {0} {}
+
+R {  398} {0} {<AAF><fff>} {Fishmonger's Stand} {SHP} {Barrels of cold river water filled to the brim with trout and salmon\nbar your way into the store, and you trip on the fishing poles thrown\nabout the shop haphazardly. Whatever else Gunnarr may be, he's certainly\nnot a good housekeeper. He does seem to be able to catch fish, however.\nThe smell of fish is strong, and your stomach rumbles in anticipation of\na good meal. A sign hangs on one wall beneath a trophy salmon mount.\nSouth is the road.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {[Lv Price] Item\n[ 0      100] A rainbow trout .\n[ 0      100] Smoked salmon.\n[ 0       60] Some raw frog legs.} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:42:41}} {1.000}
+E {  396} {s} {s} {4} {0} {}
+E {   92} {n} {n} {1} {0} {}
+
+R {  399} {0} {<AAF><fff>} {Glaumvor's House of Bread} {SHP} {Open windows on either wall allow the breeze to cool off fresh baked\nloaves on long, sturdy shelves. Two large ovens dominate the back of\nthe shop, next to a large pile of firewood. The smell of bread and pie\nis heavenly, and you sigh with pleasure. A large sign hangs beneath one\nshelf. Sacks of flour and grains are piled under a counter covered with\nflour and rising dough. To the north is the road.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {[Lv Price] Item\n[ 0      300] A honey sweetcake.\n[ 0       60] A loaf of sourdough bread.\n[ 0      120] Tika's homemade berry tart.} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:43:01}} {1.000}
+E {  396} {n} {n} {1} {0} {}
+
+R {  400} {0} {} {Inside the Southern Gate } { } {Twin towers of grey river stones anchor massive wooden gates set\ninto the southern wall of Mydgaard. Watchmen patrol a narrow walkway\nstretching overhead between the tops of the towers. The south watch\npost is housed in the base of the western tower, through a heavy cedar\ndoor. The main watchmen barracks fill the eastern tower, through another\ndoor. North is Mjollnir Commons.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:45:47}} {1.000}
+E {  401} {n} {n} {1} {0} {}
+E {  402} {e} {e} {2} {0} {}
+E {  406} {w} {w} {8} {0} {}
+E {  407} {s} {s} {4} {0} {}
+
+R {  401} {8} {} {} { } {} {} {} {} {} {1.000}
+E {  400} {s} {s} {4} {0} {}
+E {  394} {n} {n} {1} {0} {}
+
+R {  402} {0} {} {Lower Tower Barracks} { } {Straw filled mattresses cover the floor for the karlsmen who live too\nfar out of town to return home after their shift. A small fireplace is\naglow in one corner, heating the cold stone room. The arrow slits in\nthe stone wall are covered with animal skins to keep in the warmth. A\nladder leads up to the tower top barracks room. West leads out to the\nsouth gate.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:46:11}} {1.000}
+E {  400} {w} {w} {8} {0} {}
+E {  403} {u} {u} {16} {0} {}
+
+R {  403} {0} {} {Tower Top Barracks} { } {Straw filled mattresses cover the floor for the karlsmen who live too\nfar out of town to return home after their shift. A small fireplace is\naglow in one corner, heating the cold stone room. The arrow slits in\nthe stone wall are covered with animal skins to keep in the warmth. A\nladder leads down to the lower barracks room. West you see a narrow\ncedar door which leads out onto the walkway.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:46:29}} {1.000}
+E {  402} {d} {d} {32} {0} {}
+E {  404} {w} {w} {8} {0} {}
+
+R {  404} {0} {} {The Southern Gate Walkway} { } {You are on a small footbridge over the town's south gate. To the north\nyou can see the shops of Mydgaard. South, you see the river and bustle\nof the wharf. The bridge extends between the towers of the gate. The\nlookout post is in the west tower, through a narrow cedar door. A barracks\nroom is east, through another door.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:46:39}} {1.000}
+E {  403} {e} {e} {2} {0} {}
+E {  405} {w} {w} {8} {0} {}
+
+R {  405} {0} {} {South Tower Lookout} { } {The room has a narrow cedar door out east onto the walkway over the gate.\nLong slits in the stone on the southern wall allow a view of the river\nand wharf below. A ladder leads down to the southern watch post.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:46:47}} {1.000}
+E {  404} {e} {e} {2} {0} {}
+E {  406} {d} {d} {32} {0} {}
+
+R {  406} {0} {} {South Tower Watch Post} { } {You are on the ground floor of the western south-gate tower.\nKarlsman, the free men of the region, volunteer their services\nto patrol Mydgaard from raiders and unsavory sorts. They use\nthis small room as their southern post. There is a ladder up\ninto the south gate lookout. East is the South Gate of Mydgaard,\nthrough a heavy cedar door.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:46:56}} {1.000}
+E {  405} {u} {u} {16} {0} {}
+E {  400} {e} {e} {2} {0} {}
+
+R {  407} {0} {} {Outside the Southern Gate of Mydgaard} { } {You are standing outside the south gate of Mydgaard. Town watchmen\npatrol the footbridge above you, protecting the city from marauders.\nTwin towers on either side anchor the large wooden gate. Snow capped\nmountains rise beyond the town and forest to the north, and a wide,\ncalm river flows past to the south. It's much wider than the Urd river\nout of Wolf Lake. A bustling wharf has sprung up along the near bank.\nA small footpath leads down to the wharf.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:47:07}} {1.000}
+E {  400} {n} {n} {1} {0} {}
+E {  408} {d} {d} {32} {0} {}
+
+R {  408} {0} {} {Wharfside Path} { } {A trail winds down a sandy beach from the city gates of Mydgaard to the\nbustling wharf at the river's edge.  You see a leak in the MUD to the east..\nWonder how that happened ?  } {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:47:21}} {1.000}
+E {  407} {u} {u} {16} {0} {}
+E {  409} {s} {s} {4} {0} {}
+
+R {  409} {0} {<AAF><fff>} {Mydgaard's Busy Wharf} {SHP} {Long river docks jut out onto the water, with samer canoes and knarrs\ntied up alongside. Merchants and townspeople mingle in a happy bustle,\nbuying and selling exotic trade goods. Laughter and the occasional yell\nring out above the noise of the crowd. Spices, fish, and berry tarts\nscent the air. A trail leads north to the city gates. River waters lap\nat the sandy bank.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {[Lv Price] Item\n[ 0     3000] A knarr.\n[ 0     1500] A samer canoe.} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:47:28}} {1.000}
+E {  408} {n} {n} {1} {0} {}
+
+R {  410} {0} {} {Mjollnir Road West} { } {The street is a narrow dirt track, bordered on either side by small shops\nof logs and planks. Deep ruts in the road are filled with the morning's\nshower, and droplets of rain sprinkle from the leaves of a tall birch tree\nshading Dvalin's Smithy to the north. South from here is Volund's Tannery.\nVarious animal skins are pegged out on the outside of the longhouse.\nMjollnir road continues east and west.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:47:56}} {1.000}
+E {  394} {e} {e} {2} {0} {}
+E {  411} {s} {s} {4} {0} {}
+E {  412} {n} {n} {1} {0} {}
+E {  413} {w} {w} {8} {0} {}
+
+R {  411} {0} {<CFF><aaa>} {Volund's Tanned Goods} {MIX} {The acrid smell of a tanning leather fills the longhouse. Several shelves\ncontaining tanned animal hides and an assortment of leather armour cover\nthe back wall. A large fire pit in the center of the room heats an enormous\niron kettle of boiling water. Freshly skinned hides are stretched out on a\nlong cedar table to one side. A wooden sign hangs below the table. North is\nMjollnir road.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {[Lv Price] Item\n[10      660] A pair of studded sheepskin pants.\n[ 6      330] A pair of caribou skin gloves.\n[10      440] A pair of studded moosehide sleeves.\n[ 8      550] A pair of tough caribou skin boots.\n[12      330] A studded sheepskin jerkin.\n[ 6      440] A sheepskin cap.\nSMITH: <6093/6093hp (100%) 3734/3734m 1594/1617mv, opp: <None>, leader: 100%>Tanner Volund} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:48:02}} {1.000}
+E {  410} {n} {n} {1} {0} {}
+
+R {  412} {0} {<CFF><aaa>} {Dvalin's Blacksmith Repairs} {MIX} {Your eyes burn and you try to hold back a cough as you enter the smoke\nfilled smithy. A backlog of dented and broken armour is piled all about\nthe tiny shop. The fire in the furnace rages hot in the back, and you wipe\nyour brow as you begin to sweat. Over the dull thud of hammer on metal, you\nhear someone singing. The poor gnome is obviously tone deaf, and you begin\nto pity his assistants. South takes you back to Mjollnir Road.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {SMITH: Dvalin the Blacksmith\nDvalin the Blacksmith says 'Fafnir cried out:'\nDvalin the Blacksmith says ''Youth! o youth! of whom were you born, youth?'\nDvalin the Blacksmith says 'of what men's kin are you?'\nDvalin the Blacksmith says 'that you reddened the keen blade from Fafnir:'\nDvalin the Blacksmith says 'the sword stands in my heart!''} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:48:27}} {1.000}
+E {  410} {s} {s} {4} {0} {}
+
+R {  413} {0} {} {Mjollnir Road West} { } {The street is a narrow dirt track, bordered on either side by small\nshops of logs and planks. Deep ruts in the road are filled with the\nmorning's shower. The melodious ringing of a bladesmith at work emanates\nfrom Ivalde's Blade Shop to the north. From the south, a counter-melody\nof dull whacks heralds Berling's Tall Gnome Armoury. Mjollnir road\ncontinues east and west.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:49:02}} {1.000}
+E {  410} {e} {e} {2} {0} {}
+E {  414} {s} {s} {4} {0} {}
+E {  415} {n} {n} {1} {0} {}
+E {  416} {w} {w} {8} {0} {}
+
+R {  414} {0} {<AAF><fff>} {Tall Gnome Armoury} {SHP} {Wooden fitting dummies are in a crowd against one wall, some with snippets\nof scale mail draped over them. Bracers, leggings, and jerkins hang in\ndisplay from pegs on the rafters. You can't see past them to the rear of\nthe shop, but can hear sounds of metal being hammered. A small, hand\npainted sign is propped up against one of the dummies. North is Mjollnir\nRoad.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {[Lv Price] Item\n[15     1000] A hide and mail jacket.\n[ 5      650] A pair of hide and mail sleeves.\n[13      450] A pair of  hide boots.\n[12      350] A hide and mail skirt.\n[ 8      250] A hide and mail coif.\n[12     6000] A forged iron bracer.} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:49:05}} {1.000}
+E {  413} {n} {n} {1} {0} {}
+
+R {  415} {0} {<CFF><aaa>} {Ivalde's Blade Shop} {MIX} {The gnome's blade shop is a small, neat longhouse, with packed dirt\nfloors. A pine and glass display case at the front of the room is\nlined with imported velvet and filled with dozens of exquisite blades\nof different shapes and sizes. They attest to Ivalde's skill at his\ncraft. You catch a glimpse of a stone furnace and hide bellows in the\nworkroom at the rear of the shop. A small note lies atop the display\ncase. South leads back to Mjollnir Road.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {[Lv Price] Item\n[ 8        8] A lightweight practice mace.\n[11     1240] A small iron axe.\n[ 7      800] A battle sword.\n[ 5       48] A long shiny blade.\nTRAINER: blade} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:49:27}} {1.000}
+E {  413} {s} {s} {4} {0} {}
+
+R {  416} {0} {} {Guilder's Way at Mjollnir Road} { } {The cobbles end abruptly at this end of town, right in front of Torsten's\nDrenchaus to the south. Raucous laughter pours from the seedy looking\nstring of shacks attached to the low longhouse. The ringing of an anvil,\nand someone caterwauling in the distance travel along Mjollnir road from\nthe east. North of here is the cobbled lane of Guilder's Way.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:49:44}} {1.000}
+E {  413} {e} {e} {2} {0} {}
+E {  418} {s} {s} {4} {0} {}
+E {  425} {n} {n} {1} {0} {}
+
+R {  417} {0} {<AAF><fff>} {Torsten's Drenchaus} {SHP} {Torsten's place is a rundown old longhouse with a sagging roof. The\nchinking between the logs in the walls has long since blown out,\nletting cold drafts invade the smokey room. Tree stumps are scattered\nabout the floor in lieu of stools, and a bench or two lines the walls.\nThe bar is a nothing more than a few large crates nailed together with\na board on top. If Torsten's prices weren't so low, and the gleemen and\nscops he hired so entertaining, no one would bother with the ruin of a\ntavern. Guilder's Way is back out to the north, while a small store room\nis off the east wall. A note is pinned to the bar.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {[Lv Price] Item\n[ 0       12] A sheep's horn of mead.\n[ 0        6] A ration of sour milk.} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:49:52}} {1.000}
+E {  418} {n} {n} {1} {0} {}
+E {  419} {e} {open e; e} {2} {0} {}
+
+R {  418} {8} {} {} { } {} {} {} {} {} {1.000}
+E {  417} {s} {s} {4} {0} {}
+E {  416} {n} {n} {1} {0} {}
+
+R {  419} {0} {} {Store room} { } {The tiny closet of a room is filled to the seams with barrels of ale\nand mead. Rounds of cheese are piled atop the barrels in one corner,\naging. Only a space about three feet in diameter in the center of the\nroom is empty. Dust and cobwebs cover everything, even the small carpet\nin the open floor space. Carpet? You look more closely. Why on earth\nwould anyone put a carpet on a dirt storeroom floor? West leads back\nout into Torsten's Drenchaus.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:50:26}} {1.000}
+E {  417} {w} {w} {8} {0} {}
+E {  420} {d} {d} {32} {0} {}
+
+R {  420} {0} {<AAF><fff>} {Finders Keepers Tavern} {SHP} {The thieves laugh secretly every time one of the karls or gleemen go on\nabout the glories of Grerr's taproom. Velvet-covered sofas and silken\ndrapes fill their taproom, creating an exotic oasis in the middle of\nMydgaard. An ebony bar gleams in the candlelight, and soft music comes\nfrom a magical harp in one corner. No doubt the furnishings are all ill-\ngotten, but the thieves certainly aren't going to complain. And neither\nis Torsten. He gets a share of all the bar's profits in return for\nsheltering the guild. A trapdoor leads up to Torsten's Drenchaus. South\nis Ginnlog's private quarters. A ladder in one corner leads down into\ndarkness. A painted sign hangs above the bar.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {[Lv Price] Item\n[ 0      285] A flagon of wine.\n[ 0       19] A flagon of barley wine.} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:51:04}} {1.000}
+E {  419} {u} {open u; u} {16} {0} {}
+E {  421} {s} {s} {4} {0} {}
+E {  422} {d} {d} {32} {0} {}
+
+R {  421} {0} {<EAF><fff>} {Ginnlog's Quarters} {QST} {Ginnlog uses this room to tutor guildhall apprentices and journeymen.\nIt's full of bell-covered pickpocket dummies, locks of every shape and\nsize, and an assortment of nasty looking needles. Jars of neatly labeled\npoisons fill a small cabinet to one side, near a drying rack of herbs.\nNorth leads back into the sumptuous atmosphere of Finder's Keepers.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {Thief Master Ginnlog says 'Don't even think of it, stranger. You wouldn't last three seconds before'\nThief Master Ginnlog says 'my poisoned blade found a home in your back. But, perhaps we can come to'\nThief Master Ginnlog says 'some mutual understanding.'} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:52:05}} {1.000}
+E {  420} {n} {n} {1} {0} {}
+
+R {  422} {0} {} {Inside the Southern West Gate Tower} { } {You are inside the second of two towers that anchor the west gate of\nMydgaard. Apparently no one uses this room anymore. Cobwebs cover\neverything, and the air is stale. Strangely enough, there are footprints\nin the dust leading to outside through the cedar door in the north wall,\nbut not into the room. Very strange, indeed.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:55:16}} {1.000}
+E {  423} {u} {u} {16} {0} {}
+E {  424} {n} {n} {1} {0} {}
+
+R {  423} {0} {<EAF><fff>} {Loki's Hideout} {QST} {The audacity of the Master Thief of Mydgaard! He's taken over the\nunused, southern watch tower under the very noses of the city watchmen.\nThe room is a disarray of locks and lockpicks. Poisonous herbs hang\nfrom the rafters in thick bunches. Master Thief Loki reclines on a fur\ncovered bench along one wall, carefully recording the components for\nhis newest poison. A lantern provides light to the windowless room.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {Master Thief Loki says 'Aye, the thieve's guild is indeed powerful.'\nMaster Thief Loki says 'You should talk to each thief you meet'\nMaster Thief Loki says 'for many have learned skills that might'\nMaster Thief Loki says 'be useful to you in your travels.'} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:54:49}} {1.000}
+E {  422} {d} {d} {32} {0} {}
+
+R {  424} {0} {} {Outside the West Gate} { } {You are standing outside the west gate of Mydgaard. Town watchmen\npatrol the footbridge above you, protecting the city from marauders.\nTwin towers on either side anchor the large wooden gate. Snow capped\nmountains rise above the land to the north, past the flowing waters\nof the River Urd. The Fjell Pass Trail leads through the forest in\nthat direction. A well traveled road leads west, away from Mydgaard.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:56:06}} {1.000}
+E {  422} {s} {s} {4} {0} {}
+E {  429} {e} {e} {2} {0} {}
+E {  432} {n} {n} {1} {0} {}
+
+R {  425} {0} {} {Guilder's Way South} { } {The street is neatly cobbled, and the morning shower has washed the\nstones free of dust, leaving them sparkling like jewels in the afternoon\nsun. The Mage's Guildhouse, and Master Tura's residence is set back from\nthe west side of the road. East you can see the back of the town meeting\nhall through a patch of wild raspberries. The cobbled road continues to\nthe north and south.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:57:39}} {1.000}
+E {  416} {s} {s} {4} {0} {}
+E {  426} {w} {w} {8} {0} {}
+E {  431} {n} {n} {1} {0} {}
+
+R {  426} {0} {} {Tura's Guildhall} { } {The size of the longhouse is amazing. From outside, it looked so much\nsmaller. You'll have to go out and check it again. You KNOW there could\nnot have been room for all these lavish furnishings and piles of scrolls.\nThe occasional burn mark mars the smooth honey of the log walls, betraying\nthis as an institution of 'higher' learning. You shiver at the thought of\nseveral dozen young mage apprentices wandering the streets, practicing\nfireballs on stray dogs. Master Tura has a laboratory and private room to\nthe north. The guild taproom is off an alcove to the south. East will take\nyou back out to the cobbled streets of Guilder's Way.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:57:54}} {1.000}
+E {  425} {e} {e} {2} {0} {}
+E {  427} {s} {s} {4} {0} {}
+E {  428} {n} {n} {1} {0} {}
+
+R {  427} {0} {<AAF><fff>} {Grimhild's Quenchary} {SHP} {The guildhouse taproom has been dedicated to the famous sorceress,\nGrimhild. Did you drink too much at the Drenchaus? You must have,\nfor a heavy looking oak bar seems to float in thin air at the back\nof the room. All the furnishings have a wavy, illusory quality as\nwell. Shaking your head and trying to think clearly, you ponder the\nsituation before heading forward. Ahhh. It must be an apprentice's\ncantrip, you realize. This bar is caters to magicians, after all.\nThe main guildhall room is back south. A note seems to be nailed to\nthe floating bar.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {[Lv Price] Item\n[ 0        5] A cup of rosehip tea.\n[ 0       22] A sheep's horn of mead.} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:58:11}} {1.000}
+E {  426} {n} {n} {1} {0} {}
+
+R {  428} {0} {} {Master Tura's  Study} { } {The room seems plain and sparsely furnished, with only a desk and large\nreading stand to fill the emptiness. Moving forward, though, you bump\ninto a sharp corner that shouldn't have been there. More cantrips? All\nis not as it seems in the mage master's private rooms. She's probably\nsimply protecting her precious scrolls and amulets from the destructive\nnature of newbie apprentices. South takes you back to the Guildhall.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:58:24}} {1.000}
+E {  426} {s} {s} {4} {0} {}
+
+R {  429} {0} {} {Inside the West Gate} { } {Twin towers of grey river stones anchor massive wooden gates set into\nthe western wall of Mydgaard. Watchmen patrol a narrow walkway stretching\noverhead between the tops of the towers. The west watch post is housed in\nthe base of the northern tower, through a heavy cedar door. Guilder's Way\ncontinues east and south.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:58:56}} {1.000}
+E {  430} {s} {s} {4} {0} {}
+E {  424} {w} {w} {8} {0} {}
+E {  435} {n} {n} {1} {0} {}
+E {  438} {e} {e} {2} {0} {}
+
+R {  430} {8} {} {} { } {} {} {} {} {} {1.000}
+E {  429} {n} {n} {1} {0} {}
+E {  431} {s} {s} {4} {0} {}
+
+R {  431} {8} {} {} { } {} {} {} {} {} {1.000}
+E {  430} {n} {n} {1} {0} {}
+E {  425} {s} {s} {4} {0} {}
+
+R {  432} {0} {} {Fjell Pass Trail} { } {Light filtering through the treetops casts a greenish tinge over everything.\nThough you can still hear the river close by, it's sound is muted. Even your\nfootsteps seem to be swallowed up into the silence of the forest. You notice\nthat all the underbrush and fallen logs have been cleaned out, probably for\nfirewood. Skunk cabbage and thick beds of fern line either side of the path.\nThe city gates are south, beyond the trees. Fjell Pass Trail continues west.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:01:19}} {1.000}
+E {  424} {s} {s} {4} {0} {}
+E {  433} {w} {w} {8} {0} {}
+
+R {  433} {0} {} {Fjell Pass Trail} { } {Light filtering through the treetops casts a greenish tinge over\neverything. Though you can still hear the river close by, it's sound\nis muted. Even your footsteps seem muted or swallowed up into the\nsilence of the forest. You notice that all the underbrush and fallen\nlogs have been cleaned out, probably for firewood. Skunk cabbage and\nthick beds of fern line either side of the path. The trail seems to\nopen up farther north, and you see what may be a large meadow. East\nis just more trees.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:01:32}} {1.000}
+E {  432} {e} {e} {2} {0} {}
+E {  434} {n} {n} {1} {0} {}
+
+R {  434} {0} {} {Wolf Lake Overview} { } {The trail winds through a grassy meadow of lupine and cow parsnip,\nopening up on every side. Finally, you have a clear view of Wolf Lake.\nIt's nestled east and slightly north against the base of the mountains,\nshimmering with the green hue of glacier-fed waters. A faint ribbon of\nsmoke rises above the trees on the east shore of the lake, and you think\nyou can see a cabin. The path continues south back along Fjell pass\ntrail or up a slope disappearing at the far end of the meadow.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:01:39}} {1.000}
+E {  433} {s} {s} {4} {0} {}
+
+R {  435} {0} {} {West Tower Watch Post} { } {You are on the ground floor of the northern west-gate tower. Karlsman,\nthe free men of the region, volunteer their services to patrol Mydgaard\nfrom raiders and unsavory sorts. They use this small room as their\nwestern post. There is a ladder up into Gatekeeper Snorri's post. South\nis the west gate of Mydgaard, through a heavy cedar door.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:02:04}} {1.000}
+E {  429} {s} {s} {4} {0} {}
+E {  436} {u} {u} {16} {0} {}
+
+R {  436} {0} {} {Gatekeeper's Post} { } {This is a small, comfortable alcove with fur covered benches, and\nwindows in each of the walls. Snorri the Gatekeeper spends most of\nhis time curled up on one of the benches, sleeping. His duties are\nnot very demanding. Down from here is the western watchpost. South\nis a narrow cedar door out onto the walkway.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:02:19}} {1.000}
+E {  435} {d} {d} {32} {0} {}
+E {  437} {s} {s} {4} {0} {}
+
+R {  437} {0} {} {West Gate Walkway} { } {You are on a small footbridge over the town's west gate. To the east\nyou can see the shops of Mydgaard. North, past the tower you see the\nshimmering of Wolf lake, and the distant Longhouse of Jarl Terje of\nMydgaard. The bridge extends between the towers of the gate. North is\nSnorri's post, through a narrow cedar door. The southern tower appears\nunused.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:02:33}} {1.000}
+E {  436} {n} {n} {1} {0} {}
+
+R {  438} {0} {} {Guilder's Way West} { } {The street is neatly cobbled, and the morning shower has washed the\nstones free of dust, leaving them sparkling like jewels in the\nafternoon sun. A towering, two story longhouse rises to the north.\nA sign above the door of the log house proclaims, 'The Raven's Nest\nInn: The Only, er, Finest Lodgings in Mydgaard'. South you can see\nthe back of the town meeting hall through a small stand of birch\nand alder. The cobbled road continues to the east and west.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:03:01}} {1.000}
+E {  429} {w} {w} {8} {0} {}
+E {  439} {e} {e} {2} {0} {}
+E {  441} {n} {n} {1} {0} {}
+
+R {  439} {0} {} {Guilder's Way West} { } {The street is neatly cobbled, and bordered on either side by small\nbuildings of log and stone. The morning shower has washed the cobbles\nclean of dust, leaving them sparkling like gems in the afternoon sun.\nTo the north is the Explorer's Guild Hall. South of you is the First\nMystic Bank of Mydgaard. The cobbled road continues to the east and west.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:03:44}} {1.000}
+E {  367} {e} {e} {2} {0} {}
+E {  438} {w} {w} {8} {0} {}
+E {  444} {n} {n} {1} {0} {}
+E {  446} {s} {s} {4} {0} {}
+
+R {  440} {0} {} {Raven's Nest Inn} { } {Trestle tables and benches are crowded about the dark, low-ceilinged\nmain room, and candle lanterns hang from the rafters, casting shadowy\nlight into the corners. Laughter rings from small groups of karlsmen\nhuddled about, bent over their tankards, and a warm flames dance in a\nfireplace against the back wall. You can smell the faintly sweet scent\nof mead wafting in from the taproom to the west. A spruce ladder near\nthe door leads up into the sleeping loft, affectionately known as 'The\nNest'. South is the cobbled street of Guilder's Way.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:03:52}} {1.000}
+E {  441} {s} {s} {4} {0} {}
+E {  442} {u} {u} {16} {0} {}
+E {  443} {w} {w} {8} {0} {}
+
+R {  441} {8} {} {} { } {} {} {} {} {} {1.000}
+E {  440} {n} {n} {1} {0} {}
+E {  438} {s} {s} {4} {0} {}
+
+R {  442} {0} {} {The Nest} { } {The Nest, as Grerr likes to call it, is the main sleeping room of the inn.\nIt's large and open, with low rafters and an occasional lantern to light\nthe corners. It smells of stale mead, sweat, and wood smoke. Straw filled\nmattresses are rolled up against one wall, ready to be spread across the\nfloor at sundown. It's cheap and reasonably clean, perfect for visiting\ngleemen and scops.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:04:15}} {1.000}
+E {  440} {d} {d} {32} {0} {}
+
+R {  443} {0} {<AAF><fff>} {Raven's Nest Tap Room} {SHP} {The Raven's Nest Tap room is really just an alcove off the main room of\nthe inn. It is the center of most of the merriment, however. The room has\na rich, comfortable quality that seems to draw the patrons in.  Greer\ncommissioned Woodcutter Egil to fashion a bar of cedar, and it dominates\nmost of the floor space, a chest-high affair of polished wood and intricate\ncarvings. Greer even spent the extra money for brass fittings to edge the\nbar. It's the pride of all those who frequent the inn, highlighting once\nagain the differences between Grerr's place and Torsten's. Casks of ale,\nmead and wine are piled behind the bar. A wooden sign is propped up against\none of them.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {[Lv Price] Item\n[ 0       19] A cup of honey mead.\n[ 0        6] A saucer of hazelnut coffee.\n[ 0      297] A flagon of wine.} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:04:24}} {1.000}
+E {  440} {e} {e} {2} {0} {}
+
+R {  444} {0} {} {Explorer's Guildhall} { } {This is the main room of the still empty explorer's guild. When the\nJarl and karls of Mydgaard decided to build this guild in the hopes of\nsponsoring a geographer or explorer to settle in Mydgaard, they had no\nidea how hard it would be to attract someone in that craft. They're still\noffering a handsome offer to anyone qualified and willing to move in. A\nbarren map room is in of the guildhouse to the north. South leads back\nout onto the cobbled streets of Guilder's Way.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:04:49}} {1.000}
+E {  439} {s} {s} {4} {0} {}
+E {  445} {n} {n} {1} {0} {}
+
+R {  445} {0} {} {Map Room} { } {The map room walls are bereft of decoration and maps. The smooth spot\nprepared for a carving of Mydgaard remains untouched. The Jarl and karls\nof the town had hoped that explorers attracted to the guild would fill\nthis room with maps of far off trade routes, for sale to the merchants and\nraiders.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:04:57}} {1.000}
+E {  444} {s} {s} {4} {0} {}
+
+R {  446} {0} {<AAF><fff>} {First National Bank of Mydgaard} {BNK} {There are no interest rates! There are no tellers! This is truly a\nMystical place, if ever there was one. Magical lockers fade in and\nout of existence along one wall. A stone wall stands at the back of\nthe bank, with two slots marked 'Deposit' and 'Withdrawal'. An\ninstruction manual entitled 'Opening your account and locker' floats\nin the middle of the room. North is the cobbled road.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {BANK} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:05:11}} {1.000}
+E {  439} {n} {n} {1} {0} {}
+
+R {  447} {0} {} {Wooded Crossroads} { } {A flowery meadow filled with wild irises and flax, forms a natural\nclearing north of Mydgaard's draw bridge. Gigantic, white spruce trees\nborder the meadow on all sides. Trails lead off the clearing east and\nwest, and a well-traveled road heads north up into the foothills of the\nmountains. The silty, green waters of the River Urd wind their way along\nthe city walls of Mydgaard to the south, harmonizing with the rush of\nthe mountain breeze. A roadmarker at the center of the crossroads gives\ndirections to various points of interest.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:05:47}} {1.000}
+E {  369} {s} {s} {4} {0} {}
+
+R {  448} {0} {} {Entrance to Mud School} { } {This is the entrance to the Envy Mud School.  Go\nnorth through mud school.  If you have been here before and would like to\ngo directly to the arena, please go south. } {Hobbit School by Hatchet for levels: 1-5} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:07:19}} {1.000}
+E {   93} {d} {d} {32} {1} {}
+
+R {  449} {0} {} {The Healer Temple} { } {You are in an anteroom to the Temple of Ofcol.  Gold tiles cover the\nfloor, and servants in golden livery stand waiting silently.  The temple is\nto the south.  } {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:07:56}} {1.000}
+E {   93} {s} {s} {4} {0} {}
+
+R {  450} {0} {} {Raff Way} { } {You are on Raff Way.  Raff Way continues west to the city of Ofcol.  To\nthe east, you see Raff Way continue toward the Golden Citadel.  There are\nbeautiful flowers growing along the road here, making this more of a garden\nthan a road.  } {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:08:05}} {1.000}
+E {   93} {n} {n} {1} {0} {}
+E {  451} {d} {d} {32} {0} {}
+E {  452} {e} {e} {2} {0} {}
+E {  453} {s} {s} {4} {0} {}
+E {  454} {w} {w} {8} {0} {}
+
+R {  451} {0} {} {Ofcol Donation Room} { } {Here is where all the Ofcol residents put their unwanted discards, you\nmay find something of use.  } {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:08:13}} {1.000}
+E {  450} {u} {u} {16} {0} {}
+
+R {  452} {0} {} {Outside the Entrance to the Golden Citadel} { } {You are outside the entrance to the Golden Citadel.  A great gate is to\nto the east, marking the entranceway into the citadel.  The road also leads\nback west to Raff Way.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:08:34}} {1.000}
+E {  450} {w} {w} {8} {0} {}
+
+R {  453} {0} {<AAF><fff>} {New Ofcol Bank} {BNK} {This is a bank like any other.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {BANK} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:08:57}} {1.000}
+E {  450} {n} {n} {1} {0} {}
+
+R {  454} {0} {} {Raff Way} { } {You are on Raff Way.  To the west, you can see a big intersection.  To \nthe east, you see Raff Way continue toward the Golden Citadel.  There are \nbeautiful flowers growing along the road here, making this more of a garden\nthan a road.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:09:10}} {1.000}
+E {  450} {e} {e} {2} {0} {}
+E {  455} {w} {w} {8} {0} {}
+
+R {  455} {0} {<FFC><faa>} {The Big Intersection} {TRN} {You are in the big intersection between Raff Way and Impy Way.  Crowds of\npeople walk past you as they go on their daily tasks.  Raff Way continues\neast and west, and Impy Way runs north and south.  } {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {TRAINER: sword} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:09:16}} {1.000}
+E {  454} {e} {e} {2} {0} {}
+E {  472} {w} {w} {8} {0} {}
+E {  471} {n} {n} {1} {0} {}
+
+R {  456} {0} {} {The small alley} { } {You are in a small, quiet alley.  From here you see the village street\nto the west and a small room lies to the south.} {Ofcol in North Eastern Region by Alfa for levels: 0-0} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:09:35}} {1.000}
+E {  470} {e} {e} {2} {0} {}
+E {  457} {w} {w} {8} {0} {}
+E {  469} {s} {s} {4} {0} {}
+
+R {  457} {0} {} {Village street} { } {You are standing on the village street of Ofcol.\nEast from here is a small alley and north you enter the village\nsquare. Towards the south you can leave Ofcol.} {Ofcol in North Eastern Region by Alfa for levels: 0-0} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:09:43}} {1.000}
+E {  456} {e} {e} {2} {0} {}
+E {  458} {s} {s} {4} {0} {}
+E {  462} {n} {n} {1} {0} {}
+
+R {  458} {0} {} {Village street} { } {You stand at the small village street in Ofcol.  From here you see small\nhouses and only few people.  North of here the village street continues up\nto the small square where some people are gathered as always.  } {Ofcol in North Eastern Region by Alfa for levels: 0-0} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:10:03}} {1.000}
+E {  457} {n} {n} {1} {0} {}
+E {  459} {w} {w} {8} {0} {}
+
+R {  459} {0} {} {Blessed Harvest Road} { } {You are on a lush path, the wild patches of greenery suddenly change into\nneat fields with soldier-like rows of various edibles or medicinal and\nmagical herbs.  Some fields have nonsensical roughly hewn fences, most\nlikely for marking off boundaries, for they surely keep neither man nor\nanimal from their confines.  } {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:10:11}} {1.000}
+E {  458} {e} {e} {2} {0} {}
+E {  460} {s} {s} {4} {0} {}
+E {  461} {w} {w} {8} {0} {}
+
+R {  460} {0} {} {Blessed Harvest Road} { } {You are on a lush path, the wild patches of greenery suddenly change into\nneat fields with soldier-like rows of various edibles or medicinal and\nmagical herbs.  Some fields have nonsensical roughly hewn fences, most\nlikely for marking off boundaries, for they surely keep neither man nor\nanimal from their confines.  } {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:10:25}} {1.000}
+E {  459} {n} {n} {1} {0} {}
+
+R {  461} {0} {} {Blessed Harvest Road} { } {You are on a lush path, the wild patches of greenery suddenly change into\nneat fields with soldier-like rows of various edibles or medicinal and\nmagical herbs.  Some fields have nonsensical roughly hewn fences, most\nlikely for marking off boundaries, for they surely keep neither man nor\nanimal from their confines.  } {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:10:36}} {1.000}
+E {  459} {e} {e} {2} {0} {}
+
+R {  462} {0} {} {Village square} { } {The village square is a place where inhabitants of Ofcol gather\nto talk, trade and sell items and just have a good time.\nYou see a small shop to the west and the local inn to the north.\nIf you leave south you go to village street.} {Ofcol in North Eastern Region by Alfa for levels: 0-0} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:11:02}} {1.000}
+E {  457} {s} {s} {4} {0} {}
+E {  463} {w} {w} {8} {0} {}
+E {  464} {e} {e} {2} {0} {}
+E {  468} {n} {n} {1} {0} {}
+
+R {  463} {0} {<AAF><fff>} {Luxan's mixed shop} {SHP} {You are standing in a small shop, filled with all kinds of goods.\nHere you might be able to find just the thing you're looking for.\nThe only exit is east to village square.} {Ofcol in North Eastern Region by Alfa for levels: 0-0} {[Lv Price] Item\n[15       30] A small wicker basket.\n[ 0       12] A candle.} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:11:09}} {1.000}
+E {  462} {e} {e} {2} {0} {}
+
+R {  464} {0} {} {The Entrance to the Knight's Guild} { } {} {Ofcol in North Eastern Region by Alfa for levels: 0-0} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:11:17}} {1.000}
+E {  462} {w} {w} {8} {0} {}
+E {  465} {n} {n} {1} {0} {}
+E {  467} {e} {e} {2} {0} {}
+
+R {  465} {0} {<AAF><fff>} {Stable of the Knights} {PET} {You see several fairly battered stalls.  No doubt the equine presence\nhere is a robust one.  Knight's horses, muscular and pawing the earth are\nthe finest battle animal man could befriend.  You see they are cared for\nwell.  } {Ofcol in North Eastern Region by Alfa for levels: 0-0} {Pets for sale:\n[41    16810] a radiant black stallion.} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:11:23}} {1.000}
+E {  464} {s} {s} {4} {0} {}
+E {  466} {e} {e} {2} {0} {}
+
+R {  466} {0} {<EAF><fff>} {The Guild Room of the Knights} { } {Gleaming armor is proudly displayed on heavy wooden stands, some deeply\ngouged with the expenses of war.  Rustic warring axes with their sharp tips\nand crescent blades make you cringe at the thought of them meeting flesh. \nOne of the tapestries looks almost transparent.  } {Ofcol in North Eastern Region by Alfa for levels: 0-0} {[Lv Dif] Quest name     Quest item\n[99   1] remort to Knight     Full armor of $w$zrighteousness$x.\n[99   1] remort from Knight     Permission to remort from knight.} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:11:38}} {1.000}
+E {  465} {w} {w} {8} {0} {}
+E {  467} {s} {s} {4} {0} {}
+
+R {  467} {0} {} {The Knight's Tavern} { } {} {Ofcol in North Eastern Region by Alfa for levels: 0-0} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:12:18}} {1.000}
+E {  466} {n} {n} {1} {0} {}
+E {  464} {w} {w} {8} {0} {}
+
+R {  468} {0} {<AAF><fff>} {The Local Inn} {SHP} {You are in the local inn, where the peaceful citizens of Ofcol gather to\nhave a drink or 5 if they have dry throats.  } {Ofcol in North Eastern Region by Alfa for levels: 0-0} {[Lv Price] Item\n[ 0       66] A tankard of ale.} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:12:33}} {1.000}
+E {  462} {s} {s} {4} {0} {}
+
+R {  469} {0} {} {The future training room} { } {This is the future site of a training room.  The only exit is north\nleading to the small alley.} {Ofcol in North Eastern Region by Alfa for levels: 0-0} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:12:56}} {1.000}
+E {  456} {n} {n} {1} {0} {}
+
+R {  470} {8} {} {} { } {} {} {} {} {} {1.000}
+E {  456} {w} {w} {8} {0} {}
+E {  472} {e} {e} {2} {0} {}
+
+R {  471} {0} {} {Impy Way} { } {You are on Impy Way.  East and west of you are big houses.  Impy Way\ncontinues north and reaches a big intersection south.  Children are running to\nfrom home to home.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:13:34}} {1.000}
+E {  455} {s} {s} {4} {0} {}
+E {  473} {w} {w} {8} {0} {}
+E {  475} {e} {e} {2} {0} {}
+E {  479} {n} {n} {1} {0} {}
+
+R {  472} {8} {} {} { } {} {} {} {} {} {1.000}
+E {  470} {w} {w} {8} {0} {}
+E {  455} {e} {e} {2} {0} {}
+
+R {  473} {0} {<FFC><faa>} {Big House} {TRN} {You are in a big house.  Evidently, the owners of this house are richer\nthan the average citizen, since there is more than one room to this house.  A\ndoor leads to the kitchen west, and a bedroom is upstairs.  The exit is to the\neast.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {TRAINER: club} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:13:59}} {1.000}
+E {  471} {e} {e} {2} {0} {}
+E {  474} {u} {u} {16} {0} {}
+
+R {  474} {0} {} {Bedroom} { } {You are in the bedroom.  There isn't much of interest except for a bed and\na closet.  The stairs lead back down.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:14:08}} {1.000}
+E {  473} {d} {d} {32} {0} {}
+
+R {  475} {0} {} {Big House} { } {You are in a big house.  Evidently, the owners of this house are richer\nthan the average citizen, since there is more than one room to this house.  A\ndoor leads to the kitchen east, and a bedroom is upstairs.  The exit is to the\nwest.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:14:23}} {1.000}
+E {  471} {w} {w} {8} {0} {}
+E {  476} {u} {u} {16} {0} {}
+
+R {  476} {0} {} {Bedroom} { } {You are in the bedroom.  There isn't much of interest except for a bed\nand a closet.  The stairs lead back down.  } {Ofcol in North Eastern Region by Alfa for levels: 0-0} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:14:29}} {1.000}
+E {  475} {d} {d} {32} {0} {}
+
+R {  477} {0} {} {Impy Way} { } {You are on Impy Way.  Houses are to the east and west of here.  Impy Way\ncontinues north and south.  There are many people walking along the streets.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:14:40}} {1.000}
+E {  479} {s} {s} {4} {0} {}
+E {  478} {w} {open w; w} {8} {0} {}
+E {  481} {e} {open e; e} {2} {0} {}
+E {  485} {n} {n} {1} {0} {}
+
+R {  478} {0} {} {House} { } {You are in a house.  The living room and kitchen are all bundled into\nthis room.  There is a bedroom south of here.  The exit is east.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:14:51}} {1.000}
+E {  477} {e} {e} {2} {0} {}
+E {  480} {s} {s} {4} {0} {}
+
+R {  479} {8} {} {} { } {} {} {} {} {} {1.000}
+E {  477} {n} {n} {1} {0} {}
+E {  471} {s} {s} {4} {0} {}
+
+R {  480} {0} {} {Bedroom} { } {You are in a bedroom.  There isn't much of interest here except for a bed\nand a dresser.  The main room of the house is north of here.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:15:14}} {1.000}
+E {  478} {n} {n} {1} {0} {}
+
+R {  481} {0} {} {House} { } {You are in a house.  The living room and kitchen are all bundled into\nthis room.  There is a bedroom south of here.  } {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:15:36}} {1.000}
+E {  477} {w} {w} {8} {0} {}
+E {  482} {s} {s} {4} {0} {}
+
+R {  482} {0} {} {Bedroom} { } {You are in a bedroom.  There isn't much of interest here except for a bed\nand a dresser.  The main room of the house is north of here.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:15:42}} {1.000}
+E {  481} {n} {n} {1} {0} {}
+
+R {  483} {0} {} {Impy Way} { } {You are on Impy Way.  Houses are to the east and west of here.  Impy Way\ncontinues south.  To the north is a big intersection.  There are many people\nwalking along the streets.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:15:58}} {1.000}
+E {  485} {s} {s} {4} {0} {}
+E {  484} {w} {w} {8} {0} {}
+E {  487} {e} {e} {2} {0} {}
+E {  490} {n} {n} {1} {0} {}
+
+R {  484} {0} {} {House} { } {You are in a house.  The living room and kitchen are all bundled into\nthis room.  There is a bedroom south of here.  The exit is east.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:16:12}} {1.000}
+E {  483} {e} {e} {2} {0} {}
+E {  486} {s} {s} {4} {0} {}
+
+R {  485} {8} {} {} { } {} {} {} {} {} {1.000}
+E {  483} {n} {n} {1} {0} {}
+E {  477} {s} {s} {4} {0} {}
+
+R {  486} {0} {} {Bedroom} { } {You are in a bedroom.  There isn't much of interest here except for a bed\nand a dresser.  The main room of the house is north of here.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:16:27}} {1.000}
+E {  484} {n} {n} {1} {0} {}
+
+R {  487} {0} {} {House} { } {You are in a house.  The living room and kitchen are all bundled into\nthis room.    } {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:16:44}} {1.000}
+E {  483} {w} {w} {8} {0} {}
+
+R {  488} {0} {} {The Big Intersection} { } {You are on the intersection of Impy Way and Swiftest Way.  To the north of\nyou is a big house.  Swiftest Way runs east and west, and Impy way continues\nsouth.  There are quite a few people on this intersection.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:16:55}} {1.000}
+E {  490} {s} {s} {4} {0} {}
+E {  489} {w} {w} {8} {0} {}
+E {  500} {n} {n} {1} {0} {}
+E {  503} {e} {e} {2} {0} {}
+
+R {  489} {0} {} {Swiftest Way} { } {You are on Swiftest Way, the commoner's residential area.  Small houses\nare north and south of you.  Swiftest Way continues west, and to the east you\nsee a big intersection.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:17:04}} {1.000}
+E {  488} {e} {e} {2} {0} {}
+E {  491} {s} {s} {4} {0} {}
+E {  492} {n} {n} {1} {0} {}
+E {  493} {w} {w} {8} {0} {}
+
+R {  490} {8} {} {} { } {} {} {} {} {} {1.000}
+E {  488} {n} {n} {1} {0} {}
+E {  483} {s} {s} {4} {0} {}
+
+R {  491} {0} {<AAF><fff>} {Main Store} {SHP} {This is the main store in New Ofcol.  Here you can buy the supplies needed\nfor exploration and survival.  } {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {[Lv Price] Item\n[ 0       60] A hooded brass lantern.\n[14       20] A bag.} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:17:33}} {1.000}
+E {  489} {n} {n} {1} {0} {}
+
+R {  492} {0} {} {Small House} { } {You are in a small house, owned by a commoner of Ofcol.  There isn't much\nof value here to you, but you'd bet that the owner really cherishes the pile\nof stuff here.  The exit is to the south.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:17:49}} {1.000}
+E {  489} {s} {s} {4} {0} {}
+
+R {  493} {0} {} {Swiftest Way} { } {You are on Swiftest Way, the commoner's residential area.  Small houses\nare north and south of you.  Swiftest Way continues east and west.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:17:58}} {1.000}
+E {  489} {e} {e} {2} {0} {}
+E {  494} {s} {s} {4} {0} {}
+E {  495} {n} {n} {1} {0} {}
+E {  496} {w} {w} {8} {0} {}
+
+R {  494} {0} {} {Small House} { } {You are in a small house, owned by a commoner of Ofcol.  There isn't much\nof value here to you, but you'd bet that the owner really cherishes the pile\nof stuff here.  The exit is to the north.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:18:02}} {1.000}
+E {  493} {n} {n} {1} {0} {}
+
+R {  495} {0} {} {Small House} { } {You are in a small house, owned by a commoner of Ofcol.  There isn't much\nof value here to you, but you'd bet that the owner really cherishes the pile\nof stuff here.  The exit is to the south.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:18:10}} {1.000}
+E {  493} {s} {s} {4} {0} {}
+
+R {  496} {0} {} {The end of Swiftest Way} { } {You are on Swiftest Way, the commoner's residential area.  Small houses\nare north, south, and west of you.  Swiftest Way continues east.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:18:18}} {1.000}
+E {  493} {e} {e} {2} {0} {}
+E {  497} {s} {s} {4} {0} {}
+E {  498} {n} {n} {1} {0} {}
+E {  499} {w} {w} {8} {0} {}
+
+R {  497} {0} {} {Small House} { } {You are in a small house, owned by a commoner of Ofcol.  There isn't much\nof value here to you, but you'd bet that the owner really cherishes the pile\nof stuff here.  The exit is to the north.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:18:31}} {1.000}
+E {  496} {n} {n} {1} {0} {}
+
+R {  498} {0} {} {Small House} { } {You are in a small house, owned by a commoner of Ofcol.  There isn't much\nof value here to you, but you'd bet that the owner really cherishes the pile\nof stuff here.  The exit is to the south.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:18:38}} {1.000}
+E {  496} {s} {s} {4} {0} {}
+
+R {  499} {0} {} {Small House} { } {You are in a small house, owned by a commoner of Ofcol.  There isn't much\nof value here to you, but you'd bet that the owner really cherishes the pile\nof stuff here.  The exit is to the east.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:18:47}} {1.000}
+E {  496} {e} {e} {2} {0} {}
+
+R {  500} {0} {} {Big House} { } {You are in a big house.  Evidently, the owners of this house are richer\nthan the average citizen, since there is more than one room to this house.  A\ndoor leads to the kitchen north, and a bedroom is upstairs.  The exit is to \nthe south.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:19:11}} {1.000}
+E {  488} {s} {s} {4} {0} {}
+E {  501} {n} {n} {1} {0} {}
+E {  502} {u} {u} {16} {0} {}
+
+R {  501} {0} {} {Kitchen} { } {You are in a kitchen.  There isn't much of interest here.  } {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:19:18}} {1.000}
+E {  500} {s} {s} {4} {0} {}
+
+R {  502} {0} {<FFC><faa>} {Bedroom} {TRN} {You are in the bedroom.  There isn't much of interest except for a bed \nand a closet.  The stairs lead back down.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {TRAINER: club} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:19:26}} {1.000}
+E {  500} {d} {d} {32} {0} {}
+
+R {  503} {0} {} {Swiftest Way} { } {You are on Swiftest Way, the commoner's residential area.  Small houses\nare north and south of you.  Swiftest Way continues east, and west is a big\nintersection.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:19:39}} {1.000}
+E {  488} {w} {w} {8} {0} {}
+E {  504} {n} {n} {1} {0} {}
+E {  505} {s} {s} {4} {0} {}
+E {  506} {e} {e} {2} {0} {}
+
+R {  504} {0} {<AAF><fff>} {The Magic Shoppe} {SHP} {You are in New Ofcol's Magic Shoppe.  Various scrolls and potions can be\nseen in the display case.  There is a small sign on the case.  } {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {[Lv Price] Item\n[ 4      600] A revelation potion.\n[13     5000] A scroll of knowledge.\n[ 7      500] A blue potion of cure poison.\n[ 5     2000] A purple potion of cure blindness.\n[ 0     5000] A help! potion.\n[ 2      900] A breath mint.\n[ 1     5000] The basic book of armor.} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:19:44}} {1.000}
+E {  503} {s} {s} {4} {0} {}
+
+R {  505} {0} {} {Small House} { } {You are in a small house, owned by a commoner of Ofcol.  There isn't much\nof value here to you, but you'd bet that the owner really cherishes the pile\nof stuff here.  The exit is to the north.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:20:01}} {1.000}
+E {  503} {n} {n} {1} {0} {}
+
+R {  506} {0} {} {Swiftest Way} { } {You are on Swiftest Way, the commoner's residential area.  Small houses\nare north and south of you.  Swiftest Way continues east and west.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:20:08}} {1.000}
+E {  503} {w} {w} {8} {0} {}
+E {  507} {n} {n} {1} {0} {}
+E {  508} {s} {s} {4} {0} {}
+E {  509} {e} {e} {2} {0} {}
+
+R {  507} {0} {} {Small House} { } {You are in a small house, owned by a commoner of Ofcol.  There isn't much\nof value here to you, but you'd bet that the owner really cherishes the pile\nof stuff here.  The exit is to the south.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:20:13}} {1.000}
+E {  506} {s} {s} {4} {0} {}
+
+R {  508} {0} {} {Small House} { } {You are in a small house, owned by a commoner of Ofcol.  There isn't much\nof value here to you, but you'd bet that the owner really cherishes the pile\nof stuff here.  The exit is to the north.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:20:23}} {1.000}
+E {  506} {n} {n} {1} {0} {}
+
+R {  509} {0} {} {End of Swiftest Way} { } {You are on Swiftest Way, the commoner's residential area.  Small houses\nare north, south, and east of you.  Swiftest Way continues west.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:20:33}} {1.000}
+E {  506} {w} {w} {8} {0} {}
+E {  510} {n} {n} {1} {0} {}
+E {  511} {s} {s} {4} {0} {}
+E {  512} {e} {e} {2} {0} {}
+
+R {  510} {0} {} {Small House} { } {You are in a small house, owned by a commoner of Ofcol.  There isn't much\nof value here to you, but you'd bet that the owner really cherishes the pile\nof stuff here.  The exit is to the south.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:20:38}} {1.000}
+E {  509} {s} {s} {4} {0} {}
+
+R {  511} {0} {<FFC><faa>} {Small House} {TRN} {You are in a small house, owned by a commoner of Ofcol.  There isn't much\nof value here to you, but you'd bet that the owner really cherishes the pile\nof stuff here.  The exit is to the north.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {TRAINER: knife} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:20:46}} {1.000}
+E {  509} {n} {n} {1} {0} {}
+
+R {  512} {0} {} {Small House} { } {You are in a small house, owned by a commoner of Ofcol.  There isn't much\nof value here to you, but you'd bet that the owner really cherishes the pile\nof stuff here.  The exit is to the west.} {NEW OFCOL in North Eastern Region by Hatchet for levels: 5-35} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 23:20:56}} {1.000}
+E {  509} {w} {w} {8} {0} {}
