@@ -4,9 +4,9 @@ CE <078>
 CR <178>
 CP <138>
 
-F 27
+F 26
 
-I 81
+I 87
 
 L * # # # | # x          
 
@@ -368,7 +368,7 @@ E {   93} {w} {w} {8} {1} {}
 R {   86} {0} {<AFA><aaa>} {Seraphim Donation Room} {SMT} {You have stepped into the room of a clan that takes pride in its\naccomplishments.  This room is the Donation room and you may look at all\nthat is here and pickup anything you may need.  It is a large room with huge\naltars and a large bin in the center of the floor.  The bin is adorned with\ngold and has pictures etched in it of the hero's of the clan Seraphim. \nThere are fires to your left and right that light the room and there is a\ndrop doorway above you, this is the only exit from this room.  There are\nseats to sit on as you look at all there is to see.  You may leave anything\nyou may not wish to carry for the clan to use.  } {Clan Rooms by Various for levels: 0-0} {SMITH: Yeslick the Blacksmith} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:17:07}} {1.000}
 E {   81} {u} {u} {16} {0} {}
 
-R {   87} {0} {<AAF><fff>} {The Bank of the Seraphim} {BNK} {You have entered the bank of clan Seraphim. This is the most active place\non the mud. The feeling of money flowing in and out lets you know this\nis a clan on the way up.  Marble walls combine with plush carpets to\nmute the sounds and give an aura of wealth and power. Soft music plays\nin the background, Wagner's Ride of the Valkyries and you just have to leave\na deposit. To see the current wealth of the clan type cacc.\n                           A Jewelled KeyBox} {Clan Rooms by Various for levels: 0-0} {BANK} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:17:17}} {1.000}
+R {   87} {0} {<CFF><aaa>} {The Bank of the Seraphim} {MIX} {You have entered the bank of clan Seraphim. This is the most active place\non the mud. The feeling of money flowing in and out lets you know this\nis a clan on the way up.  Marble walls combine with plush carpets to\nmute the sounds and give an aura of wealth and power. Soft music plays\nin the background, Wagner's Ride of the Valkyries and you just have to leave\na deposit. To see the current wealth of the clan type cacc.\n     A piece of cactus lays here looking prickly.\n                           A Jewelled KeyBox\nYou have entered the bank of clan Seraphim. This is the most active place\non the mud. The feeling of money flowing in and out lets you know this\nis a clan on the way up.  Marble walls combine with plush carpets to\nmute the sounds and give an aura of wealth and power. Soft music plays\nin the background, Wagner's Ride of the Valkyries and you just have to leave\na deposit. To see the current wealth of the clan type cacc.\n     A piece of cactus lays here looking prickly.\n                           A Jewelled KeyBox} {Clan Rooms by Various for levels: 0-0} {BANK\nBANK} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 17:16:13}} {1.000}
 E {   81} {d} {d} {32} {0} {}
 
 R {   88} {0} {} {} { } {} {Clan Rooms by Various for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:17:57}} {1.000}
@@ -398,6 +398,8 @@ E {  449} {n} {n} {1} {0} {}
 E {  450} {s} {s} {4} {0} {}
 
 R {   94} {0} {} {Main Road} { } {You stand on a paved road.  Ahead of you is an electric car, which seems\nto have stopped.  All around you is an annoying chirping sound, and the\nsudden screeching from some unknown creature.  } {Jurassic Park in South Western Region by Selex for levels: 150-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:24:43}} {1.000}
+E { 1253} {w} {w} {8} {0} {}
+E { 1256} {e} {e} {2} {0} {}
 
 R {   95} {0} {} {Clan Commons} { } {Soft lighting warms this room where all the clans can gather to meet on a\nneutral ground. A place to socialize with friends or size up an enemy.\nA friendly place for exchange of equipment or ideas. Acquaintances and\nstrangers wander in and out with a nod and a smile. A smaller room lies to\nthe north for those requiring a bit more privacy in their transactions.\nTotal solitude is to the east.} {Clan Rooms by Various for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 10:25:30}} {1.000}
 E {   96} {n} {n} {1} {0} {}
@@ -4547,6 +4549,7 @@ E { 1111} {e} {e} {2} {0} {}
 
 R { 1110} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  } {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-25 12:56:45}{updatedby}{denae}{updatedon}{2012-01-25 15:57:21}} {1.000}
 E { 1108} {e} {e} {2} {0} {}
+E { 1269} {s} {s} {4} {0} {}
 
 R { 1111} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  } {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-25 12:56:45}{updatedby}{denae}{updatedon}{2012-01-25 15:57:32}} {1.000}
 E { 1109} {w} {w} {8} {0} {}
@@ -4645,6 +4648,7 @@ E { 1134} {n} {n} {1} {0} {}
 R { 1134} {0} {} {Temple Docks} { } {\x7B\x7D_____\x7B\x7D_____\x7B\x7D_____\x7B\x7D_____\x7B\x7D_____\x7B\x7D\n=====================================} {Southern Roads by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-25 12:56:45}{updatedby}{denae}{updatedon}{2012-01-25 16:03:51}} {1.000}
 E { 1133} {s} {s} {4} {0} {}
 E { 1130} {e} {give 10 coins dock; e} {2} {0} {}
+E { 1268} {w} {w} {8} {1} {}
 
 R { 1135} {8} {} {} { } {} {} {} {} {} {1.000}
 E { 1128} {e} {e} {2} {0} {}
@@ -5100,6 +5104,7 @@ R { 1243} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1143} {d} {d} {32} {0} {}
 E { 1244} {s} {s} {4} {0} {}
 E { 1250} {n} {n} {1} {0} {}
+E { 1252} {u} {u} {16} {0} {}
 
 R { 1244} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1243} {n} {n} {1} {0} {}
@@ -5111,35 +5116,692 @@ R { 1245} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1244} {e} {e} {2} {0} {}
 E { 1246} {w} {w} {8} {0} {}
 E { 1142} {d} {d} {32} {0} {}
+E { 1266} {u} {u} {16} {0} {}
 
 R { 1246} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1245} {e} {e} {2} {0} {}
 E { 1247} {n} {n} {1} {0} {}
 E { 1148} {d} {d} {32} {0} {}
+E { 1267} {u} {u} {16} {0} {}
 
 R { 1247} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1246} {s} {s} {4} {0} {}
 E { 1248} {n} {n} {1} {0} {}
 E { 1146} {d} {d} {32} {0} {}
+E { 1265} {u} {u} {16} {0} {}
 
 R { 1248} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1247} {s} {s} {4} {0} {}
 E { 1249} {e} {e} {2} {0} {}
 E { 1145} {d} {d} {32} {0} {}
+E { 1261} {u} {u} {16} {0} {}
 
 R { 1249} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1248} {w} {w} {8} {0} {}
 E { 1250} {e} {e} {2} {0} {}
 E { 1141} {d} {d} {32} {0} {}
+E { 1262} {u} {u} {16} {0} {}
 
 R { 1250} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1249} {w} {w} {8} {0} {}
 E { 1243} {s} {s} {4} {0} {}
 E { 1144} {d} {d} {32} {0} {}
+E { 1263} {u} {u} {16} {0} {}
 
 R { 1251} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1244} {d} {d} {32} {0} {}
 E { 1252} {n} {n} {1} {0} {}
+E { 1266} {w} {w} {8} {0} {}
 
 R { 1252} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1251} {s} {s} {4} {0} {}
+E { 1263} {n} {n} {1} {0} {}
+E { 1264} {w} {w} {8} {0} {}
+E { 1243} {d} {d} {32} {0} {}
+
+R { 1253} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   94} {e} {e} {2} {0} {}
+E { 1254} {n} {n} {1} {0} {}
+
+R { 1254} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1253} {s} {s} {4} {0} {}
+E { 1255} {w} {w} {8} {0} {}
+
+R { 1255} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1254} {e} {e} {2} {0} {}
+
+R { 1256} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   94} {w} {w} {8} {0} {}
+E { 1257} {e} {e} {2} {0} {}
+E { 1259} {n} {n} {1} {0} {}
+
+R { 1257} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1256} {w} {w} {8} {0} {}
+E { 1258} {e} {e} {2} {0} {}
+
+R { 1258} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1257} {w} {w} {8} {0} {}
+
+R { 1259} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1256} {s} {s} {4} {0} {}
+E { 1260} {e} {e} {2} {0} {}
+
+R { 1260} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1259} {w} {w} {8} {0} {}
+
+R { 1261} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1248} {d} {d} {32} {0} {}
+E { 1262} {e} {e} {2} {0} {}
+E { 1265} {s} {s} {4} {0} {}
+
+R { 1262} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1261} {w} {w} {8} {0} {}
+E { 1263} {e} {e} {2} {0} {}
+E { 1264} {s} {s} {4} {0} {}
+E { 1249} {d} {d} {32} {0} {}
+
+R { 1263} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1262} {w} {w} {8} {0} {}
+E { 1252} {s} {s} {4} {0} {}
+E { 1250} {d} {d} {32} {0} {}
+
+R { 1264} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1252} {e} {e} {2} {0} {}
+E { 1262} {n} {n} {1} {0} {}
+E { 1265} {w} {w} {8} {0} {}
+E { 1266} {s} {s} {4} {0} {}
+
+R { 1265} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1261} {n} {n} {1} {0} {}
+E { 1264} {e} {e} {2} {0} {}
+E { 1267} {s} {s} {4} {0} {}
+E { 1247} {d} {d} {32} {0} {}
+
+R { 1266} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1264} {n} {n} {1} {0} {}
+E { 1251} {e} {e} {2} {0} {}
+E { 1267} {w} {w} {8} {0} {}
+E { 1245} {d} {d} {32} {0} {}
+
+R { 1267} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1266} {e} {e} {2} {0} {}
+E { 1265} {n} {n} {1} {0} {}
+E { 1246} {d} {d} {32} {0} {}
+
+R { 1268} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1134} {e} {e} {2} {1} {}
+
+R { 1269} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}} {1.000}
+E { 1110} {n} {n} {1} {0} {}
+E { 1270} {w} {w} {8} {0} {}
+
+R { 1270} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:17:03}} {1.000}
+E { 1269} {e} {e} {2} {0} {}
+E { 1271} {w} {w} {8} {0} {}
+
+R { 1271} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:17:08}} {1.000}
+E { 1270} {e} {e} {2} {0} {}
+E { 1272} {w} {w} {8} {0} {}
+
+R { 1272} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:17:12}} {1.000}
+E { 1271} {e} {e} {2} {0} {}
+E { 1273} {w} {w} {8} {0} {}
+
+R { 1273} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:17:17}} {1.000}
+E { 1272} {e} {e} {2} {0} {}
+E { 1274} {w} {w} {8} {0} {}
+
+R { 1274} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:17:22}} {1.000}
+E { 1273} {e} {e} {2} {0} {}
+E { 1275} {w} {w} {8} {0} {}
+
+R { 1275} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:17:26}} {1.000}
+E { 1274} {e} {e} {2} {0} {}
+E { 1276} {s} {s} {4} {0} {}
+
+R { 1276} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:17:34}} {1.000}
+E { 1275} {n} {n} {1} {0} {}
+E { 1277} {w} {w} {8} {0} {}
+
+R { 1277} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:17:38}} {1.000}
+E { 1276} {e} {e} {2} {0} {}
+E { 1278} {w} {w} {8} {0} {}
+
+R { 1278} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:17:42}} {1.000}
+E { 1277} {e} {e} {2} {0} {}
+E { 1279} {w} {w} {8} {0} {}
+
+R { 1279} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nA snapping turtle looks glum\nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:17:47}} {1.000}
+E { 1278} {e} {e} {2} {0} {}
+E { 1280} {w} {w} {8} {0} {}
+
+R { 1280} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:17:52}} {1.000}
+E { 1279} {e} {e} {2} {0} {}
+E { 1281} {w} {w} {8} {0} {}
+
+R { 1281} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:22:21}} {1.000}
+E { 1280} {e} {e} {2} {0} {}
+E { 1282} {s} {s} {4} {0} {}
+
+R { 1282} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:22:26}} {1.000}
+E { 1281} {n} {n} {1} {0} {}
+E { 1283} {w} {w} {8} {0} {}
+
+R { 1283} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:22:32}} {1.000}
+E { 1282} {e} {e} {2} {0} {}
+E { 1284} {w} {w} {8} {0} {}
+
+R { 1284} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:22:36}} {1.000}
+E { 1283} {e} {e} {2} {0} {}
+E { 1285} {w} {w} {8} {0} {}
+
+R { 1285} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:22:42}} {1.000}
+E { 1284} {e} {e} {2} {0} {}
+E { 1286} {w} {w} {8} {0} {}
+
+R { 1286} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:23:03}} {1.000}
+E { 1285} {e} {e} {2} {0} {}
+E { 1287} {w} {w} {8} {0} {}
+
+R { 1287} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:23:07}} {1.000}
+E { 1286} {e} {e} {2} {0} {}
+E { 1288} {w} {w} {8} {0} {}
+
+R { 1288} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:23:12}} {1.000}
+E { 1287} {e} {e} {2} {0} {}
+E { 1289} {w} {w} {8} {0} {}
+
+R { 1289} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:23:17}} {1.000}
+E { 1288} {e} {e} {2} {0} {}
+E { 1290} {s} {s} {4} {0} {}
+
+R { 1290} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:23:22}} {1.000}
+E { 1289} {n} {n} {1} {0} {}
+E { 1291} {w} {w} {8} {0} {}
+
+R { 1291} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:23:27}} {1.000}
+E { 1290} {e} {e} {2} {0} {}
+E { 1292} {w} {w} {8} {0} {}
+
+R { 1292} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:23:31}} {1.000}
+E { 1291} {e} {e} {2} {0} {}
+E { 1293} {w} {w} {8} {0} {}
+
+R { 1293} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:23:36}} {1.000}
+E { 1292} {e} {e} {2} {0} {}
+E { 1294} {w} {w} {8} {0} {}
+
+R { 1294} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:23:40}} {1.000}
+E { 1293} {e} {e} {2} {0} {}
+E { 1295} {w} {w} {8} {0} {}
+
+R { 1295} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:23:45}} {1.000}
+E { 1294} {e} {e} {2} {0} {}
+E { 1296} {w} {w} {8} {0} {}
+
+R { 1296} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:23:50}} {1.000}
+E { 1295} {e} {e} {2} {0} {}
+E { 1297} {w} {w} {8} {0} {}
+
+R { 1297} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:23:56}} {1.000}
+E { 1296} {e} {e} {2} {0} {}
+E { 1298} {w} {w} {8} {0} {}
+
+R { 1298} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:24:01}} {1.000}
+E { 1297} {e} {e} {2} {0} {}
+E { 1299} {w} {w} {8} {0} {}
+
+R { 1299} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:24:06}} {1.000}
+E { 1298} {e} {e} {2} {0} {}
+E { 1300} {n} {n} {1} {0} {}
+
+R { 1300} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:24:13}} {1.000}
+E { 1299} {s} {s} {4} {0} {}
+E { 1301} {w} {w} {8} {0} {}
+
+R { 1301} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:24:19}} {1.000}
+E { 1300} {e} {e} {2} {0} {}
+E { 1302} {w} {w} {8} {0} {}
+
+R { 1302} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:24:24}} {1.000}
+E { 1301} {e} {e} {2} {0} {}
+E { 1303} {w} {w} {8} {0} {}
+
+R { 1303} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:24:58}} {1.000}
+E { 1302} {e} {e} {2} {0} {}
+E { 1304} {w} {w} {8} {0} {}
+
+R { 1304} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:25:55}} {1.000}
+E { 1303} {e} {e} {2} {0} {}
+E { 1305} {w} {w} {8} {0} {}
+
+R { 1305} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:25:59}} {1.000}
+E { 1304} {e} {e} {2} {0} {}
+E { 1306} {n} {n} {1} {0} {}
+
+R { 1306} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:26:04}} {1.000}
+E { 1305} {s} {s} {4} {0} {}
+E { 1307} {w} {w} {8} {0} {}
+
+R { 1307} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:26:09}} {1.000}
+E { 1306} {e} {e} {2} {0} {}
+E { 1308} {w} {w} {8} {0} {}
+
+R { 1308} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:26:14}} {1.000}
+E { 1307} {e} {e} {2} {0} {}
+E { 1309} {n} {n} {1} {0} {}
+
+R { 1309} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:26:18}} {1.000}
+E { 1308} {s} {s} {4} {0} {}
+E { 1310} {w} {w} {8} {0} {}
+
+R { 1310} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:26:23}} {1.000}
+E { 1309} {e} {e} {2} {0} {}
+E { 1311} {w} {w} {8} {0} {}
+
+R { 1311} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:26:28}} {1.000}
+E { 1310} {e} {e} {2} {0} {}
+E { 1312} {w} {w} {8} {0} {}
+
+R { 1312} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:26:33}} {1.000}
+E { 1311} {e} {e} {2} {0} {}
+E { 1313} {w} {w} {8} {0} {}
+
+R { 1313} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:26:38}} {1.000}
+E { 1312} {e} {e} {2} {0} {}
+E { 1314} {w} {w} {8} {0} {}
+
+R { 1314} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  You see a muddy footpath to the south.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:26:42}} {1.000}
+E { 1313} {e} {e} {2} {0} {}
+E { 1315} {s} {s} {4} {1} {}
+E { 1318} {w} {w} {8} {0} {}
+
+R { 1315} {0} {} {wyvern's tower} { } {You are on a very rough and overgrown path heading east-west over rugged\nterrain.  To the east the path passes between low hills.} {Wyvern's Tower in North Western Region by Tyrst for levels: 5-30} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:26:54}} {1.000}
+E { 1314} {n} {n} {1} {1} {}
+E { 1316} {e} {e} {2} {0} {}
+E { 1317} {w} {w} {8} {0} {}
+
+R { 1316} {0} {} {Rough Path Between the Hills} { } {Here the path passes between low hills. The going is very rough, but\nto the east the ground is smoother. In that direction a pair of tower\nlooms above the hills.} {Wyvern's Tower in North Western Region by Tyrst for levels: 5-30} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:27:03}} {1.000}
+E { 1315} {w} {w} {8} {0} {}
+
+R { 1317} {0} {} {Crossroads to the Wilderness} { } {You are at a crossroads to the wilderness areas east and north of here,\nand the more civilized areas to the west. The main road is west, an\nolder road continues east, and a simple trail heads north.  To the south,\nan old ram-shackle building is being used as a trading post for the\nsurrounding wilderness. } {Wyvern's Tower in North Western Region by Tyrst for levels: 5-30} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:27:11}} {1.000}
+E { 1315} {e} {e} {2} {0} {}
+
+R { 1318} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:27:24}} {1.000}
+E { 1314} {e} {e} {2} {0} {}
+E { 1319} {w} {w} {8} {0} {}
+
+R { 1319} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:27:41}} {1.000}
+E { 1318} {e} {e} {2} {0} {}
+E { 1320} {n} {n} {1} {0} {}
+
+R { 1320} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:28:03}} {1.000}
+E { 1319} {s} {s} {4} {0} {}
+E { 1321} {n} {n} {1} {0} {}
+
+R { 1321} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nA vicious razorfish swims here\nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:28:37}} {1.000}
+E { 1320} {s} {s} {4} {0} {}
+E { 1322} {w} {w} {8} {0} {}
+
+R { 1322} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:28:42}} {1.000}
+E { 1321} {e} {e} {2} {0} {}
+E { 1323} {s} {s} {4} {0} {}
+E { 1324} {w} {w} {8} {0} {}
+
+R { 1323} {0} {} {Old Thalos River} { } {You are on a peaceful deep river transected occasionally by a brook\nreleasing the rains from the nearby hilltops.  The riverbanks are maninly\nsmooth, dark water-worn granite.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:28:47}} {1.000}
+E { 1322} {n} {n} {1} {0} {}
+
+R { 1324} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:29:00}} {1.000}
+E { 1322} {e} {e} {2} {0} {}
+E { 1325} {w} {w} {8} {0} {}
+
+R { 1325} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:29:08}} {1.000}
+E { 1324} {e} {e} {2} {0} {}
+E { 1326} {w} {w} {8} {0} {}
+
+R { 1326} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:29:15}} {1.000}
+E { 1325} {e} {e} {2} {0} {}
+E { 1327} {w} {w} {8} {0} {}
+
+R { 1327} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:29:19}} {1.000}
+E { 1326} {e} {e} {2} {0} {}
+E { 1328} {w} {w} {8} {0} {}
+
+R { 1328} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:29:41}} {1.000}
+E { 1327} {e} {e} {2} {0} {}
+E { 1329} {w} {w} {8} {0} {}
+
+R { 1329} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:29:46}} {1.000}
+E { 1328} {e} {e} {2} {0} {}
+E { 1330} {w} {w} {8} {0} {}
+
+R { 1330} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:29:57}} {1.000}
+E { 1329} {e} {e} {2} {0} {}
+E { 1331} {w} {w} {8} {0} {}
+
+R { 1331} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:30:02}} {1.000}
+E { 1330} {e} {e} {2} {0} {}
+E { 1332} {w} {w} {8} {0} {}
+
+R { 1332} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:30:08}} {1.000}
+E { 1331} {e} {e} {2} {0} {}
+E { 1333} {s} {s} {4} {0} {}
+
+R { 1333} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:30:14}} {1.000}
+E { 1332} {n} {n} {1} {0} {}
+E { 1334} {w} {w} {8} {0} {}
+
+R { 1334} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:30:18}} {1.000}
+E { 1333} {e} {e} {2} {0} {}
+E { 1335} {w} {w} {8} {0} {}
+
+R { 1335} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:30:23}} {1.000}
+E { 1334} {e} {e} {2} {0} {}
+E { 1336} {w} {w} {8} {0} {}
+
+R { 1336} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:30:28}} {1.000}
+E { 1335} {e} {e} {2} {0} {}
+E { 1337} {w} {w} {8} {0} {}
+
+R { 1337} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:30:34}} {1.000}
+E { 1336} {e} {e} {2} {0} {}
+E { 1338} {w} {w} {8} {0} {}
+
+R { 1338} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:30:40}} {1.000}
+E { 1337} {e} {e} {2} {0} {}
+E { 1339} {w} {w} {8} {0} {}
+
+R { 1339} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  You see some worn mooring posts, slapped by endless tiny\nwaves to the west.  A sandy beach lay to your south.  } {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:30:45}} {1.000}
+E { 1338} {e} {e} {2} {0} {}
+E { 1340} {s} {s} {4} {0} {}
+E { 1341} {w} {w} {8} {1} {}
+
+R { 1340} {0} {} {A Sandy Bank} { } {This bank has the pure beige sands of a beach, mixed with some soils from\nthe lush woods to the south.  Pine needles meeting the shore in a heavy\ncarpet cushion your feet from the scorching sand.  } {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:30:50}} {1.000}
+E { 1339} {n} {n} {1} {0} {}
+E { 1343} {w} {w} {8} {0} {}
+
+R { 1341} {0} {} {Under Cursed Bridge} { } {You see mooring posts eaten away somewhat by the briny waters.  Once\nstrong and thick, they're mottled and pitted like driftwood.  You wonder if\nyou would risk passage with loaded carriage on this bridge safely.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:30:59}} {1.000}
+E { 1339} {e} {e} {2} {1} {}
+E { 1342} {w} {w} {8} {0} {}
+
+R { 1342} {0} {} {fractured river} { } {You are at the beginning of a long river.  The river is calm here but appears\nto get faster as you go downstream to the west.} {Fractured River by Fractal for levels: 40-60} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:31:08}} {1.000}
+E { 1341} {e} {e} {2} {0} {}
+
+R { 1343} {0} {} {Whispering Pines Path} { } {This path, aptly named for its tall dense evergreens, blown with the\nwind...  Seemingly whispering to one another a language you don't\nunderstand.  \n\\\\|/// \\\\|// \\\\|//} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:32:04}} {1.000}
+E { 1340} {e} {e} {2} {0} {}
+E { 1344} {s} {s} {4} {0} {}
+E { 1345} {n} {n} {1} {0} {}
+
+R { 1344} {0} {} {Whispering Pines Path} { } {This path, aptly named for its tall dense evergreens, blown with the\nwind...  Seemingly whispering to one another a language you don't\nunderstand.  \n\\\\|/// \\\\|// \\\\|//} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:33:01}} {1.000}
+E { 1343} {n} {n} {1} {0} {}
+
+R { 1345} {0} {} {Cursed Wood Bridge} { } {This is an old bridge, made from very strong wood when it was first made.\nNow is decayed and rotting from many insects which eat at the soft wood.  \nGenae walks in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:33:14}} {1.000}
+E { 1343} {s} {s} {4} {0} {}
+E { 1346} {n} {n} {1} {0} {}
+
+R { 1346} {0} {} {Whispering Pines Path} { } {This path, aptly named for its tall dense evergreens, blown with the\nwind...  Seemingly whispering to one another a language you don't\nunderstand.  \nGenae walks in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:33:21}} {1.000}
+E { 1345} {s} {s} {4} {0} {}
+E { 1347} {n} {n} {1} {0} {}
+
+R { 1347} {0} {} {Whispering Pines Path} { } {This path, aptly named for its tall dense evergreens, blown with the\nwind...  Seemingly whispering to one another a language you don't understand. } {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:33:26}} {1.000}
+E { 1346} {s} {s} {4} {0} {}
+E { 1348} {n} {n} {1} {0} {}
+
+R { 1348} {0} {} {Whispering Pines Path} { } {This path, aptly named for its tall dense evergreens, blown with the\nwind...  Seemingly  whispering to one another a language you don't understand. \nGenae walks in.} {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:33:43}} {1.000}
+E { 1347} {s} {s} {4} {0} {}
+E { 1349} {w} {w} {8} {0} {}
+E { 1350} {n} {n} {1} {0} {}
+
+R { 1349} {0} {} {fractured kingdom} { } {You are walking down a long road that branches off the whispering pines\nroad.  The sounds of life from the whispering pines float gently down from\nthe north as a nice contrast to the river south of here.  \nGenae walks in.} {Fractured Kingdom by Fractal for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:33:51}} {1.000}
+E { 1348} {e} {e} {2} {0} {}
+
+R { 1350} {0} {} {Whispering Pines Path} { } {This path, aptly named for its tall dense evergreens, blown with the\nwind...  Seemingly whispering to one another a language you don't understand. \nGenae walks in.} {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:34:10}} {1.000}
+E { 1348} {s} {s} {4} {0} {}
+E { 1351} {n} {n} {1} {0} {}
+
+R { 1351} {0} {} {Whispering Pines Path} { } {This path, aptly named for its tall dense evergreens, blown\nwith the wind...  Seemingly whispering to one another a language you don't\nunderstand.  } {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:34:18}} {1.000}
+E { 1350} {s} {s} {4} {0} {}
+E { 1352} {e} {e} {2} {0} {}
+E { 1353} {n} {n} {1} {0} {}
+
+R { 1352} {0} {} {shrile} { } {Many years ago you could see the bright city lights to your north, but\nnot now all thats there is death.  } {Shrile by Selex for levels: 80-150} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:35:26}} {1.000}
+E { 1351} {w} {w} {8} {0} {}
+
+R { 1353} {0} {} {Whispering Pines Trail} { } {This path, aptly named for its tall dense evergreens, blown\nwith the wind...  Seemingly whispering to one another a language you don't\nunderstand.  } {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:36:50}} {1.000}
+E { 1351} {s} {s} {4} {0} {}
+E { 1354} {n} {n} {1} {0} {}
+E { 1355} {u} {u} {16} {0} {}
+
+R { 1354} {0} {} {Whispering Pines Trail} { } {This path, aptly named for its tall dense evergreens, blown\nwith the wind...  Seemingly whispering to one another a language you don't\nunderstand.  \nGenae walks in.} {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:36:57}} {1.000}
+E { 1353} {s} {s} {4} {0} {}
+E { 1374} {n} {n} {1} {0} {}
+
+R { 1355} {0} {} {Whispering Pines Path} { } {This path, aptly named for its tall dense evergreens, blown\nwith the wind...  Seemingly whispering to one another a language you don't\nunderstand.  } {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:37:08}} {1.000}
+E { 1353} {d} {d} {32} {0} {}
+E { 1356} {u} {u} {16} {0} {}
+
+R { 1356} {0} {} {Whispering Pines Path} { } {This path, aptly named for its tall dense evergreens, blown\nwith the wind...  Seemingly whispering to one another a language you don't\nunderstand.  } {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:38:25}} {1.000}
+E { 1355} {d} {d} {32} {0} {}
+E { 1357} {u} {u} {16} {0} {}
+E { 1358} {n} {n} {1} {0} {}
+
+R { 1357} {0} {} {x-files} { } {You are standing before the entranceto FBI Headquarters.  Inside, the famous \nFBI team, Fox Mulder and Dana Scully conduct their work on the X-Files.} {The X-Files by Minister for levels: 5-35} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:38:34}} {1.000}
+E { 1356} {d} {d} {32} {0} {}
+
+R { 1358} {0} {} {Whispering Pines Path} { } {This path, aptly named for its tall dense evergreens, blown\nwith the wind...  Seemingly whispering to one another a language you don't\nunderstand.  } {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:39:08}} {1.000}
+E { 1356} {s} {s} {4} {0} {}
+E { 1359} {n} {n} {1} {0} {}
+
+R { 1359} {0} {} {Whispering Pines Path} { } {This path, aptly named for its tall dense evergreens, blown\nwith the wind...  Seemingly whispering to one another a language you don't\nunderstand.  } {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:39:13}} {1.000}
+E { 1358} {s} {s} {4} {0} {}
+E { 1360} {n} {n} {1} {0} {}
+
+R { 1360} {0} {} {Whispering Pines Path} { } {This path, aptly named for its tall dense evergreens, blown\nwith the wind...  Seemingly whispering to one another a language you don't\nunderstand.  } {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:39:21}} {1.000}
+E { 1359} {s} {s} {4} {0} {}
+E { 1361} {e} {e} {2} {0} {}
+
+R { 1361} {0} {} {Whispering Pines Path} { } {This path, aptly named for its tall dense evergreens, blown\nwith the wind...  Seemingly whispering to one another a language you don't\nunderstand.  } {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:39:27}} {1.000}
+E { 1360} {w} {w} {8} {0} {}
+E { 1362} {n} {n} {1} {0} {}
+
+R { 1362} {0} {} {Whispering Pines Path} { } {This path, aptly named for its tall dense evergreens, blown\nwith the wind...  Seemingly whispering to one another a language you don't\nunderstand.  } {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:39:34}} {1.000}
+E { 1361} {s} {s} {4} {0} {}
+E { 1363} {n} {n} {1} {0} {}
+
+R { 1363} {0} {} {Whispering Pines Path} { } {This path, aptly named for its tall dense evergreens, blown\nwith the wind...  Seemingly whispering to one another a language you don't\nunderstand.  } {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:39:39}} {1.000}
+E { 1362} {s} {s} {4} {0} {}
+E { 1364} {e} {e} {2} {0} {}
+
+R { 1364} {0} {} {Whispering Pines Path} { } {This path, aptly named for its tall dense evergreens, blown\nwith the wind...  Seemingly whispering to one another a language you don't\nunderstand.  } {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:39:44}} {1.000}
+E { 1363} {w} {w} {8} {0} {}
+E { 1365} {e} {e} {2} {0} {}
+
+R { 1365} {0} {} {Whispering Pines Path} { } {This path, aptly named for its tall dense evergreens, blown\nwith the wind...  Seemingly whispering to one another a language you don't\nunderstand.  } {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:39:49}} {1.000}
+E { 1364} {w} {w} {8} {0} {}
+E { 1366} {u} {open u; u} {16} {0} {}
+E { 1367} {n} {n} {1} {0} {}
+
+R { 1366} {0} {} {the machine} { } {You are standing at the entrance.  To the north is a hallway that spreads in\ntwo directions.  You notice a sign posted by the gateway.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:40:00}} {1.000}
+E { 1365} {d} {open d; d} {32} {0} {}
+E { 1395} {n} {n} {1} {0} {}
+
+R { 1367} {0} {} {Whispering Pines Path} { } {This path, aptly named for its tall dense evergreens, blown\nwith the wind...  Seemingly whispering to one another a language you don't\nunderstand.  } {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:44:28}} {1.000}
+E { 1365} {s} {s} {4} {0} {}
+E { 1368} {n} {n} {1} {0} {}
+
+R { 1368} {0} {} {Whispering Pines Path} { } {This path, aptly named for its tall dense evergreens, blown\nwith the wind...  Seemingly whispering to one another a language you don't\nunderstand.  } {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:44:38}} {1.000}
+E { 1367} {s} {s} {4} {0} {}
+E { 1369} {n} {n} {1} {0} {}
+
+R { 1369} {0} {} {Whispering Pines Path} { } {This path, aptly named for its tall dense evergreens, blown\nwith the wind...  Seemingly whispering to one another a language you don't\nunderstand.  } {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:44:57}} {1.000}
+E { 1368} {s} {s} {4} {0} {}
+E { 1370} {n} {n} {1} {0} {}
+
+R { 1370} {0} {} {Whispering Pines Path} { } {This path, aptly named for its tall dense evergreens, blown\nwith the wind...  Seemingly whispering to one another a language you don't\nunderstand.  } {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:45:02}} {1.000}
+E { 1369} {s} {s} {4} {0} {}
+E { 1371} {n} {n} {1} {0} {}
+
+R { 1371} {0} {} {An Enormous Pine} { } {An enormous pine seventy five feet high and seven feet in diameter towers\nabove the path.  As the wind whistles through it's branches, it seems to be\ntelling the story of strange and wonderful happenings that have and will\ncontinue to occur in this region.  A large branch within easy reach of the\nground appears to have been often used by travelers as a haven to escape\nmarauding animals that wander the path at night.  } {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:45:07}} {1.000}
+E { 1370} {s} {s} {4} {0} {}
+E { 1372} {e} {e} {2} {0} {}
+
+R { 1372} {0} {} {A Muddy Trail} { } {You are on a muddy trail just south of Vector.  Immediately to the north\nyou see the huge citywalls, while in the distance to the south you can make\nout a mountain.  } {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:45:15}} {1.000}
+E { 1371} {w} {w} {8} {0} {}
+E { 1373} {n} {n} {1} {0} {}
+
+R { 1373} {0} {} {A Muddy Trail} { } {You are on a muddy trail just south of Vector.  Immediately to the north\nyou see absolutely nothing, while in the distance to the south you can make\nout a mountain.  } {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:45:21}} {1.000}
+E { 1372} {s} {s} {4} {0} {}
+
+R { 1374} {0} {} {Whispering Pines Path} { } {This path, aptly named for its tall dense evergreens, blown\nwith the wind...  Seemingly whispering to one another a language you don't\nunderstand.  \nGenae walks in.} {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:48:16}} {1.000}
+E { 1354} {s} {s} {4} {0} {}
+E { 1375} {w} {w} {8} {0} {}
+
+R { 1375} {0} {} {Whispering Pines Path} { } {This path, aptly named for its tall dense evergreens, blown\nwith the wind...  Seemingly whispering to one another a language you don't\nunderstand.  \nGenae walks in.} {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:48:21}} {1.000}
+E { 1374} {e} {e} {2} {0} {}
+E { 1376} {w} {w} {8} {0} {}
+
+R { 1376} {0} {} {Whispering Pines Path} { } {This path, aptly named for its tall dense evergreens, blown\nwith the wind...  Seemingly whispering to one another a language you don't\nunderstand.  } {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:48:30}} {1.000}
+E { 1375} {e} {e} {2} {0} {}
+E { 1377} {n} {n} {1} {0} {}
+
+R { 1377} {0} {} {Whispering Pines Path} { } {This path, aptly named for its tall dense evergreens, blown\nwith the wind...  Seemingly whispering to one another a language you don't\nunderstand.  } {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:48:35}} {1.000}
+E { 1376} {s} {s} {4} {0} {}
+E { 1378} {n} {n} {1} {0} {}
+
+R { 1378} {0} {} {Whispering Pines Path} { } {This path, aptly named for its tall dense evergreens, blown\nwith the wind...  Seemingly whispering to one another a language you don't\nunderstand.  } {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:48:40}} {1.000}
+E { 1377} {s} {s} {4} {0} {}
+E { 1379} {n} {n} {1} {0} {}
+
+R { 1379} {0} {} {Whispering Pines Path} { } {This path, aptly named for its tall dense evergreens, blown\nwith the wind...  Seemingly whispering to one another a language you don't\nunderstand.  } {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:48:45}} {1.000}
+E { 1378} {s} {s} {4} {0} {}
+E { 1380} {n} {n} {1} {0} {}
+
+R { 1380} {0} {} {Whispering Pines Path} { } {This path, aptly named for its tall dense evergreens, blown\nwith the wind...  Seemingly whispering to one another a language you don't\nunderstand.  } {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:48:49}} {1.000}
+E { 1379} {s} {s} {4} {0} {}
+E { 1381} {e} {e} {2} {0} {}
+E { 1382} {n} {n} {1} {0} {}
+
+R { 1381} {0} {} {A Path to the Wayhouse} { } {What's this you hear?  Laughter and merriment coming from just up the\nroad.  You decide you could use a break from doldrum exploring and set out\nfor the wayhouse.  } {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:49:01}} {1.000}
+E { 1380} {w} {w} {8} {0} {}
+E { 1386} {e} {e} {2} {0} {}
+
+R { 1382} {0} {} {Whispering Pines Path} { } {Genae walks in.} {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:49:11}} {1.000}
+E { 1380} {s} {s} {4} {0} {}
+E { 1383} {n} {n} {1} {0} {}
+
+R { 1383} {0} {} {Whispering Pines Path} { } {Genae walks in.} {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:49:18}} {1.000}
+E { 1382} {s} {s} {4} {0} {}
+E { 1384} {e} {e} {2} {0} {}
+
+R { 1384} {0} {} {Whispering Pines Path} { } {Genae walks in.} {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:49:22}} {1.000}
+E { 1383} {w} {w} {8} {0} {}
+E { 1385} {n} {n} {1} {0} {}
+
+R { 1385} {0} {} {Whispering Pines Path} { } {Genae walks in.} {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:49:28}} {1.000}
+E { 1384} {s} {s} {4} {0} {}
+
+R { 1386} {0} {} {A Path to the Wayhouse} { } {The sounds of fun and frolic grow louder as you near the wayhouse. \nYour spirits begin to rise in anticipation of food, drink and fun.  You\nrealize you are almost running now to join in the excitement that lies\nahead.  \nGenae walks in.} {Roads2 by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:50:02}} {1.000}
+E { 1381} {w} {w} {8} {0} {}
+E { 1387} {e} {e} {2} {0} {}
+
+R { 1387} {0} {} {werith wayhouse} { } {You are north-west of the Wayhouse.  This section of the path seems less\nused, possibly because there's nothing really over here.  The trees crowd in\ntowards the clearing, making the general area seem rather eerie somehow. \nThe voices coming from inside are clearly audible, and by listening hard you\ncan almost make out the words.  The path around the building continues to\nthe west and south.  } {Werith Wayhouse in North Western Region by CAW for levels: 50-80} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:50:07}} {1.000}
+E { 1386} {w} {w} {8} {0} {}
+E { 1388} {s} {s} {4} {0} {}
+E { 1389} {e} {e} {2} {0} {}
+
+R { 1388} {0} {} {Near a Large Building} { } {You are standing on the path that runs around the Wayhouse to the west. \nA window spills light onto the trees that block out all available light\noverhead.  You hear general merryment and alcoholism from inside, and wonder\nif being inside would be more fun than walking around outside...  } {Werith Wayhouse in North Western Region by CAW for levels: 50-80} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:50:27}} {1.000}
+E { 1387} {n} {n} {1} {0} {}
+
+R { 1389} {0} {} {Outside the Wayhouse} { } {You are outside a large, two-story building which proports to be\n'Werith's Wayhouse' on a brightly lettered sign out front.  You hear\nlaughing and revelry from inside -- sounds like a lively place.  The main\ndoors are directly south of you, and small paths lead east and west around\nthe building.  Eastward is another smaller building\; obviously a stable. \nNorthward is the main road, providing all the traffic and customers for this\nestablishment.  } {Werith Wayhouse in North Western Region by CAW for levels: 50-80} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:50:37}} {1.000}
+E { 1387} {w} {w} {8} {0} {}
+E { 1390} {s} {s} {4} {1} {}
+E { 1391} {e} {e} {2} {0} {}
+
+R { 1390} {0} {} {Main Room} { } {You stand just inside the Main Room of Werith's Wayhouse.  The whole\nplace stretches out all around you, a conglomeration of people, food, and\nalcohol.  The sheer chatter and roar of conversation makes your ears hurt a\nlittle, and then you suddenly notice you're smiling.  Yes, this place might\ndo for awhile...  } {Werith Wayhouse in North Western Region by CAW for levels: 50-80} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:51:33}} {1.000}
+E { 1389} {n} {n} {1} {1} {}
+
+R { 1391} {0} {} {Near a Large Building} { } {You are on a small, well-travelled path that leads between Werith's\nWayhouse to the west, and the stables to the east.  Another path breaks off\nto the south, between the two buildings, towards what appears to be an\nouthouse.  } {Werith Wayhouse in North Western Region by CAW for levels: 50-80} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:52:17}} {1.000}
+E { 1389} {w} {w} {8} {0} {}
+E { 1392} {s} {s} {4} {0} {}
+E { 1393} {e} {e} {2} {0} {}
+
+R { 1392} {0} {} {Near a Large Building} { } {This is a small, outdoors 'alley' formed by the Wayhouse's stone walls to\nthe west, and the wooden planked walls of the stable to the east.  The path\naround the building leads north and south of here.  } {Werith Wayhouse in North Western Region by CAW for levels: 50-80} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:52:41}} {1.000}
+E { 1391} {n} {n} {1} {0} {}
+
+R { 1393} {0} {} {Just Outside the Stable} { } {The stable of the Wayhouse is just south of you, its wooden doors spread\nopen and inviting.  Inside you can hear the snorting of horses, and the\noccasional hoof scraping against the ground.  The path leads to the west,\ntowards the Wayhouse.  A dark and gloomy path leads north, and you think you\nhear the sounds of bagpipes in that direction.  } {Werith Wayhouse in North Western Region by CAW for levels: 50-80} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:52:53}} {1.000}
+E { 1391} {w} {w} {8} {0} {}
+E { 1394} {n} {n} {1} {0} {}
+
+R { 1394} {0} {} {the highlands} { } {Before you the path just stops.  It doesn't go any further.  A mysterious\nbog begins here, if you dare entering it's at your own risk.  In the\ndistance you see a vague contour of hills.  On the top of the hills you see\nstrange lights and dark shadows.  } {The highlands in North Western Region by Karl for levels: 140-199} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 16:53:20}} {1.000}
+E { 1393} {s} {s} {4} {0} {}
+
+R { 1395} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 17:01:10}} {1.000}
+E { 1366} {s} {s} {4} {0} {}
+E { 1396} {w} {w} {8} {0} {}
+E { 1397} {e} {e} {2} {0} {}
+
+R { 1396} {0} {} {A Metal Hallway} { } {You are in a silvery grey hallway, a metallic sheen reflects every\nmovement.  You hear a low humming drone echoing through the tunnels and you\naren't sure from which direction the sound is coming.  } {The Machine by MERC for levels: 125-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 17:00:31}} {1.000}
+E { 1395} {e} {e} {2} {0} {}
+
+R { 1397} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 17:01:19}} {1.000}
+E { 1395} {w} {w} {8} {0} {}
+E { 1398} {e} {e} {2} {0} {}
+
+R { 1398} {0} {} {A Metal Hallway} { } {There are motion sensors all around.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 17:01:30}} {1.000}
+E { 1397} {w} {w} {8} {0} {}
+E { 1399} {e} {e} {2} {0} {}
+
+R { 1399} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 17:01:47}} {1.000}
+E { 1398} {w} {w} {8} {0} {}
+E { 1400} {e} {e} {2} {0} {}
+
+R { 1400} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 17:02:11}} {1.000}
+E { 1399} {w} {w} {8} {0} {}
+E { 1401} {n} {n} {1} {0} {}
+
+R { 1401} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 17:02:25}} {1.000}
+E { 1400} {s} {s} {4} {0} {}
+E { 1402} {n} {n} {1} {0} {}
+
+R { 1402} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 17:02:31}} {1.000}
+E { 1401} {s} {s} {4} {0} {}
+E { 1403} {n} {n} {1} {0} {}
+
+R { 1403} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 17:03:31}} {1.000}
+E { 1402} {s} {s} {4} {0} {}
+E { 1404} {n} {n} {1} {0} {}
+
+R { 1404} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 17:04:01}} {1.000}
+E { 1403} {s} {s} {4} {0} {}
+E { 1405} {e} {e} {2} {0} {}
+
+R { 1405} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 17:04:40}} {1.000}
+E { 1404} {w} {w} {8} {0} {}
+E { 1406} {n} {n} {1} {0} {}
+
+R { 1406} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 17:04:47}} {1.000}
+E { 1405} {s} {s} {4} {0} {}
+E { 1407} {n} {n} {1} {0} {}
+
+R { 1407} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 17:04:58}} {1.000}
+E { 1406} {s} {s} {4} {0} {}
+E { 1408} {n} {n} {1} {0} {}
+
+R { 1408} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 17:05:54}} {1.000}
+E { 1407} {s} {s} {4} {0} {}
+E { 1409} {n} {n} {1} {0} {}
+
+R { 1409} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 17:06:01}} {1.000}
+E { 1408} {s} {s} {4} {0} {}
+E { 1410} {n} {n} {1} {0} {}
+
+R { 1410} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 17:06:14}} {1.000}
+E { 1409} {s} {s} {4} {0} {}
+E { 1411} {n} {n} {1} {0} {}
+
+R { 1411} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 17:06:20}} {1.000}
+E { 1410} {s} {s} {4} {0} {}
+E { 1412} {w} {w} {8} {0} {}
+
+R { 1412} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 17:06:27}} {1.000}
+E { 1411} {e} {e} {2} {0} {}
