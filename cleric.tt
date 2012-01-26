@@ -4,6 +4,7 @@
 #unalias astral;
 #unalias bless;
 #unalias blind;
+#unalias disp;
 #unalias detali;
 #unalias dethid;
 #unalias detinv;
@@ -37,7 +38,8 @@
 #alias dethid {c 'detect hid'};
 #alias detinv {c 'detect inv'};
 #alias detmag {c 'detect mag'};
-#alias detund {c 'detect und'}
+#alias detund {c 'detect und'};
+#alias disp {c 'dispel mag'};
 #alias food {c 'create food'};
 #alias fs {c flame};
 #alias heal {c heal};
@@ -62,6 +64,7 @@
 {
 	{armor} {armor}
 	{bless} {bless}
+	{disp} {disp}
 	{z-blind} {blind}
 	{food} {food}
 	{z-flamestrike} {fs}

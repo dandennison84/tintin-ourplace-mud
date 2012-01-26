@@ -16,6 +16,7 @@ will change the alias to actually cast the spell.
 #alias armor {tell $cleric armor};
 #alias bless {tell $cleric bless};
 #alias blind {tell $cleric z-blind};
+#alias disp {tell $cleric disp};
 #alias food {tell $cleric food};
 #alias fs {tell $cleric z-flamestrike};
 #alias heal {tell $cleric heal};
@@ -123,6 +124,24 @@ group chat.
 	wc;
 } {7};
 
+#highlight {Your ability to detect undead fades.} {$spellupcolor};
+#action {Your ability to detect undead fades.}
+{
+	detund;
+} {7};
+
+#highlight {The detect magic wears off.} {$spellupcolor};
+#action {The detect magic wears off.}
+{
+	detmag;
+} {7};
+
+#highlight {Your sense of karma fades.} {$spellupcolor};
+#action {Your sense of karma fades.}
+{
+	detali;
+} {7};
+
 #highlight {The white aura around your body fades.} {$spellupcolor};
 #action {The white aura around your body fades.}
 {
@@ -150,9 +169,10 @@ group chat.
 	ward;
 } {7};
 
-#highlight {The protective aura around you fades.} {$spellupcolor};
+#highlight {You feel less righteous.} {$spellupcolor};
 #action {You feel less righteous.}
 {
+	bless;
 } {7};
 
 #highlight {%1 DISARMS you!} {<FAA><ffa>};

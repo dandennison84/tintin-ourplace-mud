@@ -8,7 +8,6 @@
 #unalias brave;
 #unalias bo;
 
-#alias ass {ass};
 #alias bo {build};
 #alias brave {bravery};
 
