@@ -175,6 +175,12 @@ group chat.
 	bless;
 } {7};
 
+#highlight {Your ward against death dissipates.} {$spellupcolor};
+#action {Your ward against death dissipates.}
+{
+	dw;
+} {7};
+
 #highlight {%1 DISARMS you!} {<FAA><ffa>};
 #action {DISARMS you!}
 {
