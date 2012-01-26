@@ -4,9 +4,9 @@ CE <078>
 CR <178>
 CP <138>
 
-F 26
+F 27
 
-I 347
+I 81
 
 L * # # # | # x          
 
@@ -833,11 +833,11 @@ E {  186} {e} {e} {2} {0} {}
 E {  193} {w} {w} {8} {0} {}
 E {  189} {n} {n} {1} {0} {}
 
-R {  197} {0} {} {The Muppet Show Entrance} { } {It's time to start the music\nIt's time to dress up right\nIt's time to meet the muppets\nOn the Muppet Show tonight.} {The Muppet Show by Sotty for levels: 130-150} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:26:16}} {1.000}
+R {  197} {0} {} {The Muppet Show Entrance} { } {It's time to start the music\nIt's time to dress up right\nIt's time to meet the muppets\nOn the Muppet Show tonight.} {The Muppet Show by Sotty for levels: 130-150} {} {} {{createdby}{denae}{createdon}{2012-01-26 05:28:58}{updatedby}{denae}{updatedon}{2012-01-26 06:37:26}} {1.000}
 E {  192} {s} {s} {4} {1} {}
 E {  198} {n} {n} {1} {0} {}
 
-R {  198} {0} {} {The audience} { } {} {The Muppet Show by Sotty for levels: 130-150} {} {} {{createdby}{$character}{createdon}{2012-01-24 12:39:06}{updatedby}{$character}{updatedon}{2012-01-24 12:45:50}} {1.000}
+R {  198} {0} {} {} { } {} {The Muppet Show by Sotty for levels: 130-150} {} {} {{createdby}{denae}{createdon}{2012-01-26 05:28:58}{updatedby}{denae}{updatedon}{2012-01-26 06:37:20}} {1.000}
 E {  197} {s} {s} {4} {0} {}
 E {  199} {e} {e} {2} {0} {}
 E {  200} {w} {w} {8} {0} {}
@@ -856,7 +856,7 @@ E {  200} {s} {s} {4} {0} {}
 E {  202} {e} {e} {2} {0} {}
 E {  206} {n} {n} {1} {0} {}
 
-R {  202} {0} {} {} { } {} {} {} {} {} {1.000}
+R {  202} {0} {} {} { } {} {The Muppet Show by Sotty for levels: 130-150} {} {} {{createdby}{denae}{createdon}{2012-01-26 05:28:58}{updatedby}{denae}{updatedon}{2012-01-26 06:36:35}} {1.000}
 E {  198} {s} {s} {4} {0} {}
 E {  201} {w} {w} {8} {0} {}
 E {  203} {e} {e} {2} {0} {}
@@ -1100,7 +1100,7 @@ R {  259} {0} {} {Hall of Gods} { } {You have entered the most sacred of places,
 E {  258} {d} {open d; d} {32} {0} {}
 E {  260} {n} {n} {1} {0} {}
 
-R {  260} {0} {} {The Portal} { } {A sign reads: Beware of the unexpected and don't expect too much.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:02:01}} {1.000}
+R {  260} {0} {} {astral guardian} { } {A sign reads: Beware of the unexpected and don't expect too much.} {OLYMPUS in Far Northern Region by Generic for levels: 15-50} {} {} {{createdby}{$character}{createdon}{2012-01-24 20:37:32}{updatedby}{genae}{updatedon}{2012-01-24 21:02:01}} {1.000}
 E {  259} {s} {s} {4} {0} {}
 E {  261} {w} {w} {8} {1} {}
 E {  262} {u} {u} {16} {1} {}
@@ -2764,6 +2764,7 @@ E {  671} {s} {s} {4} {0} {}
 
 R {  670} {0} {} {A Jungle Path} { } {You are standing at the edge of a huge forest.  To the east you can see\nclear sky while to the west the way appears dark as almost all light is\nobliterated by the canopy of limbs formed by the trees on both sides of the\npath.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-25 06:35:25}{updatedby}{denae}{updatedon}{2012-01-25 08:09:01}} {1.000}
 E {  669} {e} {e} {2} {1} {}
+E { 1149} {w} {w} {8} {0} {}
 
 R {  671} {0} {} {Old Sparta Road} { } {The air is crisp and invigorating, the deciduous vegetation thinner than\nto the south and the dominance of evergreen is apparent.  You see a\nbreathtaking white mountain range far in the distance to the north.  \nGenae walks in.} {Old Sparta Road in Far Northern Region by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-25 06:35:25}{updatedby}{denae}{updatedon}{2012-01-25 08:10:59}} {1.000}
 E {  669} {n} {n} {1} {0} {}
@@ -4676,34 +4677,469 @@ R { 1141} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1140} {s} {s} {4} {0} {}
 E { 1144} {e} {e} {2} {0} {}
 E { 1145} {w} {w} {8} {0} {}
+E { 1249} {u} {u} {16} {0} {}
 
 R { 1142} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1140} {n} {n} {1} {0} {}
 E { 1147} {e} {e} {2} {0} {}
 E { 1148} {w} {w} {8} {0} {}
+E { 1245} {u} {u} {16} {0} {}
 
 R { 1143} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1140} {w} {w} {8} {0} {}
 E { 1144} {n} {n} {1} {0} {}
 E { 1147} {s} {s} {4} {0} {}
+E { 1243} {u} {u} {16} {0} {}
 
 R { 1144} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1143} {s} {s} {4} {0} {}
 E { 1141} {w} {w} {8} {0} {}
+E { 1250} {u} {u} {16} {0} {}
 
 R { 1145} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1141} {e} {e} {2} {0} {}
 E { 1146} {s} {s} {4} {0} {}
+E { 1248} {u} {u} {16} {0} {}
 
 R { 1146} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1145} {n} {n} {1} {0} {}
 E { 1140} {e} {e} {2} {0} {}
 E { 1148} {s} {s} {4} {0} {}
+E { 1247} {u} {u} {16} {0} {}
 
 R { 1147} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1142} {w} {w} {8} {0} {}
 E { 1143} {n} {n} {1} {0} {}
+E { 1244} {u} {u} {16} {0} {}
 
 R { 1148} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1142} {e} {e} {2} {0} {}
 E { 1146} {n} {n} {1} {0} {}
+E { 1246} {u} {u} {16} {0} {}
+
+R { 1149} {0} {} {A Jungle Path} { } {You are on a jungle path traveling in almost utter darkness.  All light\nfrom the sky above is being obliterated by the large canopy of leaves formed\nby the trees lining both sides of the path.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}} {1.000}
+E {  670} {e} {e} {2} {0} {}
+E { 1150} {n} {n} {1} {0} {}
+
+R { 1150} {0} {} {A Jungle Path} { } {You are on a jungle path traveling in almost utter darkness.  All light\nfrom the sky above is being obliterated by the large canopy of leaves formed\nby the trees lining both sides of the path.  As you scan the area, you see a\nlarge vine hanging down thru the canopy which almost reaches the ground. \nYou wonder if you were to climb the vine to the top of the trees, if you\nwould be able to get a view of the surrounding countryside.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:00:24}} {1.000}
+E { 1149} {s} {s} {4} {0} {}
+E { 1151} {u} {u} {16} {0} {}
+
+R { 1151} {0} {} {On a Vine} { } {You are hanging onto a vine which is about as large as a man's arm.  The\nvine is extremely rough and your hands are raw and bleeding as you strive to\nkeep from falling to the ground below.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:00:50}} {1.000}
+E { 1150} {d} {d} {32} {0} {}
+E { 1152} {u} {u} {16} {0} {}
+
+R { 1152} {0} {} {On a Vine} { } {You are hanging onto a vine which is about as large as a man's arm.  The\nvine is extremely rough and your hands are raw and bleeding as you strive to\nkeep from falling to the ground below.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:02:20}} {1.000}
+E { 1151} {d} {d} {32} {0} {}
+E { 1153} {u} {u} {16} {0} {}
+
+R { 1153} {0} {} {On a Vine} { } {You are hanging onto a vine which is about as large as a man's arm.  The\nvine is extremely rough and your hands are raw and bleeding as you strive to\nkeep from falling to the ground below.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:02:39}} {1.000}
+E { 1152} {d} {d} {32} {0} {}
+E { 1154} {u} {u} {16} {0} {}
+
+R { 1154} {0} {} {On a Vine} { } {You are hanging onto a vine which is about as large as a man's arm.  The\nvine is extremely rough and your hands are raw and bleeding as you strive to\nkeep from falling to the ground below.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:02:54}} {1.000}
+E { 1153} {d} {d} {32} {0} {}
+E { 1155} {u} {u} {16} {0} {}
+
+R { 1155} {0} {} {On a Vine} { } {You are hanging onto a vine which is about as large as a man's arm.  The\nvine is extremely rough and your hands are raw and bleeding as you strive to\nkeep from falling to the ground below.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:03:15}} {1.000}
+E { 1154} {d} {d} {32} {0} {}
+E { 1156} {u} {u} {16} {0} {}
+
+R { 1156} {0} {} {THE ENTRANCE TO THE TREES OF AMOOK} { } {After ascending the vine, you emerge upon a very wide branch which\nappears to be a well worn platform of some sort.  Littered here and there\nupon the platform are various tools and artifacts that lead you to believe\nthat the platform might be heavily used as some sort of scouting post.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:03:25}} {1.000}
+E { 1155} {d} {d} {32} {0} {}
+E { 1157} {n} {say carrion's are in this direction} {1} {0} {}
+E { 1158} {w} {w} {8} {0} {}
+
+R { 1157} {1} {} {} { } {} {} {} {} {} {1.000}
+E { 1156} {s} {s} {4} {0} {}
+
+R { 1158} {0} {} {Trail Around a Tree} { } {The walkway beneath your feet is a long branch.  It has been flattened\nout on the top by many centuries of travel by the Amooks.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:11:27}} {1.000}
+E { 1156} {e} {e} {2} {0} {}
+E { 1159} {w} {w} {8} {0} {}
+
+R { 1159} {0} {} {Trail Around a Tree} { } {The walkway beneath your feet is a long branch.  It has been flattened\nout on the top by many centuries of travel by the Amooks.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:11:47}} {1.000}
+E { 1158} {e} {e} {2} {0} {}
+E { 1160} {w} {w} {8} {0} {}
+
+R { 1160} {0} {} {Trail Around a Tree} { } {The walkway beneath your feet is a long branch.  It's flattened out for\nthe most part from many centuries of travel by the Amooks.  One of the\nbranches is hanging down and blocks your way.  It takes all your strength to\npush it out of the way, but you pass by it.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:11:55}} {1.000}
+E { 1159} {e} {e} {2} {0} {}
+E { 1161} {n} {n} {1} {0} {}
+
+R { 1161} {0} {} {Trail Around a Tree} { } {The walkway beneath your feet is a long branch.  It has been flattened\nout on the top by many centuries of travel by the Amooks.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:12:11}} {1.000}
+E { 1160} {s} {s} {4} {0} {}
+E { 1162} {w} {w} {8} {0} {}
+
+R { 1162} {0} {} {Trail Around a Tree} { } {The walkway beneath your feet is a long branch.  It has been flattened\nout on the top by many centuries of travel by the Amooks.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:13:14}} {1.000}
+E { 1161} {e} {e} {2} {0} {}
+E { 1163} {w} {w} {8} {0} {}
+
+R { 1163} {0} {} {Trail Around a Tree} { } {The walkway beneath your feet is a long branch.  It has been flattened\nout on the top by many centuries of travel by the Amooks.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:13:27}} {1.000}
+E { 1162} {e} {e} {2} {0} {}
+E { 1164} {w} {w} {8} {0} {}
+
+R { 1164} {0} {} {Trail Around a Tree} { } {The walkway beneath your feet is a long branch.  It has been flattened\nout on the top by many centuries of travel by the Amooks.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:13:35}} {1.000}
+E { 1163} {e} {e} {2} {0} {}
+E { 1165} {s} {s} {4} {0} {}
+
+R { 1165} {0} {} {Trail Around a Tree} { } {The walkway beneath your feet is a long branch.  It has been flattened\nout on the top by many centuries of travel by the Amooks.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:14:38}} {1.000}
+E { 1164} {n} {n} {1} {0} {}
+E { 1166} {s} {s} {4} {0} {}
+
+R { 1166} {0} {} {End of the Trail} { } {North of you is a trail that runs along a large branch.  Directly in\nfront of you is the trunk of a very large tree and looking up you see that\nthere are handholds which will allow you to climb to the next level.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:15:50}} {1.000}
+E { 1165} {n} {n} {1} {0} {}
+E { 1167} {u} {u} {16} {0} {}
+
+R { 1167} {0} {} {End of the Trail} { } {North of you is a trail that runs along a large branch.  Directly in\nfront of you is the trunk of a very large tree and looking down you see that\nthere are handholds which will allow you to climb down to a lower level.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:16:36}} {1.000}
+E { 1166} {d} {d} {32} {0} {}
+E { 1168} {n} {n} {1} {0} {}
+
+R { 1168} {0} {} {A Trail on a Branch} { } {The branch buckles and bends with each step.  You feel edgy about\ncontinuing even though you see Amooks, who are much larger then you, walking\non the branch with relative ease.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:16:49}} {1.000}
+E { 1167} {s} {s} {4} {0} {}
+E { 1169} {n} {n} {1} {0} {}
+
+R { 1169} {0} {} {A Trail on a Branch} { } {The branch buckles and bends with each step.  You feel edgy about\ncontinuing even though you see Amooks, who are much larger then you, walking\non the branch with relative ease.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:16:57}} {1.000}
+E { 1168} {s} {s} {4} {0} {}
+E { 1170} {e} {e} {2} {0} {}
+
+R { 1170} {0} {} {A Trail on a Branch} { } {The branch buckles and bends with each step.  You feel edgy about\ncontinuing even though you see Amooks, who are much larger then you, walking\non the branch with relative ease.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:17:16}} {1.000}
+E { 1169} {w} {w} {8} {0} {}
+E { 1171} {e} {e} {2} {0} {}
+
+R { 1171} {0} {} {A Trail on a Branch} { } {The branch buckles and bends with each step.  You feel edgy about\ncontinuing even though you see Amooks, who are much larger then you, walking\non the branch with relative ease.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:17:25}} {1.000}
+E { 1170} {w} {w} {8} {0} {}
+E { 1172} {e} {e} {2} {0} {}
+
+R { 1172} {0} {} {An intersection} { } {You have arrived at a fork in the branch of the tree.  There is a trail\nto the north and Krygnargk's tree lies to the south.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:17:35}} {1.000}
+E { 1171} {w} {w} {8} {0} {}
+E { 1173} {n} {n} {1} {0} {}
+E { 1174} {s} {s} {4} {0} {}
+
+R { 1173} {0} {} {A Trail Around a Tree} { } {You are on a branch that has been worn flat by many centuries of travel. \nAbove you is a thick canopy of leaves preventing the sun from shining\ndirectly through and forcing you to step carefully lest you trip and fall to\nthe forest floor below.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:18:07}} {1.000}
+E { 1172} {s} {s} {4} {0} {}
+E { 1177} {n} {n} {1} {0} {}
+
+R { 1174} {0} {} {The way to Krygnargk's Tree} { } {The passageway is extremely small forcing you to crawl on hands and\nknees.  The floor is rather sticky and seems to be covered with a red\nsubstance which you assume to be blood.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:18:20}} {1.000}
+E { 1172} {n} {n} {1} {0} {}
+E { 1175} {w} {w} {8} {0} {}
+
+R { 1175} {0} {} {The way to Krygnargk's Tree} { } {The passageway is extremely small forcing you to crawl on hands and\nknees.  The floor is rather sticky and seems to be covered with a red\nsubstance which you assume to be blood.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:18:29}} {1.000}
+E { 1174} {e} {e} {2} {0} {}
+E { 1176} {w} {w} {8} {0} {}
+
+R { 1176} {0} {} {A Small Room} { } {The passageway appears to have come to a dead end.  You have entered a\nsmall hole in the trunk of the tree.  As you look around, it is obvious that\nthe room has been used as a nest.  There is straw on the floor and piled in\none corner are the bones of many small animals.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:18:35}} {1.000}
+E { 1175} {e} {e} {2} {0} {}
+
+R { 1177} {0} {} {A Trail Around a Tree} { } {You are on a branch that has been worn flat by many centuries of travel. \nAbove you is a thick canopy of leaves preventing the sun from shining\ndirectly through and forcing you to step carefully lest you trip and fall to\nthe forest floor below.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:21:15}} {1.000}
+E { 1173} {s} {s} {4} {0} {}
+E { 1178} {e} {e} {2} {0} {}
+
+R { 1178} {0} {} {A Trail Around a Tree} { } {You are on a branch that has been worn flat by many centuries of travel. \nAbove you is a thick canopy of leaves preventing the sun from shining\ndirectly through and forcing you to step carefully lest you trip and fall to\nthe forest floor below.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:21:23}} {1.000}
+E { 1177} {w} {w} {8} {0} {}
+E { 1179} {e} {e} {2} {0} {}
+
+R { 1179} {0} {} {An intersection} { } {You have arrived at an intersection.  The way north continues along the\nbranch.  To the south lies an entrance into the inside of the tree.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:21:32}} {1.000}
+E { 1178} {w} {w} {8} {0} {}
+E { 1180} {s} {s} {4} {0} {}
+E { 1196} {n} {n} {1} {0} {}
+
+R { 1180} {0} {} {Passageway inside the Prison} { } {The walls floor and ceiling are round forming a near perfect circle.  Who\nor whatever created this passageway had a pure sense of geometric design. \nAll surfaces are perfectly smooth with just here and there a rough spot due\nto the presence of a knot or boll in the wood.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:21:43}} {1.000}
+E { 1179} {n} {n} {1} {0} {}
+E { 1181} {s} {s} {4} {0} {}
+
+R { 1181} {0} {} {Passageway inside the Prison} { } {The walls floor and ceiling are round forming a near perfect circle.  Who\nor whatever created this passageway had a pure sense of geometric design. \nAll surfaces are perfectly smooth with just here and there a rough spot due\nto the presence of a knot or boll in the wood.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:22:02}} {1.000}
+E { 1180} {n} {n} {1} {0} {}
+E { 1182} {w} {w} {8} {0} {}
+E { 1183} {e} {e} {2} {0} {}
+
+R { 1182} {0} {} {A Small Room} { } {You are in a small room inside the tree.  There are no obvious uses for\nthe room, however, there are deep scratches on the wall.  Looking closer,\nyou surmise that this might be the room the Amooks use for sharpening their\nfavorite fighting weapon, their claws.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:22:15}} {1.000}
+E { 1181} {e} {e} {2} {0} {}
+
+R { 1183} {0} {} {Passageway inside the Prison} { } {The walls floor and ceiling are round forming a near perfect circle.  Who\nor whatever created this passageway had a pure sense of geometric design. \nAll surfaces are perfectly smooth with just here and there a rough spot due\nto the presence of a knot or boll in the wood.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:22:33}} {1.000}
+E { 1181} {w} {w} {8} {0} {}
+E { 1184} {e} {e} {2} {0} {}
+
+R { 1184} {0} {} {Passageway inside the Prison} { } {The walls floor and ceiling are round forming a near perfect circle.  Who\nor whatever created this passageway had a pure sense of geometric design. \nAll surfaces are perfectly smooth with just here and there a rough spot due\nto the presence of a knot or boll in the wood.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:22:41}} {1.000}
+E { 1183} {w} {w} {8} {0} {}
+E { 1185} {e} {e} {2} {0} {}
+
+R { 1185} {0} {} {Passageway inside the Prison} { } {The walls floor and ceiling are round forming a near perfect circle.  Who\nor whatever created this passageway had a pure sense of geometric design. \nAll surfaces are perfectly smooth with just here and there a rough spot due\nto the presence of a knot or boll in the wood.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:22:51}} {1.000}
+E { 1184} {w} {w} {8} {0} {}
+E { 1186} {s} {s} {4} {0} {}
+E { 1187} {n} {n} {1} {0} {}
+
+R { 1186} {0} {} {Passageway inside the Prison} { } {The walls floor and ceiling are round forming a near perfect circle.  Who\nor whatever created this passageway had a pure sense of geometric design. \nAll surfaces are perfectly smooth with just here and there a rough spot due\nto the presence of a knot or boll in the wood.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:23:02}} {1.000}
+E { 1185} {n} {n} {1} {0} {}
+E { 1190} {w} {w} {8} {0} {}
+E { 1191} {s} {s} {4} {0} {}
+
+R { 1187} {0} {} {Passageway inside the Prison} { } {The walls floor and ceiling are round forming a near perfect circle.  Who\nor whatever created this passageway had a pure sense of geometric design. \nAll surfaces are perfectly smooth with just here and there a rough spot due\nto the presence of a knot or boll in the wood.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:23:14}} {1.000}
+E { 1185} {s} {s} {4} {0} {}
+E { 1188} {w} {w} {8} {0} {}
+
+R { 1188} {0} {} {Passageway inside the Prison} { } {The walls floor and ceiling are round forming a near perfect circle.  Who\nor whatever created this passageway had a pure sense of geometric design. \nAll surfaces are perfectly smooth with just here and there a rough spot due\nto the presence of a knot or boll in the wood.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:23:21}} {1.000}
+E { 1187} {e} {e} {2} {0} {}
+E { 1189} {w} {w} {8} {0} {}
+
+R { 1189} {0} {} {Passageway inside the Prison} { } {The walls floor and ceiling are round forming a near perfect circle.  Who\nor whatever created this passageway had a pure sense of geometric design. \nAll surfaces are perfectly smooth with just here and there a rough spot due\nto the presence of a knot or boll in the wood.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:23:31}} {1.000}
+E { 1188} {e} {e} {2} {0} {}
+
+R { 1190} {0} {} {An Amooki Bathing Pool} { } {The floor of the room has been hollowed out to form a trap for water\nseeping into the inside of the tree.  The pool is used by the Amooki for\ntaking rather frequent and rather pleasurable baths.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:24:52}} {1.000}
+E { 1186} {e} {e} {2} {0} {}
+
+R { 1191} {0} {} {Passageway inside the Prison} { } {The walls floor and ceiling are round forming a near perfect circle.  Who\nor whatever created this passageway had a pure sense of geometric design. \nAll surfaces are perfectly smooth with just here and there a rough spot due\nto the presence of a knot or boll in the wood.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:25:05}} {1.000}
+E { 1186} {n} {n} {1} {0} {}
+E { 1192} {s} {s} {4} {0} {}
+
+R { 1192} {0} {} {Passageway inside the Prison} { } {The walls floor and ceiling are round forming a near perfect circle.  Who\nor whatever created this passageway had a pure sense of geometric design. \nAll surfaces are perfectly smooth with just here and there a rough spot due\nto the presence of a knot or boll in the wood.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:25:12}} {1.000}
+E { 1191} {n} {n} {1} {0} {}
+E { 1193} {e} {e} {2} {0} {}
+E { 1194} {s} {s} {4} {0} {}
+
+R { 1193} {0} {} {A Guard Post} { } {This room serves both as the guard post and the barracks for the guards\nworking in the prison.  There are straw beds scattered on the floor\nthroughout the room.  There are no tables, chairs, floor or wall coverings. \nActually, the room is just a much larger version of the passageway you just\nrecently traversed.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:25:33}} {1.000}
+E { 1192} {w} {w} {8} {0} {}
+
+R { 1194} {0} {} {Passageway inside the Prison} { } {The walls floor and ceiling are round forming a near perfect circle.  Who\nor whatever created this passageway had a pure sense of geometric design. \nAll surfaces are perfectly smooth with just here and there a rough spot due\nto the presence of a knot or boll in the wood.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:26:38}} {1.000}
+E { 1192} {n} {n} {1} {0} {}
+E { 1195} {s} {s} {4} {0} {}
+
+R { 1195} {0} {} {Passageway inside the Prison} { } {The walls floor and ceiling are round forming a near perfect circle.  Who\nor whatever created this passageway had a pure sense of geometric design. \nAll surfaces are perfectly smooth with just here and there a rough spot due\nto the presence of a knot or boll in the wood.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:26:48}} {1.000}
+E { 1194} {n} {n} {1} {0} {}
+
+R { 1196} {0} {} {The Way to Rhuggarnukk's Tree} { } {You are on a branch that has been worn flat by many centuries of travel. \nAbove you is a thick canopy of leaves preventing the sun from shining\ndirectly through and forcing you to step carefully lest you trip and fall to\nthe forest floor below.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:27:40}} {1.000}
+E { 1179} {s} {s} {4} {0} {}
+E { 1197} {n} {n} {1} {0} {}
+
+R { 1197} {0} {} {The Way to Rhuggarnukk's Tree} { } {You are on a branch that has been worn flat by many centuries of travel. \nAbove you is a thick canopy of leaves preventing the sun from shining\ndirectly through and forcing you to step carefully lest you trip and fall to\nthe forest floor below.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:27:50}} {1.000}
+E { 1196} {s} {s} {4} {0} {}
+E { 1198} {w} {w} {8} {0} {}
+
+R { 1198} {0} {} {The Way to Rhuggarnukk's Tree} { } {You are on a branch that has been worn flat by many centuries of travel. \nAbove you is a thick canopy of leaves preventing the sun from shining\ndirectly through and forcing you to step carefully lest you trip and fall to\nthe forest floor below.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:28:00}} {1.000}
+E { 1197} {e} {e} {2} {0} {}
+E { 1199} {w} {w} {8} {0} {}
+
+R { 1199} {0} {} {The Way to Rhuggarnukk's Tree} { } {You are on a branch that has been worn flat by many centuries of travel. \nAbove you is a thick canopy of leaves preventing the sun from shining\ndirectly through and forcing you to step carefully lest you trip and fall to\nthe forest floor below.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:28:09}} {1.000}
+E { 1198} {e} {e} {2} {0} {}
+E { 1200} {w} {w} {8} {0} {}
+
+R { 1200} {0} {} {The Way to Rhuggarnukk's Tree} { } {You are on a branch that has been worn flat by many centuries of travel. \nAbove you is a thick canopy of leaves preventing the sun from shining\ndirectly through and forcing you to step carefully lest you trip and fall to\nthe forest floor below.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:28:18}} {1.000}
+E { 1199} {e} {e} {2} {0} {}
+E { 1201} {w} {w} {8} {0} {}
+
+R { 1201} {0} {} {In Rhuggarnukk's Tree} { } {You have entered the trunk of a very large tree.  There is an opening to\nthe south which appears to lead to a large room of some sort and a\npassageway which leads to the north.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:28:29}} {1.000}
+E { 1200} {e} {e} {2} {0} {}
+E { 1202} {s} {s} {4} {0} {}
+E { 1203} {n} {n} {1} {0} {}
+
+R { 1202} {0} {} {Chommie's Home} { } {You are in an extremely large hollow area of the tree.  There are huge\npiles of bones scattered throughout the room.  Some of the bones appear to\nbe those of large animals which have been killed on the forest floor and\nbrought to this room and stripped clean.  There are other bones, however,\nwhich are distinctly human and you shiver as you ponder where and how these\nbones got here.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:28:41}} {1.000}
+E { 1201} {n} {n} {1} {0} {}
+
+R { 1203} {0} {} {A Passageway to Surgolin's Home} { } {You are in a small passageway inside the tree.  There are torches placed\nhigh on the walls which provide light but throw an eerie glow all around\nyou.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:29:15}} {1.000}
+E { 1201} {s} {s} {4} {0} {}
+E { 1204} {n} {n} {1} {0} {}
+
+R { 1204} {0} {} {Surgolin's Room} { } {You have entered the room of Surgolin.  The room is quite large but the\nfurnishings are rather sparse.  There is straw scattered in one corner of\nthe room which is obviously being used as the bed and a small table piled\nhigh with paper.  Oddly enough there are no chairs.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:29:23}} {1.000}
+E { 1203} {s} {s} {4} {0} {}
+E { 1205} {e} {e} {2} {0} {}
+
+R { 1205} {0} {} {The way to the meeting place} { } {You are in a small passageway inside the tree.  There are torches placed\nhigh on the walls which provide light but throw an eerie glow all around\nyou.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:29:49}} {1.000}
+E { 1204} {w} {w} {8} {0} {}
+E { 1206} {e} {e} {2} {0} {}
+
+R { 1206} {0} {} {The way to the meeting place} { } {You have entered an intersection.  As you ponder which way to move, you\nhear some very loud noises coming from the north.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:29:56}} {1.000}
+E { 1205} {w} {w} {8} {0} {}
+E { 1207} {e} {e} {2} {0} {}
+
+R { 1207} {0} {} {The way to the meeting place} { } {You are in a small passageway inside the tree.  There are torches placed\nhigh on the walls which provide light but throw an eerie glow all around\nyou.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:30:14}} {1.000}
+E { 1206} {w} {w} {8} {0} {}
+E { 1208} {e} {e} {2} {0} {}
+
+R { 1208} {0} {} {The way to the meeting place} { } {You are in a small passageway inside the tree.  There are torches placed\nhigh on the walls which provide light but throw an eerie glow all around\nyou.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:30:21}} {1.000}
+E { 1207} {w} {w} {8} {0} {}
+E { 1209} {e} {e} {2} {0} {}
+
+R { 1209} {0} {} {The way to the meeting place} { } {You are in a small passageway inside the tree.  There are torches placed\nhigh on the walls which provide light but throw an eerie glow all around\nyou.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:30:29}} {1.000}
+E { 1208} {w} {w} {8} {0} {}
+E { 1210} {n} {n} {1} {0} {}
+E { 1211} {e} {e} {2} {0} {}
+
+R { 1210} {0} {} {A Small Place} { } {Here in the passageway, the floor is covered with blood and bones and\nyour feet begin to sink into this gory muck and mire.  The smell of rotting\nflesh is horrendous and you become quite nauseated.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:30:41}} {1.000}
+E { 1209} {s} {s} {4} {0} {}
+
+R { 1211} {0} {} {The way to the meeting place} { } {You are in a small passageway inside the tree.  There are torches placed\nhigh on the walls which provide light but throw an eerie glow all around\nyou.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:31:06}} {1.000}
+E { 1209} {w} {w} {8} {0} {}
+E { 1212} {e} {e} {2} {0} {}
+
+R { 1212} {0} {} {The Meeting Place} { } {You have entered an extremely large room.  There are runes and drawings\ncovering the walls and floors.  As you look closer at them, you see that\nthey are pict-o-graphs depicting the history of the Amook.  You are\nextremely interested in the one depicting the mining and storage of gold.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:31:13}} {1.000}
+E { 1211} {w} {w} {8} {0} {}
+E { 1213} {e} {e} {2} {0} {}
+E { 1220} {n} {n} {1} {0} {}
+
+R { 1213} {0} {} {The Meeting Place} { } {There is a drawing on the wall depicting the marriage of the King and\nQueen.  The guests are all at table and to the left of the table is a spit\ntwirling slowly.  On the spit is the body of an unwary traveler who you\nbelieve looks a lot like you.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:31:38}} {1.000}
+E { 1212} {w} {w} {8} {0} {}
+E { 1214} {e} {e} {2} {0} {}
+
+R { 1214} {0} {} {The Meeting Place} { } {The drawing on the wall depicts a great battle.  The battle took place\nmany centuries ago between the Amooks and the Swargs.  The Amooks are not\nhandsome but in comparison to the Swargs, they resemble the god Adonis.  You\nare glad the Amooks won the battle.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:31:47}} {1.000}
+E { 1213} {w} {w} {8} {0} {}
+E { 1215} {n} {n} {1} {0} {}
+
+R { 1215} {0} {} {The Meeting Place} { } {There is a drawing on the wall.  The drawing depicts a great flood and\nyou can see in the picture that the water had almost reached the top of the\ntrees.  The Amooks prior to the flood had been ground dwelling creatures but\nhaving sought refuge in the trees to escape the flood, they then made the\ntrees home.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:31:57}} {1.000}
+E { 1214} {s} {s} {4} {0} {}
+E { 1216} {n} {n} {1} {0} {}
+
+R { 1216} {0} {} {The Meeting Place} { } {There is a drawing on the wall.  The drawing depicts two Amooks looking\nskyward at a red dwarf star.  The star is glowing brightly and there are\nrays emanating from the star and falling on the forest.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:32:08}} {1.000}
+E { 1215} {s} {s} {4} {0} {}
+E { 1217} {e} {e} {2} {0} {}
+E { 1218} {w} {w} {8} {0} {}
+
+R { 1217} {0} {} {A Way to the Palace} { } {You are in a large passageway.  There are torches placed high on the\nwalls which provide light but which throw an eerie glow on all around.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:32:17}} {1.000}
+E { 1216} {w} {w} {8} {0} {}
+E { 1221} {e} {e} {2} {0} {}
+
+R { 1218} {0} {} {The Meeting Place} { } {The drawing on the northern wall is of Surgolin, an Amook wise man, who\nhas taught the Amooks how to eat charwood and breath gas and fire which will\ndestroy all enemies.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:32:31}} {1.000}
+E { 1216} {e} {e} {2} {0} {}
+E { 1219} {w} {w} {8} {0} {}
+
+R { 1219} {0} {} {The Meeting Place} { } {There is a drawing on the wall of Chombacca, an aged and ancient Amook\nwho has reigned over this area of the forest for many centuries.  The\ndrawing depicts Chombacca as an infant being taught the ways of the Amook\nwarrior.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:32:38}} {1.000}
+E { 1218} {e} {e} {2} {0} {}
+E { 1220} {s} {s} {4} {0} {}
+
+R { 1220} {0} {} {The Meeting Place} { } {There is a large drawing on the western wall depicting a devastating fire\nwhich almost destroyed the forest some 2000 years earlier.  The drawing\nshows large prehistoric pelicans extinguishing the fire by dropping water\nwhich they gathered at a nearby lake.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:32:57}} {1.000}
+E { 1219} {n} {n} {1} {0} {}
+E { 1212} {s} {s} {4} {0} {}
+
+R { 1221} {0} {} {A Way to the Palace} { } {You are in a large passageway.  There are torches placed high on the\nwalls which provide light but which throw an eerie glow on all around.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 05:28:58}{updatedby}{denae}{updatedon}{2012-01-26 05:28:58}} {1.000}
+E { 1217} {w} {w} {8} {0} {}
+E { 1222} {n} {n} {1} {0} {}
+
+R { 1222} {0} {} {A Way to the Palace} { } {You are in a large passageway.  There are torches placed high on the\nwalls which provide light but which throw an eerie glow on all around.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 05:28:58}{updatedby}{denae}{updatedon}{2012-01-26 05:29:43}} {1.000}
+E { 1221} {s} {s} {4} {0} {}
+E { 1223} {n} {n} {1} {0} {}
+
+R { 1223} {0} {} {Outside the Palace} { } {You are standing just outside the palace entrance.  There are huge\ngranite columns extending high into the air which were carried from a large\nquarry many thousands of miles away.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 05:28:58}{updatedby}{denae}{updatedon}{2012-01-26 05:29:51}} {1.000}
+E { 1222} {s} {s} {4} {0} {}
+E { 1224} {w} {w} {8} {0} {}
+
+R { 1224} {0} {} {Entrance of the Palace} { } {A Counselor is here, tending to matters at hand.\nA Counselor is here, tending to matters at hand.} {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 05:28:58}{updatedby}{denae}{updatedon}{2012-01-26 05:30:03}} {1.000}
+E { 1223} {e} {e} {2} {0} {}
+E { 1233} {n} {n} {1} {0} {}
+
+R { 1225} {0} {} {The Hall} { } {A Counselor is here, tending to matters at hand.} {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 05:28:58}{updatedby}{denae}{updatedon}{2012-01-26 05:31:00}} {1.000}
+E { 1233} {s} {s} {4} {0} {}
+E { 1226} {e} {e} {2} {0} {}
+E { 1227} {w} {w} {8} {0} {}
+E { 1228} {n} {n} {1} {0} {}
+
+R { 1226} {0} {} {A Closed Room} { } {A Counselor is here, tending to matters at hand.\nA Counselor is here, tending to matters at hand.} {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 05:28:58}{updatedby}{denae}{updatedon}{2012-01-26 05:30:28}} {1.000}
+E { 1225} {w} {w} {8} {0} {}
+E { 1230} {n} {n} {1} {0} {}
+E { 1234} {e} {e} {2} {0} {}
+E { 1235} {s} {s} {4} {0} {}
+
+R { 1227} {0} {} {A Counselor Room} { } {} {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 05:28:58}{updatedby}{denae}{updatedon}{2012-01-26 05:30:39}} {1.000}
+E { 1225} {e} {e} {2} {0} {}
+
+R { 1228} {0} {} {The Hall} { } {} {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 05:28:58}{updatedby}{denae}{updatedon}{2012-01-26 05:31:10}} {1.000}
+E { 1225} {s} {s} {4} {0} {}
+E { 1229} {n} {n} {1} {0} {}
+E { 1230} {e} {e} {2} {0} {}
+E { 1231} {w} {w} {8} {0} {}
+
+R { 1229} {0} {} {The End of the Hall} { } {A Counselor is here, tending to matters at hand.\nA Counselor is here, tending to matters at hand.} {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 05:28:58}{updatedby}{denae}{updatedon}{2012-01-26 05:31:19}} {1.000}
+E { 1228} {s} {s} {4} {0} {}
+E { 1236} {u} {u} {16} {0} {}
+E { 1242} {n} {n} {1} {0} {}
+
+R { 1230} {0} {} {The Council Room} { } {} {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 05:28:58}{updatedby}{denae}{updatedon}{2012-01-26 05:31:37}} {1.000}
+E { 1228} {w} {w} {8} {0} {}
+E { 1226} {s} {s} {4} {0} {}
+E { 1232} {n} {n} {1} {0} {}
+
+R { 1231} {0} {} {A Counselor Room} { } {} {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 05:28:58}{updatedby}{denae}{updatedon}{2012-01-26 05:31:52}} {1.000}
+E { 1228} {e} {e} {2} {0} {}
+
+R { 1232} {0} {} {The Library} { } {} {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 05:28:58}{updatedby}{denae}{updatedon}{2012-01-26 05:32:14}} {1.000}
+E { 1230} {s} {s} {4} {0} {}
+
+R { 1233} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1225} {n} {n} {1} {0} {}
+E { 1224} {s} {s} {4} {0} {}
+
+R { 1234} {0} {} {} { } {A Counselor is here, tending to matters at hand.} {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 05:28:58}{updatedby}{denae}{updatedon}{2012-01-26 05:32:47}} {1.000}
+E { 1226} {w} {w} {8} {0} {}
+
+R { 1235} {0} {} {} { } {} {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 05:28:58}{updatedby}{denae}{updatedon}{2012-01-26 05:32:59}} {1.000}
+E { 1226} {n} {n} {1} {0} {}
+
+R { 1236} {0} {} {Way to the Private Chambers} { } {} {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 05:28:58}{updatedby}{denae}{updatedon}{2012-01-26 05:33:47}} {1.000}
+E { 1229} {d} {d} {32} {0} {}
+E { 1237} {s} {s} {4} {0} {}
+
+R { 1237} {0} {} {The Hall} { } {} {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 05:28:58}{updatedby}{denae}{updatedon}{2012-01-26 05:33:54}} {1.000}
+E { 1236} {n} {n} {1} {0} {}
+E { 1238} {e} {e} {2} {0} {}
+E { 1239} {w} {w} {8} {0} {}
+E { 1240} {s} {s} {4} {0} {}
+
+R { 1238} {0} {} {The King's Room} { } {} {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 05:28:58}{updatedby}{denae}{updatedon}{2012-01-26 05:34:03}} {1.000}
+E { 1237} {w} {w} {8} {0} {}
+
+R { 1239} {0} {} {The Queen's Room} { } {} {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 05:28:58}{updatedby}{denae}{updatedon}{2012-01-26 05:34:16}} {1.000}
+E { 1237} {e} {e} {2} {0} {}
+
+R { 1240} {0} {} {The Throne room} { } {} {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 05:28:58}{updatedby}{denae}{updatedon}{2012-01-26 05:34:53}} {1.000}
+E { 1237} {n} {n} {1} {0} {}
+E { 1241} {s} {s} {4} {0} {}
+
+R { 1241} {0} {} {The Balcony} { } {} {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 05:28:58}{updatedby}{denae}{updatedon}{2012-01-26 05:34:41}} {1.000}
+E { 1240} {n} {n} {1} {0} {}
+
+R { 1242} {0} {} {land of cult} { } {} {Land of the Cult in Far Northern Region by Xanax for levels: 85-104} {} {} {{createdby}{denae}{createdon}{2012-01-26 05:28:58}{updatedby}{denae}{updatedon}{2012-01-26 05:35:13}} {1.000}
+E { 1229} {s} {s} {4} {0} {}
+
+R { 1243} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1143} {d} {d} {32} {0} {}
+E { 1244} {s} {s} {4} {0} {}
+E { 1250} {n} {n} {1} {0} {}
+
+R { 1244} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1243} {n} {n} {1} {0} {}
+E { 1245} {w} {w} {8} {0} {}
+E { 1147} {d} {d} {32} {0} {}
+E { 1251} {u} {u} {16} {0} {}
+
+R { 1245} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1244} {e} {e} {2} {0} {}
+E { 1246} {w} {w} {8} {0} {}
+E { 1142} {d} {d} {32} {0} {}
+
+R { 1246} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1245} {e} {e} {2} {0} {}
+E { 1247} {n} {n} {1} {0} {}
+E { 1148} {d} {d} {32} {0} {}
+
+R { 1247} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1246} {s} {s} {4} {0} {}
+E { 1248} {n} {n} {1} {0} {}
+E { 1146} {d} {d} {32} {0} {}
+
+R { 1248} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1247} {s} {s} {4} {0} {}
+E { 1249} {e} {e} {2} {0} {}
+E { 1145} {d} {d} {32} {0} {}
+
+R { 1249} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1248} {w} {w} {8} {0} {}
+E { 1250} {e} {e} {2} {0} {}
+E { 1141} {d} {d} {32} {0} {}
+
+R { 1250} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1249} {w} {w} {8} {0} {}
+E { 1243} {s} {s} {4} {0} {}
+E { 1144} {d} {d} {32} {0} {}
+
+R { 1251} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1244} {d} {d} {32} {0} {}
+E { 1252} {n} {n} {1} {0} {}
+
+R { 1252} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1251} {s} {s} {4} {0} {}
