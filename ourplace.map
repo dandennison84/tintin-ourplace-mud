@@ -6,7 +6,7 @@ CP <138>
 
 F 26
 
-I 87
+I 81
 
 L * # # # | # x          
 
@@ -99,6 +99,7 @@ E {   19} {w} {w} {8} {0} {}
 R {   21} {0} {} {West Gate Drawbridge} { } {|((((((((((((((((((((((((((((((((((((((((((((((((((((((|\n |====================================================|\n <>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\n ||||/                                            \\||||\n >>>>                                              >>>>\n ||||                                              ||||\n      ______________________________________} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 07:54:10}{updatedby}{$character}{updatedon}{2012-01-24 08:13:20}} {1.000}
 E {   16} {e} {e} {2} {0} {}
 E {   40} {s} {s} {4} {0} {}
+E { 1579} {w} {give 10 coins gate; w} {8} {0} {}
 
 R {   22} {0} {} {The Main Street} { } {You are on the Main Street crossing through town.  To the north you see a\nGeneral Store.  The main street continues east.  To the west you hear the\nhustle and bustle of the market square.  To the south you see a Jeweller's\nShop.  } {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 07:54:10}{updatedby}{$character}{updatedon}{2012-01-24 08:14:29}} {1.000}
 E {    3} {w} {w} {8} {0} {}
@@ -170,6 +171,8 @@ E {   38} {w} {w} {8} {0} {}
 R {   38} {0} {} {Wall Road} { } {You are walking next to the western city wall.  Wall Road continues\nfurther north and south.  A small, poor alley leads east.  Some letters have\nbeen written on the wall here.  } {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{$character}{createdon}{2012-01-24 07:54:10}{updatedby}{$character}{updatedon}{2012-01-24 08:13:28}} {1.000}
 E {   37} {e} {e} {2} {0} {}
 E {   41} {n} {n} {1} {0} {}
+E { 1413} {w} {w} {8} {1} {}
+E { 1428} {s} {s} {4} {1} {}
 
 R {   39} {0} {<CFF><aaa>} {The Leather Shop} {MIX} {An acrid smell fills this large room.  Along the walls are numerous\nshelves containing all sorts of animal hide and in the crackling fireplace\nhangs a big iron pot with boiling water.  In the middle of the room is a\nlarge oak table.\nA wooden sign is hanging above the fireplace.} {[Lv Price] Item\n[14      125] A pair of studded leather sleeves.\n[14      125] A pair of hard leather gloves.\n[15      125] A pair of hard leather boots.\n[ 7      125] A pair of studded leather pants.\n[14      125] A hard leather cap.\n[ 5      250] A studded leather jerkin.\nSMITH: The leather worker} {[Lv Price] Item\n[14      125] A pair of studded leather sleeves.\n[14      125] A pair of hard leather gloves.\n[15      125] A pair of hard leather boots.\n[ 7      125] A pair of studded leather pants.\n[14      125] A hard leather cap.\n[ 5      250] A studded leather jerkin.\nSMITH: The leather worker} {} {{createdby}{$character}{createdon}{2012-01-24 06:10:03}{updatedby}{$character}{updatedon}{2012-01-24 06:51:51}} {1.000}
 E {   37} {s} {s} {4} {0} {}
@@ -736,7 +739,7 @@ R {  172} {0} {} {A dead-end alley} { } {This is a dead-end alley\; the only exi
 E {  174} {w} {w} {8} {0} {}
 E {  173} {s} {s} {4} {0} {}
 
-R {  173} {0} {<EAF><fff>} {Den of Thieves} {QST} {You squint.  The only light is coming from a hole in the wall to the\nnorth.  You barely make out your surroundings, but feel the presence of\nsomeone here with you.  You hear a slight shuffling noise and turn to see\nthe dark face of a man close to yours.  Startled, you step back and bump\ninto something which you hear fall to the ground } {Masters Rooms by ispy for levels: 1-199} {The master thief tells you 'Ah, so it is Gubgub.. I have heard from others that\nyou are seeking the knowledge of the old thieves. I can only tell you of an odd\ncreature, a Behir who has a somewhat crocodilian head.'\n\nThe master thief tells you 'You must find this creature who dwells amongst the\nvile necromancers and obtain its talon. You must then find some moldy cheese, it\nis in a larder where the resident is not known for cleanliness.'\n\nThe master thief tells you 'For only with this composition will your formula of\nPrana work. If you wish to further your studies, there is a wise old master near\nthe deceased of a legendary aquatic. Good Luck...'} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:13:05}} {1.000}
+R {  173} {0} {<EAF><fff>} {Den of Thieves} {QST} {You squint.  The only light is coming from a hole in the wall to the\nnorth.  You barely make out your surroundings, but feel the presence of\nsomeone here with you.  You hear a slight shuffling noise and turn to see\nthe dark face of a man close to yours.  Startled, you step back and bump\ninto something which you hear fall to the ground } {Masters Rooms by ispy for levels: 1-199} {The master thief tells you 'Ah, so it is Gubgub.. I have heard from others that you are seeking the knowledge of the old thieves. I can only tell you of an odd creature, a Behir who has a somewhat crocodilian head.  You must find this creature who dwells amongst the vile necromancers and obtain its talon. You must then find some moldy cheese, it is in a larder where the resident is not known for cleanliness.  For only with this composition will your formula of Prana work. If you wish to further your studies, there is a wise old master near the deceased of a legendary aquatic. Good Luck...'} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:13:05}} {1.000}
 E {  172} {n} {n} {1} {0} {}
 
 R {  174} {8} {} {} { } {} {} {} {} {} {1.000}
@@ -815,6 +818,7 @@ R {  192} {0} {} {muppets} { } {This is the northwestern corner of the HUGE hall
 E {  189} {e} {e} {2} {0} {}
 E {  193} {s} {s} {4} {0} {}
 E {  197} {n} {n} {1} {1} {}
+E { 1765} {u} {u} {16} {0} {}
 
 R {  193} {0} {} {The Great Hall, Western End} { } {This is the western end of the HUGE hall.  The ubiquitous marble columns\nline the walls, while (surprise!)  Thick, heavy velvet curtains hang between\nthem.  The hall continues to the north, south, south, and east, while a\nsolid oak door is partially hidden by one of the curtains on the west wall. \nYou hear much hustle and bustle coming from behind it.  } {Naeson in South Eastern Region by Kystran for levels: 1-200} {} {} {{createdby}{$character}{createdon}{2012-01-24 10:16:23}{updatedby}{$character}{updatedon}{2012-01-24 11:24:26}} {1.000}
 E {  192} {n} {n} {1} {0} {}
@@ -1758,7 +1762,7 @@ R {  422} {0} {} {Inside the Southern West Gate Tower} { } {You are inside the s
 E {  423} {u} {u} {16} {0} {}
 E {  424} {n} {n} {1} {0} {}
 
-R {  423} {0} {<EAF><fff>} {Loki's Hideout} {QST} {The audacity of the Master Thief of Mydgaard! He's taken over the\nunused, southern watch tower under the very noses of the city watchmen.\nThe room is a disarray of locks and lockpicks. Poisonous herbs hang\nfrom the rafters in thick bunches. Master Thief Loki reclines on a fur\ncovered bench along one wall, carefully recording the components for\nhis newest poison. A lantern provides light to the windowless room.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {Master Thief Loki says 'Aye, the thieve's guild is indeed powerful.'\nMaster Thief Loki says 'You should talk to each thief you meet'\nMaster Thief Loki says 'for many have learned skills that might'\nMaster Thief Loki says 'be useful to you in your travels.'} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:54:49}} {1.000}
+R {  423} {0} {<EAF><fff>} {Loki's Hideout} {QST} {The audacity of the Master Thief of Mydgaard! He's taken over the\nunused, southern watch tower under the very noses of the city watchmen.\nThe room is a disarray of locks and lockpicks. Poisonous herbs hang\nfrom the rafters in thick bunches. Master Thief Loki reclines on a fur\ncovered bench along one wall, carefully recording the components for\nhis newest poison. A lantern provides light to the windowless room.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {Master Thief Loki says 'Aye, the thieve's guild is indeed powerful.  You should talk to each thief you meet for many have learned skills that might be useful to you in your travels.'} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:54:49}} {1.000}
 E {  422} {d} {d} {32} {0} {}
 
 R {  424} {0} {} {Outside the West Gate} { } {You are standing outside the west gate of Mydgaard. Town watchmen\npatrol the footbridge above you, protecting the city from marauders.\nTwin towers on either side anchor the large wooden gate. Snow capped\nmountains rise above the land to the north, past the flowing waters\nof the River Urd. The Fjell Pass Trail leads through the forest in\nthat direction. A well traveled road leads west, away from Mydgaard.} {Mydgaard in South Western Region by Fife/Tealin for levels: 1-99} {} {} {{createdby}{genae}{createdon}{2012-01-24 22:37:28}{updatedby}{genae}{updatedon}{2012-01-24 22:56:06}} {1.000}
@@ -3250,7 +3254,7 @@ R {  788} {0} {<AAF><fff>} {The Ivy Bush} {SHP} {You are in the Ivy Bush, one of
 E {  785} {n} {n} {1} {0} {}
 E {  789} {d} {d} {32} {0} {}
 
-R {  789} {0} {<EAF><fff>} {Den of Thieves} {QST} {The noise from above seems muted as you enter the dim dank basement of\nthe Ivy Bush.  Moss, fed by water seeping through the bricks, covers the\nwalls making the footing slippery.  } {Masters Rooms by ispy for levels: 1-199} {The master thief tells you 'To make Semuta, you need to seek out and amputate '\nThe master thief tells you 'the tentacle of a mindflayer. You will find this '\nThe master thief tells you 'to be most invaluable. If you know nothing about '\nThe master thief tells you 'what I have said, visit my old wattering hole, '\nThe master thief tells you 'the Grubby Inn. The bartender there has had an '\nThe master thief tells you 'encounter or two with the mindflayers.'\n\nThe master thief tells you 'My old friend that resides above a well near sugar '\nThe master thief tells you 'cane should be able to further your progress, if '\nThe master thief tells you 'he takes a liking to you.'} {} {{createdby}{denae}{createdon}{2012-01-25 10:36:53}{updatedby}{denae}{updatedon}{2012-01-25 10:48:41}} {1.000}
+R {  789} {0} {<EAF><fff>} {Den of Thieves} {QST} {The noise from above seems muted as you enter the dim dank basement of\nthe Ivy Bush.  Moss, fed by water seeping through the bricks, covers the\nwalls making the footing slippery.  } {Masters Rooms by ispy for levels: 1-199} {The master thief tells you 'To make Semuta, you need to seek out and amputate the tentacle of a mindflayer. You will find this to be most invaluable. If you know nothing about what I have said, visit my old wattering hole, the Grubby Inn. The bartender there has had an encounter or two with the mindflayers.  My old friend that resides above a well near sugar cane should be able to further your progress, if he takes a liking to you.'} {} {{createdby}{denae}{createdon}{2012-01-25 10:36:53}{updatedby}{denae}{updatedon}{2012-01-25 10:48:41}} {1.000}
 E {  788} {u} {u} {16} {0} {}
 
 R {  790} {0} {<CFF><aaa>} {The Blacksmith's Home} {MIX} {The home of Johan, the blacksmith, is a fine home, indeed.  There are\noriginal works of art hanging on each wall, all of which were painted by\nJohan himself.  There are hand stitched pillows of the finest material\nthrown throughout the room.  Johan, even though a blacksmith by trade, is an\nartisan at heart.  } {THE SHIRE in NorthEast Central Region by Anon for levels: 5-35} {PRACTIONER\nSMITH: Johan } {} {{createdby}{denae}{createdon}{2012-01-25 10:36:53}{updatedby}{denae}{updatedon}{2012-01-25 11:08:48}} {1.000}
@@ -4108,6 +4112,7 @@ E { 1001} {w} {w} {8} {0} {}
 
 R { 1000} {0} {} {The Path to the Circus} { } {||||||||||||||||||||||||||||||||\nYou hear music and laughter coming from ahead of you.  Posters hang\nfrom the trees, advertisements for the Circus that has just arrived in \ntown.} {The Circus by Binky for levels: 1-12} {} {} {{createdby}{denae}{createdon}{2012-01-25 12:56:45}{updatedby}{denae}{updatedon}{2012-01-25 15:16:46}} {1.000}
 E {  999} {n} {n} {1} {0} {}
+E { 1684} {s} {s} {4} {0} {}
 
 R { 1001} {0} {} {Midgaard Valley Road} { } {You are on a wide, frequently traveled road.  All manner of folk go about\ntheir business, some loiter chattering about other people's business too.  \n\\\\|/// \\\\|// \\\\|//\nGenae walks in.} {Eastern Roads by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-25 12:56:45}{updatedby}{denae}{updatedon}{2012-01-25 15:17:03}} {1.000}
 E {  999} {e} {e} {2} {0} {}
@@ -4760,6 +4765,7 @@ E { 1156} {s} {s} {4} {0} {}
 R { 1158} {0} {} {Trail Around a Tree} { } {The walkway beneath your feet is a long branch.  It has been flattened\nout on the top by many centuries of travel by the Amooks.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:11:27}} {1.000}
 E { 1156} {e} {e} {2} {0} {}
 E { 1159} {w} {w} {8} {0} {}
+E { 1770} {u} {u} {16} {0} {}
 
 R { 1159} {0} {} {Trail Around a Tree} { } {The walkway beneath your feet is a long branch.  It has been flattened\nout on the top by many centuries of travel by the Amooks.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:11:47}} {1.000}
 E { 1158} {e} {e} {2} {0} {}
@@ -4898,6 +4904,7 @@ R { 1192} {0} {} {Passageway inside the Prison} { } {The walls floor and ceiling
 E { 1191} {n} {n} {1} {0} {}
 E { 1193} {e} {e} {2} {0} {}
 E { 1194} {s} {s} {4} {0} {}
+E { 1768} {w} {w} {8} {0} {}
 
 R { 1193} {0} {} {A Guard Post} { } {This room serves both as the guard post and the barracks for the guards\nworking in the prison.  There are straw beds scattered on the floor\nthroughout the room.  There are no tables, chairs, floor or wall coverings. \nActually, the room is just a much larger version of the passageway you just\nrecently traversed.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:25:33}} {1.000}
 E { 1192} {w} {w} {8} {0} {}
@@ -4905,9 +4912,11 @@ E { 1192} {w} {w} {8} {0} {}
 R { 1194} {0} {} {Passageway inside the Prison} { } {The walls floor and ceiling are round forming a near perfect circle.  Who\nor whatever created this passageway had a pure sense of geometric design. \nAll surfaces are perfectly smooth with just here and there a rough spot due\nto the presence of a knot or boll in the wood.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:26:38}} {1.000}
 E { 1192} {n} {n} {1} {0} {}
 E { 1195} {s} {s} {4} {0} {}
+E { 1767} {w} {w} {8} {0} {}
 
 R { 1195} {0} {} {Passageway inside the Prison} { } {The walls floor and ceiling are round forming a near perfect circle.  Who\nor whatever created this passageway had a pure sense of geometric design. \nAll surfaces are perfectly smooth with just here and there a rough spot due\nto the presence of a knot or boll in the wood.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:26:48}} {1.000}
 E { 1194} {n} {n} {1} {0} {}
+E { 1766} {w} {w} {8} {0} {}
 
 R { 1196} {0} {} {The Way to Rhuggarnukk's Tree} { } {You are on a branch that has been worn flat by many centuries of travel. \nAbove you is a thick canopy of leaves preventing the sun from shining\ndirectly through and forcing you to step carefully lest you trip and fall to\nthe forest floor below.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:27:40}} {1.000}
 E { 1179} {s} {s} {4} {0} {}
@@ -4952,6 +4961,7 @@ E { 1206} {e} {e} {2} {0} {}
 R { 1206} {0} {} {The way to the meeting place} { } {You have entered an intersection.  As you ponder which way to move, you\nhear some very loud noises coming from the north.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:29:56}} {1.000}
 E { 1205} {w} {w} {8} {0} {}
 E { 1207} {e} {e} {2} {0} {}
+E { 1769} {n} {n} {1} {0} {}
 
 R { 1207} {0} {} {The way to the meeting place} { } {You are in a small passageway inside the tree.  There are torches placed\nhigh on the walls which provide light but throw an eerie glow all around\nyou.  } {-=%Amook%=- in Far Northern Region by Genna for levels: 87-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 03:58:39}{updatedby}{denae}{updatedon}{2012-01-26 04:30:14}} {1.000}
 E { 1206} {w} {w} {8} {0} {}
@@ -5230,6 +5240,7 @@ E { 1246} {d} {d} {32} {0} {}
 
 R { 1268} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1134} {e} {e} {2} {1} {}
+E { 1585} {w} {w} {8} {0} {}
 
 R { 1269} {0} {} {W. Intercoastal} { } {You are on a wide, fairly placid canal that stretches from coast to\ncoast.  It's easy, trouble free navigation causes it to be fairly popular,\nthough some of the footbridges are rather low and only seasoned boaters\nanticipate this.  \nGenae swims in.} {E. Intercoastal by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}} {1.000}
 E { 1110} {n} {n} {1} {0} {}
@@ -5805,3 +5816,1494 @@ E { 1412} {w} {w} {8} {0} {}
 
 R { 1412} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 17:06:27}} {1.000}
 E { 1411} {e} {e} {2} {0} {}
+
+R { 1413} {0} {} {Midgaard road west} { } {You are on Midgaard road west.  Midgaard is to the east of you and there\nare some residences to the west } {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}} {1.000}
+E {   38} {e} {e} {2} {1} {}
+E { 1414} {w} {w} {8} {0} {}
+
+R { 1414} {0} {} {Midgaard residential area} { } {The road is wide and tree lined on both sides.  The sidewalks are crowded\nwith local residents who have ventured out for their evening walk and are\nstopping to chat with their neighbors.  Occassionally, the peace and quiet\nof the neighborhood is interrupted by a dog's barking or the laughter of\nchildren as they play on the sidewalks and in the front yards of their\nhomes.  The sounds are quite peaceful.  } {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:03:39}} {1.000}
+E { 1413} {e} {e} {2} {0} {}
+E { 1415} {n} {n} {1} {0} {}
+E { 1423} {s} {s} {4} {0} {}
+
+R { 1415} {0} {} {Midgaard residential area} { } {The road is wide and tree lined on both sides.  The sidewalks are crowded\nwith local residents who have ventured out for their evening walk and are\nstopping to chat with their neighbors.  Occassionally, the peace and quiet\nof the neighborhood is interrupted by a dog's barking or the laughter of\nchildren as they play on the sidewalks and in the front yards of their\nhomes.  The sounds are quite peaceful.  } {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:03:45}} {1.000}
+E { 1414} {s} {s} {4} {0} {}
+E { 1416} {e} {e} {2} {0} {}
+E { 1417} {n} {n} {1} {0} {}
+
+R { 1416} {0} {} {Home Sweet Home} { } {Genae walks in.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:04:28}} {1.000}
+E { 1415} {w} {w} {8} {0} {}
+
+R { 1417} {0} {} {Midgaard residential area} { } {The road is wide and tree lined on both sides.  The sidewalks are crowded\nwith local residents who have ventured out for their evening walk and are\nstopping to chat with their neighbors.  Occassionally, the peace and quiet\nof the neighborhood is interrupted by a dog's barking or the laughter of\nchildren as they play on the sidewalks and in the front yards of their\nhomes.  The sounds are quite peaceful.  } {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:04:36}} {1.000}
+E { 1415} {s} {s} {4} {0} {}
+E { 1418} {w} {w} {8} {0} {}
+
+R { 1418} {0} {} {Midgaard residential area} { } {The road is wide and tree lined on both sides.  The sidewalks are crowded\nwith local residents who have ventured out for their evening walk and are\nstopping to chat with their neighbors.  Occassionally, the peace and quiet\nof the neighborhood is interrupted by a dog's barking or the laughter of\nchildren as they play on the sidewalks and in the front yards of their\nhomes.  The sounds are quite peaceful.  } {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:04:43}} {1.000}
+E { 1417} {e} {e} {2} {0} {}
+E { 1419} {s} {s} {4} {0} {}
+E { 1420} {w} {w} {8} {0} {}
+
+R { 1419} {0} {} {Midgaard residential area} { } {Genae walks in.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:04:51}} {1.000}
+E { 1418} {n} {n} {1} {0} {}
+
+R { 1420} {0} {} {Midgaard residential area} { } {The road is wide and tree lined on both sides.  The sidewalks are crowded\nwith local residents who have ventured out for their evening walk and are\nstopping to chat with their neighbors.  Occassionally, the peace and quiet\nof the neighborhood is interrupted by a dog's barking or the laughter of\nchildren as they play on the sidewalks and in the front yards of their\nhomes.  The sounds are quite peaceful.  } {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:04:59}} {1.000}
+E { 1418} {e} {e} {2} {0} {}
+E { 1421} {w} {w} {8} {0} {}
+
+R { 1421} {0} {} {Midgaard residential area} { } {The road is wide and tree lined on both sides.  The sidewalks are crowded\nwith local residents who have ventured out for their evening walk and are\nstopping to chat with their neighbors.  Occassionally, the peace and quiet\nof the neighborhood is interrupted by a dog's barking or the laughter of\nchildren as they play on the sidewalks and in the front yards of their\nhomes.  The sounds are quite peaceful.  } {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:05:06}} {1.000}
+E { 1420} {e} {e} {2} {0} {}
+E { 1422} {n} {n} {1} {0} {}
+
+R { 1422} {0} {} {A Private little Chat Room[0m [1m[34m[CHAT]} { } {Genae walks in.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:05:11}} {1.000}
+E { 1421} {s} {s} {4} {0} {}
+
+R { 1423} {0} {} {Midgaard residential area} { } {The road is wide and tree lined on both sides.  The sidewalks are crowded\nwith local residents who have ventured out for their evening walk and are\nstopping to chat with their neighbors.  Occassionally, the peace and quiet\nof the neighborhood is interrupted by a dog's barking or the laughter of\nchildren as they play on the sidewalks and in the front yards of their\nhomes.  The sounds are quite peaceful.  } {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:05:31}} {1.000}
+E { 1414} {n} {n} {1} {0} {}
+E { 1424} {s} {s} {4} {0} {}
+
+R { 1424} {0} {} {Midgaard residential area} { } {The road is wide and tree lined on both sides.  The sidewalks are crowded\nwith local residents who have ventured out for their evening walk and are\nstopping to chat with their neighbors.  Occassionally, the peace and quiet\nof the neighborhood is interrupted by a dog's barking or the laughter of\nchildren as they play on the sidewalks and in the front yards of their\nhomes.  The sounds are quite peaceful.  } {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:05:37}} {1.000}
+E { 1423} {n} {n} {1} {0} {}
+E { 1425} {w} {w} {8} {0} {}
+
+R { 1425} {0} {} {Midgaard residential area} { } {The road is wide and tree lined on both sides.  The sidewalks are crowded\nwith local residents who have ventured out for their evening walk and are\nstopping to chat with their neighbors.  Occassionally, the peace and quiet\nof the neighborhood is interrupted by a dog's barking or the laughter of\nchildren as they play on the sidewalks and in the front yards of their\nhomes.  The sounds are quite peaceful.  } {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:05:44}} {1.000}
+E { 1424} {e} {e} {2} {0} {}
+E { 1426} {w} {w} {8} {0} {}
+
+R { 1426} {0} {} {Midgaard residential area} { } {The road is wide and tree lined on both sides.  The sidewalks are crowded\nwith local residents who have ventured out for their evening walk and are\nstopping to chat with their neighbors.  Occassionally, the peace and quiet\nof the neighborhood is interrupted by a dog's barking or the laughter of\nchildren as they play on the sidewalks and in the front yards of their\nhomes.  The sounds are quite peaceful.  } {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:05:48}} {1.000}
+E { 1425} {e} {e} {2} {0} {}
+E { 1427} {w} {w} {8} {0} {}
+
+R { 1427} {0} {} {Midgaard residential area} { } {The road is wide and tree lined on both sides.  The sidewalks are crowded\nwith local residents who have ventured out for their evening walk and are\nstopping to chat with their neighbors.  Occassionally, the peace and quiet\nof the neighborhood is interrupted by a dog's barking or the laughter of\nchildren as they play on the sidewalks and in the front yards of their\nhomes.  The sounds are quite peaceful.  } {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:05:53}} {1.000}
+E { 1426} {e} {e} {2} {0} {}
+
+R { 1428} {0} {} {Wall Road} { } {You are standing on the road next to the western city wall which\ncontinues north.  South of here is a bridge across the river.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:06:07}} {1.000}
+E {   38} {n} {n} {1} {1} {}
+E { 1429} {s} {s} {4} {0} {}
+
+R { 1429} {0} {} {On the Bridge} { } {You are standing on the stone bridge crosses the river.  The bridge is\nbuilt out from the western city wall and the river flows west through an\nopening in the wall ten feet below the bridge.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:06:25}} {1.000}
+E { 1428} {n} {n} {1} {0} {}
+E { 1430} {s} {s} {4} {0} {}
+
+R { 1430} {0} {} {Northwest end of Concourse} { } {You are at the concourse, the city wall is just west.  A small promenade\ngoes east, and the bridge is just north of here.  The concourse continues\nsouth along the city wall.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:06:33}} {1.000}
+E { 1429} {n} {n} {1} {0} {}
+E { 1501} {s} {s} {4} {0} {}
+E { 1446} {e} {e} {2} {0} {}
+
+R { 1431} {0} {} {On the Concourse} { } {You are at the southwest corner of the city wall.  The Concourse leads\nboth north and east.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:07:04}} {1.000}
+E { 1437} {n} {n} {1} {0} {}
+E { 1447} {e} {e} {2} {0} {}
+
+R { 1432} {0} {} {On the Concourse} { } {The Concourse continues both east and west.  Emerald Avenue is north of\nhere.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:07:09}} {1.000}
+E { 1447} {w} {w} {8} {0} {}
+E { 1433} {n} {n} {1} {0} {}
+E { 1516} {e} {e} {2} {0} {}
+
+R { 1433} {0} {} {Emerald Avenue} { } {You are on Emerald Avenue which continues north.\nThe Concourse is south of here.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:07:52}} {1.000}
+E { 1432} {s} {s} {4} {0} {}
+E { 1448} {n} {n} {1} {0} {}
+
+R { 1434} {0} {} {graveyard} { } {The Concourse continues both east and west.  Park Road is north of here\nand an iron grate leads south to the graveyard.\nA bronze sign has been set on the wall next to the grate.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:08:42}} {1.000}
+E { 1478} {w} {w} {8} {0} {}
+E { 1435} {n} {n} {1} {0} {}
+E { 1469} {e} {e} {2} {0} {}
+E { 1522} {s} {s} {4} {1} {}
+
+R { 1435} {0} {} {Park Road} { } {You are on Park Road which continues north.  The Concourse is south of here.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:08:48}} {1.000}
+E { 1434} {s} {s} {4} {0} {}
+E { 1511} {n} {n} {1} {0} {}
+
+R { 1436} {0} {} {On the Concourse} { } {You are at the southeast corner of the city wall.  The Concourse leads\nboth north and west.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:09:02}} {1.000}
+E { 1442} {w} {w} {8} {0} {}
+E { 1443} {n} {n} {1} {0} {}
+
+R { 1437} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1431} {s} {s} {4} {0} {}
+E { 1445} {n} {n} {1} {0} {}
+
+R { 1438} {0} {} {Promenade} { } {The river gently flows west just north of here.  The promenade continues\nfurther east and to the west you see the city wall.  Park Road leads south\nfrom here.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:11:11}} {1.000}
+E { 1446} {w} {w} {8} {0} {}
+E { 1477} {e} {e} {2} {0} {}
+E { 1502} {s} {s} {4} {0} {}
+
+R { 1439} {0} {} {Promenade} { } {The river gently flows west just north of here.  The promenade continues\nboth east and west.  South of here you see the entrance to the park, and a\nsmall building seems to be just west of the entrance.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:11:15}} {1.000}
+E { 1476} {w} {w} {8} {0} {}
+E { 1488} {e} {e} {2} {0} {}
+E { 1503} {s} {s} {4} {0} {}
+
+R { 1440} {0} {} {Promenade} { } {The river gently flows west just north of here.  The promenade continues\nboth east and west.  A small path leads south.  Looking across the river you\nsee the levee.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:11:44}} {1.000}
+E { 1481} {w} {w} {8} {0} {}
+E { 1493} {e} {e} {2} {0} {}
+E { 1504} {s} {s} {4} {0} {}
+
+R { 1441} {0} {} {Northeast end of Concourse} { } {You are at the Concourse.  The city wall is just east and a small\npromenade goes west.  Looking across the river you see a building that\nresembles a warehouse.  The Concourse continues south along the city wall.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:12:15}} {1.000}
+E { 1470} {w} {w} {8} {0} {}
+E { 1505} {s} {s} {4} {0} {}
+
+R { 1442} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1436} {e} {e} {2} {0} {}
+E { 1469} {w} {w} {8} {0} {}
+
+R { 1443} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1436} {s} {s} {4} {0} {}
+E { 1444} {n} {n} {1} {0} {}
+
+R { 1444} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1443} {s} {s} {4} {0} {}
+E { 1450} {n} {n} {1} {0} {}
+
+R { 1445} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1437} {s} {s} {4} {0} {}
+E { 1451} {n} {n} {1} {0} {}
+
+R { 1446} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1438} {e} {e} {2} {0} {}
+E { 1430} {w} {w} {8} {0} {}
+
+R { 1447} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1432} {e} {e} {2} {0} {}
+E { 1431} {w} {w} {8} {0} {}
+
+R { 1448} {0} {} {Emerald Avenue} { } {You are standing at a bend on Emerald Avenue.  The road leads south and\neast.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:15:04}} {1.000}
+E { 1433} {s} {s} {4} {0} {}
+E { 1517} {e} {e} {2} {0} {}
+
+R { 1449} {0} {} {Emerald Avenue} { } {You are standing at a bend on Emerald Avenue.  To the west the road goes on\nand to the north is the Road Crossing.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:15:15}} {1.000}
+E { 1465} {w} {w} {8} {0} {}
+E { 1452} {n} {n} {1} {0} {}
+
+R { 1450} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1444} {s} {s} {4} {0} {}
+E { 1454} {n} {n} {1} {0} {}
+
+R { 1451} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1445} {s} {s} {4} {0} {}
+E { 1455} {n} {n} {1} {0} {}
+
+R { 1452} {0} {} {Road Crossing} { } {You are in the middle of the road cross.  Roads lead in all directions.\nA huge black iron chain as thick as a tree trunk is fastened into the ground\nat the centre of the road cross.  Its other end leads directly upwards towards\nthe sky.\nA road sign is here.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:15:49}} {1.000}
+E { 1449} {s} {s} {4} {0} {}
+E { 1464} {w} {w} {8} {0} {}
+E { 1510} {n} {n} {1} {0} {}
+E { 1520} {e} {e} {2} {0} {}
+E { 1521} {u} {u} {16} {1} {}
+
+R { 1453} {0} {} {Park Road} { } {You are at a bend on Park Road.  To the north the road goes on and to the\neast is the Road Crossing.  To the south, the ancient cliffs rise from deep\nunder the ground, forming a wall.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:15:59}} {1.000}
+E { 1456} {n} {n} {1} {0} {}
+E { 1518} {e} {e} {2} {0} {}
+
+R { 1454} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1450} {s} {s} {4} {0} {}
+E { 1457} {n} {n} {1} {0} {}
+
+R { 1455} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1451} {s} {s} {4} {0} {}
+E { 1458} {n} {n} {1} {0} {}
+
+R { 1456} {0} {} {Park Road} { } {You are on Park Road which leads north and south.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:16:24}} {1.000}
+E { 1453} {s} {s} {4} {0} {}
+E { 1459} {n} {n} {1} {0} {}
+
+R { 1457} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1454} {s} {s} {4} {0} {}
+E { 1461} {n} {n} {1} {0} {}
+
+R { 1458} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1455} {s} {s} {4} {0} {}
+E { 1460} {n} {n} {1} {0} {}
+
+R { 1459} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1456} {s} {s} {4} {0} {}
+E { 1462} {n} {n} {1} {0} {}
+E { 1463} {w} {w} {8} {0} {}
+E { 1466} {e} {e} {2} {0} {}
+
+R { 1460} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1458} {s} {s} {4} {0} {}
+E { 1473} {n} {n} {1} {0} {}
+
+R { 1461} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1457} {s} {s} {4} {0} {}
+E { 1472} {n} {n} {1} {0} {}
+
+R { 1462} {0} {} {Park Road} { } {You are at Park Road which continues north and south.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:17:43}} {1.000}
+E { 1459} {s} {s} {4} {0} {}
+E { 1474} {n} {n} {1} {0} {}
+
+R { 1463} {0} {} {Cityguard Head Quarters} { } {You are inside a tidy office.  A big desk made from dark wood is standing\nin the centre of the room.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:18:19}} {1.000}
+E { 1459} {e} {e} {2} {0} {}
+
+R { 1464} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1452} {e} {e} {2} {0} {}
+E { 1518} {w} {w} {8} {0} {}
+
+R { 1465} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1449} {e} {e} {2} {0} {}
+E { 1517} {w} {w} {8} {0} {}
+
+R { 1466} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1467} {e} {e} {2} {0} {}
+E { 1459} {w} {w} {8} {0} {}
+
+R { 1467} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1466} {w} {w} {8} {0} {}
+E { 1468} {n} {n} {1} {0} {}
+
+R { 1468} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1467} {s} {s} {4} {0} {}
+E { 1471} {e} {e} {2} {0} {}
+
+R { 1469} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1442} {e} {e} {2} {0} {}
+E { 1434} {w} {w} {8} {0} {}
+
+R { 1470} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1441} {e} {e} {2} {0} {}
+E { 1493} {w} {w} {8} {0} {}
+
+R { 1471} {0} {} {Small path in the park} { } {You are standing on a small path inside the park.  The park entrance is\njust north of here, and Park Cafe is just east of the entrance.  The path\nleads further east and west.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:20:18}} {1.000}
+E { 1468} {w} {w} {8} {0} {}
+E { 1475} {n} {n} {1} {0} {}
+E { 1483} {e} {e} {2} {0} {}
+
+R { 1472} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1461} {s} {s} {4} {0} {}
+E { 1499} {n} {n} {1} {0} {}
+
+R { 1473} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1460} {s} {s} {4} {0} {}
+E { 1495} {n} {n} {1} {0} {}
+
+R { 1474} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1462} {s} {s} {4} {0} {}
+E { 1496} {n} {n} {1} {0} {}
+
+R { 1475} {0} {} {Park Entrance} { } {You are standing just inside the small park of Midgaard.  To the north is\nthe promenade and a small path leads south into the park.  To your east is\nthe famous Park Cafe.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:21:29}} {1.000}
+E { 1471} {s} {s} {4} {0} {}
+E { 1497} {n} {n} {1} {0} {}
+E { 1480} {e} {e} {2} {0} {}
+
+R { 1476} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1439} {e} {e} {2} {0} {}
+E { 1477} {w} {w} {8} {0} {}
+
+R { 1477} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1476} {e} {e} {2} {0} {}
+E { 1438} {w} {w} {8} {0} {}
+
+R { 1478} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1434} {e} {e} {2} {0} {}
+E { 1479} {w} {w} {8} {0} {}
+
+R { 1479} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1478} {e} {e} {2} {0} {}
+E { 1482} {w} {w} {8} {0} {}
+
+R { 1480} {0} {<AAF><fff>} {Park Cafe} {SHP} {You are inside Park Cafe, a very well lighted, cosy place. The cafe\nis built from large logs. Through the windows in the northern wall you\nsee the river, and through the southern window you see many vigorous\ncolorful plants.} {Midgaard in Central Region by DIKU for levels: 0-0} {[Lv Price] Item\n[ 0        2] A cup of water.\n[ 0        5] A cup of tea.} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:25:32}} {1.000}
+E { 1475} {w} {w} {8} {0} {}
+
+R { 1481} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1440} {e} {e} {2} {0} {}
+E { 1488} {w} {w} {8} {0} {}
+
+R { 1482} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1479} {e} {e} {2} {0} {}
+E { 1490} {w} {w} {8} {0} {}
+
+R { 1483} {0} {} {Small path in the park} { } {You are on a small path running through the park.  It continues west and\nsouth and just north of here you see the southern wall of Park Cafe.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:25:42}} {1.000}
+E { 1471} {w} {w} {8} {0} {}
+E { 1484} {s} {s} {4} {0} {}
+
+R { 1484} {0} {} {A path in the park} { } {You are in the park.  The paths lead north and east.  Eastwards is the\npark entrance and to the west you see a small pond.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:25:53}} {1.000}
+E { 1483} {n} {n} {1} {0} {}
+E { 1485} {e} {e} {2} {0} {}
+
+R { 1485} {0} {} {Eastern Park Entrance} { } {You are standing at the eastern end of the park.  A small path leads west\ninto the park.  Going east through the entrance you will reach Emerald\nAvenue.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:26:02}} {1.000}
+E { 1484} {w} {w} {8} {0} {}
+E { 1486} {e} {e} {2} {0} {}
+
+R { 1486} {0} {} {Emerald Avenue} { } {You are at Emerald Avenue which continues north and south.  To the west is\nthe park entrance and to the east is the not very big Town Hall of Midgaard.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:26:08}} {1.000}
+E { 1485} {w} {w} {8} {0} {}
+E { 1489} {n} {n} {1} {0} {}
+E { 1507} {e} {e} {2} {0} {}
+E { 1509} {s} {s} {4} {0} {}
+
+R { 1487} {0} {} {Emerald Avenue} { } {You are standing on the north end of Emerald Avenue.  To the north is the\npromenade and to the east is the small street Penny Lane.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:26:14}} {1.000}
+E { 1489} {s} {s} {4} {0} {}
+E { 1498} {n} {n} {1} {0} {}
+E { 1491} {e} {e} {2} {0} {}
+
+R { 1488} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1481} {e} {e} {2} {0} {}
+E { 1439} {w} {w} {8} {0} {}
+
+R { 1489} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1487} {n} {n} {1} {0} {}
+E { 1486} {s} {s} {4} {0} {}
+
+R { 1490} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1482} {e} {e} {2} {0} {}
+E { 1516} {w} {w} {8} {0} {}
+
+R { 1491} {0} {} {Penny Lane} { } {You are on Penny Lane.  Emerald Avenue is to the west and Penny Lane\ncontinues in eastward direction.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:27:47}} {1.000}
+E { 1487} {w} {w} {8} {0} {}
+E { 1494} {e} {e} {2} {0} {}
+
+R { 1492} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1510} {w} {w} {8} {0} {}
+E { 1515} {e} {e} {2} {0} {}
+
+R { 1493} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1470} {e} {e} {2} {0} {}
+E { 1440} {w} {w} {8} {0} {}
+
+R { 1494} {0} {} {Penny Lane} { } {You are on Penny Lane.  The narrow road continues north and west.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:27:52}} {1.000}
+E { 1491} {w} {w} {8} {0} {}
+E { 1500} {n} {n} {1} {0} {}
+
+R { 1495} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1473} {s} {s} {4} {0} {}
+E { 1501} {n} {n} {1} {0} {}
+
+R { 1496} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1474} {s} {s} {4} {0} {}
+E { 1502} {n} {n} {1} {0} {}
+
+R { 1497} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1475} {s} {s} {4} {0} {}
+E { 1503} {n} {n} {1} {0} {}
+
+R { 1498} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1487} {s} {s} {4} {0} {}
+E { 1504} {n} {n} {1} {0} {}
+
+R { 1499} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1472} {s} {s} {4} {0} {}
+E { 1505} {n} {n} {1} {0} {}
+
+R { 1500} {0} {} {End of Penny Lane} { } {You are at the end of Penny Lane.  The only exit appears to be south.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:29:12}} {1.000}
+E { 1494} {s} {s} {4} {0} {}
+E { 1506} {n} {open n; n} {1} {0} {}
+
+R { 1501} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1495} {s} {s} {4} {0} {}
+E { 1430} {n} {n} {1} {0} {}
+
+R { 1502} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1496} {s} {s} {4} {0} {}
+E { 1438} {n} {n} {1} {0} {}
+
+R { 1503} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1497} {s} {s} {4} {0} {}
+E { 1439} {n} {n} {1} {0} {}
+
+R { 1504} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1498} {s} {s} {4} {0} {}
+E { 1440} {n} {n} {1} {0} {}
+
+R { 1505} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1499} {s} {s} {4} {0} {}
+E { 1441} {n} {n} {1} {0} {}
+
+R { 1506} {0} {<EAF><fff>} {Den of Thieves} {QST} {The room is dimly lit, letting shadows dance across the walls.  There are\nno noises except for the sound of you breathing and someone else.  } {Masters Rooms by ispy for levels: 1-199} {The master thief tells you 'Hello young thief, I am Master Thief Aumas.  I am the first of many you will meet on your journey.  My poison is a weak one or rather it makes your enemies very weak.  I will gladly teach you my secret for a small donation of say....10000 gold.  Also, I have a friend who lives in a town near here that you may want to visit.  I can't remember the name of the town but, there is alot of chickens and horses there.  All you need to prepare my poison is some poisonous herbs.  If you still don't understand, go talk with the gardeners in the orchard.  I have come to find their knowledge of local plant life to be very reliable.'} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:30:17}} {1.000}
+E { 1500} {s} {open s; s} {4} {0} {}
+
+R { 1507} {0} {} {The Waiting Room} { } {You are standing in the waiting room at the town hall.  Wooden chairs stand\nalong the walls and a long desk is placed in the middle of the room.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:51:10}} {1.000}
+E { 1486} {w} {w} {8} {0} {}
+E { 1508} {e} {e} {2} {0} {}
+
+R { 1508} {0} {} {The Mayor's Office} { } {You are in the not very big office of the Mayor of Midgaard.  A large and\npolished but completely empty desk is standing in front of an armchair that\nlooks so comfortable that it most of all resembles a bed with the head end\nraised slightly.\nYou are in the not very big office of the Mayor of Midgaard.  A large and\npolished but completely empty desk is standing in front of an armchair that\nlooks so comfortable that it most of all resembles a bed with the head end\nraised slightly.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:51:19}} {1.000}
+E { 1507} {w} {w} {8} {0} {}
+
+R { 1509} {0} {} {Emerald Avenue} { } {You are standing at a bend on Emerald Avenue.  The road leads north and west.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:51:56}} {1.000}
+E { 1486} {n} {n} {1} {0} {}
+E { 1515} {w} {w} {8} {0} {}
+
+R { 1510} {0} {} {Emerald Avenue} { } {You are standing at a bend on Emerald Avenue.  To the east the road goes on\nand to the south is the Road Crossing.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:52:03}} {1.000}
+E { 1492} {e} {e} {2} {0} {}
+E { 1452} {s} {s} {4} {0} {}
+
+R { 1511} {0} {} {Park Road} { } {You are on Park Road which leads south and north.  Elm Street is east of\nhere.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:52:27}} {1.000}
+E { 1435} {s} {s} {4} {0} {}
+E { 1512} {e} {e} {2} {0} {}
+E { 1514} {n} {n} {1} {0} {}
+
+R { 1512} {0} {} {Elm Street} { } {You are on Elm street.  Park Road is to the west and Elm Street continues\nin eastward direction.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:59:51}} {1.000}
+E { 1511} {w} {w} {8} {0} {}
+E { 1513} {e} {e} {2} {0} {}
+
+R { 1513} {0} {} {End of Elm Street} { } {You are at the end of Elm Street.  An old elm tree grows here.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:52:57}} {1.000}
+E { 1512} {w} {w} {8} {0} {}
+
+R { 1514} {0} {} {Park Road} { } {You are at a bend on Park Road.  To the south the road goes on and to the\nwest is the Road Crossing.} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 07:53:23}} {1.000}
+E { 1511} {s} {s} {4} {0} {}
+E { 1519} {w} {w} {8} {0} {}
+
+R { 1515} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1492} {w} {w} {8} {0} {}
+E { 1509} {e} {e} {2} {0} {}
+
+R { 1516} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1490} {e} {e} {2} {0} {}
+E { 1432} {w} {w} {8} {0} {}
+
+R { 1517} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1465} {e} {e} {2} {0} {}
+E { 1448} {w} {w} {8} {0} {}
+
+R { 1518} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1464} {e} {e} {2} {0} {}
+E { 1453} {w} {w} {8} {0} {}
+
+R { 1519} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1514} {e} {e} {2} {0} {}
+E { 1520} {w} {w} {8} {0} {}
+
+R { 1520} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1519} {e} {e} {2} {0} {}
+E { 1452} {w} {w} {8} {0} {}
+
+R { 1521} {0} {} {On the Huge Chain} { } {This place has quite a good view of Midgaard.  Your possibilities of\nmovement seem to extend to up and down.  Unless you want to let go of the\nsecure and seemingly unmoveable chain, then those are the directions you\nshould take from here.  } {Redferne's Residence by DIKU for levels: 20-99} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:10:40}} {1.000}
+E { 1452} {d} {d} {32} {1} {}
+E { 1573} {u} {u} {16} {0} {}
+
+R { 1522} {0} {} {A Gravel Road on the Graveyard} { } {You are on a well-kept gravel road that leads north-south through the\ngraveyard.  On both sides of the road grow dark evergreen trees.  An iron\ngrate is to the north and narrow gravel paths lead east and west.} {Graveyard by Alfa for levels: 5-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:12:03}} {1.000}
+E { 1434} {n} {n} {1} {1} {}
+E { 1523} {e} {e} {2} {0} {}
+E { 1546} {w} {w} {8} {0} {}
+
+R { 1523} {0} {} {A Gravel Path on the Graveyard} { } {You are on a gravel path winding its way between dark evergreen trees on\nthe graveyard.  The path leads south and west.  An old tomb is here.} {Graveyard by Alfa for levels: 5-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:17:44}} {1.000}
+E { 1522} {w} {w} {8} {0} {}
+E { 1524} {d} {open d; d} {32} {0} {}
+E { 1525} {s} {s} {4} {0} {}
+
+R { 1524} {0} {} {In a dusty Tomb} { } {You are in a dark burial chamber beneath a large tomb stone.\nThe only exit appears to be up.} {Graveyard by Alfa for levels: 5-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:17:53}} {1.000}
+E { 1523} {u} {u} {16} {0} {}
+
+R { 1525} {0} {} {A Gravel Path on the Graveyard} { } {You are on a gravel path winding its way between dark evergreen trees on\nthe graveyard.  The path leads north and east.  An old tomb is here.} {Graveyard by Alfa for levels: 5-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:18:10}} {1.000}
+E { 1523} {n} {n} {1} {0} {}
+E { 1526} {d} {open d; d} {32} {0} {}
+E { 1527} {e} {e} {2} {0} {}
+
+R { 1526} {0} {} {In a dusty Tomb} { } {You are in a dark burial chamber beneath a large tomb stone.\nThe only exit appears to be up.} {Graveyard by Alfa for levels: 5-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:18:18}} {1.000}
+E { 1525} {u} {u} {16} {0} {}
+
+R { 1527} {0} {} {A Gravel Path on the Graveyard} { } {You are on a gravel path winding its way between dark evergreen trees on\nthe graveyard.  The path leads south and west.  An old tomb is here.} {Graveyard by Alfa for levels: 5-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:18:43}} {1.000}
+E { 1525} {w} {w} {8} {0} {}
+E { 1528} {d} {open d; d} {32} {0} {}
+E { 1529} {s} {s} {4} {0} {}
+
+R { 1528} {0} {} {In a dusty Tomb} { } {You are in a dark burial chamber beneath a large tomb stone.\nThe only exit appears to be up.} {Graveyard by Alfa for levels: 5-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:18:52}} {1.000}
+E { 1527} {u} {u} {16} {0} {}
+
+R { 1529} {0} {} {A Gravel Path on the Graveyard} { } {You are on a gravel path winding its way between dark evergreen trees on\nthe graveyard.  The path leads north and west.  An old tomb is here.} {Graveyard by Alfa for levels: 5-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:19:23}} {1.000}
+E { 1527} {n} {n} {1} {0} {}
+E { 1530} {d} {open d; d} {32} {0} {}
+E { 1531} {w} {w} {8} {0} {}
+
+R { 1530} {0} {} {In a dusty Tomb} { } {You are in a dark burial chamber beneath a large tomb stone.\nThe only exit appears to be up.} {Graveyard by Alfa for levels: 5-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:19:30}} {1.000}
+E { 1529} {u} {u} {16} {0} {}
+
+R { 1531} {0} {} {A Gravel Path on the Graveyard} { } {You are on a gravel path winding its way between dark evergreen trees on\nthe graveyard.  The path leads east and south.  An old tomb is here.} {Graveyard by Alfa for levels: 5-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:19:42}} {1.000}
+E { 1529} {e} {e} {2} {0} {}
+E { 1532} {d} {open d; d} {32} {0} {}
+E { 1533} {s} {s} {4} {0} {}
+
+R { 1532} {0} {} {In a dusty Tomb} { } {You are in a dark burial chamber beneath a large tomb stone.\nThe only exit appears to be up.} {Graveyard by Alfa for levels: 5-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:19:50}} {1.000}
+E { 1531} {u} {u} {16} {0} {}
+
+R { 1533} {0} {} {A Gravel Path on the Graveyard} { } {You are on a gravel path winding its way between dark evergreen trees on\nthe graveyard.  The path leads north and south.  An old tomb is here.} {Graveyard by Alfa for levels: 5-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:20:32}} {1.000}
+E { 1531} {n} {n} {1} {0} {}
+E { 1534} {d} {open d; d} {32} {0} {}
+E { 1535} {s} {s} {4} {0} {}
+
+R { 1534} {0} {} {In a dusty Tomb} { } {You are in a dark burial chamber beneath a large tomb stone.\nThe only exit appears to be up.} {Graveyard by Alfa for levels: 5-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:20:40}} {1.000}
+E { 1533} {u} {u} {16} {0} {}
+
+R { 1535} {0} {} {A Gravel Path on the Graveyard} { } {You are on a gravel path winding its way between dark evergreen trees on\nthe graveyard.  The path leads north and west.  An old tomb is here.} {Graveyard by Alfa for levels: 5-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:20:55}} {1.000}
+E { 1533} {n} {n} {1} {0} {}
+E { 1536} {d} {open d; d} {32} {0} {}
+E { 1537} {w} {w} {8} {0} {}
+
+R { 1536} {0} {} {In a dusty Tomb} { } {You are in a dark burial chamber beneath a large tomb stone.\nThe only exit appears to be up.} {Graveyard by Alfa for levels: 5-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:21:06}} {1.000}
+E { 1535} {u} {u} {16} {0} {}
+
+R { 1537} {0} {} {In front of the Chapel} { } {You are on an open space before a small chapel.  A gravel road leads north\nthrough the graveyard and the chapel entrance is to the south.} {Graveyard by Alfa for levels: 5-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:34:35}} {1.000}
+E { 1535} {e} {e} {2} {0} {}
+E { 1538} {s} {open s; s} {4} {0} {}
+E { 1558} {w} {w} {8} {0} {}
+
+R { 1538} {0} {} {Inside the Chapel} { } {You are in a small, dark chapel.  The dark brown glass in the tiny windows\ndo not let much light through.  A few rows of worn wooden benches stand here.} {Chapel Catacombs by Copper for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:21:31}} {1.000}
+E { 1537} {n} {open n; n} {1} {0} {}
+E { 1539} {d} {unlock d; open d; d} {32} {0} {}
+
+R { 1539} {0} {} {Entrance Chamber to the Grand Hall of Kings} { } {Whoever built this place must have been very rich indeed!  Though you did\nenter through a rather small door this place has enough room to hold several\nscore of people.  The floor has a beautifully woven carpet, and the walls are\ncovered in finely crafted tapestries. You can tell that these things must have\nbeen worth much but they have not lasted well throughout the ages.  Massive\ndoors lead off to the south and a large stone staircase leads up.} {Chapel Catacombs by Copper for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:24:24}} {1.000}
+E { 1538} {u} {u} {16} {0} {}
+E { 1540} {s} {open s; s} {4} {0} {}
+
+R { 1540} {0} {} {The Grand Hall of Kings} { } {A long hallway stretches east and west.  On the southern side of the hall\nthere are many doors, each with the name of a king who has died and is\nentombed here.  The hallway is beautiful yet chilling.  Even though the area\nhas been kept well by acolytes, there remains a stench of the undead.} {Chapel Catacombs by Copper for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:24:48}} {1.000}
+E { 1539} {n} {n} {1} {0} {}
+E { 1541} {s} {open s; s} {4} {0} {}
+E { 1542} {e} {e} {2} {0} {}
+E { 1560} {w} {w} {8} {0} {}
+
+R { 1541} {0} {} {The Shrine of Crotus} { } {Mostly rubble, this place used to be the shrine of the famous king Crotus,\nwho saved the northern regions from being overrun by the goblin hordes of\n100 years ago.  If not for him, Midgaard of course would have eventually been\nconquered as well.  Though Crotus was a goodly king, it was rumored that he\nturned to the dark ways in his dying years ... and died an evil man.} {Chapel Catacombs by Copper for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:25:10}} {1.000}
+E { 1540} {n} {n} {1} {0} {}
+
+R { 1542} {0} {} {The Grand Hall of Kings} { } {You are in the western part of the Grand Hall of Kings.  To the south is a\ndoor and to the east and west the hall continues.} {Chapel Catacombs by Copper for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:25:26}} {1.000}
+E { 1540} {w} {w} {8} {0} {}
+E { 1543} {e} {e} {2} {0} {}
+
+R { 1543} {0} {} {The Grand Hall of Kings} { } {You are still walking through the gloomy hallway.} {Chapel Catacombs by Copper for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:25:43}} {1.000}
+E { 1542} {w} {w} {8} {0} {}
+E { 1544} {e} {e} {2} {0} {}
+
+R { 1544} {0} {} {The Grand Hall of Kings} { } {You are at the western end of the Grand Hall of Kings.  There is a door\nleading north and the hallway continues west.  } {Chapel Catacombs by Copper for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:25:50}} {1.000}
+E { 1543} {w} {w} {8} {0} {}
+E { 1545} {n} {n} {1} {0} {}
+
+R { 1545} {0} {} {The Acolyte's Bedroom} { } {This is why you were not welcomed at the entrance by the tomb's faithful\nservants ... blood and gore is ankle deep in here.\nOh NO! the door shut behind you!  It's a trap!\nA bloodied corpse of an acolyte is lying here ...\nA bloodied corpse of an acolyte is lying here ...\nA bloodied corpse of an acolyte is lying here ...} {Chapel Catacombs by Copper for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:26:02}} {1.000}
+
+R { 1546} {0} {} {A Gravel Path on the Graveyard} { } {You are on a gravel path winding its way between dark evergreen trees on\nthe graveyard.  An old tomb is here.} {Graveyard by Alfa for levels: 5-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:30:09}} {1.000}
+E { 1522} {e} {e} {2} {0} {}
+E { 1547} {d} {open d; d} {32} {0} {}
+E { 1548} {s} {s} {4} {0} {}
+
+R { 1547} {0} {} {In a dusty Tomb} { } {You are in a dark burial chamber beneath a large tomb stone.\nThe only exit appears to be up.} {Graveyard by Alfa for levels: 5-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:30:18}} {1.000}
+E { 1546} {u} {u} {16} {0} {}
+
+R { 1548} {0} {} {A Gravel Path on the Graveyard} { } {You are on a gravel path winding its way between dark evergreen trees on\nthe graveyard.  The path leads north and west.  An old tomb is here.} {Graveyard by Alfa for levels: 5-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:30:34}} {1.000}
+E { 1546} {n} {n} {1} {0} {}
+E { 1549} {d} {open d; d} {32} {0} {}
+E { 1550} {w} {w} {8} {0} {}
+
+R { 1549} {0} {} {In a dusty Tomb} { } {You are in a dark burial chamber beneath a large tomb stone.\nThe only exit appears to be up.} {Graveyard by Alfa for levels: 5-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:30:42}} {1.000}
+E { 1548} {u} {u} {16} {0} {}
+
+R { 1550} {0} {} {A Gravel Path on the Graveyard} { } {You are on a gravel path winding its way between dark evergreen trees on\nthe graveyard.  The path leads east and south.  An old tomb is here.} {Graveyard by Alfa for levels: 5-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:32:02}} {1.000}
+E { 1548} {e} {e} {2} {0} {}
+E { 1551} {d} {open d; d} {32} {0} {}
+E { 1552} {s} {s} {4} {0} {}
+
+R { 1551} {0} {} {In a dusty Tomb} { } {You are in a dark burial chamber beneath a large tomb stone.\nThe only exit appears to be up.} {Graveyard by Alfa for levels: 5-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:32:10}} {1.000}
+E { 1550} {u} {u} {16} {0} {}
+
+R { 1552} {0} {} {A Gravel Path on the Graveyard} { } {You are on a gravel path winding its way between dark evergreen trees on\nthe graveyard.  The path leads north and east.  A small shed is to the west.} {Graveyard by Alfa for levels: 5-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:32:21}} {1.000}
+E { 1550} {n} {n} {1} {0} {}
+E { 1553} {w} {open w; w} {8} {0} {}
+E { 1554} {e} {e} {2} {0} {}
+
+R { 1553} {0} {} {In a shed on the Graveyard} { } {You are in a small shed that looks as if it is used to store all sorts of\ngardening equipment.  The only exit appears to be through a door to the east.} {Graveyard by Alfa for levels: 5-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:32:36}} {1.000}
+E { 1552} {e} {e} {2} {0} {}
+
+R { 1554} {0} {} {A Gravel Path on the Graveyard} { } {You are on a gravel path winding its way between dark evergreen trees on\nthe graveyard.  The path leads south and west.  An old tomb is here.} {Graveyard by Alfa for levels: 5-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:33:26}} {1.000}
+E { 1552} {w} {w} {8} {0} {}
+E { 1555} {d} {open d; d} {32} {0} {}
+E { 1556} {s} {s} {4} {0} {}
+
+R { 1555} {0} {} {In a dusty Tomb} { } {You are in a dark burial chamber beneath a large tomb stone.\nThe only exit appears to be up.} {Graveyard by Alfa for levels: 5-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:33:35}} {1.000}
+E { 1554} {u} {u} {16} {0} {}
+
+R { 1556} {0} {} {A Gravel Path on the Graveyard} { } {You are on a gravel path winding its way between dark evergreen trees on\nthe graveyard.  The path leads north and south.  An old tomb is here.} {Graveyard by Alfa for levels: 5-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:33:52}} {1.000}
+E { 1554} {n} {n} {1} {0} {}
+E { 1557} {d} {open d; d} {32} {0} {}
+E { 1558} {s} {s} {4} {0} {}
+
+R { 1557} {0} {} {In a dusty Tomb} { } {You are in a dark burial chamber beneath a large tomb stone.\nThe only exit appears to be up.} {Graveyard by Alfa for levels: 5-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:34:00}} {1.000}
+E { 1556} {u} {u} {16} {0} {}
+
+R { 1558} {0} {} {A Gravel Path on the Graveyard} { } {You are on a gravel path winding its way between dark evergreen trees on\nthe graveyard.  The path leads north and east.  An old tomb is here.} {Graveyard by Alfa for levels: 5-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:34:13}} {1.000}
+E { 1556} {n} {n} {1} {0} {}
+E { 1559} {d} {open d; d} {32} {0} {}
+E { 1537} {e} {e} {2} {0} {}
+
+R { 1559} {0} {} {In a dusty Tomb} { } {You are in a dark burial chamber beneath a large tomb stone.\nThe only exit appears to be up.} {Graveyard by Alfa for levels: 5-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:34:20}} {1.000}
+E { 1558} {u} {u} {16} {0} {}
+
+R { 1560} {0} {} {The Grand Hall of Kings} { } {This is the western wing of the Grand Hall of Kings.  Your only exits are to\nthe east and west in this gloomy hallway.} {Chapel Catacombs by Copper for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:35:25}} {1.000}
+E { 1540} {e} {e} {2} {0} {}
+E { 1561} {w} {w} {8} {0} {}
+
+R { 1561} {0} {} {The Grand Hall of Kings} { } {You are at the west end of the Grand Hall of Kings.  There is a doorway to the\nsouth with something strange written above it.  Also on the floor are dried\nblood stains, but their color seems a little wrong.} {Chapel Catacombs by Copper for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:35:35}} {1.000}
+E { 1560} {e} {e} {2} {0} {}
+E { 1562} {s} {s} {4} {0} {}
+
+R { 1562} {0} {} {The Shrine of Shohan} { } {BLOOD EVERYWHERE!\nThe walls are coated with blood, bits of bloody flesh lie at your feet,\nand torn clothing is scattered about.  It wouldn't disturb you in the least\nexcept that it is all FRESH!  What ever used to pass as an altar here,\nlies overturned and smashed.  Doors lead to the south and to the north.} {Chapel Catacombs by Copper for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:35:46}} {1.000}
+E { 1561} {n} {n} {1} {0} {}
+E { 1563} {s} {s} {4} {0} {}
+
+R { 1563} {0} {} {The Tomb of Shohan} { } {Once beautiful, this place has been turned into a slaughterhouse by the hands\nof evil beings ... even more blood and dead, rotting flesh.  This place looks\nlike the feeding grounds of beasts and monsters.  The overturned sarcophagus\nof the once powerful King Shohan lies here.  A door leads to the north and a\ndoorway has been hewn to the east.} {Chapel Catacombs by Copper for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:36:01}} {1.000}
+E { 1562} {n} {n} {1} {0} {}
+E { 1564} {e} {e} {2} {0} {}
+
+R { 1564} {0} {} {The Tomb of Cristis} { } {Everything here has simply been destroyed.   Exits lead north and west.} {Chapel Catacombs by Copper for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:36:30}} {1.000}
+E { 1563} {w} {w} {8} {0} {}
+E { 1565} {n} {n} {1} {0} {}
+
+R { 1565} {0} {} {The Shrine of Cristis} { } {Different than the rest, this place has not been desecrated.  An altar still\nstands here and the walls show scenes from the life of Cristis the Kind,\na ruler of the outlying regions west of Midgaard.  There is a stone staircase\nleading down.  The Ghost of Cristis the Kind stands here.} {Chapel Catacombs by Copper for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:36:36}} {1.000}
+E { 1564} {s} {s} {4} {0} {}
+E { 1566} {d} {d} {32} {0} {}
+
+R { 1566} {0} {} {Entrance to the Lower Chambers} { } {You can tell that this area wasn't a part of the original construction.\nThe walls have been hewn by a mighty force look as though they were CLAWED.\nThe passage slopes upward here and also continues to the north.} {Chapel Catacombs by Copper for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:36:50}} {1.000}
+E { 1565} {u} {u} {16} {0} {}
+E { 1567} {n} {n} {1} {0} {}
+
+R { 1567} {0} {} {The Lower Chambers and Tombs of the Undead} { } {The stench of death is heavy in these caverns.} {Chapel Catacombs by Copper for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:37:05}} {1.000}
+E { 1566} {s} {s} {4} {0} {}
+E { 1568} {w} {w} {8} {0} {}
+
+R { 1568} {0} {} {Entrance to the Lower Chambers} { } {You can tell that this area wasn't a part of the original construction.\nThe walls have been hewn by a mighty force look as though they were CLAWED.\nThe passage slopes upward here and also continues to the north.} {Chapel Catacombs by Copper for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:37:20}} {1.000}
+E { 1569} {n} {n} {1} {0} {}
+
+R { 1569} {0} {} {The Lower Chambers and Tombs of the Undead} { } {The stench of death is heavy in these caverns.} {Chapel Catacombs by Copper for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:37:44}} {1.000}
+E { 1570} {n} {n} {1} {0} {}
+
+R { 1570} {0} {} {The Lower Chambers and Tombs of the Undead} { } {The stench of death is heavy in these caverns.} {Chapel Catacombs by Copper for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:38:03}} {1.000}
+E { 1571} {e} {e} {2} {0} {}
+
+R { 1571} {0} {} {The Lower Chambers and Tombs of the Undead} { } {The stench of death is heavy in these caverns.} {Chapel Catacombs by Copper for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:38:17}} {1.000}
+E { 1572} {e} {e} {2} {0} {}
+
+R { 1572} {0} {} {The Lower Chambers and Tombs of the Undead} { } {The stench of death is heavy in these caverns.} {Chapel Catacombs by Copper for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:38:30}} {1.000}
+E { 1571} {w} {w} {8} {0} {}
+
+R { 1573} {0} {} {On the Great Chain of Naris} { } {You are approximately on the middle of the treacherous Chain. One false step\nand death will come and collect you quickly. The chain leads upwards and down.\nNo way are you going to descend now ... you've only just begun your climb.\nBesides it could cost you your life.  Look down and you'll see why.} {Redferne's Residence by DIKU for levels: 20-99} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:42:40}} {1.000}
+E { 1521} {d} {d} {32} {0} {}
+E { 1574} {u} {u} {16} {0} {}
+
+R { 1574} {0} {} {The Mighty Chain of Naris} { } {This place offers a splendid view of the WHOLE COUNTRY SIDE!!!  A\nmagnificent light shines upon you and the way up through the clouds is\nopened.  Up there you can now see the Mansion of Naris, Residence of the\nGreater God Redferne.  The chain beneath you seems to evaporate in the\nmustering clouds that surround you by now.  } {Redferne's Residence by DIKU for levels: 20-99} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:42:49}} {1.000}
+E { 1573} {d} {d} {32} {0} {}
+E { 1575} {u} {u} {16} {0} {}
+
+R { 1575} {0} {} {Outside Redferne's residence} { } {A huge cloud forms the plateau on which you are now standing.  The wind\nhere is absolutely quiet and the sun is shining warmly upon you.  From under\nthe cloud you can hear the faint sounds of Midgaard.  Right before you to\nthe north lies the grand Mansion of Naris, the residence of the Greater God\nRedferne.  } {Redferne's Residence by DIKU for levels: 20-99} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:42:53}} {1.000}
+E { 1574} {d} {d} {32} {0} {}
+E { 1576} {s} {s} {4} {1} {}
+E { 1577} {n} {open n; n} {1} {0} {}
+
+R { 1576} {0} {} {dylan's area} { } {You find yourself standing on a small cloud.  The cloud feels kind\nof spongy beneath your feet.  You find it hard to see anything in\nthe distance as wisps of cloud blow over your face. } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:43:00}} {1.000}
+E { 1575} {n} {n} {1} {1} {}
+E { 1725} {u} {u} {16} {0} {}
+
+R { 1577} {0} {} {The Southern end of the hall} { } {You are standing in a vast hall that is dimly lit, but wherefrom the\nlight comes, is a mystery.  The walls seem to radiate warmth and give the\npleasant feeling of being welcome here.  A large portrait is hanging on one\nof the walls.  A large wooden staircase leads up into the tower.  To the\neast there is a high passage away from the hall.  This ends shortly after by\na tall oak door.  The enormous hall extends further north from here.  To the\nsouth you can see a huge, and VERY heavy- looking iron-wrought door.  It\nlooks like this is the only exit from this magnificent old house.  To the\nwest you can see a large ashen door.  } {Redferne's Residence by DIKU for levels: 20-99} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:43:25}} {1.000}
+E { 1575} {s} {s} {4} {0} {}
+E { 1578} {e} {e} {2} {0} {}
+E { 1713} {w} {open w; w} {8} {0} {}
+E { 1714} {n} {n} {1} {0} {}
+
+R { 1578} {0} {} {The Treasure Room} { } {This place is gloomy.  The only visible exit is west, through the oak door.} {Redferne's Residence by DIKU for levels: 20-99} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}{updatedby}{denae}{updatedon}{2012-01-27 08:44:11}} {1.000}
+E { 1577} {w} {w} {8} {0} {}
+
+R { 1579} {0} {} {On the Westgate Drawbridge} { } {|((((((((((((((((((((((((((((((((((((((((((((((((((((((|\n |====================================================|\n <>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\n ||||/                                            \\||||\n >>>>                                              >>>>\n ||||                                              ||||\n\\\\\\\\|*%//%//_______________________} {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:17:22}} {1.000}
+E {   21} {e} {e} {2} {0} {}
+E { 1580} {n} {n} {1} {1} {}
+E { 1586} {w} {w} {8} {0} {}
+
+R { 1580} {0} {} {West trail around Midgaard} { } {You are on a dusty trail following the outside wall of Midgaard.\nTo the east the wall towers over you and to the west you see the\nforest of Haon-Dor. The trail leads north and south along the wall. \n\\\\|/// \\\\|// \\\\|//} {Moria by Alfa for levels: 5-15} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}} {1.000}
+E { 1579} {s} {s} {4} {1} {}
+E { 1581} {n} {n} {1} {0} {}
+
+R { 1581} {0} {} {West trail around Midgaard} { } {You are on a dusty trail following the outside wall of Midgaard.\nTo the east the wall towers over you and to the west you see the\nforest of Haon-Dor. The trail leads north and south along the wall. \n\\\\|/// \\\\|// \\\\|//} {Moria by Alfa for levels: 5-15} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:15:34}} {1.000}
+E { 1580} {s} {s} {4} {0} {}
+E { 1584} {n} {n} {1} {0} {}
+
+R { 1582} {0} {} {Northwest corner of dusty trail.} { } {You are standing outside the northwestern corner of the city wall.\nThe trail leads east following the north wall and south towards the gate.  \n\\\\|/// \\\\|// \\\\|//} {Moria by Alfa for levels: 5-15} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:15:40}} {1.000}
+E { 1583} {s} {s} {4} {0} {}
+E { 1585} {e} {e} {2} {0} {}
+
+R { 1583} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1582} {n} {n} {1} {0} {}
+E { 1584} {s} {s} {4} {0} {}
+
+R { 1584} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1583} {n} {n} {1} {0} {}
+E { 1581} {s} {s} {4} {0} {}
+
+R { 1585} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1582} {w} {w} {8} {0} {}
+E { 1268} {e} {e} {2} {0} {}
+
+R { 1586} {0} {} {Grand Commerce Road} { } {You walk on a well-trodden path west of Midgaard that serves to give easy\ntravel to various towns.  Large dense forest lay to either side.  } {Southern Roads by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:17:26}} {1.000}
+E { 1579} {e} {e} {2} {0} {}
+E { 1587} {w} {w} {8} {0} {}
+
+R { 1587} {0} {} {Grand Commerce Road} { } {You walk on a well-trodden path west of Midgaard that serves to give easy\ntravel to various towns.  Large dense forest lay to either side.  } {Southern Roads by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:17:33}} {1.000}
+E { 1586} {e} {e} {2} {0} {}
+E { 1588} {w} {w} {8} {0} {}
+
+R { 1588} {0} {} {Grand Commerce Road} { } {You walk on a well-trodden path west of Midgaard that serves to give easy\ntravel to various towns.  Large dense forest lay to either side.  } {Southern Roads by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:17:38}} {1.000}
+E { 1587} {e} {e} {2} {0} {}
+E { 1589} {w} {w} {8} {0} {}
+
+R { 1589} {0} {} {smurf village} { } {You walk on a well-trodden path west of Midgaard that serves to give easy\ntravel to various towns .  Large dense forest lay to either side.  } {Southern Roads by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:17:43}} {1.000}
+E { 1588} {e} {e} {2} {0} {}
+E { 1590} {w} {w} {8} {0} {}
+E { 1591} {n} {n} {1} {0} {}
+
+R { 1590} {0} {} {Grand Commerce Road} { } {You walk on a well-trodden path west of Midgaard that serves to give easy\ntravel to various towns.  Large dense forest lay to either side.  } {Southern Roads by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:17:50}} {1.000}
+E { 1589} {e} {e} {2} {0} {}
+E { 1625} {n} {n} {1} {0} {}
+
+R { 1591} {0} {} {Dimly Lit Path} { } {You are standing next to some mighty oak trees. You hear small animals\nrustling about in the brush. At the base of one of the trees you see a\nwavering glow.} {Smurf Village by Generic for levels: 1-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:17:59}} {1.000}
+E { 1589} {s} {s} {4} {0} {}
+E { 1592} {enter dream} {enter dream} {0} {0} {}
+
+R { 1592} {0} {} {Dimly Lit Path} { } {You stand on road that is badly worn and frequently traversed. There is faint singing to the north.  The road to the south ends abrubtly before a large tree.} {Smurf Village by Generic for levels: 1-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:18:46}} {1.000}
+E { 1591} {say help} {say help} {0} {0} {}
+E { 1593} {n} {n} {1} {0} {}
+
+R { 1593} {0} {} {Dimly Lit Path} { } {This section of the road is badly worn and frequently traversed.  Singing is\ngetting stronger to the north.  The road back to the forest lies to the south.} {Smurf Village by Generic for levels: 1-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:19:55}} {1.000}
+E { 1592} {s} {s} {4} {0} {}
+E { 1594} {n} {n} {1} {0} {}
+
+R { 1594} {0} {} {Entrance to Smurf Village} { } {You stand at the entrance to a tiny village.  You can see across the whole\nvillage easily.  Little blue creatures with white hats and boots and little \nfluffy tails scamper about.  They sing continuously.  The singing is getting\non your nerves and you have the urge to squash them.} {Smurf Village by Generic for levels: 1-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:20:02}} {1.000}
+E { 1593} {s} {s} {4} {0} {}
+E { 1595} {n} {n} {1} {0} {}
+
+R { 1595} {0} {} {Smurfy Road} { } {You are way too big to be using this road.  But who cares.  Who's gonna stop\nyou?  These little blue smurfs?  The singing is growing intense.  Your ears\nare starting to ring.  Smurfy Road continues to the north, west, and east.\nThere is still time to turn back and go south.} {Smurf Village by Generic for levels: 1-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:20:09}} {1.000}
+E { 1594} {s} {s} {4} {0} {}
+E { 1596} {w} {w} {8} {0} {}
+E { 1603} {n} {n} {1} {0} {}
+E { 1601} {e} {e} {2} {0} {}
+
+R { 1596} {0} {} {Smurfy Road} { } {Western corner of Smurfy Road.  You can continue to smurf down the road\nto the east and north.  You can also smurf into a smurfy home to the south.} {Smurf Village by Generic for levels: 1-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:20:27}} {1.000}
+E { 1595} {e} {e} {2} {0} {}
+E { 1597} {s} {s} {4} {0} {}
+E { 1604} {n} {n} {1} {0} {}
+
+R { 1597} {0} {} {Hefty Smurf's Home} { } {Hefty is anything but wimpy.  So is his house.  It actually took you a \ncouple of minutes to destroy his house.  Better watch out -- he might be\na little mad at you.  Smurfy Road is back to the north.} {Smurf Village by Generic for levels: 1-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:20:33}} {1.000}
+E { 1596} {n} {n} {1} {0} {}
+
+R { 1598} {0} {} {Smurfy Road} { } {There's no place like smurf.  There's no place like smurf.  Sorry wrong\nmovie.  A smurfy home is to the west.  Papa Smurf's backyard is to the\nnorth but you can't go there.  Smurfy Road continues to the south and\neast.} {Smurf Village by Generic for levels: 1-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:20:41}} {1.000}
+E { 1604} {s} {s} {4} {0} {}
+E { 1599} {e} {e} {2} {0} {}
+E { 1600} {w} {w} {8} {0} {}
+
+R { 1599} {0} {} {Smurfy Road} { } {You continue to travel down Smurfy Road.  Isn't it just smurfy?  Smurfy road\ncontinues its smurfy path to the smurfy north, smurfy west, and smurfy south.\nA smurfy home lies to the smurfy east.} {Smurf Village by Generic for levels: 1-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:20:49}} {1.000}
+E { 1598} {w} {w} {8} {0} {}
+E { 1603} {s} {s} {4} {0} {}
+E { 1605} {e} {e} {2} {0} {}
+E { 1606} {n} {n} {1} {0} {}
+
+R { 1600} {0} {} {Sleepy Smurf's Home} { } {Be vewy vewy quiet.  Sleepy Smurf is probably sleeping.  You see so many\nbeds you can't even tell if he is here.  Maybe you should quietly go back to\nSmurfy Road to the east.} {Smurf Village by Generic for levels: 1-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:21:07}} {1.000}
+E { 1598} {e} {e} {2} {0} {}
+
+R { 1601} {0} {} {Smurfy Road} { } {A corner of smurfy road is where you stand.  A smurfy fence blocks passage\nto the east or south.  A smurfy home is to the north.  Smurfy Road goes back\nto the west.} {Smurf Village by Generic for levels: 1-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:21:20}} {1.000}
+E { 1595} {w} {w} {8} {0} {}
+E { 1602} {n} {n} {1} {0} {}
+
+R { 1602} {0} {} {Brainy Smurf's Home} { } {You rip the roof of the home to get a good look inside.  You see\nmany smurfy books.  The print is so small you couldn't even read it\nwith a magnifying glass.  I wonder if Brainy Smurf minds if you\ndestroy his home?  Smurfy Road is back to the south.} {Smurf Village by Generic for levels: 1-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:21:25}} {1.000}
+E { 1601} {s} {s} {4} {0} {}
+
+R { 1603} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1599} {n} {n} {1} {0} {}
+E { 1595} {s} {s} {4} {0} {}
+
+R { 1604} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1598} {n} {n} {1} {0} {}
+E { 1596} {s} {s} {4} {0} {}
+
+R { 1605} {0} {} {Handy Smurf's Home} { } {This home was well built.  Of course, until you rip it apart you big meany\nyou.  Tools are all over the place.  Too small for you to use.  Smurfy Road is\nback to the west.} {} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:22:17}} {1.000}
+E { 1599} {w} {w} {8} {0} {}
+
+R { 1606} {0} {} {Smurfy Road} { } {Oh boy, another smurfy road!  Smurfy Road goes north and south here.  There\nis a smurfy, mushroom home to the west.  A beautiful smurfberry patch is to\nthe east.} {Smurf Village by Generic for levels: 1-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:23:02}} {1.000}
+E { 1599} {s} {s} {4} {0} {}
+E { 1607} {w} {w} {8} {0} {}
+E { 1608} {e} {e} {2} {0} {}
+E { 1610} {n} {n} {1} {0} {}
+
+R { 1607} {0} {} {Smurfette's House} { } {This house is conveniently next to Papa Smurfs.  Makes it easier for Papa\nSmurf to sneak over at night.  I hope he uses protection.  I would hate to\nhave little smurfs running around.  The only exit is to the east.} {Smurf Village by Generic for levels: 1-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:22:41}} {1.000}
+E { 1606} {e} {e} {2} {0} {}
+
+R { 1608} {0} {} {Smurfberry Patch} { } {Delicious smurfberries grow here.  You could probably eat a year's worth of\nsmurfberries in one sitting.  Smurfy Road is back to the west.  Another\nsmurfberry patch is to the north.} {Smurf Village by Generic for levels: 1-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:23:09}} {1.000}
+E { 1606} {w} {w} {8} {0} {}
+E { 1609} {n} {n} {1} {0} {}
+
+R { 1609} {0} {} {Smurfberry Patch} { } {Another patch of smurfberries is growing here.  The smell is driving your\nnostrils crazy.  It almost, ALMOST, makes you forget all the singing going\non.  Smurfy Road is to the west, while smurfberry patches are to the north\nand south.} {Smurf Village by Generic for levels: 1-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:23:14}} {1.000}
+E { 1608} {s} {s} {4} {0} {}
+E { 1610} {w} {w} {8} {0} {}
+E { 1616} {n} {n} {1} {0} {}
+
+R { 1610} {0} {} {Smurfy Road} { } {Smurfy Road continues to smurf here.  It smurfs to the south and smurfs to\nan end to the north.  A smurfberry patch is to the east.  A stone path lies\nto the west.} {Smurf Village by Generic for levels: 1-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:23:19}} {1.000}
+E { 1609} {e} {e} {2} {0} {}
+E { 1606} {s} {s} {4} {0} {}
+E { 1612} {w} {w} {8} {0} {}
+E { 1615} {n} {n} {1} {0} {}
+
+R { 1611} {0} {} {Stone Path} { } {You are walking along a cute little stone path.  To the south lies Papa\nSmurf's house.  A Smurfy house is to the west.  Smurfy road is to the east.\nEverything is so peaceful here.  You could stay forever.} {Smurf Village by Generic for levels: 1-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:23:46}} {1.000}
+E { 1612} {e} {e} {2} {0} {}
+E { 1613} {s new} {s new} {0} {0} {}
+E { 1613} {s} {s} {4} {0} {}
+E { 1614} {w} {w} {8} {0} {}
+
+R { 1612} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1611} {w} {w} {8} {0} {}
+E { 1610} {e} {e} {2} {0} {}
+
+R { 1613} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1611} {n} {n} {1} {0} {}
+
+R { 1614} {0} {} {Grumpy Smurf's Home} { } {This is Grumpy Smurf's home.  He is pissed at you.  Of course, he is pissed\nat everyone.  So don't take it bad.  Maybe you'd better leave before he really\ngets mad.  Smurfy Road to the east is your only salvation.} {Smurf Village by Generic for levels: 1-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:27:18}} {1.000}
+E { 1611} {e} {e} {2} {0} {}
+
+R { 1615} {0} {} {Smurfy Road} { } {A smurfy well lies here in the middle of Smurfy Road.  A fence separates\nthe smurfs from harm to the north.  A berry patch is to the east.  Smurfy\nRoad continues to to the south and west.} {Smurf Village by Generic for levels: 1-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:27:29}} {1.000}
+E { 1610} {s} {s} {4} {0} {}
+E { 1616} {e} {e} {2} {0} {}
+E { 1617} {w} {w} {8} {0} {}
+
+R { 1616} {0} {} {Smurfberry Patch} { } {The northernmost of the smurfberry patches grows here.  It looks just\nas scrumptious as all the rest.  Just take a few\; they'll never know.  Smurfy\nRoad is to the west.  A smurfberry patch is to the south.} {Smurf Village by Generic for levels: 1-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:27:33}} {1.000}
+E { 1615} {w} {w} {8} {0} {}
+E { 1609} {s} {s} {4} {0} {}
+
+R { 1617} {0} {} {Smurfy Road} { } {Yet another part of Smurfy Road.  Hey if you go west its the last\nsection of Smurfy Road.  You can go back to the smurfy well to the east.} {Smurf Village by Generic for levels: 1-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:28:27}} {1.000}
+E { 1615} {e} {e} {2} {0} {}
+E { 1620} {w} {w} {8} {0} {}
+
+R { 1618} {0} {} {Smurfy Road} { } {The last piece of Smurfy Road.  You can go back to Smurfy Road to the east.\nA nice, beautiful, smurfy, mushroom home is to the south.  In the distance to\nthe north you can see Gargamel's Castle.} {Smurf Village by Generic for levels: 1-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:28:32}} {1.000}
+E { 1619} {e} {e} {2} {0} {}
+E { 1621} {s} {s} {4} {0} {}
+E { 1622} {n} {n} {1} {0} {}
+
+R { 1619} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1618} {w} {w} {8} {0} {}
+E { 1620} {e} {e} {2} {0} {}
+
+R { 1620} {8} {} {} { } {} {} {} {} {} {1.000}
+E { 1619} {w} {w} {8} {0} {}
+E { 1617} {e} {e} {2} {0} {}
+
+R { 1621} {0} {} {Jokey Smurf's Home} { } {You pull the top of his house and it explodes in your face.  That Jokey\nSmurf, what a kidder.  You can hear his laughter as you wipe the ashes off\nyour face.  You better get even.  Smurfy Road is to the north.} {Smurf Village by Generic for levels: 1-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:28:50}} {1.000}
+E { 1618} {n} {n} {1} {0} {}
+
+R { 1622} {0} {} {Path to Gargamel's Castle} { } {You are walking along a path to Gargamel's Castle to the North.\nSmurfy Road lies to the south.} {Smurf Village by Generic for levels: 1-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:29:04}} {1.000}
+E { 1618} {s} {s} {4} {0} {}
+E { 1623} {n} {n} {1} {0} {}
+
+R { 1623} {0} {} {Outside Gargamel's Castle} { } {You are standing outside Gargamel's Castle.  You can hear him screaming at\nAzreal from inside.  You can also him cursing out those wretched smurfs.\nHis Castle is to the north while Smurfy Road is to the south.} {Smurf Village by Generic for levels: 1-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:29:31}} {1.000}
+E { 1622} {s} {s} {4} {0} {}
+E { 1624} {n} {n} {1} {0} {}
+
+R { 1624} {0} {} {Gargamel's Castle} { } {This is Gargamel's Castle.  His big black kettle is in the middle of the room.\nWhere else would he put it?  The place has only one room.} {Smurf Village by Generic for levels: 1-10} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:29:37}} {1.000}
+E { 1623} {s} {s} {4} {0} {}
+
+R { 1625} {0} {} {Grand Commerce Road} { } {You walk on a well-trodden path west of Midgaard that serves to give easy\ntravel to various towns.  Large dense forest lay to either side.  } {Southern Roads by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:30:53}} {1.000}
+E { 1590} {s} {s} {4} {0} {}
+E { 1626} {n} {n} {1} {0} {}
+
+R { 1626} {0} {} {Grand Commerce Road} { } {You walk on a well-trodden path west of Midgaard that serves to give easy\ntravel to various towns.  Large dense forest lay to either side.  } {Southern Roads by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:30:58}} {1.000}
+E { 1625} {s} {s} {4} {0} {}
+E { 1627} {n} {n} {1} {0} {}
+
+R { 1627} {0} {} {Grand Commerce Road} { } {You walk on a well-trodden path west of Midgaard that serves to give easy\ntravel to various towns.  Large dense forest lay to either side.  } {Southern Roads by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:31:03}} {1.000}
+E { 1626} {s} {s} {4} {0} {}
+E { 1628} {n} {n} {1} {0} {}
+
+R { 1628} {0} {} {the fields} { } {You walk on a well-trodden path west of Midgaard that serves to give easy\ntravel to various towns.  Large dense forest lay to either side.  } {Southern Roads by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:31:08}} {1.000}
+E { 1627} {s} {s} {4} {0} {}
+E { 1629} {w} {w} {8} {0} {}
+E { 1630} {n} {n} {1} {1} {}
+
+R { 1629} {0} {} {Grand Commerce Road} { } {You walk on a well-trodden path west of Midgaard that serves to give easy\ntravel to various towns.  Large dense forest lay to either side.  } {Southern Roads by Genna for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:31:13}} {1.000}
+E { 1628} {e} {e} {2} {0} {}
+
+R { 1630} {0} {} {Cane fields} { } {You have entered a vast cane field.  On close examination you see that it\nis sugar cane.  Around you it looks like it has been cleared and you see\nmany sharp cane stakes rising from the ground.  Several piles of cane are\nlaying around in neat little piles.  A almost overpowering sweet smell\ninvades the air and you can faintly hear the sound of someone shouting.  } {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:31:21}} {1.000}
+E { 1628} {s} {s} {4} {1} {}
+E { 1631} {n} {n} {1} {0} {}
+E { 1647} {e} {e} {2} {0} {}
+
+R { 1631} {0} {} {Cane fields} { } {} {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:32:16}} {1.000}
+E { 1630} {s} {s} {4} {0} {}
+E { 1632} {n} {n} {1} {0} {}
+E { 1648} {e} {e} {2} {0} {}
+
+R { 1632} {0} {} {Cane fields} { } {This area looks to be cleared of cane. The remaining sharp stakes make\nwalking slow. You see neatly stacked cane piles at intervals.} {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:32:21}} {1.000}
+E { 1631} {s} {s} {4} {0} {}
+E { 1633} {n} {n} {1} {0} {}
+E { 1651} {e} {e} {2} {0} {}
+
+R { 1633} {0} {} {Cane fields} { } {Here you see tall groves of cane standing close together with slaves\nlaboring to cut and stack it. You hear the shouts of overseers\nsomewhere in the vicinity. The sweet smell isnt as overpowering here.} {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:32:25}} {1.000}
+E { 1632} {s} {s} {4} {0} {}
+E { 1634} {n} {n} {1} {0} {}
+E { 1652} {e} {e} {2} {0} {}
+
+R { 1634} {0} {} {Cane fields} { } {Here you see tall groves of cane standing close together with slaves\nlaboring to cut and stack it.  You hear the shouts of overseers somewhere in\nthe vicinity.  The sweet smell isn't as overpowering here.  } {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:32:29}} {1.000}
+E { 1633} {s} {s} {4} {0} {}
+E { 1635} {n} {n} {1} {0} {}
+E { 1655} {e} {e} {2} {0} {}
+
+R { 1635} {0} {} {Cane fields} { } {Here you see tall groves of cane standing close together with slaves\nlaboring to cut and stack it. You hear the shouts of overseers\nsomewhere in the vicinity. The sweet smell isnt as overpowering here.} {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:32:35}} {1.000}
+E { 1634} {s} {s} {4} {0} {}
+E { 1636} {n} {n} {1} {0} {}
+E { 1656} {e} {e} {2} {0} {}
+
+R { 1636} {0} {} {Cane fields} { } {Here you see cane groves so thick that you cant go north. You also\nnotice that there is not much work done here. You hear working going\non south of you. A faint acidic smell is in the air here.} {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:32:39}} {1.000}
+E { 1635} {s} {s} {4} {0} {}
+E { 1637} {e} {e} {2} {0} {}
+
+R { 1637} {0} {} {Cane fields} { } {Here you see cane groves so thick that you cant go north. You also\nnotice that there is not much work done here. You hear working going\non south of you. A faint acidic smell is in the air here.} {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:32:45}} {1.000}
+E { 1636} {w} {w} {8} {0} {}
+E { 1638} {e} {e} {2} {0} {}
+E { 1656} {s} {s} {4} {0} {}
+
+R { 1638} {0} {} {Cane fields} { } {Here you see tall groves of cane standing close together with slaves\nlaboring to cut and stack it. You hear the shouts of overseers\nsomewhere in the vicinity. The sweet smell isnt as overpowering here.} {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:32:50}} {1.000}
+E { 1637} {w} {w} {8} {0} {}
+E { 1639} {e} {e} {2} {0} {}
+E { 1657} {s} {s} {4} {0} {}
+E { 1660} {n} {n} {1} {0} {}
+
+R { 1639} {0} {} {Cane fields} { } {Here you see tall groves of cane standing close together with slaves\nlaboring to cut and stack it. You hear the shouts of overseers\nsomewhere in the vicinity. The sweet smell isnt as overpowering here.\nTo the west is a great stone wall.} {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:33:02}} {1.000}
+E { 1638} {w} {w} {8} {0} {}
+E { 1640} {s} {s} {4} {0} {}
+E { 1658} {n} {n} {1} {0} {}
+
+R { 1640} {0} {} {Well} { } {Here stands a well.  The master overseer is overseeing this area. \nSeveral slaves are roasting some type of meat on a large fire.  At intervals\noverseers and slaves stop by to eat and rest.  } {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:33:16}} {1.000}
+E { 1639} {n} {n} {1} {0} {}
+E { 1641} {s} {s} {4} {0} {}
+E { 1657} {w} {w} {8} {0} {}
+
+R { 1641} {0} {} {Cane fields} { } {Here you see tall groves of cane standing close together with slaves\nlaboring to cut and stack it. You hear the shouts of overseers\nsomewhere in the vicinity. The sweet smell isnt as overpowering here.} {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:33:50}} {1.000}
+E { 1640} {n} {n} {1} {0} {}
+E { 1642} {s} {s} {4} {0} {}
+E { 1654} {w} {w} {8} {0} {}
+E { 1667} {e} {e} {2} {0} {}
+
+R { 1642} {0} {} {Cane fields} { } {Here you see tall groves of cane standing close together with slaves\nlaboring to cut and stack it. You hear the shouts of overseers\nsomewhere in the vicinity. The sweet smell isnt as overpowering here.} {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:33:55}} {1.000}
+E { 1641} {n} {n} {1} {0} {}
+E { 1643} {s} {s} {4} {0} {}
+E { 1653} {w} {w} {8} {0} {}
+
+R { 1643} {0} {} {Cane fields} { } {This area looks to be cleared of cane. The remaining sharp stakes make\nwalking slow. You see neatly stacked cane piles at intervals.} {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:34:00}} {1.000}
+E { 1642} {n} {n} {1} {0} {}
+E { 1644} {s} {s} {4} {0} {}
+E { 1650} {w} {w} {8} {0} {}
+
+R { 1644} {0} {} {Cane fields} { } {This area looks to be cleared of cane. The remaining sharp stakes make\nwalking slow. You see neatly stacked cane piles at intervals.} {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:34:27}} {1.000}
+E { 1643} {n} {n} {1} {0} {}
+E { 1645} {s} {s} {4} {0} {}
+E { 1649} {w} {w} {8} {0} {}
+
+R { 1645} {0} {} {Cane fields} { } {This area looks to be cleared of cane. The remaining sharp stakes make\nwalking slow. You see neatly stacked cane piles at intervals.} {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:34:35}} {1.000}
+E { 1644} {n} {n} {1} {0} {}
+E { 1646} {w} {w} {8} {0} {}
+
+R { 1646} {0} {} {Cane fields} { } {This area looks to be cleared of cane. The remaining sharp stakes make\nwalking slow. You see neatly stacked cane piles at intervals.} {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:34:49}} {1.000}
+E { 1645} {e} {e} {2} {0} {}
+E { 1647} {w} {w} {8} {0} {}
+E { 1649} {n} {n} {1} {0} {}
+
+R { 1647} {0} {} {Cane fields} { } {This area looks to be cleared of cane. The remaining sharp stakes make\nwalking slow. You see neatly stacked cane piles at intervals.} {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:34:59}} {1.000}
+E { 1646} {e} {e} {2} {0} {}
+E { 1630} {w} {w} {8} {0} {}
+E { 1648} {n} {n} {1} {0} {}
+
+R { 1648} {0} {} {Cane fields} { } {This area looks to be cleared of cane. The remaining sharp stakes make\nwalking slow. You see neatly stacked cane piles at intervals.} {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:35:20}} {1.000}
+E { 1631} {w} {w} {8} {0} {}
+E { 1649} {e} {e} {2} {0} {}
+E { 1647} {s} {s} {4} {0} {}
+E { 1651} {n} {n} {1} {0} {}
+
+R { 1649} {0} {} {Cane fields} { } {This area looks to be cleared of cane. The remaining sharp stakes make\nwalking slow. You see neatly stacked cane piles at intervals.} {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:35:29}} {1.000}
+E { 1648} {w} {w} {8} {0} {}
+E { 1644} {e} {e} {2} {0} {}
+E { 1650} {n} {n} {1} {0} {}
+E { 1646} {s} {s} {4} {0} {}
+
+R { 1650} {0} {} {Cane fields} { } {This area looks to be cleared of cane. The remaining sharp stakes make\nwalking slow. You see neatly stacked cane piles at intervals.} {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:35:42}} {1.000}
+E { 1643} {e} {e} {2} {0} {}
+E { 1651} {w} {w} {8} {0} {}
+E { 1653} {n} {n} {1} {0} {}
+E { 1649} {s} {s} {4} {0} {}
+
+R { 1651} {0} {} {Cane fields} { } {This area looks to be cleared of cane. The remaining sharp stakes make\nwalking slow. You see neatly stacked cane piles at intervals.} {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:35:46}} {1.000}
+E { 1650} {e} {e} {2} {0} {}
+E { 1632} {w} {w} {8} {0} {}
+E { 1648} {s} {s} {4} {0} {}
+E { 1652} {n} {n} {1} {0} {}
+
+R { 1652} {0} {} {Cane fields} { } {Here you see tall groves of cane standing close together with slaves\nlaboring to cut and stack it.  You hear the shouts of overseers somewhere in\nthe vicinity.  The sweet smell isnt as overpowering here.  } {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:35:56}} {1.000}
+E { 1633} {w} {w} {8} {0} {}
+E { 1653} {e} {e} {2} {0} {}
+E { 1651} {s} {s} {4} {0} {}
+E { 1655} {n} {n} {1} {0} {}
+
+R { 1653} {0} {} {Cane fields} { } {Here you see tall groves of cane standing close together with slaves\nlaboring to cut and stack it. You hear the shouts of overseers\nsomewhere in the vicinity. The sweet smell isnt as overpowering here.} {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:35:59}} {1.000}
+E { 1652} {w} {w} {8} {0} {}
+E { 1642} {e} {e} {2} {0} {}
+E { 1654} {n} {n} {1} {0} {}
+E { 1650} {s} {s} {4} {0} {}
+
+R { 1654} {0} {} {Cane fields} { } {Here you see tall groves of cane standing close together with slaves\nlaboring to cut and stack it. You hear the shouts of overseers\nsomewhere in the vicinity. The sweet smell isnt as overpowering here.} {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:36:09}} {1.000}
+E { 1641} {e} {e} {2} {0} {}
+E { 1655} {w} {w} {8} {0} {}
+E { 1657} {n} {n} {1} {0} {}
+E { 1653} {s} {s} {4} {0} {}
+
+R { 1655} {0} {} {Cane fields} { } {Here you see tall groves of cane standing close together with slaves\nlaboring to cut and stack it.  You hear the shouts of overseers somewhere in\nthe vicinity.  The sweet smell isnt as overpowering here.  } {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:36:14}} {1.000}
+E { 1654} {e} {e} {2} {0} {}
+E { 1634} {w} {w} {8} {0} {}
+E { 1652} {s} {s} {4} {0} {}
+E { 1656} {n} {n} {1} {0} {}
+
+R { 1656} {0} {} {Cane fields} { } {Here you see tall groves of cane standing close together with slaves\nlaboring to cut and stack it. You hear the shouts of overseers\nsomewhere in the vicinity. The sweet smell isnt as overpowering here.} {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:36:27}} {1.000}
+E { 1635} {w} {w} {8} {0} {}
+E { 1657} {e} {e} {2} {0} {}
+E { 1655} {s} {s} {4} {0} {}
+E { 1637} {n} {n} {1} {0} {}
+
+R { 1657} {0} {} {Cane fields} { } {Here you see tall groves of cane standing close together with slaves\nlaboring to cut and stack it. You hear the shouts of overseers\nsomewhere in the vicinity. The sweet smell isnt as overpowering here.} {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:36:30}} {1.000}
+E { 1656} {w} {w} {8} {0} {}
+E { 1640} {e} {e} {2} {0} {}
+E { 1638} {n} {n} {1} {0} {}
+E { 1654} {s} {s} {4} {0} {}
+
+R { 1658} {0} {} {Cane fields} { } {Here you see tall groves of cane standing close together with slaves\nlaboring to cut and stack it. You hear the shouts of overseers\nsomewhere in the vicinity. The sweet smell isnt as overpowering here.\nTo the west is a great stone wall.} {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:37:46}} {1.000}
+E { 1639} {s} {s} {4} {0} {}
+E { 1659} {n} {n} {1} {0} {}
+E { 1660} {w} {w} {8} {0} {}
+
+R { 1659} {0} {} {Cane fields} { } {Here you see tall groves of cane standing close together with slaves\nlaboring to cut and stack it. You hear the shouts of overseers\nsomewhere in the vicinity. The sweet smell isnt as overpowering here.\nTo the west is a great stone wall.} {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:37:52}} {1.000}
+E { 1658} {s} {s} {4} {0} {}
+E { 1661} {w} {w} {8} {0} {}
+
+R { 1660} {0} {} {Cane fields} { } {Here you see cane groves so thick that you cant go west. You also\nnotice that there is not much work done here. You hear working going\non south of you. A faint acidic smell is in the air here.} {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:38:00}} {1.000}
+E { 1658} {e} {e} {2} {0} {}
+E { 1638} {s} {s} {4} {0} {}
+E { 1661} {n} {n} {1} {0} {}
+
+R { 1661} {0} {} {Cane fields} { } {Here the groves west seem to thin out a little.  Upon closer examination\nyou can just make out a wooden door to the west.  The smell of rum is in the\nair.  And you can just make out a thin curl of smoke coming from the west.  } {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:38:36}} {1.000}
+E { 1660} {s} {s} {4} {0} {}
+E { 1659} {e} {e} {2} {0} {}
+E { 1662} {w} {unlock w; open w; w} {8} {0} {}
+
+R { 1662} {0} {} {Enterance to the bootleggers hideout} { } {Stacked all over the room is sugar cane and barrels marked mash.  To the\nwest you hear voices and gurgleing noises.  The smell of smoke and rum is\nheavy in the air.  } {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:39:12}} {1.000}
+E { 1661} {e} {unlock e; open e; e} {2} {0} {}
+E { 1663} {w} {w} {8} {0} {}
+
+R { 1663} {0} {} {Distillery} { } {This is the distillery.  You see ten big pots here with fires burning\nunder them.  There are big tubes running all over the place.  Someone sees\nyou and lets out a shout.  } {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:40:02}} {1.000}
+E { 1662} {e} {e} {2} {0} {}
+E { 1664} {s} {s} {4} {0} {}
+E { 1666} {d} {d} {32} {0} {}
+
+R { 1664} {0} {} {Bootleggers living quarters} { } {This looks like living quarters. Boy! some people can be real slobs.\nThere are several bottles laying about and the place has a funky lived\nin smell to it. There is a closed door to the east.} {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:40:22}} {1.000}
+E { 1663} {n} {n} {1} {0} {}
+E { 1665} {e} {open e;e } {2} {0} {}
+
+R { 1665} {0} {} {Chief's quarters} { } {A huge grizzled man lunges up from his bed and grabs his weapons.  As he\nstalks up to you he demands to know why you busted in here and woke him up\nwithout the password.  Then he attacks.  } {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:40:36}} {1.000}
+E { 1664} {w} {w} {8} {0} {}
+
+R { 1666} {0} {} {Rum storage area} { } {This looks like the final product storage room.  It looks fairly empty. \nThere must have been a recent shipment out of here.  In oner corner you see\nseveral empty barrels with big brushes and a big trough beside them.  } {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:41:41}} {1.000}
+E { 1663} {u} {u} {16} {0} {}
+
+R { 1667} {0} {} {Cane fields} { } {Here you see tall groves of cane standing close together with slaves\nlaboring to cut and stack it. You hear the shouts of overseers\nsomewhere in the vicinity. The sweet smell isnt as overpowering here.\nTo the north is a great stone wall.} {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:43:56}} {1.000}
+E { 1641} {w} {w} {8} {0} {}
+E { 1668} {e} {e} {2} {0} {}
+
+R { 1668} {0} {} {Cane fields} { } {Here you see tall groves of cane standing close together with slaves\nlaboring to cut and stack it. You hear the shouts of overseers\nsomewhere in the vicinity. The sweet smell isnt as overpowering here.\nTo the north is a great stone wall.} {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:44:05}} {1.000}
+E { 1667} {w} {w} {8} {0} {}
+E { 1669} {e} {e} {2} {0} {}
+
+R { 1669} {0} {} {Cane fields} { } {Here you see tall groves of cane standing close together with slaves\nlaboring to cut and stack it. You hear the shouts of overseers\nsomewhere in the vicinity. The sweet smell isnt as overpowering here.\nTo the north is a great stone wall.} {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:44:10}} {1.000}
+E { 1668} {w} {w} {8} {0} {}
+E { 1670} {e} {e} {2} {0} {}
+
+R { 1670} {0} {} {Thick cane grove} { } {The cane groves seem to be thicker here and grow closer together for some\nreason.  To the north in the thickest part of the cane you see a faint trail\nnorth } {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:44:16}} {1.000}
+E { 1669} {w} {w} {8} {0} {}
+E { 1671} {n} {n} {1} {0} {}
+
+R { 1671} {0} {} {Shadowy path} { } {You are treading a shadowy path through some cane.  To the west the cane\nis so thick it is impassable.  The path continues north.  } {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:44:21}} {1.000}
+E { 1670} {s} {s} {4} {0} {}
+E { 1672} {n} {n} {1} {0} {}
+
+R { 1672} {0} {} {Shadowy path} { } {You are treading a shadowy path through some cane. To the west the cane\nis so thick it is impassable. The path continues north.} {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:44:28}} {1.000}
+E { 1671} {s} {s} {4} {0} {}
+E { 1673} {n} {n} {1} {0} {}
+
+R { 1673} {0} {} {Shadowy path} { } {You are treading a shadowy path through some cane. To the west the cane\nis so thick it is impassable. The path continues north.} {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:45:03}} {1.000}
+E { 1672} {s} {s} {4} {0} {}
+E { 1674} {n} {n} {1} {0} {}
+
+R { 1674} {0} {} {Shadowy path} { } {Here the cane has thinned out and has turned into high stringy grasses. \nThe trail is easier to follow here and continues to the west.  } {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:47:13}} {1.000}
+E { 1673} {s} {s} {4} {0} {}
+E { 1675} {w} {w} {8} {0} {}
+
+R { 1675} {0} {} {Shadowy path} { } {Here the cane has thinned out and has turned into high stringy grasses. \nThe trail is easier to follow here and continues to the west.  } {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:47:17}} {1.000}
+E { 1674} {e} {e} {2} {0} {}
+E { 1676} {w} {w} {8} {0} {}
+
+R { 1676} {0} {} {Shadowy path} { } {Here the cane has thinned out and has turned into high stringy grasses. \nThe trail is easier to follow here and continues to the west.  } {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:47:29}} {1.000}
+E { 1675} {e} {e} {2} {0} {}
+E { 1677} {w} {w} {8} {0} {}
+
+R { 1677} {0} {} {Door to stone building} { } {You have reached a door to a huge stone building.  On the locker door is\nwritten "Old well KEEP OUT".  You wonder why an old well needs a locked\ndoor.  } {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:47:43}} {1.000}
+E { 1676} {e} {e} {2} {0} {}
+E { 1678} {s} {unlock s; open s; s} {4} {1} {}
+
+R { 1678} {0} {} {Entrance to the old well house} { } {This is the entrance to the old well house.  This is a dank musky area\nwith shallow pools of water all over the floor.  You hear the croaking of\nfrogs from all around you and when you look down you see a blanket of them\nhopping in and out of the pools on the floor.  This combined with the\nslippery floor makes walking treacherous.  } {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:48:16}} {1.000}
+E { 1677} {n} {unlock n; open n; n} {1} {1} {}
+E { 1679} {s} {s} {4} {0} {}
+
+R { 1679} {0} {} {Old well house} { } {You are walking though a mass of small frogs.  You hear the dripping of\nwater off the roof and the croaking seems louder the farther south and west\nthat you travel.  } {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:49:07}} {1.000}
+E { 1678} {n} {n} {1} {0} {}
+E { 1680} {s} {s} {4} {0} {}
+
+R { 1680} {0} {} {Old well house} { } {You are walking though a mass of small frogs.  You hear the dripping of\nwater off the roof and the croaking seems louder the farther south and west\nthat you travel.  } {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:49:12}} {1.000}
+E { 1679} {n} {n} {1} {0} {}
+E { 1681} {e} {e} {2} {0} {}
+
+R { 1681} {0} {} {Old well house} { } {You are walking though a mass of small frogs.  You hear the dripping of\nwater off the roof and the croaking seems louder the farther south and west\nthat you travel.  } {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:49:18}} {1.000}
+E { 1680} {w} {w} {8} {0} {}
+E { 1682} {e} {e} {2} {0} {}
+
+R { 1682} {0} {} {Old well} { } {There is an old well in the center of this area.  Most of the metal on it\nis rusty and the walls of the well are crumbling.  You can see the top of\nthe water level when you look down the well.  You see no rope or container\non the crank with which to draw up water.  Upon the insides of the well are\ndeep grouges carved into the rock..  F } {The Fields by Kzin for levels: 10-30} {} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:49:30}} {1.000}
+E { 1681} {w} {w} {8} {0} {}
+E { 1683} {u} {u} {16} {0} {}
+
+R { 1683} {0} {<EAF><fff>} {A Small Den in a Gazebo Roof} {QST} {You emerge from the well into a small gazebo.  Rough hewn boards have\nbeen artfully made into seats so that you may rest and look at the lush\nfields and forests of the surrounding countryside.  } {Masters Rooms by ispy for levels: 1-199} {The master thief tells you 'Ah, ok I will share something with you.  To prepare Bindu, one needs the venom of a 'cobra. There are many cobras in this land, to find the right one talk to my friend, the cobra trainer, he works in the circus.  If you wish to continue your study you must seek out the master who lives in the land of harpies.'} {} {{createdby}{denae}{createdon}{2012-01-27 12:15:26}{updatedby}{denae}{updatedon}{2012-01-27 12:50:24}} {1.000}
+E { 1682} {d} {d} {32} {0} {}
+
+R { 1684} {0} {<AAF><fff>} {The Entrance to the Circus} {SHP} {Ahead you see the Circus laid out in all its glory.  Freak shows, \ngames booths, and dwarfing them all, the Big Top.  A ticket booth is set here.\nYou will need a ticket to enter the Big Top.} {The Circus by Binky for levels: 1-12} {[Lv Price] Item\n[ 1      100] A ticket.} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}} {1.000}
+E { 1000} {n} {n} {1} {0} {}
+E { 1685} {s} {s} {4} {0} {}
+
+R { 1685} {0} {} {The Path to the Big Top} { } {This way to the Big Top is lined with people.  They seem to be having \na good time.  Everyone that is, except the people waiting in line for the \nBig Top.  They seem annoyed at you as you push your way past them.  To the\neast and west you see games booths.  } {The Circus by Binky for levels: 1-12} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 15:46:54}} {1.000}
+E { 1684} {n} {n} {1} {0} {}
+E { 1686} {e} {e} {2} {0} {}
+E { 1687} {w} {w} {8} {0} {}
+E { 1688} {s} {s} {4} {0} {}
+
+R { 1686} {0} {} {The Game Booths} { } {This area seems deserted.  The booths are boarded up, and the only\nCircus employee you see is sitting on a counter, muttering obscenities at the\nMayor and City council.  He makes it a point to let you know that he knows \nyou are there, and he is ignoring you on purpose.} {The Circus by Binky for levels: 1-12} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 15:47:02}} {1.000}
+E { 1685} {w} {w} {8} {0} {}
+
+R { 1687} {0} {} {The Game Booths} { } {This area seems deserted.  The booths are boarded up, and the only\nCircus employee you see is sitting on a counter, muttering obscenities at the\nMayor and City council.  He makes it a point to let you know that he knows \nyou are there, and he is ignoring you on purpose.} {The Circus by Binky for levels: 1-12} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 15:47:44}} {1.000}
+E { 1685} {e} {e} {2} {0} {}
+
+R { 1688} {0} {} {The Path to the Big Top} { } {This way to the Big Top is lined with people.  They seem to be having \na good time.  Everyone that is, except the people waiting in line for the \nBig Top.  They seem annoyed at you as you push your way past them.  To the\neast you see the freak shows.  To the west you see a vendor.  } {The Circus by Binky for levels: 1-12} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 15:48:04}} {1.000}
+E { 1685} {n} {n} {1} {0} {}
+E { 1689} {w} {w} {8} {0} {}
+E { 1690} {e} {e} {2} {0} {}
+E { 1696} {s} {s} {4} {0} {}
+
+R { 1689} {0} {<AAF><fff>} {The Cotton Candy Vendor} {SHP} {The smell of cotton candy makes your mouth water.  Be careful about\neating too much, all that sugar may make you hyper.} {The Circus by Binky for levels: 1-12} {[Lv Price] Item\n[ 6       15] Cotton candy.\n[ 0       40] Haddie's ice cream cone .} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 15:48:12}} {1.000}
+E { 1688} {e} {e} {2} {0} {}
+
+R { 1690} {0} {} {The Entrance to the Freak Shows} { } {This area is filled with posters of the attractions the Circus has \nto offer to the curious.  You are invited to watch feats of strength from the\nstrong man, gasp as a man swallows a sword, see a real, Bearded Lady, \nbe amazed by the midget's feats of acrobatics, and be dazzled by the great\nmagical powers of the Illusionist.} {The Circus by Binky for levels: 1-12} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 15:48:22}} {1.000}
+E { 1688} {w} {w} {8} {0} {}
+E { 1691} {s} {s} {4} {0} {}
+E { 1695} {e} {e} {2} {0} {}
+
+R { 1691} {0} {} {The Strongman's Tent} { } {This tent is the largest one in The Circus besides the Big Top.  It\nis decorated with pictures and drawings of huge men lifting huger weights.\nYou see heavy objects at the front of the room, that must be part of the act.\nIf Ivan the Strongman can lift those, then he really must be strong.} {The Circus by Binky for levels: 1-12} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 15:48:29}} {1.000}
+E { 1690} {n} {n} {1} {0} {}
+E { 1692} {e} {e} {2} {0} {}
+
+R { 1692} {0} {} {The Sword Swallower's Tent} { } {This tent is decorated with many deadly looking weapons.  A warrior\ncould find any kind of weapon he ever dreamed of in here.  A stage at the \nfront is obviously where the Sword Swallower performs his acts of bravery.\nSeveral rickety chairs sit in front of the stage, looking as if they might\nnot hold the weight of the next customer to sit down.} {The Circus by Binky for levels: 1-12} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 15:48:48}} {1.000}
+E { 1691} {w} {w} {8} {0} {}
+E { 1693} {e} {e} {2} {0} {}
+E { 1695} {n} {n} {1} {0} {}
+
+R { 1693} {0} {} {The Midget's Tent} { } {This tent has a mat laid out, no doubt where the Midget performs his\nacrobatics.  You overhear another member of the audience telling his friend,\n'I'd watch out for that Midget.  I hear that a new rash of robberies broke out\nright after the Circus came to town.  Wouldn't suprise me if he is the one\nresponsible.'} {The Circus by Binky for levels: 1-12} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 15:49:08}} {1.000}
+E { 1692} {w} {w} {8} {0} {}
+E { 1694} {n} {n} {1} {0} {}
+
+R { 1694} {0} {} {The Tent of the Illusionist} { } {This tent is darkened at first.  Then it gradually lightens, although\nyou do not see the source of the light.  You do hear a loud breathing sound\nthough.  You think it may be coming from right behind you.  You think this \nbecause you can feel very warm breath on the back of your neck.  You turn,\nand see a very large, very evil looking creature.  It's a Dragon.  It opens \nits mouth, but does not attack.  Instead it just laughs at you mercilessly.\nThe Dragon snorts a cloud of smoke at you.} {The Circus by Binky for levels: 1-12} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 15:49:20}} {1.000}
+E { 1693} {s} {s} {4} {0} {}
+E { 1695} {w} {w} {8} {0} {}
+
+R { 1695} {0} {} {The Tent of the Bearded Lady} { } {This tent consists of chairs for you to rest in, and a rickety wooden\nstage up front.  You hear the stage creak as you enter, and you understand\nwhy when you see who is standing on it.  She is bearded all right.  And big.\nVery big.  Colosally huge.  You don't seem to have any problem finding a seat.\nThe place is deserted of spectators.} {The Circus by Binky for levels: 1-12} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 15:49:32}} {1.000}
+E { 1694} {e} {e} {2} {0} {}
+E { 1692} {s} {s} {4} {0} {}
+E { 1690} {w} {w} {8} {0} {}
+
+R { 1696} {0} {} {The Path to the Big Top} { } {This way to the Big Top is lined with people.  They seem to be having \na good time.  Everyone that is, except the people waiting in line for the \nBig Top.  They seem annoyed at you as you push your way past them.  To the\neast and west you see games booths.  } {The Circus by Binky for levels: 1-12} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 15:51:01}} {1.000}
+E { 1688} {n} {n} {1} {0} {}
+E { 1697} {s} {s} {4} {0} {}
+
+R { 1697} {0} {} {The Entrance to the Big Top.} { } {You've finally made it to the front of the line!  The entrance to the\nBig Top is in front of you.  You see a slot where you insert your ticket, to\nunlock the magic of The Circus that lies inside.} {The Circus by Binky for levels: 1-12} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 15:51:25}} {1.000}
+E { 1696} {n} {n} {1} {0} {}
+E { 1698} {s} {unlock s; open s; s} {4} {0} {}
+
+R { 1698} {0} {} {Entryway between the Grand Stands} { } {The noise of the crowd greets you as you enter the Big Top.  The \nsounds and smells that greet you take you back to the time when you were a\nchild, in wonder and awe of the Circus that came to your town.  You can hear\nthe trumpet of an elephant somewhere, and the roar of a lion.  The applause\nof the crowd is momentarily deafening.  To the west and east you see under\nthe Grand Stands.} {The Circus by Binky for levels: 1-12} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 15:52:13}} {1.000}
+E { 1697} {n} {n} {1} {0} {}
+E { 1699} {e} {e} {2} {0} {}
+E { 1700} {w} {w} {8} {0} {}
+E { 1704} {s} {s} {4} {0} {}
+
+R { 1699} {0} {} {Under the Grand Stands} { } {You are under the Stands.  Popcorn and peanut shells litter the floor.\nYou can climb up the supports into the stands from here.} {The Circus by Binky for levels: 1-12} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 15:52:46}} {1.000}
+E { 1698} {w} {w} {8} {0} {}
+E { 1705} {u} {u} {16} {0} {}
+
+R { 1700} {0} {} {Under the Grand Stands} { } {You are under the Stands.  Popcorn and peanut shells litter the floor.\nYou can climb up the supports into the stands from here.} {The Circus by Binky for levels: 1-12} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 15:52:56}} {1.000}
+E { 1698} {e} {e} {2} {0} {}
+E { 1706} {u} {u} {16} {0} {}
+
+R { 1701} {0} {} {The 2nd Ring - You'd better read the description of this room. } { } {You are in the 2nd Ring.  You see a rickity carriage, which a line of\nclowns are trying to squeeze into.  You've already seen many more fit into it\nthan could possibly fit.  The 1st Ring is to the west and the 3rd Ring is \nto the east.  A ladder on a pole here provides access to the tightrope above.\nTo the north is the first look a visitor to the Big Top has.  You notice that \nthe 1st ring is a cage which contains several HUNGRY Lions.  Entering it would\nbe fairly suicidal.  It is a good thing it is locked!} {The Circus by Binky for levels: 1-12} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 15:59:49}} {1.000}
+E { 1704} {n} {n} {1} {0} {}
+E { 1702} {e} {e} {2} {0} {}
+E { 1703} {u} {u} {16} {0} {}
+E { 1710} {w} {w} {8} {0} {}
+E { 1712} {d} {d} {32} {0} {}
+
+R { 1702} {0} {<FFC><faa>} {The 3rd Ring} {TRN} {A target is set up in this Ring for the knife thrower.  Up close, \nyou can see many red smears which have been not quite cleaned from the target.\nYou see the crowd looking at you, probably wondering what your act is.  The\nonly exit is to the 2nd Ring to the west.} {The Circus by Binky for levels: 1-12} {TRAINER: knife} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:00:33}} {1.000}
+E { 1701} {w} {w} {8} {0} {}
+
+R { 1703} {0} {} {On the Platform Way, Way Up in the Air} { } {You hug the pole as you realize just how high you are.  Your only \nchoices are to go back down, or try to walk the high wire to the west.  Of \ncourse, the wire goes above the lion's cage, which has an open top.  If you \ndid survivie the fall, you probably wouldn't feel like adventuring again.} {The Circus by Binky for levels: 1-12} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:01:02}} {1.000}
+E { 1701} {d} {d} {32} {0} {}
+E { 1707} {w} {w} {8} {0} {}
+
+R { 1704} {0} {} {First Look at the Big Top} { } {You recieve your first good look at the Big Top.  The size of this\ntent was amazing from the outside, but is even more breathtaking from the \ninside.  You feel as if you are in a different world, where the sky is only\na little closer.  You see 3 Rings spread out in front of you.  A high wire\nextends between poles at a dizzying height.  The 1st Ring appears to hold\na cage which contains several large lions.  The 2nd Ring is filled with clowns\nwho are trying to fit into a small carriage.  In the 3rd Ring, a man is \npreparing to put on a blind fold, while his assistant stands against a target.\nHe has a rack of knives next to him.  You may enter the 2nd Ring to the south.\nTo the east and west are the Grand Stands, and the Entryway is to the north.} {The Circus by Binky for levels: 1-12} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 15:53:44}} {1.000}
+E { 1698} {n} {n} {1} {0} {}
+E { 1705} {e} {e} {2} {0} {}
+E { 1706} {w} {w} {8} {0} {}
+E { 1701} {s} {s} {4} {0} {}
+
+R { 1705} {0} {} {In the Grand Stands} { } {You find yourself in a crowd of people enjoying the show.  The people \nbehind you yell at you to sit down.  If you don't sit down soon, there may\nbe a fight.  You may climb down below the stands, or exit by the stairs and\nget a good look at the Big Top.} {The Circus by Binky for levels: 1-12} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 15:53:52}} {1.000}
+E { 1704} {w} {w} {8} {0} {}
+E { 1699} {d} {d} {32} {0} {}
+
+R { 1706} {0} {} {In the Grand Stands} { } {You find yourself in a crowd of people enjoying the show.  The people \nbehind you yell at you to sit down.  If you don't sit down soon, there may\nbe a fight.  You may climb down below the stands, or exit by the stairs and\nget a good look at the Big Top.} {The Circus by Binky for levels: 1-12} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 15:54:01}} {1.000}
+E { 1704} {e} {e} {2} {0} {}
+E { 1700} {d} {d} {32} {0} {}
+
+R { 1707} {0} {} {On the High Wire} { } {You try to balance on the wire, and try not to look down the 80 feet\nto the ground below.  It is good thing your training as adventurer has given\nyou a little better sense of balance than most people.  From up here, you \nreally do have a nice view, of a very long wire.  You still have a ways to go.} {The Circus by Binky for levels: 1-12} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:01:17}} {1.000}
+E { 1703} {e} {e} {2} {0} {}
+E { 1708} {w} {w} {8} {0} {}
+
+R { 1708} {0} {} {On the High Wire} { } {You are still 80 feet up in the air.  DIRECTLY below you is the Lion's\nCage.  If you survived the fall, YOU WOULD SURELY DIE when the Lions got ahold\nof you.  You note that the door is closed to the cage, so you would have very\nlittle chance of running away if you did fall into the cage.  As you take\nyour eyes off the ground below, you see the end of the wire immediately to \nyour west.} {The Circus by Binky for levels: 1-12} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:01:25}} {1.000}
+E { 1707} {e} {e} {2} {0} {}
+E { 1709} {w} {w} {8} {0} {}
+
+R { 1709} {0} {} {The End of the Highwire} { } {You made it safely.  Now you may climb down and sneak out the back \nentrance of the Big Top.  Or you can brave the Tightrope again.  You hear\nthe noises of animals outside the Big Top.  Below you is the trapdoor.} {The Circus by Binky for levels: 1-12} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:01:39}} {1.000}
+E { 1708} {e} {e} {2} {0} {}
+
+R { 1710} {0} {} {The 1st Ring} { } {This is a cage, which contains several large stands that the lions\nare supposed to sit on when they are not eating foolish people who walk into\nthis room.  A few hoops are in the cage, one of which is flaming.  You think\nthat only an idiot would be in here with the lions.  With the lions?  Hey, \nYOU ARE IN HERE WITH THE LIONS!!!  YOU'D BETTER RUN!!!!!!} {The Circus by Binky for levels: 1-12} {} {} {{createdby}{genae}{createdon}{2012-01-27 16:05:48}} {1.000}
+E { 1701} {e} {e} {2} {0} {}
+E { 1711} {d} {d} {32} {0} {}
+
+R { 1711} {0} {<EAF><fff>} {Binky's Kitchen} {QST} {A rather small room really, but the aromas drifting to you make your\nmouth water.  A feast fit for a king, or an immortal is spread upon the table\nbefore you.  You feel compelled to sit and at least taste some of the deli-\ncacies.  Somehow, you know that everything you find here will be very filling,\nyet completely fat free.} {The Circus by Binky for levels: 1-12} {Binky's chef says 'Why are you here?'} {} {{createdby}{genae}{createdon}{2012-01-27 16:05:48}{updatedby}{genae}{updatedon}{2012-01-27 16:05:56}} {1.000}
+
+R { 1712} {0} {} {The Clown's Room below the 2nd Ring} { } {This room has been cunningly hollowed out below the 2nd Ring, giving\nthe clown's a place to hide after they supposedly hid in the car.  This place \nis very hot.  That doesn't surprise you, as it is filled with clowns.} {The Circus by Binky for levels: 1-12} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:14:48}} {1.000}
+E { 1701} {u} {u} {16} {0} {}
+
+R { 1713} {0} {} {Redferne's Library} { } {This is truly a magnificent place!  Books and scrolls lie together on\nevery shelf.  A large globe, with the map of the Mud-world upon it, stands\nin the dimly lit north-western corner of the room.  Two large and\ncomfortable looking leather arm-chairs adorn the center of the library\ntogether with a huge oak desk.  Dim light radiates from an enormous crystal\nchandelier hanging down from the ceiling approximately 10 feet off the\nfloor.  To the east there is a great old ashen door.  A large glass window\nis set in the west wall.  } {Redferne's Residence by DIKU for levels: 20-99} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:18:27}} {1.000}
+E { 1577} {e} {e} {2} {0} {}
+
+R { 1714} {0} {} {The Northern end of the hall} { } {You are standing in the northern end of the huge hall. This part is under\nthe grand wooden staircase so the light seems a little less bright here,\nbut this doesn't bother your sight at all. To the north lies the kitchen.\nTo the south lies the Southern end of the hall. To the east there is a huge\nmetal door. To the west there is a large aspenwood door.} {Redferne's Residence by DIKU for levels: 20-99} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:18:55}} {1.000}
+E { 1577} {s} {s} {4} {0} {}
+E { 1715} {e} {open e; e} {2} {0} {}
+E { 1716} {w} {open w; w} {8} {0} {}
+E { 1717} {n} {n} {1} {0} {}
+
+R { 1715} {0} {} {The Monster Pen} { } {This looks like the cage in which a large carnivore is being kept. Judging by\nthe state the walls are in, this could very well be a large AGGRESSIVE animal. \nThis makes you pretty insecure, this stating your feeling about the place, \nquite mildly.} {Redferne's Residence by DIKU for levels: 20-99} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:19:02}} {1.000}
+E { 1714} {w} {w} {8} {0} {}
+
+R { 1716} {0} {} {The Sitting room of Naris} { } {You are standing in the middle of a really comfortable place. The walls are\ndecorated with paintings of smiling Kings and Queens. The most attractive\npicture is one of a Prince in shiny armour. By one of the walls there is an\nold arm-chair. The only exit is through the aspenwood door to the east.} {Redferne's Residence by DIKU for levels: 20-99} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:19:19}} {1.000}
+E { 1714} {e} {e} {2} {0} {}
+
+R { 1717} {0} {} {The Kitchen of Naris} { } {This must be the place of food and drink. You can hear the faint noise of \nrats feasting on meat and bread from somewhere undeterminable. The sound\nmakes you feel the agony of HUNGER. The only visible exit is south to the\nNorthern end of the hall. To the north there is a larder, and to the east\nstands a fridge.} {Redferne's Residence by DIKU for levels: 20-99} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:19:36}} {1.000}
+E { 1714} {s} {s} {4} {0} {}
+E { 1718} {n} {n} {1} {0} {}
+E { 1719} {e} {open e; e} {2} {0} {}
+E { 1720} {w} {w} {8} {0} {}
+
+R { 1718} {0} {} {The Larder} { } {You can see food all over. Among the heaps of food you notice HUGE rats\nscuttering around, nibbling pieces off the heaps here and there.} {Redferne's Residence by DIKU for levels: 20-99} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:19:50}} {1.000}
+E { 1717} {s} {s} {4} {0} {}
+
+R { 1719} {0} {} {The Fridge} { } {This place is LOADED with drink, water and booze.} {Redferne's Residence by DIKU for levels: 20-99} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:21:20}} {1.000}
+E { 1717} {w} {w} {8} {0} {}
+
+R { 1720} {0} {} {basement stairwell} { } {You are at the top of the stairs leading to the basement.  The path down\nhas been filled in with rubble.  } {Redferne's Residence by DIKU for levels: 20-99} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:22:40}} {1.000}
+E { 1717} {e} {e} {2} {0} {}
+E { 1721} {d} {d} {32} {0} {}
+
+R { 1721} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1720} {u} {u} {16} {0} {}
+E { 1722} {d} {d} {32} {0} {}
+
+R { 1722} {0} {} {Redferne's Basement} { } {This was redferne's basement.  It must have been nice as basements go. \nToo bad it is full of rocks now.  } {Redferne's Residence by DIKU for levels: 20-99} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:24:00}} {1.000}
+E { 1721} {u} {u} {16} {0} {}
+E { 1723} {w} {w} {8} {0} {}
+E { 1724} {n} {n} {1} {0} {}
+
+R { 1723} {0} {} {Redferne's Wine Cellar} { } {You have found Redferne's wine cellar.  He must have been quite an\nentertainer as this room is HUGE.  There are row after row of wine racks\nthat once held bottles, jugs and casks of wine.  There are also shelves for\nbeer and mead.  } {Redferne's Residence by DIKU for levels: 20-99} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:24:30}} {1.000}
+E { 1722} {e} {e} {2} {0} {}
+
+R { 1724} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1722} {s} {s} {4} {0} {}
+
+R { 1725} {0} {} {A fluffy white cloud.} { } {You find yourself standing on a small cloud.  The cloud feels kind of\nspongy beneath your feet.  You find it hard to see anything in the distance\nas wisps of cloud blow over your face.  } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:31:22}} {1.000}
+E { 1576} {d} {d} {32} {0} {}
+E { 1726} {e} {e} {2} {0} {}
+
+R { 1726} {0} {} {A fluffy white cloud.} { } {You find yourself standing on a small cloud.  The cloud feels kind of\nspongy beneath your feet.  You find it hard to see anything in the distance\nas wisps of cloud blow over your face.  } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:33:24}} {1.000}
+E { 1725} {w} {w} {8} {0} {}
+E { 1727} {s} {s} {4} {0} {}
+E { 1733} {n} {n} {1} {0} {}
+
+R { 1727} {0} {} {A fluffy white cloud.} { } {You find yourself standing on a small cloud.  The cloud feels kind of\nspongy beneath your feet.  You find it hard to see anything in the distance\nas wisps of cloud blow over your face.  } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:33:36}} {1.000}
+E { 1726} {n} {n} {1} {0} {}
+E { 1728} {e} {e} {2} {0} {}
+
+R { 1728} {0} {} {A fluffy white cloud.} { } {You find yourself standing on a small cloud.  The cloud feels kind of\nspongy beneath your feet.  You find it hard to see anything in the distance\nas wisps of cloud blow over your face.  } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:33:46}} {1.000}
+E { 1727} {w} {w} {8} {0} {}
+E { 1729} {e} {e} {2} {0} {}
+
+R { 1729} {0} {} {A fluffy white cloud.} { } {You find yourself standing on a small cloud.  The cloud feels kind of\nspongy beneath your feet.  You find it hard to see anything in the distance\nas wisps of cloud blow over your face.  } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:33:59}} {1.000}
+E { 1728} {w} {w} {8} {0} {}
+E { 1730} {n} {n} {1} {0} {}
+
+R { 1730} {0} {} {A fluffy white cloud.} { } {You find yourself standing on a small cloud.  The cloud feels kind of\nspongy beneath your feet.  You find it hard to see anything in the distance\nas wisps of cloud blow over your face.  } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:34:05}} {1.000}
+E { 1729} {s} {s} {4} {0} {}
+E { 1731} {e} {e} {2} {0} {}
+E { 1739} {d} {d} {32} {0} {}
+
+R { 1731} {0} {} {A fluffy white cloud.} { } {You find yourself standing on a small cloud.  The cloud feels kind of\nspongy beneath your feet.  You find it hard to see anything in the distance\nas wisps of cloud blow over your face.  } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:38:10}} {1.000}
+E { 1730} {w} {w} {8} {0} {}
+E { 1732} {e} {e} {2} {0} {}
+
+R { 1732} {0} {} {A fluffy white cloud.} { } {You find yourself standing on a small cloud.  The cloud feels kind of\nspongy beneath your feet.  You find it hard to see anything in the distance\nas wisps of cloud blow over your face.  } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:37:47}} {1.000}
+E { 1731} {w} {w} {8} {0} {}
+E { 1734} {d} {d} {32} {0} {}
+
+R { 1733} {0} {} {A fluffy white cloud.} { } {You find yourself standing on a small cloud.  The cloud feels kind of\nspongy beneath your feet.  You find it hard to see anything in the distance\nas wisps of cloud blow over your face.  } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:38:41}} {1.000}
+E { 1726} {s} {s} {4} {0} {}
+E { 1738} {d} {d} {32} {0} {}
+
+R { 1734} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1732} {u} {u} {16} {0} {}
+E { 1735} {w} {w} {8} {0} {}
+E { 1736} {e} {e} {2} {0} {}
+
+R { 1735} {0} {} {A fluffy white cloud.} { } {You find yourself standing on a small cloud.  The cloud feels kind of\nspongy beneath your feet.  You find it hard to see anything in the distance\nas wisps of cloud blow over your face.  } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:40:24}} {1.000}
+E { 1734} {e} {e} {2} {0} {}
+
+R { 1736} {0} {} {High and perilous cliff} { } {You are on a high and rocky cliff.  To the west you see a huge ominous\nstorm cloud moving this way.  You might want to take cover before the storm\nhits.  You think that there is a narrow trail leading to the south.  } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:40:42}} {1.000}
+E { 1734} {w} {w} {8} {0} {}
+E { 1737} {s} {s} {4} {0} {}
+
+R { 1737} {0} {} {Narrow rocky trail.} { } {A narrow trail leads down towards the mountain and north toward the\ncliff.  It seems to fade in and out as it winds up the hill.  Obviously, it\nhas not been maintained in years.  } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:40:59}} {1.000}
+E { 1736} {n} {n} {1} {0} {}
+
+R { 1738} {0} {} {A fluffy white cloud.} { } {You find yourself standing on a small cloud.  The cloud feels kind of\nspongy beneath your feet.  You find it hard to see anything in the distance\nas wisps of cloud blow over your face.  } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:44:28}} {1.000}
+E { 1733} {u} {u} {16} {0} {}
+E { 1739} {e} {e} {2} {0} {}
+E { 1740} {n} {n} {1} {0} {}
+
+R { 1739} {0} {} {A fluffy white cloud.} { } {You find yourself standing on a small cloud.  The cloud feels kind of\nspongy beneath your feet.  You find it hard to see anything in the distance\nas wisps of cloud blow over your face.  } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:44:44}} {1.000}
+E { 1738} {w} {w} {8} {0} {}
+E { 1730} {u} {u} {16} {0} {}
+E { 1741} {n} {n} {1} {0} {}
+
+R { 1740} {0} {} {Grumpy little cloud.} { } {This cloud mutters and grumbles at you.  You have to jump quickly to\navoid a lightning bolt that passes by your toe.  Your aren't sure but you\nthink you hear the cloud snicker.  } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:46:43}} {1.000}
+E { 1738} {s} {s} {4} {0} {}
+E { 1741} {e} {e} {2} {0} {}
+
+R { 1741} {0} {} {Happy little cloud.} { } {You hear the cloud humming a little song to itself, but you can't figure\nout the song.  } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:46:48}} {1.000}
+E { 1740} {w} {w} {8} {0} {}
+E { 1739} {s} {s} {4} {0} {}
+E { 1742} {n} {n} {1} {0} {}
+
+R { 1742} {0} {} {Snowy, white cloud.} { } {You shiver as you stand here.  This beautiful, fluffy, pure white cloud\nis snowing.  The snow is pure and sweet as it melts in your mouth.  What a\nnifty cloud to be on.  } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:47:05}} {1.000}
+E { 1741} {s} {s} {4} {0} {}
+E { 1743} {w} {w} {8} {0} {}
+E { 1744} {n} {n} {1} {0} {}
+
+R { 1743} {0} {} {Cold, damp cloud.} { } {Your mood grows grumpy as you find yourself cold and wet from this dismal\ncloud.  You notice a rock outcropping above you.  } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:47:12}} {1.000}
+E { 1742} {e} {e} {2} {0} {}
+
+R { 1744} {0} {} {Doc-like little cloud.} { } {The cloud looks at you through its Lennon like specs and examines you\nquite scientifically.  } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:48:09}} {1.000}
+E { 1742} {s} {s} {4} {0} {}
+E { 1745} {w} {w} {8} {0} {}
+
+R { 1745} {0} {} {Dopey little cloud.} { } {This cloud is too busy daydreaming to watch where its going.  It doesn't\neven notice you landing on it.  It looks like it couldn't figure its way out\nof an open box.  } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:48:30}} {1.000}
+E { 1744} {e} {e} {2} {0} {}
+E { 1746} {w} {w} {8} {0} {}
+
+R { 1746} {0} {} {Sneezing little cloud.} { } {The cloud is wracked with sneezes.  At first you thought you were in an\nearthquake before you realize where you are!  } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:48:42}} {1.000}
+E { 1745} {e} {e} {2} {0} {}
+E { 1747} {n} {n} {1} {0} {}
+
+R { 1747} {0} {} {Raging hurricane.} { } {You are buffeted and knocked about by the almost godlike strength of the\nraging hurricane.  It is hard to see and hear anything.  Your only thought\nis to seek refuge from the storm.  } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:48:55}} {1.000}
+E { 1746} {s} {s} {4} {0} {}
+E { 1748} {n} {n} {1} {0} {}
+
+R { 1748} {0} {} {Raging hurricane.} { } {You are buffeted and knocked about by the almost godlike strength of the\nraging hurricane.  It is hard to see and hear anything.  Your only thought\nis to seek refuge from the storm.  } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:49:20}} {1.000}
+E { 1747} {s} {s} {4} {0} {}
+E { 1749} {w} {w} {8} {0} {}
+
+R { 1749} {0} {} {Raging hurricane.} { } {You are buffeted and knocked about by the almost godlike strength of the\nraging hurricane.  It is hard to see and hear anything.  Your only thought\nis to seek refuge from the storm.  } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:49:33}} {1.000}
+E { 1748} {e} {e} {2} {0} {}
+E { 1750} {s} {s} {4} {0} {}
+
+R { 1750} {0} {} {Cumulative nimbus cloud.} { } {This cloud looks like it belongs to the phylum of cumulative nimbus clouds.} {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:49:42}} {1.000}
+E { 1751} {s} {s} {4} {0} {}
+E { 1752} {w} {w} {8} {0} {}
+
+R { 1751} {0} {} {Yet another cloud} { } {You find yourself in yet another cloud.  Will the madness never end? \nThere is a rope ladder leading up.  } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:49:49}} {1.000}
+E { 1750} {n} {n} {1} {0} {}
+E { 1753} {u} {u} {16} {0} {}
+
+R { 1752} {0} {} {Dark hidden cloud.} { } {This cloud looks like the perfect place to hide.} {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:50:10}} {1.000}
+E { 1750} {e} {e} {2} {0} {}
+
+R { 1753} {0} {} {Front gate} { } {There is a gate here.  It is huge, towering over you.  It creaks as it\nsways in the breeze.  To the south you see a huge lawn.  There is a rope\nladder leading down.  } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:51:01}} {1.000}
+E { 1751} {d} {d} {32} {0} {}
+E { 1754} {s} {s} {4} {0} {}
+
+R { 1754} {0} {} {Lawn} { } {The lawn seems to stretch and stretch to the south and to the west. \nNorth of you is a gate.  The grass is emerald green and luscious, obviously\nwell cared for.  } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:51:16}} {1.000}
+E { 1753} {n} {n} {1} {0} {}
+E { 1755} {s} {s} {4} {0} {}
+E { 1757} {w} {w} {8} {0} {}
+
+R { 1755} {0} {} {Huge, gorgeous fountain.} { } {An enormous golden fountain is here.  You see swans, angels, gryphons and\na host of other creatures in the fountain.  The fountain empties into a huge\npool that looks quite inviting.  } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:51:29}} {1.000}
+E { 1754} {n} {n} {1} {0} {}
+E { 1756} {w} {w} {8} {0} {}
+
+R { 1756} {0} {} {Patio.} { } {A huge patio overlooks the lawn area.  There are enough tables and chairs\nfor a party of 100.  The tables and chairs are ornate and expensive,\ntasteful and elegant.  Stairs lead up to the main house.  } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:51:37}} {1.000}
+E { 1755} {e} {e} {2} {0} {}
+E { 1757} {n} {n} {1} {0} {}
+E { 1758} {u} {u} {16} {0} {}
+
+R { 1757} {0} {} {Croquet game} { } {A croquet game has been set up and carelessly left out.  Who ever was\nplaying blue was in the lead before they quit.  Benches have been set up for\nspectators and players to enjoy themselves.  } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:51:46}} {1.000}
+E { 1756} {s} {s} {4} {0} {}
+E { 1754} {e} {e} {2} {0} {}
+
+R { 1758} {0} {} {Long stairway.} { } {This stairway is suspended on clouds.  It leads from the house to the\nfront lawn.  The banisters are made of ornate gold and silver inlays.  } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:52:06}} {1.000}
+E { 1756} {d} {d} {32} {0} {}
+E { 1759} {u} {u} {16} {0} {}
+
+R { 1759} {0} {} {Front door} { } {You stand at the front door of an immense, sprawling mansion made of\ngranite and marble.  The door is at least 10 feet high and is made of oak.  } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:52:24}} {1.000}
+E { 1758} {d} {d} {32} {0} {}
+E { 1760} {s} {s} {4} {0} {}
+
+R { 1760} {0} {} {Foyer.} { } {"Magnificent" does not even begin to describe the foyer.  Lavishly\ndecorated, yet elegant, it gives an impression of indescribable wealth. \nPaintings and tapestries line the walls depicting scenes from throughout\nhistory.  Antiques furnitures and oriental rugs are tastefully placed in\nideal spots.  The door is at least 10 feet high and is made of oak.  } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:52:49}} {1.000}
+E { 1759} {n} {n} {1} {0} {}
+E { 1761} {e} {e} {2} {0} {}
+
+R { 1761} {0} {} {Elegant hallway.} { } {You are in a long, sprawling hallway connecting the eastern and western\nwings of the house.  There are several chairs and sofas in the hallway and\nsome gorgeous, handwoven drapes.  } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:52:58}} {1.000}
+E { 1760} {w} {w} {8} {0} {}
+E { 1762} {e} {e} {2} {0} {}
+
+R { 1762} {0} {} {Office} { } {You find yourself in a lavish office.  The desk is absolutely huge, at\nleast ten feet by five feet and made of ebony and inlaid with mother of\npearl.  A grandfather clock towers over the room, mechanically ticking and\ntocking the hours away.  } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:53:04}} {1.000}
+E { 1761} {w} {w} {8} {0} {}
+E { 1763} {s} {s} {4} {0} {}
+
+R { 1763} {0} {} {Eastern tower.} { } {You are in the bottom part of a tower.  A draft brings a chill to your\nspine and causes creaks and groans.  Curtains flutter in the wind, causing\nquite a distraction.  When you go to shut the window, you see that the\nwindow is closed.  An old, wooden staircase leads up into darkness.  } {Dylan's Area by Dylan for levels: 15-25} {} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:53:10}} {1.000}
+E { 1762} {n} {n} {1} {0} {}
+E { 1764} {d} {d} {32} {0} {}
+
+R { 1764} {0} {<EAF><fff>} {A Mysterious Dungeon} {QST} {The walls of the dungeon are heavily marked by the scratchings of the\nmany beings that have been imprisoned here.  There is very little light and\nyou tremble as you hear the scurrying footsteps of many unidentifiable small\ncreatures coming from the floors, walls and ceiling.  } {Masters Rooms by ispy for levels: 1-199} {The master thief tells you 'To make Quanat, you need a scorpion's stinger and some tree mites.  These ingredients together will help you in your battles very much. Also, if you seek to gain further knowledge, my friend resides in a city. I do not recall the name of..  A friend of his, Albert, or is it Alan? Well anyway, this friend of his lives there also, he is the only chap the fellow won't steal from!  One last thing, I have another friend, he lives in the UnderDark, be sure to pay him a visit some day, I hear he knows many things that could help us in our art, I myself have never had the chance to voyage there, but I have talked with a few fellows who have.'} {} {{createdby}{denae}{createdon}{2012-01-27 15:46:39}{updatedby}{denae}{updatedon}{2012-01-27 16:53:52}} {1.000}
+E { 1763} {u} {u} {16} {0} {}
+
+R { 1765} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  192} {d} {d} {32} {0} {}
+
+R { 1766} {0} {<EAF><fff>} {Den of Thieves} {QST} {As you enter the room, you expect to see a prison cell.  To your\nsurprise, the room is small but well decorated and not a prison cell at all.\nThere is a table in the center of the room and many shelves on the wall\ncontaining old books.  There are many barrels scattered throughout the room\nfor which there doesn't seem to be much use.  } {Masters Rooms by ispy for levels: 1-199} {} {} {{createdby}{denae}{createdon}{2012-01-28 10:18:55}} {1.000}
+E { 1195} {e} {e} {2} {0} {}
+
+R { 1767} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1194} {e} {e} {2} {0} {}
+
+R { 1768} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1192} {e} {e} {2} {0} {}
+
+R { 1769} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1206} {s} {s} {4} {0} {}
+
+R { 1770} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1158} {d} {d} {32} {0} {}
