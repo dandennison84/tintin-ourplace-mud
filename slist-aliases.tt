@@ -107,104 +107,16 @@ Use spellup to get your character ready for a fight.
 	strat;	
 };
 
-/*
-The following are the various actions you want to take on common kinds of MUD output.  By default,
-we change the color of the text so you can see it.  If it is something you really care about, it goes to 
-group chat.
-*/
-#highlight {The piles of bones around your body fades.} {$spellupcolor};
-#action {The piles of bones around your body fades.}
-{
-	wob;
-} {7};
-
-#highlight {The shadows enshrouding you fade away.} {$spellupcolor};
-#action {The shadows enshrouding you fade away.}
-{
-	wc;
-} {7};
-
-#highlight {Your ability to detect undead fades.} {$spellupcolor};
-#action {Your ability to detect undead fades.}
-{
-	detund;
-} {7};
-
-#highlight {The detect magic wears off.} {$spellupcolor};
-#action {The detect magic wears off.}
-{
-	detmag;
-} {7};
-
-#highlight {Your sense of karma fades.} {$spellupcolor};
-#action {Your sense of karma fades.}
-{
-	detali;
-} {7};
-
-#highlight {The white aura around your body fades.} {$spellupcolor};
-#action {The white aura around your body fades.}
-{
-	sanc;
-} {7};
-
-#highlight {You feel less bouyant.} {$spellupcolor};
-#action {You feel less bouyant.}
-{
-	wwalk;
-} {7};
-
-#highlight {You feel less protected.} {$spellupcolor};
-#action {You feel less protected.}
-{
-	armor;
-	prot;
-	dw;
-	ward;
-}
-
-#highlight {The protective aura around you fades.} {$spellupcolor};
-#action {The protective aura around you fades.}
-{
-	ward;
-} {7};
-
-#highlight {You feel less righteous.} {$spellupcolor};
-#action {You feel less righteous.}
-{
-	bless;
-} {7};
-
-#highlight {Your ward against death dissipates.} {$spellupcolor};
-#action {Your ward against death dissipates.}
-{
-	dw;
-} {7};
-
-#highlight {%1 DISARMS you!} {<FAA><ffa>};
 #action {DISARMS you!}
 {
 	gt I was DISARMED!
-}
-
-#action {You are hungry.}
-{
-	get tail;
-	eat tail;
 } {7};
 
-#action {You are thirsty.}
-{
-	drink water;
-} {7};
-
-#highlight {Your %1 are hit and damaged.} {<FAA><ffa>};
 #action {Your %1 are hit and damaged.}
 {
 	gt My %1 was damaged
 } {7};
 
-#highlight {You are bleeding.} {<FAA><ffa>};
 #action {You are bleeding.}
 {
 	gt I am bleeding
@@ -214,3 +126,119 @@ group chat.
 {
 	gt REPOP!
 } {7};
+
+#highlight {The piles of bones around your body fades.} {$spellupcolor};
+#highlight {The shadows enshrouding you fade away.} {$spellupcolor};
+#highlight {Your ability to detect undead fades.} {$spellupcolor};
+#highlight {The detect magic wears off.} {$spellupcolor};
+#highlight {Your sense of karma fades.} {$spellupcolor};
+#highlight {Your strategic plan has run to completion.} {$spellupcolor};
+#highlight {The white aura around your body fades.} {$spellupcolor};
+#highlight {You feel less bouyant.} {$spellupcolor};
+#highlight {You feel less protected.} {$spellupcolor};
+#highlight {The protective aura around you fades.} {$spellupcolor};
+#highlight {You feel less righteous.} {$spellupcolor};
+#highlight {Your ward against death dissipates.} {$spellupcolor};
+#highlight {%1 DISARMS you!} {<FAA><ffa>};
+#highlight {Your %1 are hit and damaged.} {<FAA><ffa>};
+#highlight {You are bleeding.} {<FAA><ffa>};
+
+#var autospellup off;
+#alias {^autospellup$}
+{
+	#echo {removing actions};
+	#unaction {The piles of bones around your body fades.};
+	#unaction {The shadows enshrouding you fade away.};
+	#unaction {Your ability to detect undead fades.};
+	#unaction {The detect magic wears off.};
+	#unaction {Your sense of karma fades.};
+	#unaction {Your strategic plan has run to completion.};
+	#unaction {The white aura around your body fades.};
+	#unaction {You feel less bouyant.};
+	#unaction {You feel less protected.};
+	#unaction {The protective aura around you fades.};
+	#unaction {You feel less righteous.};
+	#unaction {Your ward against death dissipates.};
+
+	#if {"$autospellup" == "on"}
+		{#var autospellup off}
+		{
+			#var autospellup on;
+			#echo {adding actions};
+			
+			#action {The piles of bones around your body fades.}
+			{
+				wob;
+			} {7};
+
+			#action {The shadows enshrouding you fade away.}
+			{
+				wc;
+			} {7};
+
+			#action {Your ability to detect undead fades.}
+			{
+				detund;
+			} {7};
+
+			#action {The detect magic wears off.}
+			{
+				detmag;
+			} {7};
+
+			#action {Your sense of karma fades.}
+			{
+				detali;
+			} {7};
+			
+			#action {Your strategic plan has run to completion.}
+			{
+				strat;
+			} {7};
+
+			#action {The white aura around your body fades.}
+			{
+				sanc;
+			} {7};
+
+			#action {You feel less bouyant.}
+			{
+				wwalk;
+			} {7};
+
+			#action {You feel less protected.}
+			{
+				armor;
+				prot;
+				dw;
+				ward;
+			} {7};
+
+			#action {The protective aura around you fades.}
+			{
+				ward;
+			} {7};
+
+			#action {You feel less righteous.}
+			{
+				bless;
+			} {7};
+
+			#action {Your ward against death dissipates.}
+			{
+				dw;
+			} {7};
+
+			#action {You are hungry.}
+			{
+				get tail;
+				eat tail;
+			} {7};
+
+			#action {You are thirsty.}
+			{
+				drink water;
+			} {7};
+
+		};
+};

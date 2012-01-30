@@ -6,7 +6,7 @@ CP <138>
 
 F 26
 
-I 81
+I 1243
 
 L * # # # | # x          
 
@@ -5115,6 +5115,7 @@ E { 1143} {d} {d} {32} {0} {}
 E { 1244} {s} {s} {4} {0} {}
 E { 1250} {n} {n} {1} {0} {}
 E { 1252} {u} {u} {16} {0} {}
+E { 1823} {w} {w} {8} {0} {}
 
 R { 1244} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1243} {n} {n} {1} {0} {}
@@ -5753,6 +5754,7 @@ E { 1397} {e} {e} {2} {0} {}
 
 R { 1396} {0} {} {A Metal Hallway} { } {You are in a silvery grey hallway, a metallic sheen reflects every\nmovement.  You hear a low humming drone echoing through the tunnels and you\naren't sure from which direction the sound is coming.  } {The Machine by MERC for levels: 125-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 17:00:31}} {1.000}
 E { 1395} {e} {e} {2} {0} {}
+E { 1771} {w} {w} {8} {0} {}
 
 R { 1397} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 17:01:19}} {1.000}
 E { 1395} {w} {w} {8} {0} {}
@@ -5816,6 +5818,7 @@ E { 1412} {w} {w} {8} {0} {}
 
 R { 1412} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{denae}{createdon}{2012-01-26 16:16:59}{updatedby}{denae}{updatedon}{2012-01-26 17:06:27}} {1.000}
 E { 1411} {e} {e} {2} {0} {}
+E { 1790} {w} {w} {8} {0} {}
 
 R { 1413} {0} {} {Midgaard road west} { } {You are on Midgaard road west.  Midgaard is to the east of you and there\nare some residences to the west } {Midgaard in Central Region by DIKU for levels: 0-0} {} {} {{createdby}{denae}{createdon}{2012-01-27 07:03:32}} {1.000}
 E {   38} {e} {e} {2} {1} {}
@@ -7307,3 +7310,214 @@ E { 1206} {s} {s} {4} {0} {}
 
 R { 1770} {0} {} {} { } {} {} {} {} {} {1.000}
 E { 1158} {d} {d} {32} {0} {}
+
+R { 1771} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}} {1.000}
+E { 1396} {e} {e} {2} {0} {}
+E { 1772} {w} {w} {8} {0} {}
+
+R { 1772} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-28 17:41:18}} {1.000}
+E { 1771} {e} {e} {2} {0} {}
+E { 1773} {w} {w} {8} {0} {}
+
+R { 1773} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-28 17:41:42}} {1.000}
+E { 1772} {e} {e} {2} {0} {}
+E { 1774} {n} {n} {1} {0} {}
+
+R { 1774} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-28 17:41:59}} {1.000}
+E { 1773} {s} {s} {4} {0} {}
+E { 1775} {n} {n} {1} {0} {}
+
+R { 1775} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-28 17:42:39}} {1.000}
+E { 1774} {s} {s} {4} {0} {}
+E { 1776} {n} {n} {1} {0} {}
+
+R { 1776} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-28 17:43:03}} {1.000}
+E { 1775} {s} {s} {4} {0} {}
+E { 1777} {n} {n} {1} {0} {}
+
+R { 1777} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-28 17:43:21}} {1.000}
+E { 1776} {s} {s} {4} {0} {}
+E { 1778} {e} {e} {2} {0} {}
+
+R { 1778} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-28 17:43:52}} {1.000}
+E { 1777} {w} {w} {8} {0} {}
+E { 1779} {e} {e} {2} {0} {}
+
+R { 1779} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-28 17:44:08}} {1.000}
+E { 1778} {w} {w} {8} {0} {}
+E { 1780} {e} {e} {2} {0} {}
+
+R { 1780} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-28 17:44:18}} {1.000}
+E { 1779} {w} {w} {8} {0} {}
+E { 1781} {n} {n} {1} {0} {}
+
+R { 1781} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-28 17:44:35}} {1.000}
+E { 1780} {s} {s} {4} {0} {}
+E { 1782} {n} {n} {1} {0} {}
+
+R { 1782} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-28 17:44:46}} {1.000}
+E { 1781} {s} {s} {4} {0} {}
+E { 1783} {e} {e} {2} {0} {}
+
+R { 1783} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-28 17:44:58}} {1.000}
+E { 1782} {w} {w} {8} {0} {}
+E { 1784} {e} {e} {2} {0} {}
+
+R { 1784} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-28 17:45:08}} {1.000}
+E { 1783} {w} {w} {8} {0} {}
+E { 1785} {s} {s} {4} {0} {}
+
+R { 1785} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-28 17:45:25}} {1.000}
+E { 1784} {n} {n} {1} {0} {}
+E { 1786} {e} {e} {2} {0} {}
+
+R { 1786} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-28 17:46:01}} {1.000}
+E { 1785} {w} {w} {8} {0} {}
+E { 1787} {e} {e} {2} {0} {}
+
+R { 1787} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-28 17:46:11}} {1.000}
+E { 1786} {w} {w} {8} {0} {}
+E { 1788} {n} {n} {1} {0} {}
+
+R { 1788} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-28 17:46:45}} {1.000}
+E { 1787} {s} {s} {4} {0} {}
+E { 1789} {n} {n} {1} {0} {}
+
+R { 1789} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-28 17:47:01}} {1.000}
+E { 1788} {s} {s} {4} {0} {}
+E { 1804} {n} {n} {1} {0} {}
+
+R { 1790} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-28 19:46:21}} {1.000}
+E { 1412} {e} {e} {2} {0} {}
+E { 1791} {w} {w} {8} {0} {}
+
+R { 1791} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-28 19:46:30}} {1.000}
+E { 1790} {e} {e} {2} {0} {}
+E { 1792} {n} {n} {1} {0} {}
+
+R { 1792} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-28 19:46:38}} {1.000}
+E { 1791} {s} {s} {4} {0} {}
+E { 1793} {n} {n} {1} {0} {}
+
+R { 1793} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1792} {s} {s} {4} {0} {}
+E { 1794} {n} {n} {1} {0} {}
+
+R { 1794} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-28 19:48:14}} {1.000}
+E { 1793} {s} {s} {4} {0} {}
+E { 1795} {w} {w} {8} {0} {}
+
+R { 1795} {0} {} {An Archway Sanctuary} { } {You get a sense of safety as you look at the walls and notice there are no\nmotion sensors.  You also notice the air is warm and comfortable, setting\nyour mind at ease.  You might want to take a rest here before continuing\nto the north.  The east and west hallways will bring you back to the entrance.\nTo the north is an unexplored section of the Machine.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-28 19:48:22}} {1.000}
+E { 1794} {e} {e} {2} {0} {}
+E { 1796} {w} {w} {8} {0} {}
+E { 1805} {n} {n} {1} {0} {}
+
+R { 1796} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1795} {e} {e} {2} {0} {}
+E { 1797} {s} {s} {4} {0} {}
+
+R { 1797} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-28 19:49:03}} {1.000}
+E { 1796} {n} {n} {1} {0} {}
+E { 1798} {s} {s} {4} {0} {}
+
+R { 1798} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-28 19:49:11}} {1.000}
+E { 1797} {n} {n} {1} {0} {}
+E { 1799} {s} {s} {4} {0} {}
+
+R { 1799} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-28 19:49:35}} {1.000}
+E { 1798} {n} {n} {1} {0} {}
+E { 1800} {s} {s} {4} {0} {}
+
+R { 1800} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1799} {n} {n} {1} {0} {}
+E { 1801} {s} {s} {4} {0} {}
+
+R { 1801} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-28 19:50:09}} {1.000}
+E { 1800} {n} {n} {1} {0} {}
+E { 1802} {e} {e} {2} {0} {}
+
+R { 1802} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-28 19:50:24}} {1.000}
+E { 1801} {w} {w} {8} {0} {}
+E { 1803} {e} {e} {2} {0} {}
+
+R { 1803} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-28 19:50:32}} {1.000}
+E { 1802} {w} {w} {8} {0} {}
+E { 1804} {e} {e} {2} {0} {}
+
+R { 1804} {0} {} {A Metal Hallway} { } {You are in a silver hallway, a metallic sheen reflects every movement.  You\nhear a low humming drone echoing through the tunnels and you aren't sure from\nwhich direction the sound is coming.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-28 19:51:07}} {1.000}
+E { 1803} {w} {w} {8} {0} {}
+E { 1789} {s} {s} {4} {0} {}
+
+R { 1805} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1795} {s} {s} {4} {0} {}
+E { 1806} {n} {n} {1} {0} {}
+
+R { 1806} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1805} {s} {s} {4} {0} {}
+E { 1807} {n} {n} {1} {0} {}
+
+R { 1807} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1806} {s} {s} {4} {0} {}
+E { 1808} {n} {n} {1} {0} {}
+
+R { 1808} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1807} {s} {s} {4} {0} {}
+E { 1809} {e} {e} {2} {0} {}
+
+R { 1809} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1808} {w} {w} {8} {0} {}
+E { 1810} {e} {e} {2} {0} {}
+
+R { 1810} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1809} {w} {w} {8} {0} {}
+E { 1811} {e} {e} {2} {0} {}
+
+R { 1811} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1810} {w} {w} {8} {0} {}
+E { 1812} {e} {e} {2} {0} {}
+
+R { 1812} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1811} {w} {w} {8} {0} {}
+E { 1813} {n} {n} {1} {0} {}
+
+R { 1813} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1812} {s} {s} {4} {0} {}
+E { 1814} {n} {n} {1} {0} {}
+
+R { 1814} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1813} {s} {s} {4} {0} {}
+E { 1815} {w} {w} {8} {0} {}
+
+R { 1815} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1814} {e} {e} {2} {0} {}
+E { 1816} {n} {n} {1} {0} {}
+
+R { 1816} {0} {} {A Metal Hallway} { } {You are deep inside the hallway.  You can feel a breeze rushing by as you walk\nalong the cold metallic floor.  In this part, you notice the walls are scraped\nand worn.  You notice gas in the air, filling your lungs.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-29 08:49:22}} {1.000}
+E { 1815} {s} {s} {4} {0} {}
+E { 1817} {n} {n} {1} {0} {}
+
+R { 1817} {0} {} {A Metal Hallway} { } {You are deep inside the hallway.  You can feel a breeze rushing by as you walk\nalong the cold metallic floor.  In this part, you notice the walls are scraped\nand worn.  You notice gas in the air, filling your lungs.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-29 08:49:35}} {1.000}
+E { 1816} {s} {s} {4} {0} {}
+E { 1818} {w} {w} {8} {0} {}
+
+R { 1818} {0} {} {A Metal Hallway} { } {You are deep inside the hallway.  You can feel a breeze rushing by as you walk\nalong the cold metallic floor.  In this part, you notice the walls are scraped\nand worn.  You notice gas in the air, filling your lungs.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-29 08:49:42}} {1.000}
+E { 1817} {e} {e} {2} {0} {}
+E { 1819} {w} {w} {8} {0} {}
+
+R { 1819} {0} {} {A Metal Hallway} { } {You are deep inside the hallway.  You can feel a breeze rushing by as you walk\nalong the cold metallic floor.  In this part, you notice the walls are scraped\nand worn.  You notice gas in the air, filling your lungs.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-29 08:49:54}} {1.000}
+E { 1818} {e} {e} {2} {0} {}
+E { 1820} {w} {w} {8} {0} {}
+
+R { 1820} {0} {} {A Metal Hallway} { } {You are deep inside the hallway.  You can feel a breeze rushing by as you walk\nalong the cold metallic floor.  In this part, you notice the walls are scraped\nand worn.  You notice gas in the air, filling your lungs.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-29 08:50:04}} {1.000}
+E { 1819} {e} {e} {2} {0} {}
+E { 1821} {s} {s} {4} {0} {}
+
+R { 1821} {0} {} {A Metal Hallway} { } {You are deep inside the hallway.  You can feel a breeze rushing by as you walk\nalong the cold metallic floor.  In this part, you notice the walls are scraped\nand worn.  You notice gas in the air, filling your lungs.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-29 08:50:15}} {1.000}
+E { 1820} {n} {n} {1} {0} {}
+E { 1822} {w} {w} {8} {0} {}
+
+R { 1822} {0} {} {A Metal Hallway} { } {You are deep inside the hallway.  You can feel a breeze rushing by as you walk\nalong the cold metallic floor.  In this part, you notice the walls are scraped\nand worn.  You notice gas in the air, filling your lungs.} {The Machine by MERC for levels: 125-140} {} {} {{createdby}{lenae}{createdon}{2012-01-28 17:41:04}{updatedby}{lenae}{updatedon}{2012-01-29 08:51:15}} {1.000}
+E { 1821} {e} {e} {2} {0} {}
+
+R { 1823} {0} {} {} { } {} {} {} {} {} {1.000}
+E { 1243} {e} {e} {2} {0} {}

@@ -7,6 +7,8 @@
 #unalias target;
 #unalias brave;
 #unalias bo;
+#unalias strat;
+#unalias lead;
 
 #alias bo {build};
 #alias brave {bravery};
