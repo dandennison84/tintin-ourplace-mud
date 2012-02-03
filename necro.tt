@@ -22,6 +22,7 @@
 #alias ed {c 'energy drain'};
 #alias sh {c spectral};
 #alias rh {c 'ram head'};
+#alias ad {c 'animate dead'};
 #alias warp {c 'warp flesh'};
 #alias wob {c 'wall of bones'};
 #alias detali {c 'detect ali'};

@@ -43,7 +43,7 @@
 #alias food {c 'create food'};
 #alias fs {c flame};
 #alias heal {c heal};
-#alias hr {c holy rage};
+#alias hr {c 'holy rage'};
 #alias ident {c ident};
 #alias locate {c 'located obj'};
 #alias mh {c 'mass heal'};

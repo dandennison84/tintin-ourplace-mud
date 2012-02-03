@@ -39,57 +39,15 @@ It also turns on logging to your logs directory.
 		#split 0 2
 		#send {prompt <%h/%Hhp (%P) %m/%Mm %v/%Vmv, opp: %O, leader: %L>};
 		#prompt {<%%%1hp (%%%2) %%%3m %%%4mv, opp: %%%5, leader: %%%6>} {<AAE><ffa>H: %%%1 {%%%2} M: %%%3 MV: %%%4 OPP: %%%5 LDR: %%%6<099>} {2};
-		log on;
 	};
 	#echo {$char loaded.};
 };
 
-#alias {SESSION ACTIVATED}
+#event {SESSION CONNECTED}
 {
-	log on;
-};
-
-#alias {SESSION DEACTIVATED}
-{
-	log off;
-};
-
-#alias {log}
-{
-	#if {"%0" == "on"}
-	{
-		#echo {logging-char: ${logging-$char}};
-		#if {"${logging-$char}" != "on"}
-		{
-			#log off;
-			#format {logfile} {$logdir/$mud-$char-%t.html} {%Y-%m-%d};
-			#format {chatlog} {$logdir/$mud-$char-chat-%t.html} {%Y-%m-%d};
-			#log append $logfile;
-			#var logging-$char on;
-			#showme {now logging.};
-		};
-		#else
-		{
-			#showme {You are already logging.};
-		};
-	};
-	#elseif {"%0" == "off"}
-	{
-		#if {"${logging-$char}" == "on"}
-		{
-			#log off;
-			#var logging-$char off
-			#showme {You have stopped logging.};
-		};
-		#else
-		{
-			#showme {You are not logging.};
-		};
-	};
-	#else
-	{
-		#showme {Turn logging on or off?};
-	};
+	#format {logfile} {$logdir/$mud-$char-%t.html} {%Y-%m-%d};
+	#log append $logfile;
+	#echo {logging to $logfile};
 };
 
 /*
