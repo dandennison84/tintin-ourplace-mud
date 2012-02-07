@@ -14,6 +14,7 @@
 #unalias web;
 
 #alias agony {c agony};
+#alias infra {c infra};
 #alias bod {c 'bolt of dark'}
 #alias blur {c blur};
 #alias ct {c 'chill touch'};

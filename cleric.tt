@@ -32,6 +32,7 @@
 
 #alias armor {c armor};
 #alias astral {c astral};
+#alias infra {c infra};
 #alias bless {c bless};
 #alias blind {c blind};
 #alias detali {c 'detect ali'};

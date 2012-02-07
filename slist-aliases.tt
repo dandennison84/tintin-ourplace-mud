@@ -30,8 +30,8 @@ will change the alias to actually cast the spell.
 #alias smite {tell $cleric z-smite};
 #alias summon {tell $cleric summon};
 #alias turn {tell $cleric z-turn-undead};
-#alias wwalk {tell $cleric 'water-walk'};
-#alias wor {tell $cleric 'word-of-recall'};
+#alias wwalk {tell $cleric water-walk};
+#alias wor {tell $cleric word-of-recall};
 
 #nop necro
 #alias agony {tell $necro z-agony};
@@ -93,6 +93,7 @@ Use spellup to get your character ready for a fight.
 	detinv;
 	detmag;
 	detund;
+	infra;
 	wwalk;
 	ward;
 	armor;
