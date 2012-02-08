@@ -46,7 +46,7 @@
 #alias heal {c heal};
 #alias hr {c 'holy rage'};
 #alias ident {c ident};
-#alias locate {c 'located obj'};
+#alias locate {c 'locate obj'};
 #alias mh {c 'mass heal'};
 #alias prot {c prot};
 #alias purify {c purify};
