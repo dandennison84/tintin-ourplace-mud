@@ -1,0 +1,5 @@
+#class {graymane} open
+
+#read $dir/necro.tt;
+
+#class {graymane} close

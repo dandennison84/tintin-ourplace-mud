@@ -1,0 +1,3 @@
+#!/bin/bash
+export TINTIN_ROOT=~/software
+tt++ $TINTIN_ROOT/tintin-ourplace-mud/ourplace.tt
