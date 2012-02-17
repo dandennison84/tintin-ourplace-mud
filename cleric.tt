@@ -1,5 +1,3 @@
-#read $dir/slist-aliases.tt
-
 #unalias armor;
 #unalias astral;
 #unalias bless;
@@ -63,6 +61,7 @@
 
 #var spells
 {
+	$spells
 	{armor} {armor}
 	{bless} {bless}
 	{disp} {disp}
@@ -83,5 +82,3 @@
 	{water-walk} {wwalk}
 	{word-of-recall} {wor}
 };
-
-#read $dir/spellbook.tt

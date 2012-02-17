@@ -1,5 +1,8 @@
 #class {denae} open
 
+#read $dir/slist-aliases.tt
+#var spells {};
 #read $dir/necro.tt;
+#read $dir/spellbook.tt;
 
 #class {denae} close

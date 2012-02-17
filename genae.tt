@@ -1,7 +1,10 @@
 #class {genae} open
 
+#read $dir/slist-aliases.tt
+#var spells {};
 #read $dir/cleric.tt;
 #class items kill;
 #read $dir/items.tt;
+#read $dir/spellbook.tt
 
 #class {genae} close

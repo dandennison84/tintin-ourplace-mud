@@ -1,5 +1,9 @@
 #class {gubgub} open
 
+#read $dir/slist-aliases.tt
+#var spells {};
 #read $dir/thief.tt;
+#read $dir/warrior.tt;
+#read $dir/spellbook.tt
 
 #class {gubgub} close

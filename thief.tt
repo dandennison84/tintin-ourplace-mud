@@ -1,5 +1,3 @@
-#read $dir/slist-aliases.tt
-
 #unalias circle;
 #unalias dk;
 #unalias hide;
@@ -18,6 +16,7 @@
 
 #var spells
 {
+	$spells
 	{z-circle} {circle}
 	{z-dk} {dk}
 	{hide} {hide}
@@ -30,5 +29,3 @@
 	{z-snare} {smare}
 	{untangle} {untangle}	
 };
-
-#read $dir/spellbook.tt

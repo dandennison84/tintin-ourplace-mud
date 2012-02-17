@@ -1,5 +1,3 @@
-#read $dir/slist-aliases.tt
-
 #unalias agony;
 #unalias bod;
 #unalias ct;
@@ -38,6 +36,7 @@
 
 #var spells
 {
+	$spells
 	{z-agony} {agony}
 	{dark} {dark}
 	{z-bod} {bod}
@@ -49,5 +48,3 @@
 	{z-web} {web}
 	{wob} {wob}
 };
-
-#read $dir/spellbook.tt

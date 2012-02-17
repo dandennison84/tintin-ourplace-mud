@@ -1,5 +1,3 @@
-#read $dir/slist-aliases.tt
-
 #unalias ass;
 #unalias feint;
 #unalias kick;
@@ -15,13 +13,12 @@
 
 #var spells
 {
-	{z-ass} {ass};
-	{z-feint} {feint};
-	{z-kick} {kick};
-	{rescue} {rescue};
-	{z-target} {target};
-	{bravey} {bravery};
-	{bo} {build};
+	$spells
+	{z-ass} {ass}
+	{z-feint} {feint}
+	{z-kick} {kick}
+	{rescue} {rescue}
+	{z-target} {target}
+	{bravey} {bravery}
+	{bo} {build}
 };
-
-#read $dir/spellbook.tt

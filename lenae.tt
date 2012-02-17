@@ -1,7 +1,10 @@
 #class {lenae} open
 
+#read $dir/slist-aliases.tt
+#var spells {};
 #read $dir/warrior.tt;
 #class items kill;
 #read $dir/items.tt;
+#read $dir/spellbook.tt
 
 #class {lenae} close

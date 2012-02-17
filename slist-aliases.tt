@@ -2,7 +2,7 @@
 #var necro denae;
 #var thief gubgub;
 #var warrior lenae;
-#var spellupcolor {<ffa>};
+#var spellupcolor {<199><faa>};
 
 /*
 These are the global class characters that will be addressed by the aliases.  So, if you want someone to heal you, by setting the 'cleric' variable, you will address your request to that char.
@@ -140,9 +140,9 @@ Use spellup to get your character ready for a fight.
 #highlight {The protective aura around you fades.} {$spellupcolor};
 #highlight {You feel less righteous.} {$spellupcolor};
 #highlight {Your ward against death dissipates.} {$spellupcolor};
-#highlight {%1 DISARMS you!} {<FAA><ffa>};
-#highlight {Your %1 are hit and damaged.} {<FAA><ffa>};
-#highlight {You are bleeding.} {<FAA><ffa>};
+#highlight {%1 DISARMS you!} {<199><FAA><ffa>};
+#highlight {Your %1 are hit and damaged.} {<199><FAA><ffa>};
+#highlight {You are bleeding.} {<199><FAA><ffa>};
 
 #var autospellup off;
 #alias {^autospellup$}

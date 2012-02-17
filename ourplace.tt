@@ -2,15 +2,18 @@
 /*
 The ourplace class is the entry point for ourplace MUD.  It is best to 
 have tintin load this class at startup.  To do that, invoke tt++ with this
-file as an argument 'tt++ <tintin-scripts-dir>/ourplace.tt'.  
+file as an argument 'tt++ <tintin-scripts-dir>/ourplace.tt'.  As part of that 
+script, you will also need to TINTIN_ROOT to the directory above where you 
+installed tintin-ourplace-mud.
 */
 
 /*
 These are global configurations for ourplace.
 */
-#config log html
+
+#script {root} {echo $TINTIN_ROOT};
 #var tmp {/tmp};
-#var dir {tintin-ourplace-mud};
+#var dir {$root[1]/tintin-ourplace-mud};
 #var char {};
 #var mud {ourplace.fractured.org};
 #var port {6543};
@@ -38,13 +41,14 @@ It also turns on logging to your logs directory.
 		#ses .$char $mud $port; $char; $pw; who; who;
 		#split 0 2;
 		#send {prompt <%h/%Hhp (%P) %m/%Mm %v/%Vmv, opp: %O, leader: %L>};
-		#prompt {<%%%1hp (%%%2) %%%3m %%%4mv, opp: %%%5, leader: %%%6>} {<AAE><ffa>H: %%%1 {%%%2} M: %%%3 MV: %%%4 OPP: %%%5 LDR: %%%6<099>} {2};
+		#prompt {<%%%1hp (%%%2) %%%3m %%%4mv, opp: %%%5, leader: %%%6>} {<AAE><ffa>H: %%%1 (%%%2) M: %%%3 MV: %%%4 OPP: %%%5 LDR: %%%6<099>} {2};
 	};
 	#echo {$char loaded.};
 };
 
 #event {SESSION CONNECTED}
 {
+	#config log html;
 	#format {logfile} {$logdir/$mud-$char-%t.html} {%Y-%m-%d};
 	#log append $logfile;
 	#echo {logging to $logfile};
