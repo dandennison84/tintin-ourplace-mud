@@ -191,6 +191,11 @@ Use spellup to get your character ready for a fight.
 			{
 				detali;
 			} {7};
+
+			#action {You no longer see invisible objects.}
+			{
+				detinv;
+			} {7};
 			
 			#action {Your strategic plan has run to completion.}
 			{
