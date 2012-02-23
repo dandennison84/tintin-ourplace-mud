@@ -2,3 +2,4 @@ local.tt
 *~
 *.swp
 *.map
+.~lock*

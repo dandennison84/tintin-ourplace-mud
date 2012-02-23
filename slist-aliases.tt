@@ -132,6 +132,7 @@ Use spellup to get your character ready for a fight.
 #highlight {The shadows enshrouding you fade away.} {$spellupcolor};
 #highlight {Your ability to detect undead fades.} {$spellupcolor};
 #highlight {The detect magic wears off.} {$spellupcolor};
+#highlight {You no longer see invisible objects.} {$spellupcolor};
 #highlight {Your sense of karma fades.} {$spellupcolor};
 #highlight {Your strategic plan has run to completion.} {$spellupcolor};
 #highlight {The white aura around your body fades.} {$spellupcolor};
