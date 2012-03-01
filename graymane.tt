@@ -1,3 +1,4 @@
+#class {graymane} kill
 #class {graymane} open
 
 #read $dir/necro.tt;

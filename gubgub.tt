@@ -1,3 +1,4 @@
+#class {gubgub} kill
 #class {gubgub} open
 
 #read $dir/slist-aliases.tt

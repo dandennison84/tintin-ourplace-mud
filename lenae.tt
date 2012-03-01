@@ -1,3 +1,4 @@
+#class {lenae} kill
 #class {lenae} open
 
 #read $dir/slist-aliases.tt

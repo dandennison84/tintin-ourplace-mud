@@ -16,6 +16,7 @@ will change the alias to actually cast the spell.
 #alias armor {tell $cleric armor};
 #alias bless {tell $cleric bless};
 #alias blind {tell $cleric z-blind};
+#alias bol {tell $cleric bol};
 #alias disp {tell $cleric disp};
 #alias food {tell $cleric food};
 #alias fs {tell $cleric z-flamestrike};

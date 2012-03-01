@@ -2,6 +2,7 @@
 #unalias astral;
 #unalias bless;
 #unalias blind;
+#unalias bol;
 #unalias disp;
 #unalias detali;
 #unalias dethid;
@@ -33,6 +34,7 @@
 #alias infra {c infra};
 #alias bless {c bless};
 #alias blind {c blind};
+#alias bol {c 'breath of life'};
 #alias detali {c 'detect ali'};
 #alias dethid {c 'detect hid'};
 #alias detinv {c 'detect inv'};
@@ -64,6 +66,7 @@
 	$spells
 	{armor} {armor}
 	{bless} {bless}
+	{bol} {bol}
 	{disp} {disp}
 	{z-blind} {blind}
 	{food} {food}
