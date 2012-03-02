@@ -1,4 +1,5 @@
 #unalias agony;
+#unalias disp;
 #unalias bod;
 #unalias ct;
 #unalias dark;
@@ -12,6 +13,7 @@
 #unalias web;
 
 #alias agony {c agony};
+#alias disp {c 'dispel magic'};
 #alias infra {c infra};
 #alias bod {c 'bolt of dark'}
 #alias blur {c blur};
@@ -38,6 +40,7 @@
 {
 	$spells
 	{z-agony} {agony}
+	{disp} {disp}
 	{dark} {dark}
 	{z-bod} {bod}
 	{z-ct} {ct}
