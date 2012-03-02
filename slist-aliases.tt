@@ -36,6 +36,8 @@ will change the alias to actually cast the spell.
 
 #nop necro
 #alias agony {tell $necro z-agony};
+#alias fear {tell $necro z-fear};
+#alias curse {tell $necro z-curse};
 #alias bod {tell $necro z-bod};
 #alias ct {tell $necro z-ct};
 #alias dark {tell $necro dark};

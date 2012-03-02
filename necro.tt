@@ -1,4 +1,6 @@
 #unalias agony;
+#unalias curse;
+#unalias fear;
 #unalias disp;
 #unalias bod;
 #unalias ct;
@@ -35,12 +37,16 @@
 #alias wc {c wraith};
 #alias weak {c weak};
 #alias web {c web};
+#alias fear {c fear};
+#alias curse {c curse};
 
 #var spells
 {
 	$spells
 	{z-agony} {agony}
 	{disp} {disp}
+	{z-curse} {curse}
+	{z-fear} {fear}
 	{dark} {dark}
 	{z-bod} {bod}
 	{z-ct} {ct}
