@@ -1,0 +1,9 @@
+#class {xenae} kill
+#class {xenae} open
+
+#read $dir/slist-aliases.tt
+#var spells {};
+#read $dir/necro.tt;
+#read $dir/spellbook.tt;
+
+#class {xenae} close
