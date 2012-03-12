@@ -28,6 +28,7 @@
 #unalias ward;
 #unalias wwalk;
 #unalias wor;
+#unalias ba;
 
 #alias armor {c armor};
 #alias astral {c astral};
@@ -60,6 +61,7 @@
 #alias ward {c 'ward undead'};
 #alias wwalk {c 'water walk'};
 #alias wor {c 'word or recall'};
+#alias ba {c 'bless armor'};
 
 #var spells
 {

@@ -5,7 +5,7 @@
 #var spells {};
 #read $dir/thief.tt;
 #read $dir/warrior.tt;
-#read $dir/cleric.tt;
+#nop read $dir/cleric.tt;
 #read $dir/spellbook.tt;
 
 #class {gubgub} close
