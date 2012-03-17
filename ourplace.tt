@@ -39,7 +39,7 @@ It also turns on logging to your logs directory.
 	{
 		#ses .$char $mud $port; $char; $pw; who;
 		#send {prompt <%h/%Hhp (%P) %m/%Mm %v/%Vmv, opp: %O, leader: %L>};
-		#prompt {<%%%1hp (%%%2) %%%3m %%%4mv, opp: %%%5, leader: %%%6>} {<AAE><ffa>H: %%%1 (%%%2) M: %%%3 MV: %%%4 OPP: %%%5 LDR: %%%6<099>} {2};
+		#prompt {<%%%1hp (%%%2) %%%3m %%%4mv, opp: %%%5, leader: %%%6>} {<199><AAE><ffa>H: %%%1 (%%%2) M: %%%3 MV: %%%4 OPP: %%%5 LDR: %%%6<099>} {2};
 		#split 0 2;
 	};
 	#echo {$char loaded.};

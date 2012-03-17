@@ -2,6 +2,7 @@
 #var necro denae;
 #var thief gubgub;
 #var warrior lenae;
+#var enchanter gubgub;
 #var spellupcolor {<199><faa>};
 
 /*
@@ -72,6 +73,13 @@ will change the alias to actually cast the spell.
 #alias snare {tell $thief z-snare};
 #alias untangle {tell $thief untangle};
 
+#nop enchanter
+#alias ff {tell $enchanter z-ff};
+#alias bf {tell $enchanter z-bf};
+#alias shield {tell $enchanter shield};
+#alias gst {tell $enchanter gst};
+#alias haste {tell $enchanter haste};
+
 #nop spellups
 #alias ward {#nop};
 #alias dw {#nop};
@@ -85,6 +93,7 @@ will change the alias to actually cast the spell.
 #alias ward {#nop};
 #alias lead {#nop};
 #alias strat {#nop};
+#alias is {#nop};
 
 /*
 Use spellup to get your character ready for a fight.
@@ -109,16 +118,15 @@ Use spellup to get your character ready for a fight.
 	wob;
 	lead;
 	strat;	
+	shield;
+	haste;
+	gst;
+	is;
 };
 
 #action {DISARMS you!}
 {
 	gt I was DISARMED!
-} {7};
-
-#action {Your %1 are hit and damaged.}
-{
-	gt My %1 was damaged
 } {7};
 
 #action {You are bleeding.}
@@ -131,6 +139,10 @@ Use spellup to get your character ready for a fight.
 	gt REPOP!
 } {7};
 
+#highlight {The world speeds up again.} {$spellupcolor};
+#highlight {Your skin feels soft again.} {$spellupcolor};
+#highlight {You feel weaker.} {$spellupcolor};
+#highlight {Your force shield shimmers then fades away.} {$spellupcolor};
 #highlight {The piles of bones around your body fades.} {$spellupcolor};
 #highlight {The shadows enshrouding you fade away.} {$spellupcolor};
 #highlight {Your ability to detect undead fades.} {$spellupcolor};
@@ -144,14 +156,19 @@ Use spellup to get your character ready for a fight.
 #highlight {The protective aura around you fades.} {$spellupcolor};
 #highlight {You feel less righteous.} {$spellupcolor};
 #highlight {Your ward against death dissipates.} {$spellupcolor};
-#highlight {%1 DISARMS you!} {<199><FAA><ffa>};
-#highlight {Your %1 are hit and damaged.} {<199><FAA><ffa>};
-#highlight {You are bleeding.} {<199><FAA><ffa>};
+#highlight {Your %1 feels less enchanted} {$spellupcolor};
+#highlight {%1 DISARMS you!} {$spellupcolor};
+#highlight {Your %1 are hit and damaged.} {$spellupcolor};
+#highlight {You are bleeding.} {$spellupcolor};
 
 #var autospellup off;
 #alias {^autospellup$}
 {
 	#echo {removing actions};
+	#unaction {The world speeds up again.};
+	#unaction {Your skin feels soft again.};
+	#unaction {You feel weaker.};
+	#unaction {Your force shield shimmers then fades away.};
 	#unaction {The piles of bones around your body fades.};
 	#unaction {The shadows enshrouding you fade away.};
 	#unaction {Your ability to detect undead fades.};
@@ -171,6 +188,25 @@ Use spellup to get your character ready for a fight.
 			#var autospellup on;
 			#echo {adding actions};
 			
+			#action {You feel weaker.}
+			{
+				gst;
+			} {7};
+
+			#action {Your skin feels soft again.}
+			{
+				is;
+			} {7};
+
+			#action {The world speeds up again.}
+			{
+				haste;
+			} {7};
+			#action {Your force shield shimmers then fades away.}
+			{
+				shield;
+			} {7};
+
 			#action {The piles of bones around your body fades.}
 			{
 				wob;

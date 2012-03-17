@@ -1,0 +1,25 @@
+#unalias gst;
+#unalias ff;
+#unalias haste;
+#unalias shield;
+#unalias bf;
+#unalias em;
+
+#alias gst {c 'giant str'};
+#alias ff {c 'faerie fire'};
+#alias haste {c haste};
+#alias shield {c shield};
+#alias bf {c 'brass fist'};
+#alias is {c 'iron skin'};
+#alias em {c 'enhance mag'}
+
+#var spells
+{
+	$spells
+	{gst} {gst}
+	{haste} {haste}
+	{shield} {shield}
+	{z-bf} {bf}
+	{z-ff} {ff}
+	{em} {em}
+};
