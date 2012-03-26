@@ -140,6 +140,7 @@ Use spellup to get your character ready for a fight.
 } {7};
 
 #highlight {The world speeds up again.} {$spellupcolor};
+#highlight {The enhancement dissipates.} {$spellupcolor};
 #highlight {Your skin feels soft again.} {$spellupcolor};
 #highlight {You feel weaker.} {$spellupcolor};
 #highlight {Your force shield shimmers then fades away.} {$spellupcolor};
@@ -160,6 +161,8 @@ Use spellup to get your character ready for a fight.
 #highlight {%1 DISARMS you!} {$spellupcolor};
 #highlight {Your %1 are hit and damaged.} {$spellupcolor};
 #highlight {You are bleeding.} {$spellupcolor};
+#highlight {You have become better at using %1!} {$spellupcolor};
+#highlight {You learn from your mistakes, and your proficiency in %1 improves.} {$spellupcolor};
 
 #var autospellup off;
 #alias {^autospellup$}
