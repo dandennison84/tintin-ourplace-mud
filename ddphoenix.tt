@@ -1,0 +1,9 @@
+#class {ddphoenix} kill
+#class {ddphoenix} open
+
+#read $dir/slist-aliases.tt
+#var spells {};
+#read $dir/warrior.tt;
+#read $dir/spellbook.tt
+
+#class {ddphoenix} close
