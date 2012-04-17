@@ -2,7 +2,7 @@
 #var necro denae;
 #var thief gubgub;
 #var warrior lenae;
-#var enchanter gubgub;
+#var enchanter denae;
 #var spellupcolor {<199><faa>};
 
 /*
@@ -164,6 +164,7 @@ Use spellup to get your character ready for a fight.
 #highlight {You have become better at using %1!} {$spellupcolor};
 #highlight {You learn from your mistakes, and your proficiency in %1 improves.} {$spellupcolor};
 #highlight {The white aura around %1 body fades.} {$spellupcolor};
+#highlight {%1 is blinded!} {$spellupcolor};
 
 #var autospellup off;
 #alias {^autospellup$}
