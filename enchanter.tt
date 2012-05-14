@@ -4,7 +4,9 @@
 #unalias shield;
 #unalias bf;
 #unalias em;
+#unalias detinv;
 
+#alias detinv {c 'detect inv'};
 #alias gst {c 'giant str'};
 #alias ff {c 'faerie fire'};
 #alias haste {c haste};

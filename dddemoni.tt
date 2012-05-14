@@ -1,9 +1,9 @@
-#class {ddblabea} kill
-#class {ddblabea} open
-# black beard
+#class {ddgobfor} kill
+#class {ddgobfor} open
+# demonia / abyss 
 #read $dir/slist-aliases.tt
 #var spells {};
 #read $dir/warrior.tt;
 #read $dir/spellbook.tt
 
-#class {ddblabea} close
+#class {ddgobfor} close

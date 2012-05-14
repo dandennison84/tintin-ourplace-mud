@@ -1,6 +1,6 @@
 #class {ddnomcam} kill
 #class {ddnomcam} open
-
+# eastern desert - nomad camp
 #read $dir/slist-aliases.tt
 #var spells {};
 #read $dir/warrior.tt;

@@ -1,6 +1,6 @@
 #class {ddphoenix} kill
 #class {ddphoenix} open
-
+# lost valley - phoenix
 #read $dir/slist-aliases.tt
 #var spells {};
 #read $dir/warrior.tt;

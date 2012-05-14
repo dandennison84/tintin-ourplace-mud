@@ -5,6 +5,15 @@
 #var spells {};
 #read $dir/thief.tt;
 #read $dir/warrior.tt;
+#read $dir/cleric.tt;
+#read $dir/enchanter.tt;
+#read $dir/necro.tt;
+#unalias summon;
+#unalias regen;
+#unalias restore;
+#alias summon {tell $cleric summon}
+#alias regen {tell $cleric regen}
+#alias restore {tell $cleric restore}
 #read $dir/spellbook.tt;
 
 #class {gubgub} close

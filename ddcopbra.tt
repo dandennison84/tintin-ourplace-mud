@@ -1,6 +1,6 @@
 #class {ddcopbra} kill
 #class {ddcopbra} open
-
+# eastern desert - copper bracelet
 #read $dir/slist-aliases.tt
 #var spells {};
 #read $dir/warrior.tt;

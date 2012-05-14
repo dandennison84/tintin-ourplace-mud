@@ -10,6 +10,7 @@
 
 #alias bo {build};
 #alias brave {bravery};
+#alias ass {assault};
 
 #var spells
 {

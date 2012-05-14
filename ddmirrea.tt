@@ -1,6 +1,6 @@
 #class {ddmirrea} kill
 #class {ddmirrea} open
-
+#nop mirror realm
 #read $dir/slist-aliases.tt
 #var spells {};
 #read $dir/warrior.tt;

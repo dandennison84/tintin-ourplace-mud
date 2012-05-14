@@ -1,6 +1,6 @@
 #class {ddlosval} kill
 #class {ddlosval} open
-
+#nop lost valley
 #read $dir/slist-aliases.tt
 #var spells {};
 #read $dir/warrior.tt;
