@@ -165,6 +165,7 @@ Use spellup to get your character ready for a fight.
 #highlight {You learn from your mistakes, and your proficiency in %1 improves.} {$spellupcolor};
 #highlight {The white aura around %1 body fades.} {$spellupcolor};
 #highlight {%1 is blinded!} {$spellupcolor};
+#highlight {You no longer see in the dark.};
 
 #var autospellup off;
 #alias {^autospellup$}
