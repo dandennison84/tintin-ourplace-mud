@@ -1,0 +1,12 @@
+#alias es {c 'enhanced str'}
+#alias ba {c 'ballistic attack' %1}
+#alias mb {c 'mental barrier'}
+#alias mt {c 'mind thrust' %1}
+#alias ph {c 'psychic healing'}
+
+#var spells
+{
+	$spells
+	{z-ba} {ba}	
+	{z-mt} {mt}
+};

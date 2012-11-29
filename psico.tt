@@ -1,0 +1,11 @@
+#class {psico} kill
+#class {psico} open
+
+#read $dir/slist-aliases.tt
+#var spells {};
+#read $dir/psi.tt;
+#class items kill;
+#read $dir/items.tt;
+#read $dir/spellbook.tt
+
+#class {psico} close
